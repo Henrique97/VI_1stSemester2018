@@ -1,0 +1,21 @@
+taster_name,avg_score
+                  ,87.7951150739
+Alexander Peartree,85.8554216867
+Anna Lee C. Iijima,88.4156285391
+Anne Krebiehl MW  ,90.562550882
+Carrie Dykes      ,86.3956834532
+Christina Pickard ,87.8333333333
+Fiona Adams       ,86.8888888889
+Jeff Jenssen      ,88.3197556008
+Jim Gordon        ,88.6262868087
+Joe Czerwinski    ,88.5362346998
+Kerin O’Keefe     ,88.8679472903
+Lauren Buzzeo     ,87.7395095368
+Matt Kettmann     ,90.0086860392
+Michael Schachner ,86.907493062
+Mike DeSimone     ,89.1011673152
+Paul Gregutt      ,89.082563995
+Roger Voss        ,88.7080034491
+Sean P. Sullivan  ,88.7557390254
+Susan Kostrzewa   ,86.6092165899
+Virginie Boone    ,89.2133794694

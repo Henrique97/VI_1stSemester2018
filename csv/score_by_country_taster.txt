@@ -1,0 +1,139 @@
+taster_name,country,avg_score
+                  ,         ,
+                  ,Argentina,90.0
+                  ,Australia,87.102739726
+                  ,Austria  ,85.5
+                  ,Canada   ,92.0
+                  ,Chile    ,85.7657657658
+                  ,France   ,87.5547169811
+                  ,Germany  ,89.5806451613
+                  ,Hungary  ,89.0
+                  ,Israel   ,82.6
+                  ,Italy    ,88.194398682
+                  ,Mexico   ,85.2
+                  ,New Zeala,87.9259259259
+                  ,Portugal ,92.4
+                  ,South Afr,86.1917808219
+                  ,Spain    ,84.796875
+                  ,US       ,87.6377131275
+Alexander Peartree,US       ,85.8554216867
+Anna Lee C. Iijima,Bosnia an,85.0
+Anna Lee C. Iijima,Bulgaria ,85.3684210526
+Anna Lee C. Iijima,Canada   ,88.2
+Anna Lee C. Iijima,Croatia  ,86.4102564103
+Anna Lee C. Iijima,Czech Rep,85.25
+Anna Lee C. Iijima,Georgia  ,86.7727272727
+Anna Lee C. Iijima,Germany  ,89.9772598067
+Anna Lee C. Iijima,Hungary  ,87.8125
+Anna Lee C. Iijima,Lebanon  ,86.7
+Anna Lee C. Iijima,Macedonia,84.0
+Anna Lee C. Iijima,Moldova  ,85.0
+Anna Lee C. Iijima,Morocco  ,86.0
+Anna Lee C. Iijima,Romania  ,86.243902439
+Anna Lee C. Iijima,Slovakia ,87.0
+Anna Lee C. Iijima,Slovenia ,87.5384615385
+Anna Lee C. Iijima,Turkey   ,87.2
+Anna Lee C. Iijima,Ukraine  ,83.5
+Anna Lee C. Iijima,US       ,87.4394250513
+Anne Krebiehl MW  ,         ,90.5555555556
+Anne Krebiehl MW  ,Austria  ,90.5980969642
+Anne Krebiehl MW  ,England  ,91.5810810811
+Anne Krebiehl MW  ,France   ,90.4523297491
+Carrie Dykes      ,US       ,86.3956834532
+Christina Pickard ,Australia,93.0
+Christina Pickard ,US       ,86.8
+Fiona Adams       ,US       ,86.8888888889
+Jeff Jenssen      ,         ,88.1363636364
+Jeff Jenssen      ,Bosnia an,88.0
+Jeff Jenssen      ,Bulgaria ,88.5840707965
+Jeff Jenssen      ,Croatia  ,88.6451612903
+Jeff Jenssen      ,Czech Rep,88.25
+Jeff Jenssen      ,Greece   ,87.0
+Jeff Jenssen      ,Hungary  ,90.0106382979
+Jeff Jenssen      ,Luxembour,88.6666666667
+Jeff Jenssen      ,Macedonia,88.0
+Jeff Jenssen      ,Moldova  ,87.6538461538
+Jeff Jenssen      ,Romania  ,86.7424242424
+Jeff Jenssen      ,Serbia   ,87.5
+Jeff Jenssen      ,Slovenia ,88.2950819672
+Jeff Jenssen      ,Switzerla,89.5
+Jeff Jenssen      ,Ukraine  ,84.1666666667
+Jim Gordon        ,US       ,88.6262868087
+Joe Czerwinski    ,         ,86.0
+Joe Czerwinski    ,Australia,88.7902750491
+Joe Czerwinski    ,Canada   ,87.7777777778
+Joe Czerwinski    ,Chile    ,85.0434782609
+Joe Czerwinski    ,France   ,88.6768447837
+Joe Czerwinski    ,Germany  ,89.2853333333
+Joe Czerwinski    ,Greece   ,84.0
+Joe Czerwinski    ,Italy    ,86.0786516854
+Joe Czerwinski    ,New Zeala,88.3340961098
+Joe Czerwinski    ,Portugal ,85.8333333333
+Joe Czerwinski    ,Spain    ,85.0
+Joe Czerwinski    ,US       ,85.3203883495
+Kerin O’Keefe     ,Italy    ,88.8679472903
+Lauren Buzzeo     ,         ,90.3333333333
+Lauren Buzzeo     ,Canada   ,89.0
+Lauren Buzzeo     ,France   ,87.0200668896
+Lauren Buzzeo     ,Israel   ,87.0097560976
+Lauren Buzzeo     ,Portugal ,84.0
+Lauren Buzzeo     ,South Afr,88.3565044687
+Lauren Buzzeo     ,Spain    ,83.0
+Lauren Buzzeo     ,US       ,85.5263157895
+Matt Kettmann     ,Chile    ,89.0
+Matt Kettmann     ,US       ,90.0088453641
+Michael Schachner ,         ,88.1428571429
+Michael Schachner ,Argentina,86.7076639452
+Michael Schachner ,Brazil   ,84.6730769231
+Michael Schachner ,Chile    ,86.5192529398
+Michael Schachner ,France   ,82.85
+Michael Schachner ,Italy    ,89.1710526316
+Michael Schachner ,Mexico   ,85.2615384615
+Michael Schachner ,Peru     ,83.5625
+Michael Schachner ,Portugal ,87.5555555556
+Michael Schachner ,Spain    ,87.3145247148
+Michael Schachner ,Uruguay  ,86.752293578
+Michael Schachner ,US       ,86.2676056338
+Mike DeSimone     ,         ,89.25
+Mike DeSimone     ,Armenia  ,87.5
+Mike DeSimone     ,Bulgaria ,91.0
+Mike DeSimone     ,China    ,89.0
+Mike DeSimone     ,Georgia  ,88.0
+Mike DeSimone     ,India    ,90.2222222222
+Mike DeSimone     ,Israel   ,89.6054421769
+Mike DeSimone     ,Lebanon  ,89.2
+Mike DeSimone     ,Morocco  ,88.7692307692
+Mike DeSimone     ,Turkey   ,88.1411764706
+Paul Gregutt      ,         ,89.0
+Paul Gregutt      ,Canada   ,89.5860215054
+Paul Gregutt      ,France   ,89.1764705882
+Paul Gregutt      ,Italy    ,87.25
+Paul Gregutt      ,Spain    ,85.75
+Paul Gregutt      ,US       ,89.0743846071
+Roger Voss        ,         ,82.5
+Roger Voss        ,Austria  ,89.1637168142
+Roger Voss        ,France   ,88.8181378346
+Roger Voss        ,Greece   ,88.0
+Roger Voss        ,Italy    ,88.6804123711
+Roger Voss        ,Portugal ,88.256097561
+Roger Voss        ,South Afr,89.0454545455
+Roger Voss        ,US       ,89.5
+Sean P. Sullivan  ,Canada   ,90.34375
+Sean P. Sullivan  ,US       ,88.7454398054
+Susan Kostrzewa   ,         ,89.0
+Susan Kostrzewa   ,Bulgaria ,84.5
+Susan Kostrzewa   ,Canada   ,86.1538461538
+Susan Kostrzewa   ,Croatia  ,83.0
+Susan Kostrzewa   ,Cyprus   ,87.1818181818
+Susan Kostrzewa   ,Egypt    ,84.0
+Susan Kostrzewa   ,Greece   ,87.2894168467
+Susan Kostrzewa   ,Hungary  ,87.4736842105
+Susan Kostrzewa   ,Israel   ,84.0
+Susan Kostrzewa   ,Lebanon  ,83.6
+Susan Kostrzewa   ,Macedonia,86.0
+Susan Kostrzewa   ,Moldova  ,83.6666666667
+Susan Kostrzewa   ,Romania  ,85.1538461538
+Susan Kostrzewa   ,South Afr,87.4280936455
+Susan Kostrzewa   ,Switzerla,83.0
+Susan Kostrzewa   ,US       ,84.4655172414
+Virginie Boone    ,US       ,89.2133794694

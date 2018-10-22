@@ -1,0 +1,41 @@
+country,avg_score
+         ,86.1818181818
+Argentina,84.9314285714
+Armenia  ,87.5
+Australia,86.1712439418
+Austria  ,88.9722792608
+Bosnia an,86.5
+Brazil   ,84.0434782609
+Bulgaria ,87.5360824742
+Canada   ,87.9230769231
+Chile    ,85.1875756353
+Croatia  ,85.0714285714
+Cyprus   ,87.5
+Czech Rep,87.5
+Egypt    ,84.0
+England  ,92.0
+France   ,87.8201167599
+Georgia  ,87.1315789474
+Germany  ,87.843373494
+Greece   ,86.6518518519
+Hungary  ,87.2777777778
+India    ,89.5714285714
+Israel   ,87.2666666667
+Italy    ,87.1469636398
+Lebanon  ,86.4285714286
+Macedonia,87.0
+Mexico   ,83.2222222222
+Moldova  ,86.2162162162
+Morocco  ,88.0
+New Zeala,86.99375
+Peru     ,82.7
+Portugal ,86.777135517
+Romania  ,85.902173913
+Serbia   ,86.0
+Slovenia ,87.7096774194
+South Afr,87.0130081301
+Spain    ,85.4003004131
+Turkey   ,87.1111111111
+Ukraine  ,84.0714285714
+Uruguay  ,84.6
+US       ,85.9591630592
