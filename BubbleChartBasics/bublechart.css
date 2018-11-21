@@ -1,0 +1,35 @@
+h1 {
+    font-size: 14pt;
+    font-family: calibri, arial, sans serif;
+    text-align: center
+ }
+
+ #the_bubblechart {
+    width: 300px;
+    position: absolute;
+    right: 200px;
+ }
+
+ .btn {
+    width: 100px;
+    font-family: calibri, sans serif;
+    font-size: 1em;
+    border: solid 1px black;
+    color: black;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+}
+
+#the_chart {
+    border: solid 1px black;
+    width: 301px;
+    height: 301px;
+ }
+
+#buttonsbubble{
+    padding-bottom : 0.5em
+}
+
+#new {
+    background-color: purple;
+}

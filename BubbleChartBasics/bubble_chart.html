@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="bublechart.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.6.0/d3.min.js"></script>
+<script src="bubble_chart.js"></script>
+<script>
+
+    d3.csv('score_by_country_lt_15.csv', function(error, data) {
+      if (error) {
+          console.error('Error getting or parsing the data.');
+          throw error;
+      }
+      var chart = bubbleChart().width(300).height(300).showTitleOnCircle(true);
+      // selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+      d3.select('#the_chart').datum(data).call(chart);
+    });
+
+</script>
+
+<body>
+    <!--<span class="btn" id="new">New</span>
+    <span class="btn" id="old">Old</span>-->
+
+    <div id="the_bubblechart">
+        <div id="buttonsbubble">
+        <span class="btn">Wineries</span>
+        <span class="btn">Countries</span>
+        </div>
+        <div id="the_chart">
+        </div>
+    </div>
+    <div id="second_chart"></div>
+</body>
