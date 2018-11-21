@@ -4,6 +4,10 @@ h1 {
     text-align: center
  }
 
+ body {
+  background: rgb(19, 19, 24);   
+ }
+
  #the_bubblechart {
     width: 300px;
     position: absolute;
@@ -14,16 +18,19 @@ h1 {
     width: 100px;
     font-family: calibri, sans serif;
     font-size: 1em;
-    border: solid 1px black;
+    border: solid 0.5px grey;
     color: black;
+    background: grey;
     padding-left: 0.1em;
     padding-right: 0.1em;
+    border-radius: 5px;
 }
 
 #the_chart {
-    border: solid 1px black;
+    border: solid 0.5px grey;
     width: 301px;
     height: 301px;
+    border-radius: 5px;
  }
 
 #buttonsbubble{
