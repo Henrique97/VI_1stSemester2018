@@ -1,33 +1,100 @@
-variety,year,price
-Abouriou                  ,2012,45.0
-Abouriou                  ,2014,15.0
-Agiorgitiko               ,2003,21.0
-Agiorgitiko               ,2004,31.7777777778
-Agiorgitiko               ,2005,37.3333333333
-Agiorgitiko               ,2006,23.8
-Agiorgitiko               ,2007,18.0
-Agiorgitiko               ,2008,28.3
-Agiorgitiko               ,2009,12.25
-Agiorgitiko               ,2010,16.5
-Agiorgitiko               ,2011,18.2
-Agiorgitiko               ,2012,16.6666666667
-Agiorgitiko               ,2013,14.5
-Agiorgitiko               ,2014,28.0
-Aglianico                 ,2001,55.8
-Aglianico                 ,2003,39.1428571429
-Aglianico                 ,2004,57.7647058824
-Aglianico                 ,2005,43.2666666667
-Aglianico                 ,2006,39.16
-Aglianico                 ,2007,41.4117647059
-Aglianico                 ,2008,40.4137931034
-Aglianico                 ,2009,46.875
-Aglianico                 ,2010,32.3529411765
-Aglianico                 ,2011,47.1034482759
-Aglianico                 ,2012,31.9487179487
-Aglianico                 ,2013,27.9565217391
-Aglianico                 ,2014,29.1666666667
-Aglianico                 ,2015,21.2857142857
-Aidani                    ,2011,27.0
-Airen                     ,2007,8.0
-Airen                     ,2009,9.0
-Airen                     ,2011,10.0
+variety,year,price,points
+Abouriou                  ,2012,45.0,86
+Abouriou                  ,2014,15.0,91
+Agiorgitiko               ,2003,21.0,87
+Agiorgitiko               ,2004,31.7777777778,86
+Agiorgitiko               ,2005,37.3333333333,86
+Agiorgitiko               ,2006,23.8,86
+Agiorgitiko               ,2007,18.0,85
+Agiorgitiko               ,2008,28.3,86
+Agiorgitiko               ,2009,12.25,86
+Agiorgitiko               ,2010,16.5,87
+Agiorgitiko               ,2011,18.2,88
+Agiorgitiko               ,2012,16.6666666667,87
+Agiorgitiko               ,2013,14.5,90
+Agiorgitiko               ,2014,28.0,88
+Aglianico                 ,-1,43.0,91
+Aglianico                 ,2001,55.8,91
+Aglianico                 ,2003,39.1428571429,88
+Aglianico                 ,2004,57.7647058824,89
+Aglianico                 ,2005,43.2666666667,88
+Aglianico                 ,2006,39.16,88
+Aglianico                 ,2007,41.4117647059,89
+Aglianico                 ,2008,40.4137931034,89
+Aglianico                 ,2009,46.875,89
+Aglianico                 ,2010,32.3529411765,88
+Aglianico                 ,2011,47.1034482759,90
+Aglianico                 ,2012,31.9487179487,89
+Aglianico                 ,2013,27.9565217391,88
+Aglianico                 ,2014,29.1666666667,88
+Aglianico                 ,2015,21.2857142857,87
+Aidani                    ,2011,27.0,82
+Airen                     ,2007,8.0,83
+Airen                     ,2009,9.0,80
+Airen                     ,2011,10.0,82
+Albana                    ,2004,48.0,90
+Albana                    ,2006,42.5,91
+Albana                    ,2007,,94
+Albana                    ,2009,12.0,84
+Albana                    ,2011,14.0,87
+Albana                    ,2012,,90
+Albana                    ,2014,22.0,93
+Albana                    ,2015,20.8333333333,88
+Albana                    ,2016,15.0,91
+Albanello                 ,2012,20.0,86
+Albariño                 ,2000,14.6666666667,84
+Albariño                 ,2003,18.0,87
+Albariño                 ,2005,33.25,85
+Albariño                 ,2006,19.7333333333,87
+Albariño                 ,2007,24.6,87
+Albariño                 ,2008,18.0,87
+Albariño                 ,2009,18.7647058824,88
+Albariño                 ,2010,24.2903225806,87
+Albariño                 ,2011,20.2173913043,87
+Albariño                 ,2012,21.3333333333,87
+Albariño                 ,2013,22.1780821918,87
+Albariño                 ,2014,21.0348837209,88
+Albariño                 ,2015,20.6987951807,88
+Albariño                 ,2016,20.8571428571,88
+Albariño                 ,2017,25.0,91
+Albarossa                 ,2006,40.0,88
+Aleatico                  ,2006,39.5,84
+Aleatico                  ,2009,,90
+Aleatico                  ,2010,55.0,89
+Aleatico                  ,2012,25.0,85
+Alfrocheiro               ,-1,25.0,86
+Alfrocheiro               ,2006,11.0,85
+Alfrocheiro               ,2008,38.0,89
+Alfrocheiro               ,2009,40.0,91
+Alfrocheiro               ,2010,32.0,89
+Alfrocheiro               ,2011,36.3333333333,91
+Alfrocheiro               ,2012,50.0,93
+Alfrocheiro               ,2013,14.0,87
+Alfrocheiro               ,2014,17.0,87
+Alfrocheiro               ,2015,19.0,88
+Alicante                  ,2006,30.0,88
+Alicante                  ,2007,27.0,89
+Alicante                  ,2008,24.0,86
+Alicante                  ,2012,24.0,87
+Alicante                  ,2015,10.0,87
+Alicante Bouschet         ,-1,17.0,87
+Alicante Bouschet         ,2004,18.0,83
+Alicante Bouschet         ,2005,17.5,87
+Alicante Bouschet         ,2006,11.0,86
+Alicante Bouschet         ,2008,24.0,90
+Alicante Bouschet         ,2009,44.0,92
+Alicante Bouschet         ,2010,37.5,89
+Alicante Bouschet         ,2011,53.25,89
+Alicante Bouschet         ,2012,38.4285714286,88
+Alicante Bouschet         ,2013,32.1111111111,90
+Alicante Bouschet         ,2014,29.25,90
+Alicante Bouschet         ,2015,21.75,89
+Alicante Bouschet         ,2016,15.0,89
+Aligoté                  ,2007,19.5,86
+Aligoté                  ,2009,18.5,85
+Aligoté                  ,2010,18.25,86
+Aligoté                  ,2011,21.0,86
+Aligoté                  ,2012,19.0,87
+Aligoté                  ,2013,22.8571428571,87
+Aligoté                  ,2014,19.4,86
+Aligoté                  ,2015,14.0,85

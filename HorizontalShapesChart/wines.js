@@ -24,27 +24,39 @@ function gen_graph() {
   var bar_w = 15;
 */
 
+  var dollars = [213,209,190,179,156,209,190,179,213,209,190,179,156,209,190,20];
+  var fruitMenu = d3.select("#second_chart")
+
   var varieties = [''];
   var prices = [];
+  var points = [];
   for (var k of dataset) {
     if (varieties.indexOf(k.variety.trim()) < 0) varieties.push(k.variety.trim());
     prices.push(Number(k.year.trim()));
+    points.push(Number(k.points.trim()));
   }
 
   var categories= ['','Accessories', 'Audiophile', 'Camera & Photo', 'Cell Phones', 'Computers','eBook Readers','Gadgets',
   'GPS & Navigation','Home Audio','Office Electronics','Portable Audio','Portable Video','Security & Surveillance','Service','Television & Video','Car & Vehicle'];
 
   categories = varieties;
-
-  var dollars = [213,209,190,179,156,209,190,179,213,209,190,179,156,209,190,20];
-  var colors = ['#0094ff','#0d4bcf','#0066AE','#074285','#00187B','#285964','#405F83','#416545','#4D7069','#6E9985','#7EBC89','#0283AF','#79BCBF','#99C19E'];
+  var colors = ['#0094ff','#0d4bcf','#0066AE','#BD1E1E','#F5E2C8','#0CF574','#405F83','#FFE066','#4D7069','#6E9985','#7EBC89','#0283AF','#79BCBF','#99C19E'];
 
   var i;
   var var_objects = [];
   for (i=0; i < prices.length; i++) {
-    var temp = {category:varieties.indexOf(dataset[i].variety.trim()), price:prices[i], color:varieties.indexOf(dataset[i].variety.trim())};
+    var temp = {category:varieties.indexOf(dataset[i].variety.trim()), price:prices[i], color:varieties.indexOf(dataset[i].variety.trim()), points:points[i]};
     var_objects.push(temp);
   }
+
+  fruitMenu.append("select")
+         .selectAll("option")
+         .data(categories)
+         .enter()
+         .append("option")
+         .attr("value", function(d){console.log(d); return d;})
+         .text(function(d){return d;});
+
 
   //var_objects.push({category:1, price:dollars[2], color:1});
   var grid = d3.range(25).map(function(i){
@@ -129,7 +141,7 @@ function gen_graph() {
             .data(var_objects)
             .transition()
             .duration(1200) 
-            .attr("r", function(d) {return 7; })
+            .attr("r", function(d) {return (d.points-80); })
             .attr('cx', function(d,i){ return xscale(d.price);} )
             .attr('cy',function(d,i){ return yscale(d.category); } );
 
