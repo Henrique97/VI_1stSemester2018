@@ -6,13 +6,19 @@ h1 {
 
 .axis path, .axis line {
     fill: none;
-    stroke: black;
+    stroke: white;
 
 }
+
+body {
+  background: rgb(19, 19, 24);   
+  color: white;
+ }
 
 .axis text {
    font-family: calibri, sans serif;
    font-size: 10pt;
+   stroke: white;
 }
 
 .btn {
