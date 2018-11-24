@@ -1,15 +1,16 @@
 <!DOCTYPE html>
+<head>
+</head>
 <link rel="stylesheet" href="bublechart.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.6.0/d3.min.js"></script>
 <script src="bubble_chart.js"></script>
 <script>
-
+    var chart = bubbleChart().width(300).height(300).showTitleOnCircle(true);
     d3.csv('score_by_country_lt_15.csv', function(error, data) {
       if (error) {
           console.error('Error getting or parsing the data.');
           throw error;
       }
-      var chart = bubbleChart().width(300).height(300).showTitleOnCircle(true);
       // selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
       d3.select('#the_chart').datum(data).call(chart);
     });
@@ -22,11 +23,52 @@
 
     <div id="the_bubblechart">
         <div id="buttonsbubble">
-        <span class="btn">Wineries</span>
-        <span class="btn">Countries</span>
+        <span class="btn", id="countriesb">Countries</span>
+        <span class="btn", id="wineriesb">Wineries</span>
         </div>
-        <div id="the_chart">
-        </div>
+        <div id="the_chart"></div>
     </div>
     <div id="second_chart"></div>
 </body>
+
+<script>
+        function clearBox()
+        {  
+            d3.selectAll("svg").remove();
+        }
+</script>
+
+<script>
+    d3.selectAll("#wineriesb").on("click", function() {
+        clearBox();
+        document.getElementById("countriesb").style.background="rgba(128, 128, 128, 0.568)";
+        document.getElementById("wineriesb").style.background="grey";
+        d3.csv('score_by_winery_top100.csv', function(error, data) {
+            if (error) {
+                console.error('Error getting or parsing the data.');
+                throw error;
+            }
+            chart.columnForColors("winery").columnForTitle("winery").
+            minRadius(10).maxRadius(20).minscore(94).maxScore(98).forceApart(5);
+            //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+            d3.select('#the_chart').datum(data).call(chart);
+        });
+    });
+
+    d3.selectAll("#countriesb").on("click", function() {
+        clearBox();
+        document.getElementById("wineriesb").style.background="rgba(128, 128, 128, 0.568)";
+        document.getElementById("countriesb").style.background="grey";
+        d3.csv('score_by_country_lt_15.csv', function(error, data) {
+            if (error) {
+                console.error('Error getting or parsing the data.');
+                throw error;
+            }
+            chart.columnForColors("country").columnForTitle("country").
+            minRadius(10).maxRadius(30).minscore(82).maxScore(92).forceApart(10);
+            //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+            d3.select('#the_chart').datum(data).call(chart);
+        });
+    });
+
+</script>

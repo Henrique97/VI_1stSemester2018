@@ -44,7 +44,7 @@ function bubbleChart() {
 	height = 960,
 	marginTop = 10,
 	minRadius = 10	,
-	maxRadius = 40,
+	maxRadius = 30,
 	//maxRadius = 80,
 	minscore = 82,
 	maxScore = 92,
@@ -57,7 +57,7 @@ function bubbleChart() {
 	//columnForColors = "category",
 	//columnForTitle = "title",
 	//columnForRadius = "views",
-	forceApart =5,
+	forceApart =10,
 	unitName="points",
 	customColors=false,
 	customRange,
@@ -72,7 +72,6 @@ function bubbleChart() {
 	 * @param {string} selection - The div ID that you want to render in 
 	 */
 	function chart(selection) {
-		console.log("aqui")
 		var data = selection.datum();
 		chartSelection=selection;
 		var div = selection,
@@ -86,12 +85,11 @@ function bubbleChart() {
 		.style("position", "absolute")
 		.style("visibility", "hidden")
 		.style("color", "white")
-		.style("padding", "8px")
 		.style("background-color", "#626D71")
 		.style("border-radius", "6px")
 		.style("text-align", "center")
 		.style("font-family", "monospace")
-		.style("width", "400px")
+		.style("width", "300px")
 		.text("");
 
 
@@ -100,6 +98,7 @@ function bubbleChart() {
 		.force("collision", d3.forceCollide().radius(function(d) {
 			return (minRadius+((d[columnForRadius]-minscore)/(maxScore-minscore)*(maxRadius-minRadius)));
 		}))
+	//	.force("collisionWalls", d3.forceCollide().)
 		.on("tick", ticked);
 
 		function ticked(e) {
@@ -140,8 +139,6 @@ function bubbleChart() {
 			return i;
 		})
 		.attr('r', function(d) {
-			console.log(d[columnForTitle])
-			console.log(scaleRadius(d[columnForRadius]))
 			return scaleRadius(d[columnForRadius]);
 		})
 		.style("fill", function(d) {
@@ -150,9 +147,6 @@ function bubbleChart() {
 		.on("mouseover", function(d) {
 			tooltip.html(d[columnForTitle] + "<br/>" + d[columnForRadius] + " "+ unitName);
 			return tooltip.style("visibility", "visible");
-		})
-		.on("mousemove", function() {
-			return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px");
 		})
 		.on("mouseout", function() {
 			return tooltip.style("visibility", "hidden");
@@ -186,24 +180,29 @@ function bubbleChart() {
 				tooltip.html(d[columnForTitle] + "<br/>" + d[columnForRadius] + " "+ unitName);
 				return tooltip.style("visibility", "visible");
 			})
-			.on("mousemove", function() {
-				return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px");
-			})
 			.on("mouseout", function() {
 				return tooltip.style("visibility", "hidden");
 			});
 		}
 
-		svg.append('text')
+	/*	svg.append('text')
 			.attr('x',width/2).attr('y',marginTop)
 			.attr("text-anchor", "middle")
 			.attr("font-size","1.8em")
-			.text(title);
+			.text(title);*/
+
+	var buttons = d3.select("#buttonsbubble");
+	buttons.selectAll(".btn").on("mouseover",function(d) {
+	})
+
+
 	}
 
 
 	chart.width = chartWidth;
 	chart.height = chartHeight;
+	chart.minscore = chartminscore;
+	chart.maxScore = chartmaxScore;
 	chart.columnForColors = chartColForColors;
 	chart.columnForRadius = chartColForRadius;
 	chart.columnForTitle = chartColForTitle;
@@ -328,7 +327,23 @@ function bubbleChart() {
 		minRadius = value;
 		return chart;
 	};
-	
+
+	function chartminscore(value) {
+		if (!arguments.length) {
+			return chartminscore;
+		}
+		minscore = value;
+		return chart;
+	};
+
+	function chartmaxScore(value) {
+		if (!arguments.length) {
+			return chartmaxScore;
+		}
+		maxScore = value;
+		return chart;
+	};
+
 	/**
 	 * Get/set the maximum radius of the bubbles.
 	 * Use 'chart.maxRadius' to get or set.
@@ -452,6 +467,7 @@ function bubbleChart() {
 		.duration(500)
 		.style("opacity", "0")
 		.remove();	
+		console.log("ok");
 		if (!arguments.length) {	
 			chartSVG.selectAll("g")
 			.style("opacity",1)
@@ -470,6 +486,5 @@ function bubbleChart() {
 		}
 		return chart;
 	}
-	
 	return chart;
 }

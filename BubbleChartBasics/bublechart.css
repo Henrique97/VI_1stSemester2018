@@ -11,19 +11,21 @@ h1 {
  #the_bubblechart {
     width: 300px;
     position: absolute;
-    right: 200px;
+    right: 50px;
  }
 
  .btn {
     width: 100px;
     font-family: calibri, sans serif;
     font-size: 1em;
-    border: solid 0.5px grey;
     color: black;
-    background: grey;
+    background: rgba(128, 128, 128, 0.568);
     padding-left: 0.1em;
     padding-right: 0.1em;
-    border-radius: 5px;
+}
+
+span.btn:hover {
+    background: rgb(128, 128, 128) !important;
 }
 
 #the_chart {
@@ -34,9 +36,14 @@ h1 {
  }
 
 #buttonsbubble{
-    padding-bottom : 0.5em
+    padding-left : 0.2em
+}
+
+#countriesb {
+    background: rgb(128, 128, 128);
 }
 
 #new {
     background-color: purple;
 }
+
