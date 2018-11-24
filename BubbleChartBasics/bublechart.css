@@ -26,6 +26,7 @@ h1 {
 
 span.btn:hover {
     background: rgb(128, 128, 128) !important;
+    cursor: pointer !important;
 }
 
 #the_chart {
@@ -33,6 +34,7 @@ span.btn:hover {
     width: 301px;
     height: 301px;
     border-radius: 5px;
+    cursor: pointer !important; 
  }
 
 #buttonsbubble{
