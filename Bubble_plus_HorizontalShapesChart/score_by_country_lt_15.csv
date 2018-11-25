@@ -1,0 +1,40 @@
+country,avg_score,avgscore2,continent
+England  ,92,92,Europe
+India    ,89.57142857,89.6,Asia
+Austria  ,88.97227926,89,Europe
+Morocco  ,88,88,Africa
+Canada   ,87.92307692,87.9,North America
+Germany  ,87.84337349,87.8,Europe
+France   ,87.82011676,87.8,Europe
+Slovenia ,87.70967742,87.7,Europe
+Bulgaria ,87.53608247,87.5,Europe
+Armenia  ,87.5,87.5,Asia
+Cyprus   ,87.5,87.5,Europe
+Czech Rep,87.5,87.5,Europe
+Hungary  ,87.27777778,87.3,Europe
+Israel   ,87.26666667,87.3,Asia
+Italy    ,87.14696364,87.1,Europe
+Georgia  ,87.13157895,87.1,Europe
+Turkey   ,87.11111111,87.1,Asia
+South Afr,87.01300813,87,Africa
+Macedonia,87,87,Europe
+New Zeala,86.99375,87,Oceania
+Portugal ,86.77713552,86.8,Europe
+Greece   ,86.65185185,86.7,Europe
+Bosnia an,86.5,86.5,Europe
+Lebanon  ,86.42857143,86.4,Asia
+Moldova  ,86.21621622,86.2,Europe
+Australia,86.17124394,86.2,Oceania
+Serbia   ,86,86,Europe
+US       ,85.95916306,86,North America
+Romania  ,85.90217391,85.9,Europe
+Spain    ,85.40030041,85.4,Europe
+Chile    ,85.18757564,85.2,South America
+Croatia  ,85.07142857,85.1,Europe
+Argentina,84.93142857,84.9,South America
+Uruguay  ,84.6,84.6,South America
+Ukraine  ,84.07142857,84.1,Europe
+Brazil   ,84.04347826,84,South America
+Egypt    ,84,84,Africa
+Mexico   ,83.22222222,83.2,North America
+Peru     ,82.7,82.7,South America
