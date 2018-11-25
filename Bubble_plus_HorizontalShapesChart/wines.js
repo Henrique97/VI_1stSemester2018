@@ -229,15 +229,19 @@ function gen_graph() {
             .attr("transform", "translate(150,0)")
             .attr('id','yaxis')
             .attr("fill", 'white')
-            .style('stroke', '#adadad')
+            .style('stroke', 'white')
+            .style("font-size","15px")
+            .style('stroke-width', '1px')
             .call(yAxis)
             .attr("fill", 'white');
 
   var x_xis = canvas.append('g')
             .attr("transform", "translate(150,480)")
             .attr('id','xaxis')
-            .style('stroke', '#adadad')
+            .style('stroke', 'white')
             .attr("fill", 'white')
+            .style("font-size","12px")
+            .style('stroke-width', '2px')
             .call(xAxis)
             .attr("fill", '#adadad');
 
@@ -281,6 +285,8 @@ function gen_graph() {
   .enter().append("text")
   .attr("x", x)
   .attr("text-anchor", "middle")
+  .style("font-size","15px")
+  .style('stroke-width', '2px')
   .text(function(d) { return d; })
   .attr("fill", "white");
 
