@@ -15,7 +15,12 @@
     margin-top: 10px;
     width: 300px;
     position: absolute;
-    right: 50px;
+    right: 20px;
+    top: 40px;
+ }
+
+ hr {
+    border-color: grey;
  }
 
  .btn2 {
@@ -45,9 +50,11 @@ span.btn2:hover {
         zoom: 0.55;
         -moz-transform: scale(0.55);
         color:white;
-        bottom: -120px;
-        right: -210px;
+        bottom: 1%;
+        left: 33%;
         position: absolute;
+        border: solid 0.5px grey;
+        
  }
  
 
@@ -111,3 +118,30 @@ span.btn2:hover {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+.undone{
+    border: solid 0.5px grey;   
+    position:absolute;
+    top: 70px;
+}
+
+#undone1{
+    width: 527px;
+    height: 210px;
+    left: 33%;
+}
+
+#undone2{
+    width: 405px;
+    height: 533px;
+}
+
+#undone3{
+    width: 50px;
+    height: 50px;
+}
+
+#undone4{
+    width: 50px;
+    height: 50px;
+}
