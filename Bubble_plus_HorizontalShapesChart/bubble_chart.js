@@ -149,6 +149,9 @@ function bubbleChart() {
 			tooltip.html(d[columnForTitle] + "<br/>"+ d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
 			return tooltip.style("visibility", "visible");
 		})
+		.on("click", function(d) {
+			console.log(d[columnForTitle] + "<br/>"+ d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
+		})
 		.on("mouseout", function() {
 			return tooltip.style("visibility", "hidden");
 		});
@@ -180,6 +183,9 @@ function bubbleChart() {
 			.on("mouseover", function(d) {
 				tooltip.html(d[columnForTitle] + "<br/>" + d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
 				return tooltip.style("visibility", "visible");
+			})
+			.on("click", function(d) {
+				console.log(d[columnForTitle] + "<br/>"+ d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
 			})
 			.on("mouseout", function() {
 				return tooltip.style("visibility", "hidden");
