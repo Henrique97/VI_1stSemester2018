@@ -6,6 +6,7 @@
 <script src="bubble_chart.js"></script>
 <script>
     var chart = bubbleChart().width(300).height(300).showTitleOnCircle(true);
+    var typeOfChart=0;
     d3.csv('score_by_country_lt_15.csv', function(error, data) {
       if (error) {
           console.error('Error getting or parsing the data.');
@@ -20,11 +21,24 @@
 <body>
     <!--<span class="btn" id="new">New</span>
     <span class="btn" id="old">Old</span>-->
+    <div>
+        <h1 id="mainTitle"><b><i>What Makes The Best Wine</i></b></h1>
+    </div>
+
+    <hr>
 
     <div id="the_bubblechart">
         <div id="buttonsbubble">
         <span class="btn", id="countriesb">Countries</span>
         <span class="btn", id="wineriesb">Wineries</span>
+        <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn" id="dropTitle">Data v</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a id="All">All Data  </a>
+                  <a id="LT20">LT 20</a>
+                  <a id="LT15">LT 15</a>
+                </div>
+        </div>
         </div>
         <div id="the_chart"></div>
     </div>
@@ -41,6 +55,8 @@
 <script>
     d3.selectAll("#wineriesb").on("click", function() {
         clearBox();
+        typeOfChart=1;
+        document.getElementById("dropTitle").innerHTML = "Data v";
         document.getElementById("countriesb").style.background="rgba(128, 128, 128, 0.568)";
         document.getElementById("wineriesb").style.background="grey";
         d3.csv('score_by_winery_top100.csv', function(error, data) {
@@ -57,6 +73,8 @@
 
     d3.selectAll("#countriesb").on("click", function() {
         clearBox();
+        typeOfChart=0;
+        document.getElementById("dropTitle").innerHTML = "Data v";
         document.getElementById("wineriesb").style.background="rgba(128, 128, 128, 0.568)";
         document.getElementById("countriesb").style.background="grey";
         d3.csv('score_by_country_lt_15.csv', function(error, data) {
@@ -64,11 +82,134 @@
                 console.error('Error getting or parsing the data.');
                 throw error;
             }
-            chart.columnForColors("country").columnForTitle("country").
-            minRadius(10).maxRadius(30).minscore(82).maxScore(92).forceApart(10);
+            chart.columnForColors("continent").columnForTitle("country").
+            minRadius(10).maxRadius(30).minscore(82.7).maxScore(92).forceApart(10);
             //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
             d3.select('#the_chart').datum(data).call(chart);
         });
     });
 
+    d3.selectAll("#All").on("click", function() {
+        clearBox();
+        document.getElementById("dropTitle").innerHTML = "Data v";
+        if (typeOfChart==0) {
+            document.getElementById("wineriesb").style.background="rgba(128, 128, 128, 0.568)";
+            document.getElementById("countriesb").style.background="grey";
+            d3.csv('score_by_country_lt_15.csv', function(error, data) {
+                if (error) {
+                    console.error('Error getting or parsing the data.');
+                    throw error;
+                }
+                chart.columnForColors("continent").columnForTitle("country").
+                minRadius(10).maxRadius(30).minscore(82.7).maxScore(92).forceApart(10);
+                //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+                d3.select('#the_chart').datum(data).call(chart);
+            });
+        }
+        else {
+            document.getElementById("countriesb").style.background="rgba(128, 128, 128, 0.568)";
+            document.getElementById("wineriesb").style.background="grey";
+            d3.csv('score_by_winery_top100.csv', function(error, data) {
+                if (error) {
+                    console.error('Error getting or parsing the data.');
+                    throw error;
+                }
+                chart.columnForColors("winery").columnForTitle("winery").
+                minRadius(10).maxRadius(20).minscore(94).maxScore(98).forceApart(5);
+                //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+                d3.select('#the_chart').datum(data).call(chart);
+            });
+        }
+    });
+
+    d3.selectAll("#LT20").on("click", function() {
+        clearBox();
+        document.getElementById("dropTitle").innerHTML = "LT20 v";
+        if (typeOfChart==0) {
+            document.getElementById("wineriesb").style.background="rgba(128, 128, 128, 0.568)";
+            document.getElementById("countriesb").style.background="grey";
+            d3.csv('score_by_country_lt_15.csv', function(error, data) {
+                if (error) {
+                    console.error('Error getting or parsing the data.');
+                    throw error;
+                }
+                chart.columnForColors("continent").columnForTitle("country").
+                minRadius(10).maxRadius(30).minscore(82.7).maxScore(92).forceApart(10);
+                //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+                d3.select('#the_chart').datum(data).call(chart);
+            });
+        }
+        else {
+            document.getElementById("countriesb").style.background="rgba(128, 128, 128, 0.568)";
+            document.getElementById("wineriesb").style.background="grey";
+            d3.csv('score_by_winery_lt_20_top100.csv', function(error, data) {
+                if (error) {
+                    console.error('Error getting or parsing the data.');
+                    throw error;
+                }
+                chart.columnForColors("winery").columnForTitle("winery").
+                minRadius(10).maxRadius(20).minscore(93).maxScore(98).forceApart(5);
+                //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+                d3.select('#the_chart').datum(data).call(chart);
+            });
+        }
+    });
+
+    d3.selectAll("#LT15").on("click", function() {
+        clearBox();
+        document.getElementById("dropTitle").innerHTML = "LT15 v";
+        if (typeOfChart==0) {
+            document.getElementById("wineriesb").style.background="rgba(128, 128, 128, 0.568)";
+            document.getElementById("countriesb").style.background="grey";
+            d3.csv('score_by_country_lt_15.csv', function(error, data) {
+                if (error) {
+                    console.error('Error getting or parsing the data.');
+                    throw error;
+                }
+                chart.columnForColors("continent").columnForTitle("country").
+                minRadius(10).maxRadius(30).minscore(82.7).maxScore(92).forceApart(10);
+                //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+                d3.select('#the_chart').datum(data).call(chart);
+            });
+        }
+        else {
+            document.getElementById("countriesb").style.background="rgba(128, 128, 128, 0.568)";
+            document.getElementById("wineriesb").style.background="grey";
+            d3.csv('score_by_winery_top100.csv', function(error, data) {
+                if (error) {
+                    console.error('Error getting or parsing the data.');
+                    throw error;
+                }
+                chart.columnForColors("winery").columnForTitle("winery").
+                minRadius(10).maxRadius(20).minscore(94).maxScore(98).forceApart(5);
+                //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+                d3.select('#the_chart').datum(data).call(chart);
+            });
+        }
+    });
+
+</script>
+
+
+
+
+<script>
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
 </script>
