@@ -3,7 +3,9 @@ h1 {
    font-family: calibri, arial, sans serif;
 }
 
-
+#the_chart {
+  color:white;
+}
 .axis path, .axis line {
     fill: none;
     stroke: white;

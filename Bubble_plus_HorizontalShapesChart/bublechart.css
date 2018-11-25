@@ -8,9 +8,11 @@
 
  body {
   background: rgb(19, 19, 24);   
+  color:white;
  }
 
  #the_bubblechart {
+    margin-top: 10px;
     width: 300px;
     position: absolute;
     right: 50px;
@@ -38,6 +40,16 @@ span.btn2:hover {
     border-radius: 5px;
     cursor: pointer !important; 
  }
+
+ #c1 {
+        zoom: 0.55;
+        -moz-transform: scale(0.55);
+        color:white;
+        bottom: -120px;
+        right: -210px;
+        position: absolute;
+ }
+ 
 
 #buttonsbubble{
     padding-left : 0.2em

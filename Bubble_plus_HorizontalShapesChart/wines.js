@@ -228,12 +228,18 @@ function gen_graph() {
   var y_xis = canvas.append('g')
             .attr("transform", "translate(150,0)")
             .attr('id','yaxis')
-            .call(yAxis);
+            .attr("fill", 'white')
+            .style('stroke', '#adadad')
+            .call(yAxis)
+            .attr("fill", 'white');
 
   var x_xis = canvas.append('g')
             .attr("transform", "translate(150,480)")
             .attr('id','xaxis')
-            .call(xAxis);
+            .style('stroke', '#adadad')
+            .attr("fill", 'white')
+            .call(xAxis)
+            .attr("fill", '#adadad');
 
     //slider
 
