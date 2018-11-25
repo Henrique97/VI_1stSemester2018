@@ -50,8 +50,8 @@ span.btn2:hover {
         zoom: 0.55;
         -moz-transform: scale(0.55);
         color:white;
-        bottom: 1%;
-        left: 33%;
+        bottom: 10px;
+        left: 770px;
         position: absolute;
         border: solid 0.5px grey;
         
@@ -128,7 +128,7 @@ span.btn2:hover {
 #undone1{
     width: 527px;
     height: 210px;
-    left: 33%;
+    left: 423px;
 }
 
 #undone2{
