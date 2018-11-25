@@ -18,6 +18,7 @@ function gen_graph() {
     years.push(Number(k.year.trim()));
     points.push(Number(k.points.trim()));
   } 
+  var button_pre = -1;
   categories = varieties;
   var colors = ['#0094ff','#0d4bcf','#0066AE','#BD1E1E','#F5E2C8','#0CF574','#405F83','#FFE066','#4D7069','#6E9985','#7EBC89','#0283AF','#79BCBF','#99C19E'];
 
@@ -47,6 +48,141 @@ function gen_graph() {
     if(i>0){ return beginYear + (i/8)*18; }
     else if(i===0){ return "" + beginYear;}
   });
+  /*
+
+  var ul = d3.select('#list').append('ul');
+
+	ul.selectAll('li')
+	.data(categories)
+	.enter()
+	.append('li')
+  .html(String)
+  .append("input")
+  .attr("checked", true)
+  .attr("type", "checkbox")
+  .attr("id", function(d,i) { return 'a'+i; })
+  .attr("onClick", "change(this)"); */
+
+  var buttonNames = [];
+  var i;
+  for (i = 1; i<=8; i++) {
+    buttonNames.push("change "+i);
+  }
+
+
+  var select = d3.select('#list')
+  .append('select')
+    .attr('class','select')
+    .on('change',onchange).style("visibility", "hidden");;
+
+  var options = select
+    .selectAll('option')
+    .data(categories).enter()
+    .append('option')
+      .text(function (d) { return d; });
+
+
+  d3.select("#list")
+    .selectAll("input")
+    .data(buttonNames)
+    .enter()
+    .append("input")
+    .attr("type","button")
+    .attr("class","button")
+    .attr('id', function (d){return "bt"+d[7];})
+    .attr("value", function (d){return d;} )
+    .on("mouseover", function(d, i) {
+      d3.select("select").style("visibility", "visible");
+      d3.select("select").style("left", 0 + "px")	;
+      button_pre =  i + 1;})
+
+    .on("click", function(d) {
+      return d3.select("select").style("visibility", "hidden");});
+
+
+  function onchange() {
+    selectValue = d3.select('select').property('value');
+    d3.select("select").style("visibility", "hidden");
+
+    if (button_pre != -1) {
+      categories[button_pre] = selectValue;}
+
+    console.log(var_updated);
+    var_updated = [];
+    // update data
+    for (i=0; i < years.length; i++) {
+      if((categories.indexOf((dataset[i].variety.trim()) > -1) && (beginYear <=Number(dataset[i].year.trim()) && Number(dataset[i].year.trim()) <= endYear))) {
+        var temp = {category:varieties.indexOf(dataset[i].variety.trim()), year:years[i], color:varieties.indexOf(dataset[i].variety.trim()), points:points[i]};
+        var_updated.push(temp);
+      }
+    }
+
+    var yscale = d3.scaleLinear()
+        .domain([0,categories.length])
+        .range([0,480]);
+
+    var	yAxis = d3.axisLeft()
+    yAxis
+    .scale(yscale)
+    .tickSize(2)
+    .tickFormat(function(d,i){ return categories[i]; })
+    .tickValues(d3.range(17));
+    d3.select("#yaxis").call(yAxis);
+
+    d3.select("#bars").remove();
+    var chart = canvas.append('g')
+    .attr("transform", "translate(150,0)")
+    .attr('id','bars')
+    .attr('width', 200)
+    .selectAll('circle')
+    .data(var_updated)
+    .enter()
+    .append('circle')
+    .attr('cx', 0)
+    .attr('cy',0)
+    .attr('r',function(d){ return 0; })
+    .style('fill',function(d,i){ return colorScale(d.color); })
+    .on("mouseover", function(d) {
+      var mouse = d3.mouse(this);
+      tooltip.html(d.points + " points <br/>");
+      return tooltip.style("visibility", "visible")
+                    .style("left", (mouse[0] +128) + "px")		
+                    .style("top", (mouse[1]+5) + "px");	
+    })
+    .on("mouseout", function(d) {
+      return tooltip.style("visibility", "hidden");});
+  
+  
+  var transit = d3.select("svg").selectAll("circle")
+    .data(var_updated)
+    .transition()
+    .duration(1200) 
+    .attr("r", function(d) {return (d.points-80); })
+    .attr('cx', function(d,i){ return xscale(d.year);} )
+    .attr('cy',function(d,i){ return yscale(d.category); } );
+
+  };
+
+/*
+    var data = ["Option 1", "Option 2", "Option 3"];
+
+    var select = d3.select('#list')
+    .append('select')
+      .attr('class','select')
+      .on('change',onchange);
+
+    var options = select
+      .selectAll('option')
+    	.data(data).enter()
+    	.append('option')
+    		.text(function (d) { return d; });
+
+    function onchange() {
+    	selectValue = d3.select('select').property('value')
+    	d3.select('body')
+    		.append('p')
+    		.text(selectValue + ' is the last selected option.')
+    };*/
 
   var xscale = d3.scaleLinear()
           .domain([beginYear, endYear])
@@ -80,7 +216,7 @@ function gen_graph() {
             .attr('y2', function(d){ return d.y2; })		 
             .style('stroke', '#adadad')
             .style('stroke-width', '1px');
-    
+  
 
   var	xAxis = d3.axisBottom()
     xAxis
@@ -104,8 +240,6 @@ function gen_graph() {
             .attr('id','xaxis')
             .call(xAxis);
 
-
-
     //slider
 
   var margin = {top:0, right:50, bottom:0, left:50},
@@ -115,7 +249,7 @@ function gen_graph() {
   var sslider = d3.select("#slider")
   .append("svg")
   .attr("width",width + margin.left + margin.right)
-  .attr("height",height);
+  .attr("height",40);
 
   var x = d3.scaleLinear()
   .domain([1900, 2018])
@@ -173,22 +307,22 @@ function gen_graph() {
   var xscale = d3.scaleLinear()
           .domain([beginYear, endYear])
           .range([0,722]);
-
+/*
   var yscale = d3.scaleLinear()
           .domain([0,categories.length])
-          .range([0,480]);
+          .range([0,480]);*/
 
   var	xAxis = d3.axisBottom()
     xAxis
       .scale(xscale)
       .tickValues(d3.range(beginYear, endYear + 1, 1));
       
-  var	yAxis = d3.axisLeft()
+ /* var	yAxis = d3.axisLeft()
     yAxis
       .scale(yscale)
       .tickSize(2)
       .tickFormat(function(d,i){ return categories[i]; })
-      .tickValues(d3.range(17));
+      .tickValues(d3.range(17));*/
 
   d3.select("#xaxis").call(xAxis);
   d3.select("#bars").remove();

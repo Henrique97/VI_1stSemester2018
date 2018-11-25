@@ -29,6 +29,10 @@ body {
   color: white;
 }
 
+#list {
+  margin-left: 150px;
+}
+
 #new {
   background-color: purple;
 }
