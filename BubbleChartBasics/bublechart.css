@@ -4,6 +4,13 @@ h1 {
     text-align: center
  }
 
+ #mainTitle{
+    font-size: 20pt;
+    font-family: calibri, arial, sans serif;
+    text-align: left;
+    color: white
+ }
+
  body {
   background: rgb(19, 19, 24);   
  }
@@ -49,3 +56,55 @@ span.btn:hover {
     background-color: purple;
 }
 
+/* Dropdown Button */
+.dropbtn {
+    position: relative;
+    left: 120%;
+    background-color: rgba(128, 128, 128, 0.568);;
+    color: black;
+    padding: 0px;
+    font-family: calibri, sans serif;
+    font-size: 1em;
+    min-width: 70px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(128, 128, 128);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 120%;
+    background-color: grey;
+    min-width: 70px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    padding: 0px;
+    font-family: calibri, sans serif;
+    font-size: 0.8em;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}

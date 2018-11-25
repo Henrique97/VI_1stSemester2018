@@ -28,7 +28,8 @@
  * 
  * // example of chaining
  * chart.columnForColors("Sex").columnForRadius("BirthCount");
- * chart.customColors(["M","F"],["#70b7f0","#e76486"]).showTitleOnCircle(true);
+ * chart.
+ * (["M","F"],["#70b7f0","#e76486"]).showTitleOnCircle(true);
  * chart.title('Most popular baby names in 2016').columnForTitle("Name");
  * chart.unitName("babies");
  * 
@@ -46,10 +47,10 @@ function bubbleChart() {
 	minRadius = 10	,
 	maxRadius = 30,
 	//maxRadius = 80,
-	minscore = 82,
+	minscore = 82.7,
 	maxScore = 92,
 	//maxScore = 5700, //added
-	columnForColors = "country",
+	columnForColors = "continent",
 	columnForTitle = "country",
 	//columnForColors = "winery",
 	//columnForTitle = "winery",
@@ -109,7 +110,7 @@ function bubbleChart() {
 
 		var colorCircles;
 		if (!customColors) {
-			colorCircles = d3.scaleOrdinal(d3.schemeCategory20);
+			colorCircles = d3.scaleOrdinal(d3.schemeCategory20.slice(1,10));
 		} 
 		else {
 			colorCircles = d3.scaleOrdinal()
@@ -145,7 +146,7 @@ function bubbleChart() {
 			return colorCircles(d[columnForColors]);
 		})
 		.on("mouseover", function(d) {
-			tooltip.html(d[columnForTitle] + "<br/>" + d[columnForRadius] + " "+ unitName);
+			tooltip.html(d[columnForTitle] + "<br/>"+ d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
 			return tooltip.style("visibility", "visible");
 		})
 		.on("mouseout", function() {
@@ -177,7 +178,7 @@ function bubbleChart() {
 				return d[columnForRadius];
 			})
 			.on("mouseover", function(d) {
-				tooltip.html(d[columnForTitle] + "<br/>" + d[columnForRadius] + " "+ unitName);
+				tooltip.html(d[columnForTitle] + "<br/>" + d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
 				return tooltip.style("visibility", "visible");
 			})
 			.on("mouseout", function() {
