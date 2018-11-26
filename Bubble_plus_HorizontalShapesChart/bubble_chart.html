@@ -123,12 +123,12 @@
         document.getElementById("dropTitle").innerHTML = "Data v";
         document.getElementById("countriesb").style.background="rgba(128, 128, 128, 0.568)";
         document.getElementById("wineriesb").style.background="grey";
-        d3.csv('score_by_winery_top100.csv', function(error, data) {
+        d3.csv('score_by_winery_top100f.csv', function(error, data) {
             if (error) {
                 console.error('Error getting or parsing the data.');
                 throw error;
             }
-            chart.columnForColors("winery").columnForTitle("winery").
+            chart.columnForColors("continent").columnForTitle("winery").
             minRadius(10).maxRadius(20).minscore(94).maxScore(98).forceApart(5);
             //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
             d3.select('#the_chart2').datum(data).call(chart);
@@ -173,12 +173,12 @@
         else {
             document.getElementById("countriesb").style.background="rgba(128, 128, 128, 0.568)";
             document.getElementById("wineriesb").style.background="grey";
-            d3.csv('score_by_winery_top100.csv', function(error, data) {
+            d3.csv('score_by_winery_top100f.csv', function(error, data) {
                 if (error) {
                     console.error('Error getting or parsing the data.');
                     throw error;
                 }
-                chart.columnForColors("winery").columnForTitle("winery").
+                chart.columnForColors("continent").columnForTitle("winery").
                 minRadius(10).maxRadius(20).minscore(94).maxScore(98).forceApart(5);
                 //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
                 d3.select('#the_chart2').datum(data).call(chart);
@@ -206,12 +206,12 @@
         else {
             document.getElementById("countriesb").style.background="rgba(128, 128, 128, 0.568)";
             document.getElementById("wineriesb").style.background="grey";
-            d3.csv('score_by_winery_lt_20_top100.csv', function(error, data) {
+            d3.csv('score_by_winery_lt_20_top100f.csv', function(error, data) {
                 if (error) {
                     console.error('Error getting or parsing the data.');
                     throw error;
                 }
-                chart.columnForColors("winery").columnForTitle("winery").
+                chart.columnForColors("continent").columnForTitle("winery").
                 minRadius(10).maxRadius(20).minscore(93).maxScore(98).forceApart(5);
                 //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
                 d3.select('#the_chart2').datum(data).call(chart);
@@ -239,12 +239,12 @@
         else {
             document.getElementById("countriesb").style.background="rgba(128, 128, 128, 0.568)";
             document.getElementById("wineriesb").style.background="grey";
-            d3.csv('score_by_winery_top100.csv', function(error, data) {
+            d3.csv('score_by_winery_top100f.csv', function(error, data) {
                 if (error) {
                     console.error('Error getting or parsing the data.');
                     throw error;
                 }
-                chart.columnForColors("winery").columnForTitle("winery").
+                chart.columnForColors("continent").columnForTitle("winery").
                 minRadius(10).maxRadius(20).minscore(94).maxScore(98).forceApart(5);
                 //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
                 d3.select('#the_chart2').datum(data).call(chart);
