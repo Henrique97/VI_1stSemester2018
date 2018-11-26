@@ -130,8 +130,8 @@ function gen_graph() {
       var mouse = d3.mouse(this);
       tooltip.html(d.points + " points <br/>");
       return tooltip.style("visibility", "visible")
-                    .style("left", (mouse[0] +128) + "px")		
-                    .style("top", (mouse[1]+5) + "px");	
+                    .style("left", (mouse[0] +128) + 500 + "px")		
+                    .style("top", (mouse[1]+5) +300 + "px");	
     })
     .on("mouseout", function(d) {
       return tooltip.style("visibility", "hidden");});
@@ -317,8 +317,8 @@ function gen_graph() {
     var mouse = d3.mouse(this);
     tooltip.html(d.points + " points <br/>");
     return tooltip.style("visibility", "visible")
-                  .style("left", (mouse[0] +128) + "px")		
-                  .style("top", (mouse[1]+5) + "px");	
+                  .style("left", (mouse[0] +128) + 500 + "px")		
+                  .style("top", (mouse[1]+5) + 300 +  "px");	
   })
   .on("mouseout", function(d) {
     return tooltip.style("visibility", "hidden");});
