@@ -14,7 +14,7 @@ function gen_graph() {
     points.push(Number(k.points.trim()));
   } 
   var button_pre = -1;
-  categories = varieties;
+  categories = varieties.slice(0,9);
   var colors = ['#0094ff','#0d4bcf','#0066AE','#BD1E1E','#F5E2C8','#0CF574','#405F83','#FFE066','#4D7069','#6E9985','#7EBC89','#0283AF','#79BCBF','#99C19E'];
 
   var tooltip = d3.select("#the_chart")
@@ -32,6 +32,7 @@ function gen_graph() {
   var i;
   var var_objects = [];
   for (i=0; i < years.length; i++) {
+
     var temp = {category:varieties.indexOf(dataset2[i].variety.trim()), year:years[i], color:varieties.indexOf(dataset2[i].variety.trim()), points:points[i]};
     var_objects.push(temp);
   }
@@ -43,20 +44,6 @@ function gen_graph() {
     if(i>0){ return beginYear + (i/8)*18; }
     else if(i===0){ return "" + beginYear;}
   });
-  /*
-
-  var ul = d3.select('#list').append('ul');
-
-	ul.selectAll('li')
-	.data(categories)
-	.enter()
-	.append('li')
-  .html(String)
-  .append("input")
-  .attr("checked", true)
-  .attr("type", "checkbox")
-  .attr("id", function(d,i) { return 'a'+i; })
-  .attr("onClick", "change(this)"); */
 
   var buttonNames = [];
   var i;
@@ -72,7 +59,7 @@ function gen_graph() {
 
   var options = select
     .selectAll('option')
-    .data(categories).enter()
+    .data(varieties).enter()
     .append('option')
       .text(function (d) { return d; });
 
@@ -102,16 +89,18 @@ function gen_graph() {
     if (button_pre != -1) {
       categories[button_pre] = selectValue;}
 
-    console.log(var_updated);
+
     var_updated = [];
+
     // update data
     for (i=0; i < years.length; i++) {
-      if((categories.indexOf((dataset2[i].variety.trim()) > -1) && (beginYear <=Number(dataset2[i].year.trim()) && Number(dataset2[i].year.trim()) <= endYear))) {
-        var temp = {category:varieties.indexOf(dataset2[i].variety.trim()), year:years[i], color:varieties.indexOf(dataset2[i].variety.trim()), points:points[i]};
+      if((categories.indexOf((dataset2[i].variety.trim())) > -1) && (beginYear <=Number(dataset2[i].year.trim())) && (Number(dataset2[i].year.trim()) <= endYear)) {
+        console.log(dataset2[i].variety.trim());
+        var temp = {category:categories.indexOf(dataset2[i].variety.trim()), year:years[i], color:varieties.indexOf(dataset2[i].variety.trim()), points:points[i]};
         var_updated.push(temp);
       }
     }
-
+    //console.log(var_updated);
     var yscale = d3.scaleLinear()
         .domain([0,categories.length])
         .range([0,480]);
@@ -157,27 +146,6 @@ function gen_graph() {
     .attr('cy',function(d,i){ return yscale(d.category); } );
 
   };
-
-/*
-    var data = ["Option 1", "Option 2", "Option 3"];
-
-    var select = d3.select('#list')
-    .append('select')
-      .attr('class','select')
-      .on('change',onchange);
-
-    var options = select
-      .selectAll('option')
-    	.data(data).enter()
-    	.append('option')
-    		.text(function (d) { return d; });
-
-    function onchange() {
-    	selectValue = d3.select('select').property('value')
-    	d3.select('body')
-    		.append('p')
-    		.text(selectValue + ' is the last selected option.')
-    };*/
 
   var xscale = d3.scaleLinear()
           .domain([beginYear, endYear])
@@ -303,7 +271,7 @@ function gen_graph() {
   var_updated = [];
   var i;
   for (i=0; i<var_objects.length;i++) {
-    if (beginYear <=var_objects[i].year && var_objects[i].year <= endYear) var_updated.push(var_objects[i]);
+    if ((categories.indexOf((dataset2[i].variety.trim())) > -1) && beginYear <=var_objects[i].year && var_objects[i].year <= endYear) var_updated.push(var_objects[i]);
   }
 
   var tickVals = grid.map(function(d,i){
