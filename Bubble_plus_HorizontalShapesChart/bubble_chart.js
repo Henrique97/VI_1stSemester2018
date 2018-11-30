@@ -132,12 +132,15 @@ function bubbleChart() {
 		.data(data)
 		.enter()
 		.append("g")
+		.attr('id',function(d,i) {
+			return d[columnForTitle];
+		})
 		.attr('transform', 'translate(' + [width / 2, height / 2] + ')')
 		.style('opacity',1);
 			
 		node.append("circle")
 		.attr("id",function(d,i) {
-			return i;
+			return d[columnForTitle];
 		})
 		.attr('r', function(d) {
 			return scaleRadius(d[columnForRadius]);
@@ -147,21 +150,25 @@ function bubbleChart() {
 		})
 		.on("mouseover", function(d) {
 			tooltip.html(d[columnForTitle] + "<br/>"+ d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
+			//d3.select("#the_chart").style("visibility", "hidden");
+			d3.select("#the_chart").selectAll("circle").style("stroke","transparent");
+			d3.select("#the_chart").selectAll("#" + d[columnForTitle]).style("stroke","white");
 			return tooltip.style("visibility", "visible");
 		})
 		.on("click", function(d) {
 			console.log(d[columnForTitle] + "<br/>"+ d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
 		})
 		.on("mouseout", function() {
+			d3.select("#the_chart").selectAll("#" + d[columnForTitle]).style("stroke","transparent");
 			return tooltip.style("visibility", "hidden");
 		});
 		node.append("clipPath")
 		.attr("id",function(d,i) {
-			return "clip-"+i;
+			return d[columnForTitle];
 		})
 		.append("use")
 		.attr("xlink:href",function(d,i) {
-			return "#" + i;
+			return d[columnForTitle];
 		});
 		if (showTitleOnCircle) {
 			node.append("text")
