@@ -1,10 +1,8 @@
 Promise.all([
-    d3.csv("maxpoints_country_year_3 columns.csv"),
-]).then(function(files) {
-   createChart(files[0]);
-   createSlider
-}).catch(function(err) {
-    console.log("Error "+err);
+    d3.csv("maxpoints_country_year_3 columns.csv"),]).then(function(files) {
+       createChart(files[0]);
+       createSlider()}).catch(function(err) {
+        console.log("Error "+err);
 })
 
 function createChart(data) {
@@ -40,17 +38,6 @@ function createChart(data) {
           d.value = d.country;
           console.log(d.value);
          });
-
-        //console.log(data);
-
-ah espera, uma cena
-eu tenho um grafico com varios anos, e tambem tenho varios paises, o grafico o que faz é apresentar, por cada ano, por cada país, o score do melhor vinho (points)
-o problema é que se isto de repente der vai ter uns 40 paises diferentes
-mas nao sei limitar, eu ja fiz um dropdown que copiei de um tutorial
-
-sim, mas imagina, eu tenho o dropdown que diz la 2000, 2001, 2002,e eu carrego num ano desses
-depois como é que, no gráfico, ele só vai até aí?
-
 
         x.domain(d3.extent(data, function(d) { return d.year; }));
         y.domain([d3.min(data, function(d) { return d.value; }) / 1.005, d3.max(data, function(d) { return d.value; }) * 1.005]);
@@ -121,14 +108,10 @@ depois como é que, no gráfico, ele só vai até aí?
 }
 
 
+function createSlider() {
 
-que data é esta? a mesma, o .csv todo= a data do slider
-la em cima mas no .js?
-
-function createSlider(data) {
-
-      var sslider = d3.select("#slider")
-  .append("svg")
+var sslider = d3.select("#slider")
+  //.append("svg")
   .attr("width",width + margin.left + margin.right)
   .attr("height",40);
 
@@ -170,4 +153,5 @@ function createSlider(data) {
   .attr("class", "handle")
   .attr("r", 9);
 
+  console.log("oiiiiioioi")
 }
