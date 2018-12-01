@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Line Chart - best wine per country, per year</title>
+    <meta charset="utf-8" />
+	<script src="https://d3js.org/d3.v5.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.js"></script>s
+	<script type="text/javascript" src= "LineChartgraph.js"> </script>
+	<link rel="stylesheet" href="dropdownstyle.css">	
+	<link rel="stylesheet" href="LineChartstyle.css">	
+</head>
+<body>
+	<div class="dropdown">
+		<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+		<div id="myDropdown" class="dropdown-content">
+    		<a href="#">Link 1</a>
+    		<a href="#">Link 2</a>
+    		<a href="#">Link 3</a>
+  		</div>
+	</div> 
+
+<!--
+The line chart is best used with dropdown buttons to choose date ranges and fields that you want loaded. The fields button would ideally call chart.updateFromLocal(i), and the date ranges would call chart.updateFromDB(url)
+-->
+
+
+<script>
+	margin = {top: 30, right: 30, bottom: 100, left: 80}
+	width = 960
+	height = 540
+	url = 'maxpoints_country_year.csv'
+	div = 'div.container'
+	fields = ['year', 'country', 'points']
+
+	// load initial data
+	chart = createLineChart(margin, width, height, url, div, fields) 
+
+	// change field from y1 to yI
+	//chart.updateFromLocal(i)
+
+	//url = 'https://www.example.com/api2/'
+	// load new data from API
+	//chart.updateFromDB(url)
+</script> 
+
+<script>
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+</script>
+
+</body>
+</html>
