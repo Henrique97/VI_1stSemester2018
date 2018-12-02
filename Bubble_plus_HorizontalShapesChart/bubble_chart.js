@@ -159,7 +159,7 @@ function bubbleChart() {
 			console.log(d[columnForTitle] + "<br/>"+ d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
 		})
 		.on("mouseout", function() {
-			d3.select("#the_chart").selectAll("#" + d[columnForTitle]).style("stroke","transparent");
+			d3.select("#the_chart").selectAll("circle").style("stroke","transparent");
 			return tooltip.style("visibility", "hidden");
 		});
 		node.append("clipPath")
@@ -204,11 +204,6 @@ function bubbleChart() {
 			.attr("text-anchor", "middle")
 			.attr("font-size","1.8em")
 			.text(title);*/
-
-	var buttons = d3.select("#buttonsbubble");
-	buttons.selectAll(".btn").on("mouseover",function(d) {
-	})
-
 
 	}
 
