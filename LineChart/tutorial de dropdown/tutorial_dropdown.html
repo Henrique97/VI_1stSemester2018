@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tutorial dropdown</title>
+    <meta charset="utf-8" />
+	<script type="text/javascript" src= "graph.js"> </script>
+	<script src="https://d3js.org/d3.v5.js"></script>
+	<link rel="stylesheet" href="dropdownstyle.css">
+
+</head>
+<body>
+	<div class="dropdown">
+		<button onclick="myFunction1()" class="dropbtn">Dropdown</button>
+		<div id="myDropdown1" class="dropdown-content">
+    		<a href="#">2000</a>
+    		<a href="#">2001</a>
+    		<a href="#">2002</a>
+  		</div>
+	</div>
+
+  <div class="dropdown">
+    <button onclick="myFunction2()" class="dropbtn">Dropdown</button>
+    <div id="myDropdown2" class="dropdown-content">
+        <a href="#">2000</a>
+        <a href="#">2001</a>
+        <a href="#">2002</a>
+
+      </div>
+  </div>
+
+<script>
+    function myFunction1() {
+        document.getElementById("myDropdown1").classList.toggle("show");
+    }
+
+    function myFunction2() {
+        document.getElementById("myDropdown2").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+</script>
+
+</body>
