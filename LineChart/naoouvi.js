@@ -2,7 +2,7 @@
 Promise.all([
     d3.csv("maxpoints_country_year_3 columns.csv"),]).then(function(files) {
        createChart(files[0]);
-       createSlider()}).catch(function(err) {
+       //createSlider()}).catch(function(err) {
         console.log("Error "+err);
 })
 
@@ -40,13 +40,18 @@ function createChart(data) {
         data.forEach(function(d) {
 
           d.year = parseTime(d.year);
-          d.value = d.country;
+          d.value = +d.points;
+          //d.value = d3.parseInt(d.points);
+          console.log(d.value);
       });
 
 
         //x.domain(d3.extent(data, function(d) { return d.year; }));
         x.domain([0, d3.max(data, function(d) { return d.year; })]);
-        y.domain([d3.min(data, function(d) { return d.value; }) / 1.005, d3.max(data, function(d) { return d.value; }) * 1.005]);
+        y.domain(
+            [d3.min(data, function(d) { return d.value; }), 
+            d3.max(data, function(d) { return d.value; })]
+                );
 
         /*g.append("g")
             .attr("class", "axis axis--x")
@@ -66,7 +71,7 @@ function createChart(data) {
 
         g.append("g")
             .attr("class", "axis axis--y")
-            .call(d3.axisLeft(y).ticks(6).tickFormat(function(d) { return parseInt(d / 1000) + "k"; }))
+            .call(d3.axisLeft(y).ticks(20))//.tickFormat(function(d) { return parseInt(d / 1000); }))
           .append("text")
             .attr("class", "axis-title")
             .attr("transform", "rotate(-90)")
@@ -84,7 +89,7 @@ function createChart(data) {
         var focus = g.append("g")
             .attr("class", "focus")
             .style("display", "none");
-/*<!--
+
         focus.append("line")
             .attr("class", "x-hover-line hover-line")
             .attr("y1", 0)
@@ -96,7 +101,7 @@ function createChart(data) {
             .attr("x2", width);
         focus.append("circle")
             .attr("r", 7.5);
-*/
+
         focus.append("text")
             .attr("x", 15)
           	.attr("dy", ".31em");
