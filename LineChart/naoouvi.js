@@ -8,22 +8,16 @@ Promise.all([
 
 var margin = {top: 20, right: 20, bottom: 30, left: 40};
 
-var width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
-
 function createChart(data) {
-
-    //console.log(data);
 
     var svg = d3.select("svg"),
         width = +svg.attr("width") - margin.left - margin.right,
         height = +svg.attr("height") - margin.top - margin.bottom;
 
-    var parseTime = d3.timeParse("%Y")
+    var parseYear = d3.timeParse("%Y")
         bisectDate = d3.bisector(function(d) { return d.year; }).left;
 
     var x = d3.scaleTime().range([0, width]);
-
     var y = d3.scaleLinear().range([height, 0]);
 
     var line = d3.line()
@@ -33,35 +27,20 @@ function createChart(data) {
     var g = svg.append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    //var output = Object.keys(help[0]).map(function(key) {
-        //return {date: parseTime(key), arrivals: help[0][key]}; as arrivals tenho de mudar
-        //});     
-
         data.forEach(function(d) {
-
-          d.year = parseTime(d.year);
-          d.value = +d.points;
-          //d.value = d3.parseInt(d.points);
-          console.log(d.value);
+          d.year = parseYear(+d.year);
+          d.value = +d.points
+          d.country = d.country;
       });
 
 
         //x.domain(d3.extent(data, function(d) { return d.year; }));
         x.domain([0, d3.max(data, function(d) { return d.year; })]);
-        y.domain(
-            [d3.min(data, function(d) { return d.value; }), 
-            d3.max(data, function(d) { return d.value; })]
-                );
-
-        /*g.append("g")
-            .attr("class", "axis axis--x")
-            .style("text-anchor", "end")
-            .text("Years")            
-
-            .call(d3.axisBottom(x));*/
+        //.domain([d3.min(data, function(d) { return d.year; }), 1950]);
+        y.domain([80, d3.max(data, function(d) { return d.value; })]);
 
         g.append("g")
-            .call(d3.axisBottom(x).ticks(20))        
+            .call(d3.axisBottom(x).ticks(25))        
             .attr("class", "axis axis--x")
             .attr("transform", "translate(0," + height + ")")
             .append("text")
@@ -122,7 +101,7 @@ function createChart(data) {
               d1 = data[i],
               d = x0 - d0.year > d1.year - x0 ? d1 : d0;
           focus.attr("transform", "translate(" + x(d.year) + "," + y(d.value) + ")");
-          focus.select("text").text(function() { return d.value; });
+          focus.select("text").text(function() { return d.country; });
           focus.select(".x-hover-line").attr("y2", height - y(d.value));
           focus.select(".y-hover-line").attr("x2", width + width);
         }
