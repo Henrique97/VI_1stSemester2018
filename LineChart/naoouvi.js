@@ -1,3 +1,4 @@
+
 Promise.all([
     d3.csv("maxpoints_country_year_3 columns.csv"),]).then(function(files) {
        createChart(files[0]);
@@ -5,7 +6,7 @@ Promise.all([
         console.log("Error "+err);
 })
 
-var margin = {top: 20, right: 10, bottom: 20, left: 10};
+var margin = {top: 20, right: 20, bottom: 30, left: 40};
 
 var width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
@@ -15,7 +16,6 @@ function createChart(data) {
     //console.log(data);
 
     var svg = d3.select("svg"),
-        margin = {top: 20, right: 20, bottom: 30, left: 40},
         width = +svg.attr("width") - margin.left - margin.right,
         height = +svg.attr("height") - margin.top - margin.bottom;
 
@@ -40,19 +40,29 @@ function createChart(data) {
         data.forEach(function(d) {
 
           d.year = parseTime(d.year);
-          d.value = d.price;
-        console.log(data.year);
+          d.value = d.country;
       });
 
 
-        x.domain(d3.extent(data, function(d) { return d.year; }));
+        //x.domain(d3.extent(data, function(d) { return d.year; }));
+        x.domain([0, d3.max(data, function(d) { return d.year; })]);
         y.domain([d3.min(data, function(d) { return d.value; }) / 1.005, d3.max(data, function(d) { return d.value; }) * 1.005]);
 
-        g.append("g")
+        /*g.append("g")
             .attr("class", "axis axis--x")
+            .style("text-anchor", "end")
             .text("Years")            
+
+            .call(d3.axisBottom(x));*/
+
+        g.append("g")
+            .call(d3.axisBottom(x).ticks(20))        
+            .attr("class", "axis axis--x")
             .attr("transform", "translate(0," + height + ")")
-            .call(d3.axisBottom(x));
+            .append("text")
+            .style("text-anchor", "end")  //ainda nao da para por isto no fim por alguma razao
+            .attr("fill", "#5D6971")
+            .text("Years");            
 
         g.append("g")
             .attr("class", "axis axis--y")
@@ -114,7 +124,7 @@ function createChart(data) {
 }
 
 
-function createSlider() {
+/*function createSlider() {
 
 var sslider = d3.select("#slider")
   //.append("svg")
@@ -158,4 +168,4 @@ var sslider = d3.select("#slider")
   var handle = slider.insert("circle", ".track-overlay")
   .attr("class", "handle")
   .attr("r", 9);
-}
+}*/
