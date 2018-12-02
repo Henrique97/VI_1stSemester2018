@@ -5,9 +5,14 @@ Promise.all([
         console.log("Error "+err);
 })
 
+var margin = {top: 20, right: 10, bottom: 20, left: 10};
+
+var width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
 function createChart(data) {
 
-    console.log(data);
+    //console.log(data);
 
     var svg = d3.select("svg"),
         margin = {top: 20, right: 20, bottom: 30, left: 40},
@@ -35,15 +40,17 @@ function createChart(data) {
         data.forEach(function(d) {
 
           d.year = parseTime(d.year);
-          d.value = d.country;
-          console.log(d.value);
-         });
+          d.value = d.price;
+        console.log(data.year);
+      });
+
 
         x.domain(d3.extent(data, function(d) { return d.year; }));
         y.domain([d3.min(data, function(d) { return d.value; }) / 1.005, d3.max(data, function(d) { return d.value; }) * 1.005]);
 
         g.append("g")
             .attr("class", "axis axis--x")
+            .text("Years")            
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x));
 
@@ -57,7 +64,7 @@ function createChart(data) {
             .attr("dy", ".71em")
             .style("text-anchor", "end")
             .attr("fill", "#5D6971")
-            .text("Population)");
+            .text("Score");
 
         g.append("path")
             .datum(data)
@@ -67,7 +74,7 @@ function createChart(data) {
         var focus = g.append("g")
             .attr("class", "focus")
             .style("display", "none");
-
+/*<!--
         focus.append("line")
             .attr("class", "x-hover-line hover-line")
             .attr("y1", 0)
@@ -77,10 +84,9 @@ function createChart(data) {
             .attr("class", "y-hover-line hover-line")
             .attr("x1", width)
             .attr("x2", width);
-
         focus.append("circle")
             .attr("r", 7.5);
-
+*/
         focus.append("text")
             .attr("x", 15)
           	.attr("dy", ".31em");
@@ -152,6 +158,4 @@ var sslider = d3.select("#slider")
   var handle = slider.insert("circle", ".track-overlay")
   .attr("class", "handle")
   .attr("r", 9);
-
-  console.log("oiiiiioioi")
 }
