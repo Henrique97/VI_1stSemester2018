@@ -126,6 +126,7 @@ function gen_graph() {
     .data(var_updated)
     .enter()
     .append('circle')
+    .attr('id',function(d){return d.country;})
     .attr('cx', 0)
     .attr('cy',0)
     .attr('r',function(d){ return 0; })
