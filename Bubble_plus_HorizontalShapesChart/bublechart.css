@@ -15,8 +15,8 @@
     margin-top: 10px;
     width: 300px;
     position: absolute;
-    right: 20px;
-    top: 40px;
+    right: 0.5%;
+    top: 6.85%;
  }
 
  hr {
@@ -50,8 +50,8 @@ span.btn2:hover {
         zoom: 0.55;
         -moz-transform: scale(0.55);
         color:white;
-        bottom: 10px;
-        left: 770px;
+        bottom: -20%;
+        left: 16.1%;
         position: absolute;
         border: solid 0.5px grey;
         
