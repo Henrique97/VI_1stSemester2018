@@ -1,7 +1,11 @@
 
+var arrayaux = {};
+var arrayfinal = [];
+
 Promise.all([
     d3.csv("maxpoints_country_year_3 columns.csv"),]).then(function(files) {
        createChart(files[0]);
+       //nomeQQ(a, files[0]);
        //createSlider()}).catch(function(err) {
         console.log("Error "+err);
 })
@@ -14,33 +18,38 @@ function createChart(data) {
         width = +svg.attr("width") - margin.left - margin.right,
         height = +svg.attr("height") - margin.top - margin.bottom;
 
-    var parseYear = d3.timeParse("%Y")
+    var parseYear = d3.timeParse("%Y");
         bisectDate = d3.bisector(function(d) { return d.year; }).left;
 
     var x = d3.scaleTime().range([0, width]);
     var y = d3.scaleLinear().range([height, 0]);
 
+
     var line = d3.line()
-        .x(function(d) { return x(d.year); })
-        .y(function(d) { return y(d.value); });
+        .x(function(d) {return x(d.year); })
+        .y(function(d) {return y(d.points);});
 
     var g = svg.append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        data.forEach(function(d) {
-          d.year = parseYear(+d.year);
-          d.value = +d.points
-          d.country = d.country;
-      });
+    help = nomeQQ("Spain", data);
 
+    console.log("heeeeeeelp");
+    console.log(help[0]);
+
+    var output = Object.keys(help[0]).map(function(key) {
+         return {year: key, points: help[0][key]};
+      }); 
+
+    console.log(output);
 
         //x.domain(d3.extent(data, function(d) { return d.year; }));
-        x.domain([0, d3.max(data, function(d) { return d.year; })]);
-        //.domain([d3.min(data, function(d) { return d.year; }), 1950]);
-        y.domain([80, d3.max(data, function(d) { return d.value; })]);
+        x.domain([d3.min(output, function(d) { return d.year; }), d3.max(output, function(d) { return d.year; })]);
+        //x.domain([d3.min(data, function(d) { return d.year; }), 1950]);
+        y.domain([80, d3.max(output, function(d) { return d.points; })]);
 
         g.append("g")
-            .call(d3.axisBottom(x).ticks(25))        
+            .call(d3.axisBottom(x).ticks(20))        
             .attr("class", "axis axis--x")
             .attr("transform", "translate(0," + height + ")")
             .append("text")
@@ -51,7 +60,7 @@ function createChart(data) {
         g.append("g")
             .attr("class", "axis axis--y")
             .call(d3.axisLeft(y).ticks(20))//.tickFormat(function(d) { return parseInt(d / 1000); }))
-          .append("text")
+            .append("text")
             .attr("class", "axis-title")
             .attr("transform", "rotate(-90)")
             .attr("y", 6)
@@ -61,7 +70,7 @@ function createChart(data) {
             .text("Score");
 
         g.append("path")
-            .datum(data)
+            .data([output])
             .attr("class", "line")
             .attr("d", line);
 
@@ -96,15 +105,33 @@ function createChart(data) {
 
         function mousemove() {
           var x0 = x.invert(d3.mouse(this)[0]),
-              i = bisectDate(data, x0, 1),
-              d0 = data[i - 1],
-              d1 = data[i],
+              i = bisectDate(output, x0, 1),
+              d0 = output[i - 1],
+              d1 = output[i],
               d = x0 - d0.year > d1.year - x0 ? d1 : d0;
-          focus.attr("transform", "translate(" + x(d.year) + "," + y(d.value) + ")");
-          focus.select("text").text(function() { return d.country; });
-          focus.select(".x-hover-line").attr("y2", height - y(d.value));
+          console.log("mouseoverrrrrrrrrrrr d.country: " + d.country);
+          focus.attr("transform", "translate(" + x(d.year) + "," + y(d.points) + ")");
+          focus.select("text").text(function() { return d.points; });
+          focus.select(".x-hover-line").attr("y2", height - y(d.points));
           focus.select(".y-hover-line").attr("x2", width + width);
         }
+}
+
+
+
+function nomeQQ(nomepais, data) {
+
+  for (var b in data) {
+    if (data[b].country == nomepais) {
+      console.log("entrei no novo if " + data[b].country + " " + data[b].year + " " + data[b].points);
+      arrayaux[data[b].year] = data[b].points;
+    }
+  }
+
+  arrayfinal = [arrayaux];
+
+  return arrayfinal;    
+
 }
 
 
