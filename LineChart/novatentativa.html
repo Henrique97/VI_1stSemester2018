@@ -45,9 +45,32 @@ body {
 
 </style>
 <body>
-	<svg width="1000" height="550"></svg>
+	<svg width="1000" height="400"></svg>
 
 	<div id="slider"></div>
+
+  <div id = "dropdownyears">
+    <select id="qqstuff" onclick="myFunction()">
+  <option value="2010">2010</option>
+  <option value="2011">2011</option>
+  <option value="2012">2012</option>
+  <option value="" selected disabled hidden>Choose here</option>
+  <option value="2013">2013</option>
+
+</select>
+
+<script>
+
+</script>
+
+<script>
+  function myFunction(argument) {
+    var e = document.getElementById("qqstuff");
+    var strUser = e.options[e.selectedIndex].value;
+    console.log(strUser);
+  }
+</script>
+  </div>
 
 </body>
 </html>

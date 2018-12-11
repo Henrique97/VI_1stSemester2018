@@ -5,7 +5,6 @@ var arrayfinal = [];
 Promise.all([
     d3.csv("maxpoints_country_year_3 columns.csv"),]).then(function(files) {
        createChart(files[0]);
-       //nomeQQ(a, files[0]);
        //createSlider()}).catch(function(err) {
         console.log("Error "+err);
 })
@@ -32,10 +31,7 @@ function createChart(data) {
     var g = svg.append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    help = nomeQQ("Spain", data);
-
-    console.log("heeeeeeelp");
-    console.log(help[0]);
+    help = nomeQQ("US", data);
 
     var output = Object.keys(help[0]).map(function(key) {
          return {year: key, points: help[0][key]};
