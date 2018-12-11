@@ -1,15 +1,22 @@
 <html>
+
+<style>
+body {
+  background: rgb(19, 19, 24);
+  }
+
+</style>
 <body>
 <svg id='viz'></svg>
 </body>
 
 <script src='https://d3js.org/d3.v5.min.js'></script>
 <script>
-var width = 1000;
+var width = 1500;
 var height = 800;
 var color = d3.scaleOrdinal(d3.schemeSet2);
 
-d3.json("node-link-value.json").then(function(graph) {
+d3.json("node-link-value-old.json").then(function(graph) {
 
 var label = {
     'nodes': [],
@@ -30,7 +37,7 @@ var labelLayout = d3.forceSimulation(label.nodes)
     .force("link", d3.forceLink(label.links).distance(0).strength(2));
 
 var graphLayout = d3.forceSimulation(graph.nodes)
-    .force("charge", d3.forceManyBody().strength(-3000))
+    .force("charge", d3.forceManyBody().strength(-5000))
     .force("center", d3.forceCenter(width / 2, height / 2))
     .force("x", d3.forceX(width / 2).strength(1))
     .force("y", d3.forceY(height / 2).strength(1))
@@ -63,7 +70,13 @@ var link = container.append("g").attr("class", "links")
     .data(graph.links)
     .enter()
     .append("line")
-    .attr("stroke", "#aaa")
+    .attr("stroke",function(d) {
+        if (d.value <= 84) return "#E50012";
+        if (d.value <= 88) return "#DB5E00";
+        if (d.value <= 92) return "#D2C500";
+        if (d.value <= 96) return "#6DC800";
+        else return "#07BF00";
+        })
     .attr("stroke-width", "2px");
 
 var node = container.append("g").attr("class", "nodes")
@@ -72,6 +85,8 @@ var node = container.append("g").attr("class", "nodes")
     .enter()
     .append("circle")
     .attr("r", 7)
+    .style("stroke-width", 2)
+    .style("stroke", "#ffffcc")
     .attr("fill", function(d) { return color(d.group); })
 
 node.on("mouseover", focus).on("mouseout", unfocus);
@@ -90,10 +105,12 @@ var labelNode = container.append("g").attr("class", "labelNodes")
     .enter()
     .append("text")
     .text(function(d, i) { return i % 2 == 0 ? "" : d.node.id; })
-    .style("fill", "black")
+    .style("fill", "white")
     .style("font-family", "Arial")
     .style("font-size", 13)
     .style("font-weight","600")
+    .style("stroke-width", 0.5)
+    .style("stroke", "black")
     .style("pointer-events", "none"); // to prevent mouseover/drag capture
 
 node.on("mouseover", focus).on("mouseout", unfocus);
@@ -156,13 +173,20 @@ function showLinkValue(d) {
     console.log(d);
     var index = d3.select(d3.event.target).datum().index;
     var sel = d3.select(d3.event.target).datum();
-    link.style("stroke",  function(o) { return o.source.index == sel.source.index && o.target.index == sel.target.index ? "yellow" : "#aaa"; } )
-        .style("opacity", function(o) { return o.source.index == sel.source.index && o.target.index == sel.target.index ? 1 : 0.1; });
+    console.log(sel.value);
+    link.style("opacity", function(o) { return o.source.index == sel.source.index && o.target.index == sel.target.index ? 1 : 0.1; });
 }
 
 function hideLinkValue() {
     link.style("opacity", 1);
-    link.style("stroke", "#aaa");
+//    link.style("stroke", "#aaa");
+    link.style("stroke",function(d) {
+        if (d.value <= 84) return "#E50012";
+        if (d.value <= 88) return "#DB5E00";
+        if (d.value <= 92) return "#D2C500";
+        if (d.value <= 96) return "#6DC800";
+        else return "#07BF00";
+        });
 
 }
 
