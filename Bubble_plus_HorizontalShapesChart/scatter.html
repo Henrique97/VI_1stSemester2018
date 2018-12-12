@@ -71,18 +71,22 @@
 
 // bring in the data, and do everything that is data-driven
 d3.csv("Portugal.csv", function(data) {
-
+	data.forEach(function(d) {
+			d.priceInt = parseInt(d.price);
+			d.pointsInt = parseInt(d.points);
+        });
 	// sort data alphabetically by region, so that the colors match with legend
 	data.sort(function(a, b) { return d3.ascending(a.region, b.region); })
-	console.log(data)
+	
+	//console.log(data)
 
-    var x0 = Math.max(d3.min(data, function(d) { return d.price;}));
-    var xmax = Math.max(d3.max(data, function(d) { return d.price; }));
-    console.log(xmax)
-    var y0 = Math.max(d3.min(data, function(d) { return d.points; }));
-    var ymax = Math.max(d3.max(data, function(d) { return d.points; }));
-	x.domain([0, 200]);
-	y.domain([80, 100])
+    var x0 = Math.max(d3.min(data, function(d) { return d.priceInt;}));
+    var xmax = Math.max(d3.max(data, function(d) { 
+		return d.priceInt; }));
+    var y0 = Math.max(d3.min(data, function(d) { return d.pointsInt-2; }));
+    var ymax = Math.max(d3.max(data, function(d) { return d.pointsInt+2; }));
+	x.domain([x0, xmax]);
+	y.domain([y0, ymax])
 
 	// style the circles, set their locations based on data
 	var circles =
@@ -162,11 +166,11 @@ d3.csv("Portugal.csv", function(data) {
 	};
 
 	// run the mouseon/out functions
-/*	circles.on("mouseover", mouseOn);
+	circles.on("mouseover", mouseOn);
 	circles.on("mouseout", mouseOff);
 
 	// tooltips (using jQuery plugin tipsy)
-	circles.append("title")
+/*	circles.append("title")
 			.text(function(d) { return d.points; })
 
 	$(".circles").tipsy({ gravity: 's', });
