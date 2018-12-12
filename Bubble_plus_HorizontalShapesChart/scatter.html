@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Trust and Business</title>
-    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="http://d3js.org/d3.v4.min.js"></script>
   <script src="http://code.jquery.com/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="jquery.tipsy.js" type="text/javascript" charset="utf-8"></script>
 	<link rel="stylesheet" href="http://onehackoranother.com/projects/jquery/tipsy/stylesheets/tipsy.css" type="text/css" title="no title" charset="utf-8"/>
@@ -38,29 +38,21 @@
 	var margin = {t:30, r:20, b:20, l:40 },
 		w = 600 - margin.l - margin.r,
 		h = 500 - margin.t - margin.b,
-		x = d3.scale.linear().range([0, w+100]),
-		y = d3.scale.linear().range([h - 60, 0]),
+		x = d3.scaleLinear().range([0, w+100]),
+		y = d3.scaleLinear().range([h - 60, 0]),
 		//colors that will reflect geographical regions
-		color = d3.scale.category10();
+		color = d3.scaleOrdinal(d3.schemeCategory10);
 
 	var svg = d3.select("#chart").append("svg")
 		.attr("width", w + margin.l + margin.r)
 		.attr("height", h + margin.t + margin.b);
 
 	// set axes, as well as details on their ticks
-	var xAxis = d3.svg.axis()
-		.scale(x)
-		.ticks(20)
-		.tickSubdivide(true)
-		.tickSize(6, 3, 0)
-		.orient("bottom");
+	var xAxis = d3.axisBottom(x)
+		.ticks(20);
 
-	var yAxis = d3.svg.axis()
-		.scale(y)
-		.ticks(20)
-		.tickSubdivide(true)
-		.tickSize(6, 3, 0)
-		.orient("left");
+	var yAxis = d3.axisLeft(y)
+		.ticks(20);
 
 	// group that will contain all of the plots
 	var groups = svg.append("g").attr("transform", "translate(" + margin.l + "," + margin.t + ")");
@@ -70,7 +62,7 @@
 
 
 // bring in the data, and do everything that is data-driven
-d3.csv("Portugal.csv", function(data) {
+d3.csv("US.csv", function(data) {
 	data.forEach(function(d) {
 			d.priceInt = parseInt(d.price);
 			d.pointsInt = parseInt(d.points);
@@ -84,28 +76,28 @@ d3.csv("Portugal.csv", function(data) {
     var xmax = Math.max(d3.max(data, function(d) { 
 		return d.priceInt; }));
     var y0 = Math.max(d3.min(data, function(d) { return d.pointsInt-2; }));
-    var ymax = Math.max(d3.max(data, function(d) { return d.pointsInt+2; }));
-	x.domain([x0, xmax]);
-	y.domain([y0, ymax])
+	var ymax = Math.max(d3.max(data, function(d) { return d.pointsInt+2; }));
+	x.domain([0, xmax]);
+	y.domain([y0, ymax]);
 
 	// style the circles, set their locations based on data
 	var circles =
 	groups.selectAll("circle")
-		.data(data)
-	  .enter().append("circle")
-	  .attr("class", "circles")
-	  .attr({
-	    cx: function(d) { return x(+d.price); },
-	    cy: function(d) { return y(+d.points); },
-	    r: 8,
-	    id: function(d) { return d.country; }
-	  })
-		.style("fill", function(d) { return color(d.region); });
+		.data(data);
+	circles.enter().append("circle")
+	.attr("class", "circles")
+	.attr("cx", function(d) { 
+			return x(d.price); })
+	.attr("cy", function(d) { 
+			return y(d.points); })
+	.attr("r", 8)
+	.attr("id",function(d) { return d.country; })
+	.style("fill", function(d) { return color(d.region); });
 
 	// what to do when we mouse over a bubble
 	var mouseOn = function() { 
 		var circle = d3.select(this);
-
+		console.log("wpw");
 	// transition to increase size/opacity of bubble
 		circle.transition()
 		.duration(800).style("opacity", 1)
