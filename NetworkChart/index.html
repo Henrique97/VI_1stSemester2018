@@ -16,7 +16,7 @@ var width = 1500;
 var height = 800;
 var color = d3.scaleOrdinal(d3.schemeSet2);
 
-d3.json("node-link-value-old.json").then(function(graph) {
+d3.json("node-link-value.json").then(function(graph) {
 
 var label = {
     'nodes': [],
@@ -37,7 +37,7 @@ var labelLayout = d3.forceSimulation(label.nodes)
     .force("link", d3.forceLink(label.links).distance(0).strength(2));
 
 var graphLayout = d3.forceSimulation(graph.nodes)
-    .force("charge", d3.forceManyBody().strength(-5000))
+    .force("charge", d3.forceManyBody().strength(-6000))
     .force("center", d3.forceCenter(width / 2, height / 2))
     .force("x", d3.forceX(width / 2).strength(1))
     .force("y", d3.forceY(height / 2).strength(1))
@@ -173,7 +173,7 @@ function showLinkValue(d) {
     console.log(d);
     var index = d3.select(d3.event.target).datum().index;
     var sel = d3.select(d3.event.target).datum();
-    console.log(sel.value);
+    var mouse = d3.mouse(this);
     link.style("opacity", function(o) { return o.source.index == sel.source.index && o.target.index == sel.target.index ? 1 : 0.1; });
 }
 
