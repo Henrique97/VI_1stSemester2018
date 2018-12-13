@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta charset="utf-8">
 <html>
   <head>
     <title>Trust and Business</title>
@@ -10,13 +11,13 @@
 	.axis path,
 	.axis line {
 	  fill: none;
-	  stroke: #000;
+	  stroke: white;
 	  shape-rendering: crispEdges;
 	  opacity: 1;
 	}
 
 	.axis text { font-size:10px; }
-
+	
 	body { font: 12px sans-serif; }
 	.circles { opacity: .5; }
 
@@ -24,35 +25,39 @@
 
 	.guide line {
 	  fill: none;
-	  stroke: #000;
+	  stroke: white;
 	  shape-rendering: crispEdges;
 	  opacity: 0;
+	}
+	
+	#scatterplot {
+		background-color: rgb(19, 19, 24);
 	}
 </style>
 </head>
 <body>
-<div id="chart">
+<div id="scatterplot">
 
 <script type="text/javascript">
 	// set the stage
-	var margin = {t:30, r:20, b:20, l:40 },
-		w = 600 - margin.l - margin.r,
-		h = 500 - margin.t - margin.b,
+	var margin = {t:00, r:50, b:0, l:40 },
+		w = 300 - margin.l - margin.r,
+		h = 300 - margin.t - margin.b,
 		x = d3.scaleLinear().range([0, w+100]),
 		y = d3.scaleLinear().range([h - 60, 0]),
 		//colors that will reflect geographical regions
 		color = d3.scaleOrdinal(d3.schemeCategory10);
 
-	var svg = d3.select("#chart").append("svg")
+	var svg = d3.select("#scatterplot").append("svg")
 		.attr("width", w + margin.l + margin.r)
 		.attr("height", h + margin.t + margin.b);
 
 	// set axes, as well as details on their ticks
 	var xAxis = d3.axisBottom(x)
-		.ticks(20);
+		.ticks(10);
 
 	var yAxis = d3.axisLeft(y)
-		.ticks(20);
+		.ticks(10);
 
 	// group that will contain all of the plots
 	var groups = svg.append("g").attr("transform", "translate(" + margin.l + "," + margin.t + ")");
@@ -75,8 +80,8 @@ d3.csv("US.csv", function(data) {
     var x0 = Math.max(d3.min(data, function(d) { return d.priceInt;}));
     var xmax = Math.max(d3.max(data, function(d) { 
 		return d.priceInt; }));
-    var y0 = Math.max(d3.min(data, function(d) { return d.pointsInt-2; }));
-	var ymax = Math.max(d3.max(data, function(d) { return d.pointsInt+2; }));
+    var y0 = Math.max(d3.min(data, function(d) { return d.pointsInt-0.5; }));
+	var ymax = Math.max(d3.max(data, function(d) { return d.pointsInt+0.5; }));
 	x.domain([0, xmax]);
 	y.domain([y0, ymax]);
 
@@ -90,12 +95,13 @@ d3.csv("US.csv", function(data) {
 			return x(d.price); })
 	.attr("cy", function(d) { 
 			return y(d.points); })
-	.attr("r", 8)
+	.attr("r", 4)
 	.attr("id",function(d) { return d.country; })
 	.style("fill", function(d) { return color(d.region); });
 
 	// what to do when we mouse over a bubble
 	var mouseOn = function() { 
+		console.log("wpw");
 		var circle = d3.select(this);
 		console.log("wpw");
 	// transition to increase size/opacity of bubble
@@ -194,11 +200,13 @@ d3.csv("US.csv", function(data) {
 	// draw axes and axis labels
 	svg.append("g")
 		.attr("class", "x axis")
+		.attr("stroke", "white")
 		.attr("transform", "translate(" + margin.l + "," + (h - 60 + margin.t) + ")")
-		.call(xAxis);
+		.call(xAxis)
 
 	svg.append("g")
 		.attr("class", "y axis")
+		.attr("stroke", "white")
 		.attr("transform", "translate(" + margin.l + "," + margin.t + ")")
 		.call(yAxis);
 
@@ -206,8 +214,9 @@ d3.csv("US.csv", function(data) {
 		.attr("class", "x label")
 		.attr("text-anchor", "end")
 		.attr("x", w + 50)
-		.attr("y", h - margin.t - 5)
-		.text("price");
+		.attr("y", h - 30)
+		.text("price")
+		.attr("stroke","white");
 
 	svg.append("text")
 		.attr("class", "y label")
@@ -216,7 +225,8 @@ d3.csv("US.csv", function(data) {
 		.attr("y", 45)
 		.attr("dy", ".75em")
 		.attr("transform", "rotate(-90)")
-		.text("score");
+		.text("score")
+		.attr("stroke","white");
 	});
 
 </script>
