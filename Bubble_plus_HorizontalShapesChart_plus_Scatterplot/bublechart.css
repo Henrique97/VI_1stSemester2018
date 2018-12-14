@@ -16,7 +16,7 @@
     width: 300px;
     position: absolute;
     right: 20px;
-    top: 40px;
+    top: 5.5%;
  }
 
  hr {
@@ -122,18 +122,18 @@ span.btn2:hover {
 .undone{
     border: solid 0.5px grey;   
     position:absolute;
-    top: 70px;
+    top: 9.6%;
 }
 
 #undone1{
     width: 527px;
-    height: 210px;
+    height: 45%;
     left: 423px;
 }
 
 #undone2{
     width: 405px;
-    height: 533px;
+    height: 88.8%;
 }
 
 #undone3{
