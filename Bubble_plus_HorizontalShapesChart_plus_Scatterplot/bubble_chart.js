@@ -91,6 +91,8 @@ function bubbleChart() {
 		.style("text-align", "center")
 		.style("font-family", "monospace")
 		.style("width", "300px")
+		.style("padding-top", "7px")
+		.style("padding-bottom", "7px")
 		.text("");
 
 
@@ -151,12 +153,33 @@ function bubbleChart() {
 		.on("mouseover", function(d) {
 			tooltip.html(d[columnForTitle] + "<br/>"+ d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
 			//d3.select("#the_chart").style("visibility", "hidden");
+			//scatterChange(d[columnForTitle].concat(".csv"));
 			d3.select("#the_chart").selectAll("circle").style("stroke","transparent");
 			d3.select("#the_chart").selectAll("#" + d[columnForTitle]).style("stroke","white");
 			return tooltip.style("visibility", "visible");
 		})
 		.on("click", function(d) {
-			console.log(d[columnForTitle] + "<br/>"+ d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
+			//console.log(d[columnForTitle] + "<br/>"+ d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
+			clearBox2();
+			var nametoCSV=d[columnForTitle].replace(/\s/g, '');
+			console.log(nametoCSV.substring(0,2))
+			if (nametoCSV.substring(0,2) == 'US') {
+			//	console.log("US");
+				scatterChange("US.csv");	
+			}
+			else if (nametoCSV.substring(0,4) == 'NewZ') {
+				//	console.log("US");
+					scatterChange("New .csv");	
+			}
+			else if (nametoCSV.substring(0,4) === 'Aust' || nametoCSV.substring(0,4) === 'Slov') {
+			//	console.log("Aust");
+				scatterChange(nametoCSV.substring(0,6).concat(".csv"));	
+			}
+			else {
+			//	console.log("no");
+			//	console.log(nametoCSV.substring(0,4).concat(".csv"));
+				scatterChange(nametoCSV.substring(0,4).concat(".csv"));
+			}
 		})
 		.on("mouseout", function() {
 			d3.select("#the_chart").selectAll("circle").style("stroke","transparent");
@@ -193,6 +216,22 @@ function bubbleChart() {
 			})
 			.on("click", function(d) {
 				console.log(d[columnForTitle] + "<br/>"+ d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
+				clearBox2();
+			var nametoCSV=d[columnForTitle].replace(/\s/g, '');
+			console.log(nametoCSV.substring(0,2))
+			if (nametoCSV.substring(0,2) == 'US') {
+			//	console.log("US");
+				scatterChange("US.csv");	
+			}
+			else if (nametoCSV.substring(0,4) === 'Aust' || nametoCSV.substring(0,4) === 'Slov') {
+			//	console.log("Aust");
+				scatterChange(nametoCSV.substring(0,6).concat(".csv"));	
+			}
+			else {
+			//	console.log("no");
+			//	console.log(nametoCSV.substring(0,4).concat(".csv"));
+				scatterChange(nametoCSV.substring(0,4).concat(".csv"));
+			}
 			})
 			.on("mouseout", function() {
 				return tooltip.style("visibility", "hidden");

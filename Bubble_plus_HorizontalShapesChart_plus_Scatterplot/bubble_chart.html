@@ -29,8 +29,8 @@
 		background-color: rgb(19, 19, 24);
         position: absolute;
         right: 18px;
-        bottom: 1%;
-        width: 301px;
+        top: 61%;
+        width: 300px;
         height: 270px;
         border: solid 0.5px grey;
         border-radius: 5px;
@@ -80,12 +80,13 @@
 
 <link rel="stylesheet" href="bublechart.css">
 <link rel="stylesheet" href="wines.css">
-<link rel="stylesheet" href="bar_chart.css">
+<link rel="stylesheet" href="w3.css">
+<!--<link rel="stylesheet" href="bar_chart.css">-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.0.0/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.6.0/d3.min.js"></script>
 <script src="http://code.jquery.com/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="jquery.tipsy.js" type="text/javascript" charset="utf-8"></script>
-<link rel="stylesheet" href="http://onehackoranother.com/projects/jquery/tipsy/stylesheets/tipsy.css" type="text/css" title="no title" charset="utf-8"/>
+<link rel="stylesheet" href="tipsy.css" type="text/css" title="no title" charset="utf-8"/>~
 <script src="wines.js"></script>
 <script src="bubble_chart.js"></script>
 <script>
@@ -150,10 +151,25 @@
     <div id="scatterplot">
 
         <script type="text/javascript">
+        
+        // bring in the data, and do everything that is data-driven
+        d3.csv("US.csv", function(data) {
+            scatter(data);
+        });
+
+        function scatterChange(name) {
+            d3.csv( name, function(data) {
+                console.log(data);
+				scatter(data);});
+        }
+            
+            
+        function scatter(data) {  
+
             // set the stage
-            var margin = {t:10, r:50, b:10, l:40 },
+            var margin = {t:10, r:110, b:-20, l:40 },
                 w = 300 - margin.l - margin.r,
-                h = 300 - margin.t - margin.b,
+                h = 270 - margin.t - margin.b,
                 x = d3.scaleLinear().range([0, w+100]),
                 y = d3.scaleLinear().range([h - 60, 0]),
                 //colors that will reflect geographical regions
@@ -162,10 +178,11 @@
             var svg = d3.select("#scatterplot").append("svg")
                 .attr("width", w + margin.l + margin.r)
                 .attr("height", h + margin.t + margin.b)
+                .attr("class","w3-animate-fading");
                 
             // set axes, as well as details on their ticks
             var xAxis = d3.axisBottom(x)
-                .ticks(10);
+                .ticks(5);
         
             var yAxis = d3.axisLeft(y)
                 .ticks(10);
@@ -175,10 +192,7 @@
         
             // array of the regions, used for the legend
             var regions = ["Asia", "Europe", "Middle East", "N. America", "S. America", "Sub-Saharan Africa"]
-        
-        
-        // bring in the data, and do everything that is data-driven
-        d3.csv("US.csv", function(data) {
+
             data.forEach(function(d) {
                     d.priceInt = parseInt(d.price);
                     d.pointsInt = parseInt(d.points);
@@ -190,7 +204,7 @@
         
             var x0 = Math.max(d3.min(data, function(d) { return d.priceInt;}));
             var xmax = Math.max(d3.max(data, function(d) { 
-                return d.priceInt; }));
+                return d.priceInt+10; }));
             var y0 = Math.max(d3.min(data, function(d) { return d.pointsInt-0.5; }));
             var ymax = Math.max(d3.max(data, function(d) { return d.pointsInt+0.5; }));
             x.domain([0, xmax]);
@@ -324,7 +338,7 @@
             svg.append("text")
                 .attr("class", "x label")
                 .attr("text-anchor", "end")
-                .attr("x", w + 50)
+                .attr("x", w + 130)
                 .attr("y", h - 20)
                 .text("price")
                 .attr("stroke","white");
@@ -338,7 +352,7 @@
                 .attr("transform", "rotate(-90)")
                 .text("score")
                 .attr("stroke","white");
-            });
+            }
         
         </script>
         
@@ -350,6 +364,10 @@
         function clearBox()
         {  
             d3.selectAll("#the_chart2").select("svg").remove();
+        }
+        function clearBox2()
+        {  
+            d3.selectAll("#scatterplot").select("svg").remove();
         }
 </script>
 

@@ -25,7 +25,7 @@ for index, row in df2.iterrows():
             countrycomp=row['country']
             counter=0
             name=df.iloc[0:1,0:1].values[0][0]
-            df.to_csv('{}.{}'.format(name, 'csv'))
+            df.to_csv('{}.{}'.format(name.strip(), 'csv'))
             df=pd.DataFrame(columns=df2.columns)
             df=df.append(row)
             counter+=1
