@@ -148,7 +148,7 @@
     <div id="second_chart"></div>
 
     <div id ="network_viz_wrapper"><svg id='network_viz'></svg></div>
-    <div id="hor_bar_wrapper"></div>
+   <div id="hor_bar_wrapper"></div>
     <div id="scatterplot">
 
         <script type="text/javascript">
@@ -588,8 +588,9 @@ function hor_bar_func(country_arg) {
             var canvas = d3.select('#hor_bar_wrapper')
                             .append('svg')
                             .attr("id", "hor_bar_svg")
-                            .attr('width',800)
-                            .attr('height',400);
+                            .attr('width',1000)
+                            .attr('height',510)
+                            .attr("transform", "translate(70,0)");
     
     
             var	xAxis =  d3.axisBottom()
@@ -612,11 +613,11 @@ function hor_bar_func(country_arg) {
                               .style("font-size", "20px") ;
     
             var x_xis = canvas.append('g')
-                              .attr("transform", "translate(150,370)")
+                              .attr("transform", "translate(150,482)")
                               .attr('id','xaxis_hor')
                               .call(xAxis)
                               .attr("fill", 'white')
-                              .style("font-size", "18px") ;
+                              .style("font-size", "17px") ;
     
             var chart = canvas.append('g')
                               .attr("transform", "translate(150,10)")

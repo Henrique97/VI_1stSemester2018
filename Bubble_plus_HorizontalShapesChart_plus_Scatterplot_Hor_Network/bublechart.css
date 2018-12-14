@@ -50,7 +50,7 @@ span.btn2:hover {
         zoom: 0.55;
         -moz-transform: scale(0.55);
         color:white;
-        bottom: -100px;
+        bottom: -125px;
         left: 270px;
         position: absolute;
         border: solid 0.5px grey;
@@ -69,14 +69,14 @@ span.btn2:hover {
 }
 
 #hor_bar_wrapper {
-    zoom: 0.55;
-    -moz-transform: scale(0.55);
+    zoom: 0.45;
+    -moz-transform: scale(0.45);
     color:white;
-    bottom: 253px;
-    left: 246px;
+    bottom: 193px;
+    left: 156px;
     position: absolute;
     border: solid 0.5px grey !important;
-    
+
 }
  
 
