@@ -50,13 +50,8 @@ span.btn2:hover {
         zoom: 0.55;
         -moz-transform: scale(0.55);
         color:white;
-<<<<<<< HEAD
         bottom: -100px;
         left: 270px;
-=======
-        top: 55%;
-        left: 770px;
->>>>>>> 2cccb5112d107379a0766f2437ac374bbd05f18c
         position: absolute;
         border: solid 0.5px grey;
         
