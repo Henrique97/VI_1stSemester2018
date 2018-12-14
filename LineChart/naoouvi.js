@@ -1,17 +1,68 @@
 
 var arrayaux = {};
 var arrayfinal = [];
+var selected_country = "France";
+
+var country_list = ["Argentina", "Armenia", "Australia", "Austria", "Bosnia an", "Brazil", "Bulgaria", "Canada", "Chile", "China", "Croatia", "Cyprus",
+"Czech Rep", "Egypt", "England", "France", "Georgia", "Germany", "Greece", "Hungary", "India", "Israel", "Italy", "Lebanon", "Luxembour", "Macedonia",
+"Mexico", "Moldova", "Morocco", "New Zeala", "Peru", "Portugal", "Romania", "Serbia", "Slovakia", "Slovenia", "South Afr", "Spain", "Switzerla", "Turkey",
+"Ukraine", "Uruguay", "US"];
+
+
+//CRIAR COUNTRY LIST
+/*d3.csv("countrylistexcel.csv", function(d) {
+  //justaHelp(d);
+  country_list = d;
+});
+
+
+var country_list = d3.csvParseRows("countrylistexcel.csv", function(data, i) {
+  return {country: data[0]};
+}); 
+
+  
+  console.log("hehehehehe " + country_list.length);
+function justaHelp(data) {
+  for (var a in data) {
+    console.log("bubububububu " + a);
+    country_list.push(a);
+  }
+}
+
+
+//console.log("buuuuuuuuuu " + country_list);
+
+*/
+var dropmenu = d3.select("dropdownyears")
+     .attr("style","display:inline")
+            .append("select")
+            .attr("id", "qqstuff")
+            .attr("multiple","multiple")
+            .attr("size",country_list.length)
+            .attr("width",100)
+
+for(var c in country_list){
+    dropmenu.append("option").attr("value",country_list[c]).text(country_list[c]);
+}
+
+dropmenu.on('click',function(d){
+        var selector = document.getElementById('qqstuff');
+        var value = selector[selector.selectedIndex].value;
+        console.log(value);
+        });
 
 Promise.all([
     d3.csv("maxpoints_country_year_3 columns.csv"),]).then(function(files) {
-       createChart(files[0]);
+       //createChart(files[0], selected_country, );
+       createChart(files[0], selected_country);
        //createSlider()}).catch(function(err) {
         console.log("Error "+err);
 })
 
 var margin = {top: 20, right: 20, bottom: 30, left: 40};
 
-function createChart(data) {
+//function createChart(data, country, fromYear, toYear) {
+function createChart(data, country) {
 
     var svg = d3.select("svg"),
         width = +svg.attr("width") - margin.left - margin.right,
@@ -31,17 +82,16 @@ function createChart(data) {
     var g = svg.append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    help = nomeQQ("US", data);
+    helper = filter_data_by_country(country, data);
 
-    var output = Object.keys(help[0]).map(function(key) {
-         return {year: key, points: help[0][key]};
+    var output = Object.keys(helper[0]).map(function(key) {
+         return {year: key, points: helper[0][key]};
       }); 
 
-    console.log(output);
+    console.log("outputttttt " + output);
 
-        //x.domain(d3.extent(data, function(d) { return d.year; }));
+        //x.domain(fromYear, toYear);
         x.domain([d3.min(output, function(d) { return d.year; }), d3.max(output, function(d) { return d.year; })]);
-        //x.domain([d3.min(data, function(d) { return d.year; }), 1950]);
         y.domain([80, d3.max(output, function(d) { return d.points; })]);
 
         g.append("g")
@@ -105,7 +155,7 @@ function createChart(data) {
               d0 = output[i - 1],
               d1 = output[i],
               d = x0 - d0.year > d1.year - x0 ? d1 : d0;
-          console.log("mouseoverrrrrrrrrrrr d.country: " + d.country);
+          console.log("mouseover!!!! d.country: " + d.country);
           focus.attr("transform", "translate(" + x(d.year) + "," + y(d.points) + ")");
           focus.select("text").text(function() { return d.points; });
           focus.select(".x-hover-line").attr("y2", height - y(d.points));
@@ -114,12 +164,11 @@ function createChart(data) {
 }
 
 
-
-function nomeQQ(nomepais, data) {
+function filter_data_by_country(nomepais, data) {
 
   for (var b in data) {
     if (data[b].country == nomepais) {
-      console.log("entrei no novo if " + data[b].country + " " + data[b].year + " " + data[b].points);
+      //console.log("entrei no novo if " + data[b].country + " " + data[b].year + " " + data[b].points);
       arrayaux[data[b].year] = data[b].points;
     }
   }
@@ -131,48 +180,5 @@ function nomeQQ(nomepais, data) {
 }
 
 
-/*function createSlider() {
+//x.domain([d3.min(output, function(d) { return d.year; }), d3.max(output, function(d) { return d.year; })]);
 
-var sslider = d3.select("#slider")
-  //.append("svg")
-  .attr("width",width + margin.left + margin.right)
-  .attr("height",40);
-
-  var x = d3.scaleLinear()
-  .domain([1900, 2018])
-  .range([0, width])
-  .clamp(true);
-
-  var slider = sslider.append("g")
-  .attr("class", "slider")
-  .attr("transform", "translate(" + margin.left + "," + 40 / 2 + ")");
-
-  slider.append("line")
-  .attr("class", "track")
-  .attr("x1", x.range()[0])
-  .attr("x2", x.range()[1])
-  .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
-  .attr("class", "track-inset")
-  .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
-  .attr("class", "track-overlay")
-  .call(d3.drag()
-      .on("start.interrupt", function() { slider.interrupt(); })
-      .on("start drag", function() { hue(Math.round(x.invert(d3.event.x)))}));
-
-  slider.insert("g", ".track-overlay")
-  .attr("class", "ticks")
-  .attr("transform", "translate(0," + 18 + ")")
-  .selectAll("text")
-  .data(x.ticks(10))
-  .enter().append("text")
-  .attr("x", x)
-  .attr("text-anchor", "middle")
-  .style("font-size","15px")
-  .style('stroke-width', '2px')
-  .text(function(d) { return d; })
-  .attr("fill", "white");
-
-  var handle = slider.insert("circle", ".track-overlay")
-  .attr("class", "handle")
-  .attr("r", 9);
-}*/
