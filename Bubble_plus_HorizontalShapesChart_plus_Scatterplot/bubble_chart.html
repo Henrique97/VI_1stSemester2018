@@ -178,7 +178,7 @@
             var svg = d3.select("#scatterplot").append("svg")
                 .attr("width", w + margin.l + margin.r)
                 .attr("height", h + margin.t + margin.b)
-                .attr("class","w3-animate-fading");
+                .attr("class","w3-animate-opacity");
                 
             // set axes, as well as details on their ticks
             var xAxis = d3.axisBottom(x)
