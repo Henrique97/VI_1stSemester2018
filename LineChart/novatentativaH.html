@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+	<script src="https://d3js.org/d3.v5.js"></script>
+	<script src="naoouviH.js"> </script>
+</head>
+<style>
+body {
+  background-color: #F1F3F3    
+}
+.axis {
+	font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none; 
+  stroke: #6F257F;
+  stroke-width: 2px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: #F1F3F3;
+  stroke: #6F257F;
+  stroke-width: 5px;
+}
+
+.hover-line {
+  stroke: #6F257F;
+  stroke-width: 2px;
+  stroke-dasharray: 3,3;
+}
+
+</style>
+<body>
+	<svg width="1000" height="400"></svg>
+
+  <div id = "dropdownyears">
+   <select id="qqstuff"  onchange="changeSelectedCountry()">
+    <option value="" selected disabled hidden>Countries</option>
+  </select>
+
+  </div>
+
+  <div id = "dropdownyears">
+    <select id="qqstuff2"  onchange="changeSelectedCountry2()">
+     <option value="" selected disabled hidden>Countries</option>
+   </select>
+ 
+   </div>
+<!--
+<div id = "fromyeardiv">
+ <select id="qqstufffrom"  onchange="changeSelectedCountry()">
+  <option value="" selected disabled hidden>Start year</option>
+</select>
+
+</div>  
+
+<div id = "toyeardiv">
+ <select id="qqstuffto"  onchange="changeSelectedCountry()">
+  <option value="" selected disabled hidden>End year</option>
+</select>
+-->
+</div>  
+
+
+<script>
+
+  var e = document.getElementById("qqstuff");
+
+  for (var i = country_list.length - 1; i >= 0; i--) {
+
+    var opcao = document.createElement("option");
+    opcao.text = country_list[i];
+    opcao.value = country_list[i];
+    e.appendChild(opcao);
+  }
+
+  var e = document.getElementById("qqstuff2");
+
+  for (var i = country_list.length - 1; i >= 0; i--) {
+
+    var opcao = document.createElement("option");
+    opcao.text = country_list[i];
+    opcao.value = country_list[i];
+    e.appendChild(opcao);
+  }
+
+  function changeSelectedCountry(argument) {
+
+    var e = document.getElementById("qqstuff");
+    var newselected = e.options[e.selectedIndex].value;
+    selected_country = newselected;
+
+    startDoingThings(mycsv);
+
+  }
+
+  function changeSelectedCountry2(argument) {
+
+  var e = document.getElementById("qqstuff2");
+  var newselected = e.options[e.selectedIndex].value;
+  selected_country2 = newselected;
+
+  startDoingThings(mycsv);
+
+  }
+  
+  
+
+</script>
+
+<!-- <script>
+  function changeSelectedFromYear(argument) {
+    var e = document.getElementById("qqstufffrom");
+    var newselected = e.options[e.selectedIndex].value;
+
+    fromYear = newselected;
+    console.log(fromYear);
+  }
+</script>
+
+<script>
+  function changeSelectedToYear(argument) {
+    var e = document.getElementById("qqstuffto");
+    var newselected = e.options[e.selectedIndex].value;
+
+    selected_country = newselected;
+    console.log(selected_country);
+  }
+</script> -->
+
+</body>
+</html>
