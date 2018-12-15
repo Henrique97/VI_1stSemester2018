@@ -538,10 +538,9 @@
 
 
 
-<script src='https://d3js.org/d3.v5.min.js'></script>
 <script>
     function hor_bar_func(country_arg) {
-            d3.csv("top5_taster_country_points.csv").then(function(data_hb) {
+            d3.csv("top5_taster_country_points.csv",function(data_hb) {
                 var country = country_arg;
                 var i;
                 var tasters = [''];
@@ -682,7 +681,7 @@
     var height = 400;
     var color = d3.scaleOrdinal(d3.schemeSet2);
 
-    d3.json("node-link-value.json").then(function(graph) {
+    d3.json("node-link-value.json",function(graph) {
 
     var label = {
         'nodes': [],
@@ -906,4 +905,3 @@
 
         hor_bar_func('France');
 </script>
-<script src='https://d3js.org/d3.v4.min.js'></script>
