@@ -100,7 +100,8 @@ function bubbleChart() {
 
 		var colorCircles;
 		if (!customColors) {
-			colorCircles = d3.scaleOrdinal(d3.schemeCategory20c.slice(13,20));
+			colorCircles = d3.scaleOrdinal(d3.schemeSet3);
+			console.log("ola");
 		} 
 		else {
 			colorCircles = d3.scaleOrdinal()
