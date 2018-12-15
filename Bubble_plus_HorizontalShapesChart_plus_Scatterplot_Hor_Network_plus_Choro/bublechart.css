@@ -39,13 +39,12 @@ span.btn2:hover {
 }
 
 .btnChangeCountries {
-    width: 100px;
     font-family: calibri, sans serif;
     font-size: 1em;
     color: black;
     background: rgba(128, 128, 128, 0.568);
-    padding-left: 0.1em;
-    padding-right: 0.1em;
+    width: 30%;
+    text-align: center;
 }
 
 span.btnChangeCountries:hover {

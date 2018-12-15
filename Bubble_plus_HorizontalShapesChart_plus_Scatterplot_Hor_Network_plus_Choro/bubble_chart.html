@@ -162,7 +162,43 @@
     .details{
       color: white;
     }
-  </style>
+</style>
+
+<style>
+
+    #Country1 {
+        left: 0%;
+        position: absolute;
+    }
+
+    #Country2 {
+        right: 0%;
+        position: absolute;
+    }
+
+    #pngs1 {
+        left: 0%;
+        position: absolute;
+        text-align: center;
+    }
+
+    #pngs2 {
+        right: 0%;
+        position: absolute;
+        text-align: center;
+    }
+
+    .imagesC {
+        width: 30%;
+        height: 40%;
+        margin-top: 6%;
+    }
+    
+    h5 {
+        margin: 0%;
+    }
+
+</style>
 
 <link rel="stylesheet" href="bublechart.css">
 <link rel="stylesheet" href="wines.css">
@@ -210,10 +246,16 @@
     <hr>
 
     <div class="undone", id="undone2">
-            <span class="btnChangeCountries", id="Country1">Change Country</span>
-            <span class="btnChangeCountries", id="Country2">Change Country</span>
-            <h2 id="png1">No country</h2>
-            <h2 id="png2">No country</h2>
+            <span class="btnChangeCountries", id="Country1">Select Country</span>
+            <span class="btnChangeCountries", id="Country2">Select Country</span>
+        <div id= "pngs1" class="imagesC">
+            <h5 id="png1">Portugal</h5>
+            <img src="PRT.png" id="pngc1">
+        </div>
+        <div id= "pngs2" class="imagesC">   
+            <h5 id="png2">US</h5>
+            <img src="USA.png" id="pngc2">
+        </div>
     </div>
     <div class="undone", id="undone3">
     </div>
@@ -1097,8 +1139,10 @@
             document.getElementById("undone2").style.visibility = "visible";
             if(countryToSelect==0) {
                 document.getElementById("png1").innerHTML = d.properties.name;
+                document.getElementById("pngc1").src=""+d.id+".png";
             }
             else {
+                document.getElementById("pngc2").src=""+d.id+".png";
                 document.getElementById("png2").innerHTML = d.properties.name;
             }
           })
