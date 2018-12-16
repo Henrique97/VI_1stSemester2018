@@ -45,7 +45,7 @@ body {
 
 </style>
 <body>
-	<svg width="1000" height="400"></svg>
+	<svg width="300" height="200" id="linechart"></svg>
 
   <div id = "dropdownyears">
    <select id="qqstuff"  onchange="changeSelectedCountry()">
@@ -113,9 +113,8 @@ body {
   var e = document.getElementById("qqstuff2");
   var newselected = e.options[e.selectedIndex].value;
   selected_country2 = newselected;
-
+  document.getElementById("linechart").innerHTML="";
   startDoingThings(mycsv);
-
   }
   
   

@@ -44,7 +44,7 @@ function justaHelp(data) {
 
 startDoingThings(mycsv, selected_country, fromYear, toYear);
 
-function startDoingThings(mycsv, pais, fromYear, toYear) {
+function startDoingThings(mycsv/*, pais, fromYear, toYear*/) {
     d3.select("svg").selectAll("*").remove();
 
     Promise.all([
@@ -52,7 +52,6 @@ function startDoingThings(mycsv, pais, fromYear, toYear) {
     ]).then(function(files) {
         createChart(files[0], selected_country, selected_country2, fromYear, toYear);
         //createChart(files[0], pais);
-        console.log("Error " + err);
     })
 
 }
@@ -71,23 +70,40 @@ function createChart(data, country, country2, fromYear, toYear) {
 
     var x = d3.scaleTime().range([0, width]);
     var y = d3.scaleLinear().range([height, 0]);
-
-
+    
     var line = d3.line()
         .x(function(d) {
-            return x(d.year);
+            if(d.year>=x.domain()[0].getFullYear())
+            {
+                return x(parseYear(d.year));
+            }
+            return parseYear(x.domain()[0].getFullYear());
         })
         .y(function(d) {
-            return y(d.points);
+            if(d.year>=x.domain()[0].getFullYear())
+            {
+                return y(d.points);
+            }
+            return 0;
         });
 
     var line2 = d3.line()
         .x(function(d) {
-            return x(d.year);
+            if(d.year>=x.domain()[0].getFullYear())
+            {
+                return x(parseYear(d.year));
+            }
+            console.log(x.domain()[0].getFullYear())
+            return parseYear(x.domain()[0].getFullYear());
         })
         .y(function(d) {
-            return y(d.points);
+            if(d.year>=x.domain()[0].getFullYear())
+            {
+                return y(d.points);
+            }
+            return 0;
         });
+
 
     var g = svg.append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -100,7 +116,7 @@ function createChart(data, country, country2, fromYear, toYear) {
             points: helper[0][key]
         };
     });
-
+    
     helper = filter_data_by_country(country2, data);
 
     var output2 = Object.keys(helper[0]).map(function(key) {
@@ -116,28 +132,38 @@ function createChart(data, country, country2, fromYear, toYear) {
 
     //x.domain(fromYear, toYear);
 /*    */
-    x.domain([d3.min(output, function(d) {
-        return d.year;
-    }), d3.max(output, function(d) {
-        return d.year;
-    })]);    
+    x.domain([d3.max([d3.min(output, function(d) {
+        return parseYear(d.year);
+    }),d3.min(output2, function(d) {
+        return parseYear(d.year);
+    })]), d3.min([d3.max(output2, function(d) {
+        return parseYear(d.year);
+    }),d3.max(output, function(d) {
+        return parseYear(d.year);
+    })])]);
 
-    y.domain([80, d3.max(output, function(d) {
-        return d.points;
-    })]);
+
+
+    y.domain([80, 100]);
+
+    console.log(x.domain());
 
     g.append("g")
-        .call(d3.axisBottom(x).ticks(20))
+        .call(d3.axisBottom(x).ticks(5))
         .attr("class", "axis axis--x")
         .attr("transform", "translate(0," + height + ")")
         .append("text")
         .style("text-anchor", "end")
         .attr("fill", "#5D6971")
-        .text("Years");
+        .text("Years")
+        .attr("x","220px")
+        .attr("y","-10px");
+    
+    console.log("ok")
 
     g.append("g")
         .attr("class", "axis axis--y")
-        .call(d3.axisLeft(y).ticks(20)) //.tickFormat(function(d) { return parseInt(d / 1000); }))
+        .call(d3.axisLeft(y).ticks(5)) //.tickFormat(function(d) { return parseInt(d / 1000); }))
         .append("text")
         .attr("class", "axis-title")
         .attr("transform", "rotate(-90)")
@@ -146,19 +172,39 @@ function createChart(data, country, country2, fromYear, toYear) {
         .style("text-anchor", "end")
         .attr("fill", "#5D6971")
         .text("Score");
+    
+    newoutput=[];
+    output.forEach(function(d){
+            if(d.year>=x.domain()[0].getFullYear())
+            {
+                newoutput.push(d);
+            }
+        });
+    console.log(output);
+    console.log(newoutput);
 
     g.append("path")
-        .data([output])
+        .data([newoutput])
         .attr("class", "line")
         .style("stroke","blue")
         .attr("d", line);
 
+    newoutput=[]
+    output2.forEach(function(d){
+        if(d.year>=x.domain()[0].getFullYear())
+        {
+            newoutput.push(d);
+        }
+    });
+    console.log(output2);
+    console.log(newoutput);
+
     g.append("path")
-        .data([output2])
+        .data([newoutput])
         .attr("class", "line")
         .style("stroke", "red")
-        .attr("d", line);
-
+        .attr("d", line2);
+    
     var focus = g.append("g")
         .attr("class", "focus")
         .style("display", "none");
@@ -184,13 +230,13 @@ function createChart(data, country, country2, fromYear, toYear) {
         .attr("class", "overlay")
         .attr("width", width)
         .attr("height", height)
-        .on("mouseover", function() {
+        /*.on("mouseover", function() {
             focus.style("display", null);
         })
         .on("mouseout", function() {
             focus.style("display", "none");
         })
-        .on("mousemove", mousemove);
+        .on("mousemove", mousemove)*/;
 
     function mousemove() {
         var x0 = x.invert(d3.mouse(this)[0]),
@@ -210,7 +256,7 @@ function createChart(data, country, country2, fromYear, toYear) {
 
 
 function filter_data_by_country(nomepais, data) {
-
+    arrayaux = {};
     for (var b in data) {
         if (data[b].country == nomepais) {
             //console.log("entrei no novo if " + data[b].country + " " + data[b].year + " " + data[b].points);
