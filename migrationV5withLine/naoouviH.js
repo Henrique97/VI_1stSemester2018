@@ -212,6 +212,7 @@ function createChart(data, country, country2, fromYear, toYear) {
         .attr("x", 15)
         .attr("dy", ".31em");
 
+/*
     svg.append("rect")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
         .attr("class", "overlay")
@@ -223,7 +224,7 @@ function createChart(data, country, country2, fromYear, toYear) {
         .on("mouseout", function() {
             focus.style("display", "none");
         })
-        .on("mousemove", mousemove)*/;
+        .on("mousemove", mousemove);*/
 
     function mousemove() {
         var x0 = x.invert(d3.mouse(this)[0]),

@@ -64,7 +64,7 @@ span.btnChangeCountries:hover {
         zoom: 0.55;
         -moz-transform: scale(0.55);
         color:white;
-        bottom: 0%;
+        bottom: 1%;
         left: 32.5%;
         position: absolute;
         border: solid 0.5px grey;
@@ -75,7 +75,7 @@ span.btnChangeCountries:hover {
     zoom: 0.55;
     -moz-transform: scale(0.55);
     color:white;
-    top: 9.8%;
+    top: 12%;
     left: 32.6%;
     position: absolute;
     border: solid 0.5px grey;
@@ -86,8 +86,8 @@ span.btnChangeCountries:hover {
     zoom: 0.45;
     -moz-transform: scale(0.45);
     color:white;
-    bottom: 193px;
-    left: 156px;
+    bottom: 1%;
+    left: 0.5%;
     position: absolute;
     border: solid 0.5px grey !important;
 
@@ -169,7 +169,7 @@ span.btnChangeCountries:hover {
 
 #undone2{
     width: 405px;
-    height: 88.8%;
+    height: 55.8%;
     left: 0.5%;
 }
 

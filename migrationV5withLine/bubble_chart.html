@@ -192,6 +192,7 @@
     }
 
     .imagesC {
+        zoom: 1.3;
         width: 30%;
         height: 40%;
         margin-top: 6%;
@@ -203,7 +204,10 @@
 
     #linechart {
         top: 30%;
+        margin-left: 1%;
         position: absolute;
+        /*border: solid 0.5px grey;
+        border-radius: 5px;*/
     }
 
 </style>
@@ -258,12 +262,12 @@
             <span class="btnChangeCountries", id="Country1">Select Country</span>
             <span class="btnChangeCountries", id="Country2">Select Country</span>
         <div id= "pngs1" class="imagesC">
-            <h5 id="png1">Portugal</h5>
             <img src="PRT.png" id="pngc1">
+            <h5 id="png1">Portugal</h5>
         </div>
         <div id= "pngs2" class="imagesC">   
-            <h5 id="png2">US</h5>
             <img src="USA.png" id="pngc2">
+            <h5 id="png2">US</h5>
         </div>
     </div>
     <div class="undone", id="undone3">
@@ -294,8 +298,8 @@
 
     <div id ="network_viz_wrapper"><svg id='network_viz'></svg></div>
     <div id="hor_bar_wrapper"></div>
-    <svg width="300" height="200" id="linechart"></svg>
-    <div id = "dropdownyears">
+    <svg width="390" height="200" id="linechart"></svg>
+    <!--<div id = "dropdownyears">
         <select id="qqstuff"  onchange="changeSelectedCountry()">
             <option value="" selected disabled hidden>Countries</option>
         </select>
@@ -307,6 +311,7 @@
         </select>
  
     </div>
+    -->
 
     <div id="scatterplot">
 
@@ -714,9 +719,9 @@
                 var canvas = d3.select('#hor_bar_wrapper')
                                 .append('svg')
                                 .attr("id", "hor_bar_svg")
-                                .attr('width',1000)
-                                .attr('height',510)
-                                .attr("transform", "translate(70,0)");
+                                .attr('width',"900px")
+                                .attr('height',"500PX")
+                                .attr("transform", "translate(10,0)");
             
             
                 var	xAxis =  d3.axisBottom()
@@ -736,7 +741,8 @@
                                   .attr('id','yaxis_hor')
                                   .call(yAxis)
                                   .attr("fill", 'white')
-                                  .style("font-size", "20px") ;
+                                  .style("font-size", "15px")
+                                  .style("stroke","white");
             
                 var x_xis = canvas.append('g')
                                   .attr("transform", "translate(150,482)")
@@ -804,8 +810,8 @@
                                 
             });
         }
-    var width = 1400;
-    var height = 400;
+    var width = 960;
+    var height = 500;
     var color = d3.scaleOrdinal(d3.schemeSet2);
 
     d3.json("node-link-value.json").then(function(graph) {
@@ -975,7 +981,6 @@
     }
 
     function showLinkValue(d) {
-        console.log(d);
         var index = d3.select(d3.event.target).datum().index;
         var sel = d3.select(d3.event.target).datum();
         var mouse = d3.mouse(this);
@@ -1098,9 +1103,11 @@
     var data = files[0];
     var population = files[1];
     const populationById = {};
+    const matchById = {};
       population.forEach(d => { populationById[d.id] = +d.population; });
+      population.forEach(d => { matchById[d.id] = d.name;});
       data.features.forEach(d => { d.population = populationById[d.id] });
-    
+      data.features.forEach(d => { d.match = matchById[d.id];});
       svg.append('g')
         .attr('class', 'countries')
         .selectAll('path')
@@ -1119,7 +1126,6 @@
               .style('stroke-width', 3);
           })
           .on('click',function(d){ 
-            console.log(d.properties.name);
             d3.select("#divMain").style("visibility", "hidden");
             document.getElementById("the_bubblechart").style.visibility = "visible";
 		    document.getElementById("second_chart").style.visibility = "visible";
@@ -1128,13 +1134,17 @@
 		    document.getElementById("scatterplot").style.visibility = "visible";
 		    document.getElementById("c1").style.visibility = "visible";
             document.getElementById("undone2").style.visibility = "visible";
+            document.getElementById("linechart").style.visibility = "visible";
+            d3.select("select").style("visibility", "visible");
             if(countryToSelect==0) {
                 document.getElementById("png1").innerHTML = d.properties.name;
                 document.getElementById("pngc1").src=""+d.id+".png";
+                changeSelectedCountry(d.match.replace(/\s/g, ''));
             }
             else {
                 document.getElementById("pngc2").src=""+d.id+".png";
                 document.getElementById("png2").innerHTML = d.properties.name;
+                changeSelectedCountry2(d.match.replace(/\s/g, ''));
             }
           })
           .on('mouseout', function(d){
@@ -1222,7 +1232,9 @@
 		document.getElementById("network_viz_wrapper").style.visibility = "hidden";
 		document.getElementById("scatterplot").style.visibility = "hidden";
 		document.getElementById("c1").style.visibility = "hidden";
-		document.getElementById("undone2").style.visibility = "hidden";
+        document.getElementById("undone2").style.visibility = "hidden";
+        document.getElementById("linechart").style.visibility = "hidden";
+        d3.select("select").style("visibility", "hidden");
         document.getElementById("divMain").style.visibility = "visible";
         countryToSelect = 0;
     });
@@ -1234,14 +1246,16 @@
 		document.getElementById("network_viz_wrapper").style.visibility = "hidden";
 		document.getElementById("scatterplot").style.visibility = "hidden";
 		document.getElementById("c1").style.visibility = "hidden";
-		document.getElementById("undone2").style.visibility = "hidden";
+        document.getElementById("undone2").style.visibility = "hidden";
+        document.getElementById("linechart").style.visibility = "hidden";
+        d3.select("select").style("visibility", "hidden");
         document.getElementById("divMain").style.visibility = "visible";
         countryToSelect = 1;
     });
     </script>
 <style>
 .axis {
-	font: 10px sans-serif;
+    font: 10px sans-serif;
 }
 
 .axis path,
@@ -1278,6 +1292,7 @@
 </style>
 <script src="naoouviH.js"> </script>
 <script>
+    /*
 
     var e = document.getElementById("qqstuff");
   
@@ -1298,24 +1313,21 @@
       opcao.value = country_list[i];
       e.appendChild(opcao);
     }
-  
+  */
     function changeSelectedCountry(argument) {
-  
-      var e = document.getElementById("qqstuff");
-      var newselected = e.options[e.selectedIndex].value;
-      selected_country = newselected;
-  
-      startDoingThings(mycsv);
+        console.log(argument);
+        var newselected = argument;
+        selected_country = newselected;
+        document.getElementById("linechart").innerHTML="";
+        startDoingThings(mycsv);
   
     }
   
     function changeSelectedCountry2(argument) {
-  
-    var e = document.getElementById("qqstuff2");
-    var newselected = e.options[e.selectedIndex].value;
-    selected_country2 = newselected;
-    document.getElementById("linechart").innerHTML="";
-    startDoingThings(mycsv);
+        var newselected = argument;
+        selected_country2 = newselected;
+        document.getElementById("linechart").innerHTML="";
+        startDoingThings(mycsv);
     }
     
   </script>
