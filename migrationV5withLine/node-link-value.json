@@ -1,0 +1,1230 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "group": 0.0,
+      "id": "Argentina"
+    },
+    {
+      "group": 0.0,
+      "id": "Armenia"
+    },
+    {
+      "group": 0.0,
+      "id": "Australia"
+    },
+    {
+      "group": 0.0,
+      "id": "Austria"
+    },
+    {
+      "group": 0.0,
+      "id": "Bosnia an"
+    },
+    {
+      "group": 0.0,
+      "id": "Brazil"
+    },
+    {
+      "group": 0.0,
+      "id": "Bulgaria"
+    },
+    {
+      "group": 0.0,
+      "id": "Canada"
+    },
+    {
+      "group": 0.0,
+      "id": "Chile"
+    },
+    {
+      "group": 0.0,
+      "id": "China"
+    },
+    {
+      "group": 0.0,
+      "id": "Croatia"
+    },
+    {
+      "group": 0.0,
+      "id": "Cyprus"
+    },
+    {
+      "group": 0.0,
+      "id": "Czech Rep"
+    },
+    {
+      "group": 0.0,
+      "id": "Egypt"
+    },
+    {
+      "group": 0.0,
+      "id": "England"
+    },
+    {
+      "group": 0.0,
+      "id": "France"
+    },
+    {
+      "group": 0.0,
+      "id": "Georgia"
+    },
+    {
+      "group": 0.0,
+      "id": "Germany"
+    },
+    {
+      "group": 0.0,
+      "id": "Greece"
+    },
+    {
+      "group": 0.0,
+      "id": "Hungary"
+    },
+    {
+      "group": 0.0,
+      "id": "India"
+    },
+    {
+      "group": 0.0,
+      "id": "Israel"
+    },
+    {
+      "group": 0.0,
+      "id": "Italy"
+    },
+    {
+      "group": 0.0,
+      "id": "Lebanon"
+    },
+    {
+      "group": 0.0,
+      "id": "Luxembour"
+    },
+    {
+      "group": 0.0,
+      "id": "Macedonia"
+    },
+    {
+      "group": 0.0,
+      "id": "Mexico"
+    },
+    {
+      "group": 0.0,
+      "id": "Moldova"
+    },
+    {
+      "group": 0.0,
+      "id": "Morocco"
+    },
+    {
+      "group": 0.0,
+      "id": "New Zeala"
+    },
+    {
+      "group": 0.0,
+      "id": "Peru"
+    },
+    {
+      "group": 0.0,
+      "id": "Portugal"
+    },
+    {
+      "group": 0.0,
+      "id": "Romania"
+    },
+    {
+      "group": 0.0,
+      "id": "Serbia"
+    },
+    {
+      "group": 0.0,
+      "id": "Slovakia"
+    },
+    {
+      "group": 0.0,
+      "id": "Slovenia"
+    },
+    {
+      "group": 0.0,
+      "id": "South Afr"
+    },
+    {
+      "group": 0.0,
+      "id": "Spain"
+    },
+    {
+      "group": 0.0,
+      "id": "Switzerla"
+    },
+    {
+      "group": 0.0,
+      "id": "Turkey"
+    },
+    {
+      "group": 0.0,
+      "id": "Ukraine"
+    },
+    {
+      "group": 0.0,
+      "id": "Uruguay"
+    },
+    {
+      "group": 0.0,
+      "id": "US"
+    },
+    {
+      "group": 1.0,
+      "id": "Alexander Peartree"
+    },
+    {
+      "group": 1.0,
+      "id": "Anna Lee C. Iijima"
+    },
+    {
+      "group": 1.0,
+      "id": "Anne Krebiehl\u00a0MW"
+    },
+    {
+      "group": 1.0,
+      "id": "Carrie Dykes"
+    },
+    {
+      "group": 1.0,
+      "id": "Christina Pickard"
+    },
+    {
+      "group": 1.0,
+      "id": "Fiona Adams"
+    },
+    {
+      "group": 1.0,
+      "id": "Jeff Jenssen"
+    },
+    {
+      "group": 1.0,
+      "id": "Jim Gordon"
+    },
+    {
+      "group": 1.0,
+      "id": "Joe Czerwinski"
+    },
+    {
+      "group": 1.0,
+      "id": "Kerin O\u2019Keefe"
+    },
+    {
+      "group": 1.0,
+      "id": "Lauren Buzzeo"
+    },
+    {
+      "group": 1.0,
+      "id": "Matt Kettmann"
+    },
+    {
+      "group": 1.0,
+      "id": "Michael Schachner"
+    },
+    {
+      "group": 1.0,
+      "id": "Mike DeSimone"
+    },
+    {
+      "group": 1.0,
+      "id": "Paul Gregutt"
+    },
+    {
+      "group": 1.0,
+      "id": "Roger Voss"
+    },
+    {
+      "group": 1.0,
+      "id": "Sean P. Sullivan"
+    },
+    {
+      "group": 1.0,
+      "id": "Susan Kostrzewa"
+    },
+    {
+      "group": 1.0,
+      "id": "Virginie Boone"
+    },
+    {
+      "group": 2.0,
+      "id": "Kendall-Jackson"
+    },
+    {
+      "group": 2.0,
+      "id": "V. Sattui"
+    },
+    {
+      "group": 2.0,
+      "id": "Williams Selyem"
+    },
+    {
+      "group": 2.0,
+      "id": "Concha y Toro"
+    },
+    {
+      "group": 2.0,
+      "id": "Santa Ema"
+    },
+    {
+      "group": 2.0,
+      "id": "Siduri"
+    },
+    {
+      "group": 2.0,
+      "id": "Feudi di San Gregorio"
+    },
+    {
+      "group": 2.0,
+      "id": "Fess Parker"
+    },
+    {
+      "group": 2.0,
+      "id": "Foxen"
+    },
+    {
+      "group": 2.0,
+      "id": "Gary Farrell"
+    },
+    {
+      "group": 2.0,
+      "id": "Robert Mondavi"
+    },
+    {
+      "group": 2.0,
+      "id": "Testarossa"
+    },
+    {
+      "group": 2.0,
+      "id": "Chehalem"
+    },
+    {
+      "group": 2.0,
+      "id": "Georges Duboeuf"
+    },
+    {
+      "group": 2.0,
+      "id": "Montes"
+    },
+    {
+      "group": 2.0,
+      "id": "Trapiche"
+    },
+    {
+      "group": 2.0,
+      "id": "Undurraga"
+    },
+    {
+      "group": 2.0,
+      "id": "Chateau Ste. Michelle"
+    },
+    {
+      "group": 2.0,
+      "id": "Columbia Crest"
+    },
+    {
+      "group": 2.0,
+      "id": "Louis Latour"
+    },
+    {
+      "group": 2.0,
+      "id": "Maryhill"
+    },
+    {
+      "group": 2.0,
+      "id": "Albert Bichot"
+    },
+    {
+      "group": 2.0,
+      "id": "Casa Santos Lima"
+    },
+    {
+      "group": 2.0,
+      "id": "Chanson P\u00e8re et Fils"
+    },
+    {
+      "group": 2.0,
+      "id": "DFJ Vinhos"
+    },
+    {
+      "group": 2.0,
+      "id": "Jean-Luc and Paul Aegerter"
+    },
+    {
+      "group": 2.0,
+      "id": "Louis Jadot"
+    },
+    {
+      "group": 2.0,
+      "id": "Wines & Winemakers"
+    },
+    {
+      "group": 2.0,
+      "id": "Iron Horse"
+    },
+    {
+      "group": 2.0,
+      "id": "Lynmar"
+    },
+    {
+      "id": ""
+    }
+  ],
+  "links": [
+    {
+      "value": 86.70766394520001,
+      "source": "Argentina",
+      "target": "Michael Schachner"
+    },
+    {
+      "value": 87.5,
+      "source": "Armenia",
+      "target": "Mike DeSimone"
+    },
+    {
+      "value": 93.0,
+      "source": "Australia",
+      "target": "Christina Pickard"
+    },
+    {
+      "value": 88.7902750491,
+      "source": "Australia",
+      "target": "Joe Czerwinski"
+    },
+    {
+      "value": 90.5980969642,
+      "source": "Austria",
+      "target": "Anne Krebiehl\u00a0MW"
+    },
+    {
+      "value": 89.1637168142,
+      "source": "Austria",
+      "target": "Roger Voss"
+    },
+    {
+      "value": 85.0,
+      "source": "Bosnia an",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 88.0,
+      "source": "Bosnia an",
+      "target": "Jeff Jenssen"
+    },
+    {
+      "value": 84.6730769231,
+      "source": "Brazil",
+      "target": "Michael Schachner"
+    },
+    {
+      "value": 85.3684210526,
+      "source": "Bulgaria",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 88.5840707965,
+      "source": "Bulgaria",
+      "target": "Jeff Jenssen"
+    },
+    {
+      "value": 91.0,
+      "source": "Bulgaria",
+      "target": "Mike DeSimone"
+    },
+    {
+      "value": 84.5,
+      "source": "Bulgaria",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 88.2,
+      "source": "Canada",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 87.77777777780001,
+      "source": "Canada",
+      "target": "Joe Czerwinski"
+    },
+    {
+      "value": 89.0,
+      "source": "Canada",
+      "target": "Lauren Buzzeo"
+    },
+    {
+      "value": 89.58602150540001,
+      "source": "Canada",
+      "target": "Paul Gregutt"
+    },
+    {
+      "value": 90.34375,
+      "source": "Canada",
+      "target": "Sean P. Sullivan"
+    },
+    {
+      "value": 86.15384615379999,
+      "source": "Canada",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 85.0434782609,
+      "source": "Chile",
+      "target": "Joe Czerwinski"
+    },
+    {
+      "value": 89.0,
+      "source": "Chile",
+      "target": "Matt Kettmann"
+    },
+    {
+      "value": 86.5192529398,
+      "source": "Chile",
+      "target": "Michael Schachner"
+    },
+    {
+      "value": 89.0,
+      "source": "China",
+      "target": "Mike DeSimone"
+    },
+    {
+      "value": 86.41025641030001,
+      "source": "Croatia",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 88.64516129030001,
+      "source": "Croatia",
+      "target": "Jeff Jenssen"
+    },
+    {
+      "value": 83.0,
+      "source": "Croatia",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 87.1818181818,
+      "source": "Cyprus",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 85.25,
+      "source": "Czech Rep",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 88.25,
+      "source": "Czech Rep",
+      "target": "Jeff Jenssen"
+    },
+    {
+      "value": 84.0,
+      "source": "Egypt",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 91.58108108110001,
+      "source": "England",
+      "target": "Anne Krebiehl\u00a0MW"
+    },
+    {
+      "value": 90.4523297491,
+      "source": "France",
+      "target": "Anne Krebiehl\u00a0MW"
+    },
+    {
+      "value": 88.6768447837,
+      "source": "France",
+      "target": "Joe Czerwinski"
+    },
+    {
+      "value": 87.02006688959999,
+      "source": "France",
+      "target": "Lauren Buzzeo"
+    },
+    {
+      "value": 82.85,
+      "source": "France",
+      "target": "Michael Schachner"
+    },
+    {
+      "value": 89.17647058819999,
+      "source": "France",
+      "target": "Paul Gregutt"
+    },
+    {
+      "value": 88.8181378346,
+      "source": "France",
+      "target": "Roger Voss"
+    },
+    {
+      "value": 86.77272727270001,
+      "source": "Georgia",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 88.0,
+      "source": "Georgia",
+      "target": "Mike DeSimone"
+    },
+    {
+      "value": 89.9772598067,
+      "source": "Germany",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 89.2853333333,
+      "source": "Germany",
+      "target": "Joe Czerwinski"
+    },
+    {
+      "value": 87.0,
+      "source": "Greece",
+      "target": "Jeff Jenssen"
+    },
+    {
+      "value": 84.0,
+      "source": "Greece",
+      "target": "Joe Czerwinski"
+    },
+    {
+      "value": 88.0,
+      "source": "Greece",
+      "target": "Roger Voss"
+    },
+    {
+      "value": 87.28941684670001,
+      "source": "Greece",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 87.8125,
+      "source": "Hungary",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 90.01063829790002,
+      "source": "Hungary",
+      "target": "Jeff Jenssen"
+    },
+    {
+      "value": 87.4736842105,
+      "source": "Hungary",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 90.22222222219999,
+      "source": "India",
+      "target": "Mike DeSimone"
+    },
+    {
+      "value": 87.0097560976,
+      "source": "Israel",
+      "target": "Lauren Buzzeo"
+    },
+    {
+      "value": 89.6054421769,
+      "source": "Israel",
+      "target": "Mike DeSimone"
+    },
+    {
+      "value": 84.0,
+      "source": "Israel",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 86.0786516854,
+      "source": "Italy",
+      "target": "Joe Czerwinski"
+    },
+    {
+      "value": 88.86794729030001,
+      "source": "Italy",
+      "target": "Kerin O\u2019Keefe"
+    },
+    {
+      "value": 89.17105263159999,
+      "source": "Italy",
+      "target": "Michael Schachner"
+    },
+    {
+      "value": 87.25,
+      "source": "Italy",
+      "target": "Paul Gregutt"
+    },
+    {
+      "value": 88.6804123711,
+      "source": "Italy",
+      "target": "Roger Voss"
+    },
+    {
+      "value": 86.7,
+      "source": "Lebanon",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 89.2,
+      "source": "Lebanon",
+      "target": "Mike DeSimone"
+    },
+    {
+      "value": 83.6,
+      "source": "Lebanon",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 88.6666666667,
+      "source": "Luxembour",
+      "target": "Jeff Jenssen"
+    },
+    {
+      "value": 84.0,
+      "source": "Macedonia",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 88.0,
+      "source": "Macedonia",
+      "target": "Jeff Jenssen"
+    },
+    {
+      "value": 86.0,
+      "source": "Macedonia",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 85.2615384615,
+      "source": "Mexico",
+      "target": "Michael Schachner"
+    },
+    {
+      "value": 85.0,
+      "source": "Moldova",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 87.65384615379999,
+      "source": "Moldova",
+      "target": "Jeff Jenssen"
+    },
+    {
+      "value": 83.6666666667,
+      "source": "Moldova",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 86.0,
+      "source": "Morocco",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 88.7692307692,
+      "source": "Morocco",
+      "target": "Mike DeSimone"
+    },
+    {
+      "value": 88.3340961098,
+      "source": "New Zeala",
+      "target": "Joe Czerwinski"
+    },
+    {
+      "value": 83.5625,
+      "source": "Peru",
+      "target": "Michael Schachner"
+    },
+    {
+      "value": 85.8333333333,
+      "source": "Portugal",
+      "target": "Joe Czerwinski"
+    },
+    {
+      "value": 84.0,
+      "source": "Portugal",
+      "target": "Lauren Buzzeo"
+    },
+    {
+      "value": 87.5555555556,
+      "source": "Portugal",
+      "target": "Michael Schachner"
+    },
+    {
+      "value": 88.256097561,
+      "source": "Portugal",
+      "target": "Roger Voss"
+    },
+    {
+      "value": 86.243902439,
+      "source": "Romania",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 86.74242424239999,
+      "source": "Romania",
+      "target": "Jeff Jenssen"
+    },
+    {
+      "value": 85.1538461538,
+      "source": "Romania",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 87.5,
+      "source": "Serbia",
+      "target": "Jeff Jenssen"
+    },
+    {
+      "value": 87.0,
+      "source": "Slovakia",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 87.5384615385,
+      "source": "Slovenia",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 88.29508196719999,
+      "source": "Slovenia",
+      "target": "Jeff Jenssen"
+    },
+    {
+      "value": 88.35650446870001,
+      "source": "South Afr",
+      "target": "Lauren Buzzeo"
+    },
+    {
+      "value": 89.0454545455,
+      "source": "South Afr",
+      "target": "Roger Voss"
+    },
+    {
+      "value": 87.4280936455,
+      "source": "South Afr",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 85.0,
+      "source": "Spain",
+      "target": "Joe Czerwinski"
+    },
+    {
+      "value": 83.0,
+      "source": "Spain",
+      "target": "Lauren Buzzeo"
+    },
+    {
+      "value": 87.3145247148,
+      "source": "Spain",
+      "target": "Michael Schachner"
+    },
+    {
+      "value": 85.75,
+      "source": "Spain",
+      "target": "Paul Gregutt"
+    },
+    {
+      "value": 89.5,
+      "source": "Switzerla",
+      "target": "Jeff Jenssen"
+    },
+    {
+      "value": 83.0,
+      "source": "Switzerla",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 87.2,
+      "source": "Turkey",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 88.1411764706,
+      "source": "Turkey",
+      "target": "Mike DeSimone"
+    },
+    {
+      "value": 83.5,
+      "source": "Ukraine",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 84.1666666667,
+      "source": "Ukraine",
+      "target": "Jeff Jenssen"
+    },
+    {
+      "value": 86.75229357799999,
+      "source": "Uruguay",
+      "target": "Michael Schachner"
+    },
+    {
+      "value": 85.8554216867,
+      "source": "US",
+      "target": "Alexander Peartree"
+    },
+    {
+      "value": 87.43942505129999,
+      "source": "US",
+      "target": "Anna Lee C. Iijima"
+    },
+    {
+      "value": 86.3956834532,
+      "source": "US",
+      "target": "Carrie Dykes"
+    },
+    {
+      "value": 86.8,
+      "source": "US",
+      "target": "Christina Pickard"
+    },
+    {
+      "value": 86.8888888889,
+      "source": "US",
+      "target": "Fiona Adams"
+    },
+    {
+      "value": 88.6262868087,
+      "source": "US",
+      "target": "Jim Gordon"
+    },
+    {
+      "value": 85.32038834949999,
+      "source": "US",
+      "target": "Joe Czerwinski"
+    },
+    {
+      "value": 85.5263157895,
+      "source": "US",
+      "target": "Lauren Buzzeo"
+    },
+    {
+      "value": 90.0088453641,
+      "source": "US",
+      "target": "Matt Kettmann"
+    },
+    {
+      "value": 86.26760563379999,
+      "source": "US",
+      "target": "Michael Schachner"
+    },
+    {
+      "value": 89.07438460709999,
+      "source": "US",
+      "target": "Paul Gregutt"
+    },
+    {
+      "value": 89.5,
+      "source": "US",
+      "target": "Roger Voss"
+    },
+    {
+      "value": 88.74543980540001,
+      "source": "US",
+      "target": "Sean P. Sullivan"
+    },
+    {
+      "value": 84.46551724140001,
+      "source": "US",
+      "target": "Susan Kostrzewa"
+    },
+    {
+      "value": 89.21337946940001,
+      "source": "US",
+      "target": "Virginie Boone"
+    },
+    {
+      "value": 90.5555555556,
+      "source": "Anne Krebiehl\u00a0MW",
+      "target": ""
+    },
+    {
+      "value": 88.13636363639999,
+      "source": "Jeff Jenssen",
+      "target": ""
+    },
+    {
+      "value": 89,
+      "source": "Jim Gordon",
+      "target": "Kendall-Jackson"
+    },
+    {
+      "value": 88,
+      "source": "Jim Gordon",
+      "target": "V. Sattui"
+    },
+    {
+      "value": 93,
+      "source": "Jim Gordon",
+      "target": "Williams Selyem"
+    },
+    {
+      "value": 86.0,
+      "source": "Joe Czerwinski",
+      "target": ""
+    },
+    {
+      "value": 85,
+      "source": "Joe Czerwinski",
+      "target": "Concha y Toro"
+    },
+    {
+      "value": 85,
+      "source": "Joe Czerwinski",
+      "target": "Santa Ema"
+    },
+    {
+      "value": 90,
+      "source": "Joe Czerwinski",
+      "target": "Siduri"
+    },
+    {
+      "value": 90,
+      "source": "Kerin O\u2019Keefe",
+      "target": "Feudi di San Gregorio"
+    },
+    {
+      "value": 90.3333333333,
+      "source": "Lauren Buzzeo",
+      "target": ""
+    },
+    {
+      "value": 90,
+      "source": "Matt Kettmann",
+      "target": "Fess Parker"
+    },
+    {
+      "value": 92,
+      "source": "Matt Kettmann",
+      "target": "Foxen"
+    },
+    {
+      "value": 92,
+      "source": "Matt Kettmann",
+      "target": "Gary Farrell"
+    },
+    {
+      "value": 88,
+      "source": "Matt Kettmann",
+      "target": "Kendall-Jackson"
+    },
+    {
+      "value": 87,
+      "source": "Matt Kettmann",
+      "target": "Robert Mondavi"
+    },
+    {
+      "value": 92,
+      "source": "Matt Kettmann",
+      "target": "Siduri"
+    },
+    {
+      "value": 91,
+      "source": "Matt Kettmann",
+      "target": "Testarossa"
+    },
+    {
+      "value": 91,
+      "source": "Matt Kettmann",
+      "target": "Williams Selyem"
+    },
+    {
+      "value": 88.14285714290001,
+      "source": "Michael Schachner",
+      "target": ""
+    },
+    {
+      "value": 90,
+      "source": "Michael Schachner",
+      "target": "Chehalem"
+    },
+    {
+      "value": 87,
+      "source": "Michael Schachner",
+      "target": "Concha y Toro"
+    },
+    {
+      "value": 80,
+      "source": "Michael Schachner",
+      "target": "Georges Duboeuf"
+    },
+    {
+      "value": 87,
+      "source": "Michael Schachner",
+      "target": "Montes"
+    },
+    {
+      "value": 86,
+      "source": "Michael Schachner",
+      "target": "Santa Ema"
+    },
+    {
+      "value": 87,
+      "source": "Michael Schachner",
+      "target": "Trapiche"
+    },
+    {
+      "value": 87,
+      "source": "Michael Schachner",
+      "target": "Undurraga"
+    },
+    {
+      "value": 89.25,
+      "source": "Mike DeSimone",
+      "target": ""
+    },
+    {
+      "value": 89.0,
+      "source": "Paul Gregutt",
+      "target": ""
+    },
+    {
+      "value": 88,
+      "source": "Paul Gregutt",
+      "target": "Chateau Ste. Michelle"
+    },
+    {
+      "value": 89,
+      "source": "Paul Gregutt",
+      "target": "Chehalem"
+    },
+    {
+      "value": 87,
+      "source": "Paul Gregutt",
+      "target": "Columbia Crest"
+    },
+    {
+      "value": 89,
+      "source": "Paul Gregutt",
+      "target": "Louis Latour"
+    },
+    {
+      "value": 85,
+      "source": "Paul Gregutt",
+      "target": "Maryhill"
+    },
+    {
+      "value": 88,
+      "source": "Paul Gregutt",
+      "target": "Siduri"
+    },
+    {
+      "value": 82.5,
+      "source": "Roger Voss",
+      "target": ""
+    },
+    {
+      "value": 90,
+      "source": "Roger Voss",
+      "target": "Albert Bichot"
+    },
+    {
+      "value": 87,
+      "source": "Roger Voss",
+      "target": "Casa Santos Lima"
+    },
+    {
+      "value": 90,
+      "source": "Roger Voss",
+      "target": "Chanson P\u00e8re et Fils"
+    },
+    {
+      "value": 86,
+      "source": "Roger Voss",
+      "target": "DFJ Vinhos"
+    },
+    {
+      "value": 87,
+      "source": "Roger Voss",
+      "target": "Georges Duboeuf"
+    },
+    {
+      "value": 88,
+      "source": "Roger Voss",
+      "target": "Jean-Luc and Paul Aegerter"
+    },
+    {
+      "value": 91,
+      "source": "Roger Voss",
+      "target": "Louis Jadot"
+    },
+    {
+      "value": 90,
+      "source": "Roger Voss",
+      "target": "Louis Latour"
+    },
+    {
+      "value": 87,
+      "source": "Roger Voss",
+      "target": "Wines & Winemakers"
+    },
+    {
+      "value": 88,
+      "source": "Sean P. Sullivan",
+      "target": "Chateau Ste. Michelle"
+    },
+    {
+      "value": 88,
+      "source": "Sean P. Sullivan",
+      "target": "Columbia Crest"
+    },
+    {
+      "value": 86,
+      "source": "Sean P. Sullivan",
+      "target": "Maryhill"
+    },
+    {
+      "value": 89.0,
+      "source": "Susan Kostrzewa",
+      "target": ""
+    },
+    {
+      "value": 92,
+      "source": "Virginie Boone",
+      "target": "Gary Farrell"
+    },
+    {
+      "value": 91,
+      "source": "Virginie Boone",
+      "target": "Iron Horse"
+    },
+    {
+      "value": 88,
+      "source": "Virginie Boone",
+      "target": "Kendall-Jackson"
+    },
+    {
+      "value": 93,
+      "source": "Virginie Boone",
+      "target": "Lynmar"
+    },
+    {
+      "value": 89,
+      "source": "Virginie Boone",
+      "target": "Robert Mondavi"
+    },
+    {
+      "value": 91,
+      "source": "Virginie Boone",
+      "target": "Siduri"
+    },
+    {
+      "value": 88,
+      "source": "Virginie Boone",
+      "target": "Testarossa"
+    },
+    {
+      "value": 88,
+      "source": "Virginie Boone",
+      "target": "V. Sattui"
+    },
+    {
+      "value": 93,
+      "source": "Virginie Boone",
+      "target": "Williams Selyem"
+    }
+  ]
+}
