@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+</head>
+<style type="text/css">
+
+	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: white;
+	  shape-rendering: crispEdges;
+	  opacity: 1;
+	}
+
+	.axis text { font-size:10px; }
+	
+	.circles { opacity: .5; }
+
+	.tipsy { font-size:11px; margin-top:-10px;}
+
+	.guide line {
+	  fill: none;
+	  stroke: white;
+	  shape-rendering: crispEdges;
+	  opacity: 0;
+	}
+	
+	#scatterplot {
+        position: absolute;
+        right: 18px;
+        top: 61%;
+        width: 300px;
+        height: 270px;
+        border: solid 0.5px grey;
+        border-radius: 5px;
+
+	}
+</style>
+
+<style>
+
+    .ticks {
+      font: 10px sans-serif;
+    }
+    
+    .track,
+    .track-inset,
+    .track-overlay {
+      stroke-linecap: round;
+    }
+    
+    .track {
+      stroke: #000;
+      stroke-opacity: 0.3;
+      stroke-width: 10px;
+    }
+    
+    .track-inset {
+      stroke: #ddd;
+      stroke-width: 8px;
+    }
+    
+    .track-overlay {
+      pointer-events: stroke;
+      stroke-width: 50px;
+      stroke: transparent;
+      cursor: crosshair;
+    }
+    
+    .handle {
+      fill: #fff;
+      stroke: #000;
+      stroke-opacity: 0.5;
+      stroke-width: 1.25px;
+    }
+    
+</style>
+
+<style>
+
+    #divMain {
+      width: 960px;
+      height: 500px;
+      left: 20%;
+      top: 20%;
+      display: block;
+      visibility: hidden;
+    }
+  
+    .names {
+      fill: none;
+      stroke: #fff;
+      stroke-linejoin: round;
+    }
+    
+    /* Tooltip CSS */
+    .d3-tip {
+      line-height: 1.5;
+      font-weight: 400;
+      font-family:"avenir next", Arial, sans-serif;
+      padding: 6px;
+      background: rgba(0, 0, 0, 0.6);
+      color: #FFA500;
+      border-radius: 1px;
+      pointer-events: none;
+    }
+  
+    /* Creates a small triangle extender for the tooltip */
+    .d3-tip:after {      
+      box-sizing: border-box;
+      display: inline;
+      font-size: 8px;
+      width: 100%;
+      line-height: 1.5;
+      color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      pointer-events: none;
+      
+    }
+  
+    /* Northward tooltips */
+    .d3-tip.n:after {
+      content: "\25BC";
+      margin: -1px 0 0 0;
+      top: 100%;
+      left: 0;
+      text-align: center;
+    }
+  
+    /* Eastward tooltips */
+    .d3-tip.e:after {
+      content: "\25C0";
+      margin: -4px 0 0 0;
+      top: 50%;
+      left: -8px;
+    }
+  
+    /* Southward tooltips */
+    .d3-tip.s:after {
+      content: "\25B2";
+      margin: 0 0 1px 0;
+      top: -8px;
+      left: 0;
+      text-align: center;
+    }
+  
+    /* Westward tooltips */
+    .d3-tip.w:after {
+      content: "\25B6";
+      margin: -4px 0 0 -1px;
+      top: 50%;
+      left: 100%;
+    }
+  
+    /*    
+    text{
+      pointer-events:none;
+    }
+    */
+  
+    .details{
+      color: white;
+    }
+</style>
+
+<style>
+
+    #Country1 {
+        left: 0%;
+        position: absolute;
+    }
+
+    #Country2 {
+        right: 0%;
+        position: absolute;
+    }
+
+    #pngs1 {
+        left: 0%;
+        position: absolute;
+        text-align: center;
+    }
+
+    #pngs2 {
+        right: 0%;
+        position: absolute;
+        text-align: center;
+    }
+
+    .imagesC {
+        zoom: 1.3;
+        width: 30%;
+        height: 40%;
+        margin-top: 6%;
+    }
+    
+    h5 {
+        margin: 0%;
+    }
+
+    h6 {
+        text-align: center;
+        margin: 0%;
+        margin-top: 0.5%;
+    }
+
+    #linechart {
+        top: 30%;
+        margin-left: 1%;
+        position: absolute;
+        /*border: solid 0.5px grey;
+        border-radius: 5px;*/
+    }
+
+    #colorLine1 {
+        background: rgba(46, 46, 253,0.507);
+        width: 20px;
+        height: 10px;
+        bottom:10%;
+        left:23%;
+        position:absolute;
+    }
+
+    #colorLine2 {
+        background: rgba(255, 15, 15, 0.507);
+        width: 20px;
+        height: 10px;
+        bottom:10%;
+        right:23%;
+        position:absolute;
+    }
+
+    #legendLine1 {
+        bottom:5%;
+        left:0%;
+        width: 50%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #legendLine2 {
+        bottom:5%;
+        right:0%;
+        width:50%;
+        position:absolute;
+        text-align: center;
+    }
+    
+    #colorNet1 {
+        background: #E50012;
+        width: 10px;
+        height: 5px;
+        top:10%;
+        left:10%;
+        position:absolute;
+    }
+
+    #colorNet2 {
+        background: #DB5E00;
+        width: 10px;
+        height: 5px;
+        top:10%;
+        left:20%;
+        position:absolute;
+    }
+
+    #colorNet3 {
+        background: #D2C500;
+        width: 10px;
+        height: 5px;
+        top:10%;
+        left:30%;
+        position:absolute;
+    }
+
+    #colorNet4 {
+        background: #6DC800;
+        width: 10px;
+        height: 5px;
+        top:10%;
+        left:40%;
+        position:absolute;
+    }
+
+    #colorNetLeg {
+        font-size:10px;
+        font: Arial;
+        bottom:10%;
+        left:1%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #colorNet1Leg {
+        font-size:10px;
+        font: Arial;
+        bottom:10%;
+        left:8%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #colorNet2Leg {
+        font-size:10px;
+        font: Arial;
+        bottom:10%;
+        left:18%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #colorNet3Leg {
+        font-size:10px;
+        font: Arial;
+        bottom:10%;
+        left:28%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #colorNet4Leg {
+        font-size:10px;
+        font: Arial;
+        bottom:10%;
+        left:38%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #colorNetBub1 {
+        background: #66c2a5;
+        width: 5px;
+        height: 5px;
+        top:10%;
+        right:5%;
+        position:absolute;
+        border-radius: 5px;
+    }
+
+    #colorNetBub2 {
+        background: #fc8d62;
+        width: 5px;
+        height: 5px;
+        top:10%;
+        right:12%;
+        position:absolute;
+        border-radius: 5px;
+    }
+
+    #colorNetBub3 {
+        background: #8da0cb;
+        width: 5px;
+        height: 5px;
+        top:10%;
+        right:19%;
+        position:absolute;
+        border-radius: 5px;
+    }
+
+    #colorNetBub1Leg {
+        font-size:10px;
+        font: Arial;
+        bottom:5%;
+        right:2%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #colorNetBub2Leg {
+        font-size:10px;
+        font: Arial;
+        bottom:5%;
+        right:10%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #colorNetBub3Leg {
+        font-size:10px;
+        font: Arial;
+        bottom:5%;
+        right:17%;
+        position:absolute;
+        text-align: center;
+    }
+    
+    #colorNetBubLeg {
+        font-size:10px;
+        font: Arial;
+        bottom:5%;
+        right:25%;
+        position:absolute;
+        text-align: center;
+    }
+
+</style>
+
+<link rel="stylesheet" href="bublechart_firefox.css">
+<link rel="stylesheet" href="wines.css">
+<link rel="stylesheet" href="w3.css">
+<!--<link rel="stylesheet" href="bar_chart.css">-->
+<script src="d3.min-5.js"></script>
+<script src="queue.v1.min.js"></script>
+<script src="topojson.v1.min.js"></script>
+<script src="d3-geo-projection.v1.min.js"></script>
+<script src="jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="d3-tip.js"></script>
+<script src='babel.min.js'></script>
+<script src="jquery.tipsy.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="tipsy.css" type="text/css" title="no title" charset="utf-8"/>
+<script src="wines.js"></script>
+<script src="bubble_chart.js"></script>
+<script>
+    d3.csv("final2.csv").then(function(data2) {
+        dataset2 = data2;
+        gen_graph();
+    });
+
+    var chart = bubbleChart().width(300).height(300).showTitleOnCircle(true).customColors(["Europe","Oceania","Africa","Asia","South America","North America"], ["rgb(141, 211, 199)","rgb(255, 255, 179)","rgb(190, 186, 218)","rgb(253, 180, 98)","rgb(128, 177, 211)","rgb(251, 128, 114)"]);
+    var typeOfChart=0;
+
+    d3.csv('score_by_country_lt_15.csv').then(function(data) {
+    /*
+      if (error) {
+          console.error('Error getting or parsing the data.');
+          throw error;
+      }
+      */
+      // selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+      d3.select('#the_chart2').datum(data).call(chart);
+    });
+
+</script>
+
+<body>
+    <!--<span class="btn" id="new">New</span>
+    <span class="btn" id="old">Old</span>-->
+    <div>
+        <h1 id="mainTitle"><b><i>What Makes The Best Wine</i></b></h1>
+    </div>
+
+    <hr>
+
+    <div class="undone", id="undone2">
+            <span class="btnChangeCountries", id="Country1">Select Country</span>
+            <span class="btnChangeCountries", id="Country2">Select Country</span>
+        <div id= "pngs1" class="imagesC">
+            <img src="PRT.png" id="pngc1">
+            <h5 id="png1">Portugal</h5>
+        </div>
+        <div id= "pngs2" class="imagesC">   
+            <img src="USA.png" id="pngc2">
+            <h5 id="png2">USA</h5>
+        </div>
+        <div>
+           <div id="colorLine1"></div>
+           <div id="legendLine1">Portugal</div>
+           <div id="colorLine2"></div>
+           <div id="legendLine2">USA</div>
+        </div>
+    </div>
+    <div class="undone", id="undone3">
+            <div id="colorNetLeg">Score:</div>
+            <div id="colorNet1"></div>
+            <div id="colorNet1Leg">[80,84]</div>
+            <div id="colorNet2"></div>
+            <div id="colorNet2Leg">[84,88]</div>
+            <div id="colorNet3"></div>
+            <div id="colorNet3Leg">[88,82]</div>
+            <div id="colorNet4"></div>
+            <div id="colorNet4Leg">[89,96]</div>
+            <div id="colorNetBub1"></div>
+            <div id="colorNetBub1Leg">Country</div>
+            <div id="colorNetBub2"></div>
+            <div id="colorNetBub2Leg">Taster</div>
+            <div id="colorNetBub3"></div>
+            <div id="colorNetBub3Leg">Winery</div>
+            <div id="colorNetBubLeg">Bubble Meaning:</div>
+    </div>
+    <div class="undone", id="undone4">
+    </div>
+    <div id="c1">
+    <div id="list"></div>
+    <div id="the_chart"></div>
+    <div id="slider"></div></div>
+
+    <div id="the_bubblechart">
+        <div id="buttonsbubble">
+        <span class="btn2", id="countriesb">Countries</span>
+        <span class="btn2", id="wineriesb">Wineries</span>
+        <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn" id="dropTitle">Data v</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a id="All">All Data  </a>
+                  <a id="LT20">LT 20</a>
+                  <a id="LT15">LT 15</a>
+                </div>
+        </div>
+        </div>
+        <div id="the_chart2"></div>
+    </div>
+    <div id="second_chart"></div>
+
+    <div id ="network_viz_wrapper"><svg id='network_viz'></svg></div>
+    <div id = "w_wrapper"><div id="hor_bar_wrapper"></div></div>
+    <svg width="390" height="200" id="linechart"></svg>
+    <!--<div id = "dropdownyears">
+        <select id="qqstuff"  onchange="changeSelectedCountry()">
+            <option value="" selected disabled hidden>Countries</option>
+        </select>
+    </div>
+
+    <div id = "dropdownyears">
+        <select id="qqstuff2"  onchange="changeSelectedCountry2()">
+            <option value="" selected disabled hidden>Countries</option>
+        </select>
+ 
+    </div>
+    -->
+
+    <div id="scatterplot">
+        <h6 id="scatterTitle">Top Wines from France</h6>
+        <script type="text/javascript">
+        
+        // bring in the data, and do everything that is data-driven
+        d3.csv("US.csv").then(function(data) {
+            scatter(data);
+        });
+
+        function scatterChange(name) {
+            d3.csv( name).then(function(data) {
+                console.log(data);
+				scatter(data);});
+        }
+            
+            
+        function scatter(data) {  
+
+            // set the stage
+            var margin = {t:10, r:110, b:-20, l:40 },
+                w = 300 - margin.l - margin.r,
+                h = 260 - margin.t - margin.b,
+                x = d3.scaleLinear().range([0, w+100]),
+                y = d3.scaleLinear().range([h - 60, 0]),
+                //colors that will reflect geographical regions
+                color = d3.scaleOrdinal(d3.schemeCategory10);
+        
+            var svg = d3.select("#scatterplot").append("svg")
+                .attr("width", w + margin.l + margin.r)
+                .attr("height", h + margin.t + margin.b)
+                .attr("class","w3-animate-opacity");
+                
+            // set axes, as well as details on their ticks
+            var xAxis = d3.axisBottom(x)
+                .ticks(5);
+        
+            var yAxis = d3.axisLeft(y)
+                .ticks(10);
+        
+            // group that will contain all of the plots
+            var groups = svg.append("g").attr("transform", "translate(" + margin.l + "," + margin.t + ")");
+        
+            // array of the regions, used for the legend
+            var regions = ["Asia", "Europe", "Middle East", "N. America", "S. America", "Sub-Saharan Africa"]
+
+            data.forEach(function(d) {
+                    d.priceInt = parseInt(d.price);
+                    d.pointsInt = parseInt(d.points);
+                });
+            // sort data alphabetically by region, so that the colors match with legend
+            data.sort(function(a, b) { return d3.ascending(a.region, b.region); })
+            
+            //console.log(data)
+        
+            var x0 = Math.max(d3.min(data, function(d) { return d.priceInt;}));
+            var xmax = Math.max(d3.max(data, function(d) { 
+                return d.priceInt+10; }));
+            var y0 = Math.max(d3.min(data, function(d) { return d.pointsInt-0.5; }));
+            var ymax = Math.max(d3.max(data, function(d) { return d.pointsInt+0.5; }));
+            x.domain([0, xmax]);
+            y.domain([y0, ymax]);
+        
+            // style the circles, set their locations based on data
+            var circles =
+            groups.selectAll("circle")
+                .data(data);
+            circles.enter().append("circle")
+            .attr("class", "circles")
+            .attr("cx", function(d) { 
+                    return x(d.price); })
+            .attr("cy", function(d) { 
+                    return y(d.points); })
+            .attr("r", 4)
+            .attr("id",function(d) { return d.country; })
+            .style("fill", function(d) { return color(d.region); });
+        
+            // what to do when we mouse over a bubble
+            var mouseOn = function() { 
+                console.log("wpw");
+                var circle = d3.select(this);
+                console.log("wpw");
+            // transition to increase size/opacity of bubble
+                circle.transition()
+                .duration(800).style("opacity", 1)
+                .attr("r", 16).ease("elastic");
+        
+                // append lines to bubbles that will be used to show the precise data points.
+                // translate their location based on margins
+                svg.append("g")
+                    .attr("class", "guide")
+                .append("line")
+                    .attr("x1", circle.attr("cx"))
+                    .attr("x2", circle.attr("cx"))
+                    .attr("y1", +circle.attr("cy") + 26)
+                    .attr("y2", h - margin.t - margin.b)
+                    .attr("transform", "translate(40,20)")
+                    .style("stroke", circle.style("fill"))
+                    .transition().delay(200).duration(400).styleTween("opacity", 
+                                function() { return d3.interpolate(0, .5); })
+        
+                svg.append("g")
+                    .attr("class", "guide")
+                .append("line")
+                    .attr("x1", +circle.attr("cx") - 16)
+                    .attr("x2", 0)
+                    .attr("y1", circle.attr("cy"))
+                    .attr("y2", circle.attr("cy"))
+                    .attr("transform", "translate(40,30)")
+                    .style("stroke", circle.style("fill"))
+                    .transition().delay(200).duration(400).styleTween("opacity", 
+                                function() { return d3.interpolate(0, .5); });
+        
+            // function to move mouseover item to front of SVG stage, in case
+            // another bubble overlaps it
+                d3.selection.prototype.moveToFront = function() { 
+                  return this.each(function() { 
+                    this.parentNode.appendChild(this); 
+                  }); 
+                };
+        
+            // skip this functionality for IE9, which doesn't like it
+                if (!$.browser.msie) {
+                    circle.moveToFront();	
+                    }
+            };
+            // what happens when we leave a bubble?
+            var mouseOff = function() {
+                var circle = d3.select(this);
+        
+                // go back to original size and opacity
+                circle.transition()
+                .duration(800).style("opacity", .5)
+                .attr("r", 8).ease("elastic");
+        
+                // fade out guide lines, then remove them
+                d3.selectAll(".guide").transition().duration(100).styleTween("opacity", 
+                                function() { return d3.interpolate(.5, 0); })
+                    .remove()
+            };
+        
+            // run the mouseon/out functions
+            circles.on("mouseover", mouseOn);
+            circles.on("mouseout", mouseOff);
+        
+            // tooltips (using jQuery plugin tipsy)
+        /*	circles.append("title")
+                    .text(function(d) { return d.points; })
+        
+            $(".circles").tipsy({ gravity: 's', });
+        */
+        /*
+            // the legend color guide
+            var legend = svg.selectAll("rect")
+                    .data(regions)
+                .enter().append("rect")
+                .attr({
+                  x: function(d, i) { return (40 + i*80); },
+                  y: h,
+                  width: 25,
+                  height: 12
+                })
+                .style("fill", function(d) { return color(d); });
+        
+        
+            // legend labels	
+                svg.selectAll("text")
+                    .data(regions)
+                .enter().append("text")
+                .attr({
+                x: function(d, i) { return (40 + i*80); },
+                y: h + 24,
+                })
+                .text(function(d) { return d; });
+        */
+            // draw axes and axis labels
+            svg.append("g")
+                .attr("class", "x axis")
+                .attr("stroke", "white")
+                .attr("transform", "translate(" + margin.l + "," + (h - 60 + margin.t) + ")")
+                .call(xAxis)
+        
+            svg.append("g")
+                .attr("class", "y axis")
+                .attr("stroke", "white")
+                .attr("transform", "translate(" + margin.l + "," + margin.t + ")")
+                .call(yAxis);
+        
+            svg.append("text")
+                .attr("class", "x label")
+                .attr("text-anchor", "end")
+                .attr("x", w + 130)
+                .attr("y", h - 20)
+                .text("price")
+                .attr("stroke","white");
+        
+            svg.append("text")
+                .attr("class", "y label")
+                .attr("text-anchor", "end")
+                .attr("x", -20)
+                .attr("y", 45)
+                .attr("dy", ".75em")
+                .attr("transform", "rotate(-90)")
+                .text("score")
+                .attr("stroke","white");
+            }
+        
+        </script>
+        
+        </div>
+    <div id="divMain"></div>
+</body>
+
+<script>
+        function clearBox()
+        {  
+            d3.selectAll("#the_chart2").select("svg").remove();
+        }
+        function clearBox2()
+        {  
+            d3.selectAll("#scatterplot").select("svg").remove();
+        }
+        function clearBox3()
+        {  
+            d3.selectAll("#divMain").select("svg").remove();
+        }
+</script>
+
+<script>
+    d3.selectAll("#wineriesb").on("click", function() {
+        clearBox();
+        typeOfChart=1;
+        document.getElementById("dropTitle").innerHTML = "Data v";
+        document.getElementById("countriesb").style.background="rgba(128, 128, 128, 0.568)";
+        document.getElementById("wineriesb").style.background="grey";
+        d3.csv('score_by_winery_top100f.csv').then(function(data) {
+            chart.columnForColors("continent").columnForTitle("winery").
+            minRadius(10).maxRadius(20).minscore(94).maxScore(98).forceApart(5);
+            //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+            d3.select('#the_chart2').datum(data).call(chart);
+        });
+    });
+
+    d3.selectAll("#countriesb").on("click", function() {
+        clearBox();
+        typeOfChart=0;
+        document.getElementById("dropTitle").innerHTML = "Data v";
+        document.getElementById("wineriesb").style.background="rgba(128, 128, 128, 0.568)";
+        document.getElementById("countriesb").style.background="grey";
+        d3.csv('score_by_country_lt_15.csv').then(function(data) {
+            chart.columnForColors("continent").columnForTitle("country").
+            minRadius(10).maxRadius(30).minscore(82.7).maxScore(92).forceApart(10);
+            //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+            d3.select('#the_chart2').datum(data).call(chart);
+        });
+    });
+
+    d3.selectAll("#All").on("click", function() {
+        clearBox();
+        document.getElementById("dropTitle").innerHTML = "Data v";
+        if (typeOfChart==0) {
+            document.getElementById("wineriesb").style.background="rgba(128, 128, 128, 0.568)";
+            document.getElementById("countriesb").style.background="grey";
+            d3.csv('score_by_country_lt_15.csv').then(function(data) {
+                chart.columnForColors("continent").columnForTitle("country").
+                minRadius(10).maxRadius(30).minscore(82.7).maxScore(92).forceApart(10);
+                //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+                d3.select('#the_chart2').datum(data).call(chart);
+            });
+        }
+        else {
+            document.getElementById("countriesb").style.background="rgba(128, 128, 128, 0.568)";
+            document.getElementById("wineriesb").style.background="grey";
+            d3.csv('score_by_winery_top100f.csv').then(function(data) {
+                chart.columnForColors("continent").columnForTitle("winery").
+                minRadius(10).maxRadius(20).minscore(94).maxScore(98).forceApart(5);
+                //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+                d3.select('#the_chart2').datum(data).call(chart);
+            });
+        }
+    });
+
+    d3.selectAll("#LT20").on("click", function() {
+        clearBox();
+        document.getElementById("dropTitle").innerHTML = "LT20 v";
+        if (typeOfChart==0) {
+            document.getElementById("wineriesb").style.background="rgba(128, 128, 128, 0.568)";
+            document.getElementById("countriesb").style.background="grey";
+            d3.csv('score_by_country_lt_15.csv').then(function(data) {
+                chart.columnForColors("continent").columnForTitle("country").
+                minRadius(10).maxRadius(30).minscore(82.7).maxScore(92).forceApart(10);
+                //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+                d3.select('#the_chart2').datum(data).call(chart);
+            });
+        }
+        else {
+            document.getElementById("countriesb").style.background="rgba(128, 128, 128, 0.568)";
+            document.getElementById("wineriesb").style.background="grey";
+            d3.csv('score_by_winery_lt_20_top100f.csv').then(function(data) {
+                chart.columnForColors("continent").columnForTitle("winery").
+                minRadius(10).maxRadius(20).minscore(93).maxScore(98).forceApart(5);
+                //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+                d3.select('#the_chart2').datum(data).call(chart);
+            });
+        }
+    });
+
+    d3.selectAll("#LT15").on("click", function() {
+        clearBox();
+        document.getElementById("dropTitle").innerHTML = "LT15 v";
+        if (typeOfChart==0) {
+            document.getElementById("wineriesb").style.background="rgba(128, 128, 128, 0.568)";
+            document.getElementById("countriesb").style.background="grey";
+            d3.csv('score_by_country_lt_15.csv').then(function(data) {
+                chart.columnForColors("continent").columnForTitle("country").
+                minRadius(10).maxRadius(30).minscore(82.7).maxScore(92).forceApart(10);
+                //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+                d3.select('#the_chart2').datum(data).call(chart);
+            });
+        }
+        else {
+            document.getElementById("countriesb").style.background="rgba(128, 128, 128, 0.568)";
+            document.getElementById("wineriesb").style.background="grey";
+            d3.csv('score_by_winery_top100f.csv').then(function(data) {
+                chart.columnForColors("continent").columnForTitle("winery").
+                minRadius(10).maxRadius(20).minscore(94).maxScore(98).forceApart(5);
+                //selection.datum() returns the bound datum for the first element in the selection and doesn't join the specified array of data with the selected elements
+                d3.select('#the_chart2').datum(data).call(chart);
+            });
+        }
+    });
+
+</script>
+
+
+
+
+<script>
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+</script>
+
+
+
+
+
+<script>
+    var highl = "";
+    function hor_bar_func(country_arg) {
+            d3.csv("top5_taster_country_points.csv").then(function(data_hb) {
+                var country = country_arg;
+                var i;
+                var tasters = [''];
+                var points = [0];
+                for (i=0; i < data_hb.length; i++) {
+                    if (data_hb[i].country === country) {
+                        tasters.push(data_hb[i].taster);
+                        points.push(data_hb[i].avg_point);
+                    }
+                }
+                  var tooltip = d3.select("#hor_bar_wrapper")
+                                    .append("div")
+                                    .style("position", "absolute")
+                                    .style("visibility", "hidden")
+                                    .style("color", "white")
+                                    .style("background-color", "#626D71")
+                                    .style("border-radius", "6px")
+                                    .style("text-align", "center")
+                                    .style("font-family", "monospace")
+                                    .style("width", "60px")
+                                    .text("");
+            
+                var colors = d3.scaleOrdinal(d3.schemeCategory10);
+                var grid = d3.range(21).map(function(i){
+                    return {'x1':0,'y1':0,'x2':0,'y2':480};
+                });
+            
+                var tickVals = grid.map(function(d,i){
+                    if(i>0){ return 80 + i; }
+                    else if(i===0){ return "80";}
+                });
+            
+                var xscale = d3.scaleLinear()
+                                .domain([80,100])
+                                .range([0,722]);
+            
+                var yscale = d3.scaleLinear()
+                                .domain([0,tasters.length])
+                                .range([50,480]);
+            
+                var canvas = d3.select('#hor_bar_wrapper')
+                                .append('svg')
+                                .attr("id", "hor_bar_svg")
+                                .attr('width',"900px")
+                                .attr('height',"500px")
+                                .attr("transform", "translate(10,0)");
+            
+            
+                var	xAxis =  d3.axisBottom()
+                    xAxis
+                        .scale(xscale)
+                        .tickValues(tickVals);
+            
+                var	yAxis =  d3.axisLeft()
+                    yAxis
+                        .scale(yscale)
+                        .tickSize(1)
+                        .tickFormat(function(d,i){ return tasters[i]; })
+                        .tickValues(d3.range(6));
+            
+                var y_xis = canvas.append('g')
+                                  .attr("transform", "translate(150,10)")
+                                  .attr('id','yaxis_hor')
+                                  .call(yAxis)
+                                  .attr("fill", 'white')
+                                  .style("font-size", "15px")
+                                  .style("stroke","white");
+            
+                var x_xis = canvas.append('g')
+                                  .attr("transform", "translate(150,482)")
+                                  .attr('id','xaxis_hor')
+                                  .call(xAxis)
+                                  .attr("fill", 'white')
+                                  .style("font-size", "17px") ;
+            
+                var chart = canvas.append('g')
+                                  .attr("transform", "translate(150,10)")
+                                  .attr('id','bars_hor')
+                                  .selectAll('rect')
+                                  .data(points)
+                                  .enter()
+                                  .append('rect')
+                                  .attr("id", function(d,i){ return i; })
+                                  .attr('height',19)
+                                  .attr('x', 2)
+                                  .attr('y', function(d,i){ return yscale(i) - 14; })
+                                  .style('fill',function(d,i){ return colors(i); })
+                                  .attr('width',function(d){ return 0; })
+                                  .on("mouseover", function(d, i) {
+                                     d3.select(d3.event.target).attr("stroke","white");
+                                     highl = tasters[i];
+                                     d3.select("#network_viz").dispatch("event_taster_focus");
+                                    })
+                                
+                                  .on("mouseout", function(d, i) {
+                                    d3.select("#network_viz").dispatch("event_taster_unfocus");
+                                    d3.select(d3.event.target).attr("stroke", "none");});
+                                
+                                
+                var transit = d3.select("#bars_hor").selectAll("rect")
+                                    .data(points)
+                                    .transition()
+                                    .duration(1000)
+                                    .attr("height","30") 
+                                    .attr("width", function(d) {return xscale(d); });
+
+                canvas.append("text")
+                      .attr("x", (900 / 2))             
+                      .attr("y", 50)
+                      .attr('id','hor_bar_title')
+                      .attr("text-anchor", "middle")  
+                      .style("font-size", "24px") 
+                      .attr("fill", "white")
+                      .text(function() {
+                          if (country === 'Worldwide') return "Top 5 tasters " + country;
+                          else return "Top 5 tasters in " + country;
+                          });
+
+                document.getElementById("scatterTitle").innerHTML="Top wines from " + country;
+                                
+                var transitext = d3.select('#bars_hor')
+                                    .selectAll('text')
+                                    .data(points)
+                                    .enter()
+                                    .append('text')
+                                    .attr('x', 0)
+                                    .attr('y', function(d,i){ return yscale(i) + 7; })
+                                    .text(function(d){ if(d==0) return ""; return d + " points"; })
+                                    .style('fill','#fff')
+                                    .style('font-size','24px');
+                                
+                var movtext = d3.select('#bars_hor')
+                            .selectAll('text')
+                            .data(points)
+                            .transition()
+                            .duration(1000)
+                            .attr('x', function(d) {/*console.log(d);*/return xscale(d) + 10; });
+                                
+                                
+            });
+        }
+    var width = 960;
+    var height = 500;
+    var color = d3.scaleOrdinal(d3.schemeSet2);
+
+    d3.json("node-link-value.json").then(function(graph) {
+
+    var label = {
+        'nodes': [],
+        'links': []
+    };
+
+    graph.nodes.forEach(function(d, i) {
+        label.nodes.push({node: d});
+        label.nodes.push({node: d});
+        label.links.push({
+            source: i * 2,
+            target: i * 2 + 1
+        });
+    });
+    var array_nodes = graph.nodes.map(function(a) {return a.id;});
+
+    var labelLayout = d3.forceSimulation(label.nodes)
+        .force("charge", d3.forceManyBody().strength(-50))
+        .force("link", d3.forceLink(label.links).distance(0).strength(2));
+
+    var graphLayout = d3.forceSimulation(graph.nodes)
+        .force("charge", d3.forceManyBody().strength(-6000))
+        .force("center", d3.forceCenter(width / 2, height / 2))
+        .force("x", d3.forceX(width / 2).strength(1))
+        .force("y", d3.forceY(height / 2).strength(1))
+        .force("link", d3.forceLink(graph.links).id(function(d) {return d.id; }).distance(50).strength(1))
+        .on("tick", ticked);
+
+    var adjlist = [];
+
+    graph.links.forEach(function(d) {
+        adjlist[d.source.index + "-" + d.target.index] = true;
+        adjlist[d.target.index + "-" + d.source.index] = true;
+    });
+
+    function neigh(a, b) {
+        return a == b || adjlist[a + "-" + b];
+    }
+
+
+    var svg = d3.select("#network_viz").attr("width", width).attr("height", height);
+    var container = svg.append("g");
+
+    svg.call(
+        d3.zoom()
+            .scaleExtent([.1, 4])
+            .on("zoom", function() { container.attr("transform", d3.event.transform); })
+    );
+
+    var link = container.append("g").attr("class", "links")
+        .selectAll("line")
+        .data(graph.links)
+        .enter()
+        .append("line")
+        .attr("stroke",function(d) {
+            if (d.value <= 84) return "#E50012";
+            if (d.value <= 88) return "#DB5E00";
+            if (d.value <= 92) return "#D2C500";
+            if (d.value <= 96) return "#6DC800";
+            else return "#07BF00";
+            })
+        .attr("stroke-width", "2px");
+
+    var node = container.append("g").attr("class", "nodes")
+        .selectAll("g")
+        .data(graph.nodes)
+        .enter()
+        .append("circle")
+        .attr("r", 7)
+        .attr("id", function(d) { return d.id; })
+        .style("stroke-width", 2)
+        .style("stroke", "#ffffcc")
+        .attr("fill", function(d) { 
+            return color(d.group); })
+
+    node.on("mouseover", focus).on("mouseout", unfocus).on("click", node_clicked);
+    link.on("mouseover", showLinkValue).on("mouseout", hideLinkValue);
+
+
+    node.call(
+        d3.drag()
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended)
+    );
+
+    var labelNode = container.append("g").attr("class", "labelNodes")
+        .selectAll("text")
+        .data(label.nodes)
+        .enter()
+        .append("text")
+        .text(function(d, i) { return i % 2 == 0 ? "" : d.node.id; })
+        .style("fill", "white")
+        .style("font-family", "Arial")
+        .style("font-size", 13)
+        .style("font-weight","600")
+        .style("stroke-width", 0.5)
+        .style("stroke", "black")
+        .style("pointer-events", "none"); // to prevent mouseover/drag capture
+
+    node.on("mouseover", focus).on("mouseout", unfocus).on("click", node_clicked);
+    link.on("mouseover", showLinkValue).on("mouseout", hideLinkValue);
+
+
+    function ticked() {
+
+        node.call(updateNode);
+        link.call(updateLink);
+
+        labelLayout.alphaTarget(0.3).restart();
+        labelNode.each(function(d, i) {
+            if(i % 2 == 0) {
+                d.x = d.node.x;
+                d.y = d.node.y;
+            } else {
+                var b = this.getBBox();
+
+                var diffX = d.x - d.node.x;
+                var diffY = d.y - d.node.y;
+
+                var dist = Math.sqrt(diffX * diffX + diffY * diffY);
+
+                var shiftX = b.width * (diffX - dist) / (dist * 2);
+                shiftX = Math.max(-b.width, Math.min(0, shiftX));
+                var shiftY = 16;
+                this.setAttribute("transform", "translate(" + shiftX + "," + shiftY + ")");
+            }
+        });
+        labelNode.call(updateNode);
+
+    }
+
+    function fixna(x) {
+        if (isFinite(x)) return x;
+        return 0;
+    }
+
+    function focus(d, i) {
+        if (i === "event_taster") var index = d; 
+        else var index = d3.select(d3.event.target).datum().index;
+        node.style("opacity", function(o) {
+            return neigh(index, o.index) ? 1 : 0.1;
+        });
+        labelNode.attr("display", function(o) {
+          return neigh(index, o.node.index) ? "block": "none";
+        });
+        link.style("opacity", function(o) {
+            return o.source.index == index || o.target.index == index ? 1 : 0.1;
+        });
+    }
+
+    function unfocus() {
+       labelNode.attr("display", "block");
+       node.style("opacity", 1);
+       link.style("opacity", 1);
+    }
+
+    function node_clicked(d) {
+        if (d3.select(d3.event.target).datum().group == 0) {
+            d3.select("#bars_hor").remove();
+            d3.select("#yaxis_hor").remove();        
+            d3.select("#xaxis_hor").remove();        
+            d3.select("#hor_bar_title").remove();        
+            d3.select("#hor_bar_svg").remove();        
+            hor_bar_func(d3.select(d3.event.target).datum().id);
+            clearBox2();
+			var nametoCSV=d.id.replace(/\s/g, '');
+			if (nametoCSV.substring(0,2) == 'US') {
+			//	console.log("US");
+				scatterChange("US.csv");	
+			}
+			else if (nametoCSV.substring(0,4) == 'NewZ') {
+					//	console.log("US");
+					scatterChange("New .csv");	
+			}
+			else if (nametoCSV.substring(0,4) === 'Aust' || nametoCSV.substring(0,4) === 'Slov') {
+				//	console.log("Aust");
+				scatterChange(nametoCSV.substring(0,6).concat(".csv"));	
+			}
+			else {
+			//	console.log("no");
+			//	console.log(nametoCSV.substring(0,4).concat(".csv"));
+				scatterChange(nametoCSV.substring(0,4).concat(".csv"));
+			}
+        }
+    }
+
+    function showLinkValue(d) {
+        var index = d3.select(d3.event.target).datum().index;
+        var sel = d3.select(d3.event.target).datum();
+        var mouse = d3.mouse(this);
+        link.style("opacity", function(o) { return o.source.index == sel.source.index && o.target.index == sel.target.index ? 1 : 0.1; });
+    }
+
+    function hideLinkValue() {
+        link.style("opacity", 1);
+    //    link.style("stroke", "#aaa");
+        link.style("stroke",function(d) {
+            if (d.value <= 84) return "#E50012";
+            if (d.value <= 88) return "#DB5E00";
+            if (d.value <= 92) return "#D2C500";
+            if (d.value <= 96) return "#6DC800";
+            else return "#07BF00";
+            });
+
+    }
+
+    function updateLink(link) {
+        link.attr("x1", function(d) { return fixna(d.source.x); })
+            .attr("y1", function(d) { return fixna(d.source.y); })
+            .attr("x2", function(d) { return fixna(d.target.x); })
+            .attr("y2", function(d) { return fixna(d.target.y); });
+    }
+
+    function updateNode(node) {
+        node.attr("transform", function(d) {
+            return "translate(" + fixna(d.x) + "," + fixna(d.y) + ")";
+        });
+    }
+
+    function dragstarted(d) {
+        d3.event.sourceEvent.stopPropagation();
+        if (!d3.event.active) graphLayout.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+
+    function dragged(d) {
+        d.fx = d3.event.x;
+        d.fy = d3.event.y;
+    }
+
+    function dragended(d) {
+        if (!d3.event.active) graphLayout.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+    }
+
+    d3.select("#network_viz").on("event_taster_focus", function() {
+        focus(array_nodes.indexOf(highl),"event_taster"); 
+        });
+
+    d3.select("#network_viz").on("event_taster_unfocus", function() {
+        unfocus(); 
+        });
+
+
+    }); // d3.json
+
+
+        hor_bar_func('Worldwide');
+</script>
+
+<script lang='babel' type='text/babel'>
+    var countryToSelect = 0;
+    function drawMap()
+    {
+        const format = d3.format(',');
+
+        // Set tooltips
+        const tip = d3.tip()
+          .attr('class', 'd3-tip')
+          .offset([-10, 0])
+          .html(d => `<strong>Country: </strong><span class='details'>${d.properties.name}<br></span>`);
+
+        const margin = {top: 0, right: 0, bottom: 0, left: 0};
+        const width = 960 - margin.left - margin.right;
+        const height = 500 - margin.top - margin.bottom;
+
+        const color2 = d3.scaleThreshold()
+          .domain([
+            80,
+            82.5,
+            85,
+            87.5,
+            90,
+            92.5,
+            95,
+            97.5,
+            99,
+            100
+          ])
+          .range([
+            'rgb(247,251,255)',
+            'rgb(222,235,247)', 
+            'rgb(198,219,239)', 
+            'rgb(158,202,225)',
+            'rgb(107,174,214)',
+            'rgb(66,146,198)',
+            'rgb(33,113,181)',
+            'rgb(8,81,156)',
+            'rgb(8,48,107)',
+            'rgb(3,19,43)'
+          ]);
+
+        var svg = d3.select("#divMain")
+          .append('svg')
+          .style("background", "rgb(19, 19, 24)")
+          .attr('width', width)
+          .attr('height', height)
+          .append('g')
+          .attr('class', 'map');
+
+        const projection = d3.geoRobinson()
+          .scale(148)
+          .rotate([352, 0, 0])
+          .translate( [width / 2, height / 2]);
+
+        const path = d3.geoPath().projection(projection);
+
+        svg.call(tip);
+
+        Promise.all([
+        d3.json('world_countries.json'),
+        d3.csv('score_by_country.csv'),]).then(function(files) {
+        // files[0] will contain file1.csv
+        // files[1] will contain file2.csv
+        var dataMap = files[0];
+        var population = files[1];
+        const populationById = {};
+        const matchById = {};
+          population.forEach(d => { populationById[d.id] = +d.population; });
+          population.forEach(d => { matchById[d.id] = d.name;});
+          dataMap.features.forEach(d => { d.population = populationById[d.id] });
+          dataMap.features.forEach(d => { d.match = matchById[d.id];});
+
+          svg.append('g')
+            .attr('class', 'countries')
+            .selectAll('path')
+            .data(dataMap.features)
+            .enter().append('path')
+              .attr('d', path)
+              .style('fill', d => color2(populationById[d.id]))
+              .style('stroke', 'white')
+              .style('opacity', 0.8)
+              .style('stroke-width', 0.3)
+              // tooltips
+              .on('mouseover',function(d){
+                tip.show(d);
+                d3.select(this)
+                  .style('opacity', 1)
+                  .style('stroke-width', 3);
+              })
+              .on('click',function(d){ 
+                tip.hide(d);
+                d3.select(this)
+                  .style('opacity', 0.8)
+                  .style('stroke-width',0.3);
+                clearBox3();
+                d3.select("#divMain").style("visibility", "hidden");
+                document.getElementById("the_bubblechart").style.visibility = "visible";
+                document.getElementById("undone3").style.visibility = "visible";
+	    	    document.getElementById("second_chart").style.visibility = "visible";
+	    	    document.getElementById("hor_bar_wrapper").style.visibility = "visible";
+	    	    document.getElementById("network_viz_wrapper").style.visibility = "visible";
+	    	    document.getElementById("scatterplot").style.visibility = "visible";
+	    	    document.getElementById("c1").style.visibility = "visible";
+                document.getElementById("undone2").style.visibility = "visible";
+                document.getElementById("linechart").style.visibility = "visible";
+                d3.select("select").style("visibility", "visible");
+                if(countryToSelect==0) {
+                    if(d.match!=null) {
+                        document.getElementById("png1").innerHTML = d.properties.name;
+                        document.getElementById("pngc1").src=""+d.id+".png";
+                        changeSelectedCountry(d.match.replace(/\s/g, ''));
+                        document.getElementById("legendLine1").innerHTML= d.properties.name;
+                    }
+                }
+                else {
+                    if(d.match!=null) {
+                        document.getElementById("pngc2").src=""+d.id+".png";
+                        document.getElementById("png2").innerHTML = d.properties.name;
+                        changeSelectedCountry2  (d.match.replace(/\s/g, ''));
+                        document.getElementById("legendLine2").innerHTML= d.properties.name;
+                    }
+                }
+              })
+              .on('mouseout', function(d){
+                tip.hide(d);
+                d3.select(this)
+                  .style('opacity', 0.8)
+                  .style('stroke-width',0.3);
+              });
+          
+          svg.append('path')
+            .datum(topojson.mesh(dataMap.features, (a, b) => a.id !== b.id))
+            .attr('class', 'names')
+            .attr('d', path);
+        }).catch(function(err) {
+            // handle error here
+            console.log(err);
+        })
+    }
+    </script>
+
+    <script>
+    d3.select("#Country1").on("click", function() {
+        document.getElementById("the_bubblechart").style.visibility = "hidden";
+		document.getElementById("second_chart").style.visibility = "hidden";
+		document.getElementById("hor_bar_wrapper").style.visibility = "hidden";
+		document.getElementById("network_viz_wrapper").style.visibility = "hidden";
+		document.getElementById("scatterplot").style.visibility = "hidden";
+		document.getElementById("c1").style.visibility = "hidden";
+        document.getElementById("undone2").style.visibility = "hidden";
+        document.getElementById("linechart").style.visibility = "hidden";
+        document.getElementById("undone3").style.visibility = "hidden";
+        d3.select("select").style("visibility", "hidden");
+        drawMap();
+        document.getElementById("divMain").style.visibility = "visible";
+        countryToSelect = 0;
+    });
+
+    d3.select("#Country2").on("click", function() {
+        document.getElementById("the_bubblechart").style.visibility = "hidden";
+		document.getElementById("second_chart").style.visibility = "hidden";
+		document.getElementById("hor_bar_wrapper").style.visibility = "hidden";
+		document.getElementById("network_viz_wrapper").style.visibility = "hidden";
+		document.getElementById("scatterplot").style.visibility = "hidden";
+		document.getElementById("c1").style.visibility = "hidden";
+        document.getElementById("undone2").style.visibility = "hidden";
+        document.getElementById("linechart").style.visibility = "hidden";
+        document.getElementById("undone3").style.visibility = "hidden";
+        d3.select("select").style("visibility", "hidden");
+        drawMap();
+        document.getElementById("divMain").style.visibility = "visible";
+        countryToSelect = 1;
+    });
+    </script>
+<style>
+.axis {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none; 
+  stroke: #6F257F;
+  stroke-width: 2px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: #F1F3F3;
+  stroke: #6F257F;
+  stroke-width: 5px;
+}
+
+.hover-line {
+  stroke: #6F257F;
+  stroke-width: 2px;
+  stroke-dasharray: 3,3;
+}
+
+</style>
+<script src="linechartJS.js"> </script>
+<script>
+    /*
+
+    var e = document.getElementById("qqstuff");
+  
+    for (var i = country_list.length - 1; i >= 0; i--) {
+  
+      var opcao = document.createElement("option");
+      opcao.text = country_list[i];
+      opcao.value = country_list[i];
+      e.appendChild(opcao);
+    }
+  
+    var e = document.getElementById("qqstuff2");
+  
+    for (var i = country_list.length - 1; i >= 0; i--) {
+  
+      var opcao = document.createElement("option");
+      opcao.text = country_list[i];
+      opcao.value = country_list[i];
+      e.appendChild(opcao);
+    }
+  */
+    function changeSelectedCountry(argument) {
+        var newselected = argument;
+        selected_country = newselected;
+        document.getElementById("linechart").innerHTML="";
+        startDoingThings(mycsv);
+  
+    }
+  
+    function changeSelectedCountry2(argument) {
+        var newselected = argument;
+        selected_country2 = newselected;
+        document.getElementById("linechart").innerHTML="";
+        startDoingThings(mycsv);
+    }
+    
+  </script>
