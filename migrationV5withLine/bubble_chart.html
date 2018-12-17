@@ -671,6 +671,7 @@
 
 
 <script>
+    var highl = "";
     function hor_bar_func(country_arg) {
             d3.csv("top5_taster_country_points.csv").then(function(data_hb) {
                 var country = country_arg;
@@ -683,9 +684,6 @@
                         points.push(data_hb[i].avg_point);
                     }
                 }
-            
-
-                //d3.select("#wrapper").append("text").text("Country: " + country);
                   var tooltip = d3.select("#hor_bar_wrapper")
                                     .append("div")
                                     .style("position", "absolute")
@@ -766,10 +764,13 @@
                                   .attr('width',function(d){ return 0; })
                                   .on("mouseover", function(d, i) {
                                      d3.select(d3.event.target).attr("stroke","white");
+                                     highl = tasters[i];
+                                     d3.select("#network_viz").dispatch("event_taster_focus");
                                     })
                                 
                                   .on("mouseout", function(d, i) {
-                                      d3.select(d3.event.target).attr("stroke", "none");});
+                                    d3.select("#network_viz").dispatch("event_taster_unfocus");
+                                    d3.select(d3.event.target).attr("stroke", "none");});
                                 
                                 
                 var transit = d3.select("#bars_hor").selectAll("rect")
@@ -829,6 +830,7 @@
             target: i * 2 + 1
         });
     });
+    var array_nodes = graph.nodes.map(function(a) {return a.id;});
 
     var labelLayout = d3.forceSimulation(label.nodes)
         .force("charge", d3.forceManyBody().strength(-50))
@@ -950,8 +952,9 @@
         return 0;
     }
 
-    function focus(d) {
-        var index = d3.select(d3.event.target).datum().index;
+    function focus(d, i) {
+        if (i === "event_taster") var index = d; 
+        else var index = d3.select(d3.event.target).datum().index;
         node.style("opacity", function(o) {
             return neigh(index, o.index) ? 1 : 0.1;
         });
@@ -1030,6 +1033,14 @@
         d.fx = null;
         d.fy = null;
     }
+
+    d3.select("#network_viz").on("event_taster_focus", function() {
+        focus(array_nodes.indexOf(highl),"event_taster"); 
+        });
+
+    d3.select("#network_viz").on("event_taster_unfocus", function() {
+        unfocus(); 
+        });
 
 
     }); // d3.json
