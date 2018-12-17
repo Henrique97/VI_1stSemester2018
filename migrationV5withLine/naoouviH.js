@@ -149,7 +149,7 @@ function createChart(data, country, country2, fromYear, toYear) {
         .style("text-anchor", "end")
         .attr("fill", "#5D6971")
         .text("Years")
-        .attr("x","220px")
+        .attr("x","330px")
         .attr("y","-10px");
     
 
