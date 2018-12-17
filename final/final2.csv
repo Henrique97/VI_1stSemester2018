@@ -1,0 +1,4274 @@
+,variety,year,price,points,priceq,country
+0,Abouriou,2014,15.0,91,0.0,France
+1,Agiorgitiko,2003,21.0,87,2.0,Greece
+2,Agiorgitiko,2006,23.8,86,2.0,Greece
+3,Agiorgitiko,2007,18.0,85,1.0,Greece
+4,Agiorgitiko,2009,12.25,86,0.0,Greece
+5,Agiorgitiko,2012,16.6666666667,87,1.0,Greece
+6,Agiorgitiko,2014,28.0,88,3.0,Greece
+7,Aglianico,-1,43.0,91,5.0,Italy
+8,Aglianico,2001,55.8,91,5.0,Italy
+9,Aglianico,2003,39.1428571429,88,4.0,Italy
+10,Aglianico,2004,57.7647058824,89,5.0,Italy
+11,Aglianico,2005,43.2666666667,88,5.0,Italy
+12,Aglianico,2006,39.16,88,4.0,Italy
+13,Aglianico,2007,41.411764705900005,89,5.0,Italy
+14,Aglianico,2008,40.4137931034,89,5.0,Italy
+15,Aglianico,2009,46.875,89,5.0,US
+16,Aglianico,2010,32.3529411765,88,4.0,Italy
+17,Aglianico,2011,47.1034482759,90,5.0,Italy
+18,Aglianico,2012,31.9487179487,89,4.0,Italy
+19,Aglianico,2013,27.956521739099998,88,3.0,Italy
+20,Aglianico,2014,29.1666666667,88,3.0,Italy
+21,Aglianico,2015,21.2857142857,87,2.0,Italy
+22,Aidani,2011,27.0,82,3.0,Greece
+23,Airen,2007,8.0,83,0.0,Spain
+24,Airen,2009,9.0,80,0.0,Spain
+25,Airen,2011,10.0,82,0.0,Spain
+26,Albana,2004,48.0,90,5.0,Italy
+27,Albana,2006,42.5,91,5.0,Italy
+28,Albana,2007,,94,,Italy
+29,Albana,2009,12.0,84,0.0,Italy
+30,Albana,2011,14.0,87,0.0,Italy
+31,Albana,2012,,90,,Italy
+32,Albana,2014,22.0,93,2.0,Italy
+33,Albana,2015,20.8333333333,88,2.0,Italy
+34,Albana,2016,15.0,91,0.0,Italy
+35,Albanello,2012,20.0,86,2.0,Italy
+36,Albarossa,2006,40.0,88,4.0,Italy
+37,Aleatico,2009,,90,,Italy
+38,Aleatico,2010,55.0,89,5.0,Italy
+39,Aleatico,2012,25.0,85,3.0,Italy
+40,Alfrocheiro,-1,25.0,86,3.0,Portugal
+41,Alfrocheiro,2006,11.0,85,0.0,Portugal
+42,Alfrocheiro,2008,38.0,89,4.0,Portugal
+43,Alfrocheiro,2009,40.0,91,4.0,Portugal
+44,Alfrocheiro,2010,32.0,89,4.0,Portugal
+45,Alfrocheiro,2011,36.3333333333,91,4.0,Portugal
+46,Alfrocheiro,2012,50.0,93,5.0,Portugal
+47,Alfrocheiro,2013,14.0,87,0.0,Portugal
+48,Alicante,2006,30.0,88,3.0,Italy
+49,Alicante,2007,27.0,89,3.0,Italy
+50,Alicante,2008,24.0,86,3.0,Italy
+51,Alicante,2012,24.0,87,3.0,Italy
+52,Alicante,2015,10.0,87,0.0,Italy
+53,Alicante Bouschet,2004,18.0,83,1.0,Portugal
+54,Alicante Bouschet,2006,11.0,86,0.0,Portugal
+55,Alicante Bouschet,2008,24.0,90,3.0,Portugal
+56,Alicante Bouschet,2012,38.4285714286,88,4.0,Portugal
+57,Alicante Bouschet,2013,32.1111111111,90,4.0,US
+58,Alicante Bouschet,2013,32.1111111111,90,4.0,Portugal
+59,Alicante Bouschet,2014,29.25,90,3.0,Portugal
+60,Alicante Bouschet,2016,15.0,89,0.0,Portugal
+61,Alsace white blend,2008,15.25,90,1.0,France
+62,Alsace white blend,2009,57.5,94,5.0,France
+63,Alsace white blend,2010,,90,,France
+64,Alsace white blend,2013,32.3333333333,90,4.0,France
+65,Alsace white blend,2014,22.7272727273,89,2.0,France
+66,Alsace white blend,2015,19.5384615385,89,1.0,France
+67,Alsace white blend,2016,45.0,95,5.0,France
+68,Altesse,2012,18.0,89,1.0,France
+69,Altesse,2016,18.0,87,1.0,France
+70,Alvarinho,2006,17.0,87,1.0,Portugal
+71,Alvarinho,2007,13.0,89,0.0,Portugal
+72,Alvarinho,2008,15.0,86,0.0,Portugal
+73,Alvarinho,2009,,91,,Portugal
+74,Alvarinho,2010,20.0,87,2.0,Portugal
+75,Alvarinho,2012,18.0,88,1.0,Portugal
+76,Alvarinho,2013,22.8235294118,89,2.0,Portugal
+77,Alvarinho,2014,18.5384615385,88,1.0,Portugal
+78,Alvarinho,2015,21.342857142899998,89,2.0,Portugal
+79,Alvarinho,2016,16.888888888900002,88,1.0,Portugal
+80,Alvarinho-Chardonnay,2011,,88,,Portugal
+81,Alvarinho-Chardonnay,2012,9.0,87,0.0,Portugal
+82,Alvarinho-Chardonnay,2013,11.0,87,0.0,Portugal
+83,Ansonica,2010,26.0,86,3.0,Italy
+84,Apple,-1,29.0,89,3.0,US
+85,Apple,-1,29.0,89,3.0,Canada
+86,Aragonez,2010,,88,,Portugal
+87,Aragonez,2011,10.0,85,0.0,Portugal
+88,Argaman,2006,36.0,88,4.0,Israel
+89,Argaman,2009,38.0,86,4.0,Israel
+90,Argaman,2014,48.0,91,5.0,Israel
+91,Arinto,-1,16.6666666667,85,1.0,Portugal
+92,Arinto,2001,7.0,83,0.0,Portugal
+93,Arinto,2004,,88,,Portugal
+94,Arinto,2005,14.0,92,0.0,Portugal
+95,Arinto,2007,10.0,87,0.0,Portugal
+96,Arinto,2008,,86,,Portugal
+97,Arinto,2010,15.75,86,1.0,Portugal
+98,Arinto,2011,16.5,87,1.0,Portugal
+99,Arinto,2012,22.7,88,2.0,Portugal
+100,Arinto,2013,18.75,87,1.0,Portugal
+101,Arinto,2015,13.4444444444,85,0.0,Portugal
+102,Arinto,2016,13.8888888889,87,0.0,Portugal
+103,Arneis,2006,16.5,84,1.0,Italy
+104,Arneis,2008,19.6666666667,86,2.0,Italy
+105,Arneis,2009,20.75,86,2.0,Italy
+106,Arneis,2010,25.2,87,3.0,Italy
+107,Arneis,2012,22.375,88,2.0,Italy
+108,Arneis,2013,27.25,88,3.0,Italy
+109,Arneis,2013,27.25,88,3.0,US
+110,Arneis,2014,20.9166666667,87,2.0,Italy
+111,Arneis,2015,19.0666666667,87,1.0,Italy
+112,Arneis,2016,21.0,92,2.0,US
+113,Asprinio,-1,,85,,Italy
+114,Asprinio,2007,,83,,Italy
+115,Asprinio,2012,15.0,84,0.0,Italy
+116,Assyrtico,2006,29.0,85,3.0,Greece
+117,Assyrtico,2009,35.0,87,4.0,Greece
+118,Assyrtico,2010,26.1,88,3.0,Greece
+119,Assyrtico,2011,13.6,87,0.0,Greece
+120,Assyrtico,2013,27.4,88,3.0,Greece
+121,Assyrtiko,2011,20.0,89,2.0,Greece
+122,Assyrtiko,2014,31.4,89,4.0,Greece
+123,Assyrtiko,2015,18.1428571429,89,1.0,Greece
+124,Athiri,2008,18.0,83,1.0,Greece
+125,Austrian Red Blend,2006,49.0,89,5.0,Austria
+126,Austrian Red Blend,2007,34.1428571429,90,4.0,Austria
+127,Austrian Red Blend,2008,45.0,89,5.0,Austria
+128,Austrian Red Blend,2009,41.5,89,5.0,Austria
+129,Austrian Red Blend,2010,17.3333333333,85,1.0,Austria
+130,Austrian Red Blend,2011,39.3125,89,4.0,Austria
+131,Austrian Red Blend,2015,15.0,90,0.0,Austria
+132,Austrian white blend,1983,110.0,89,5.0,Austria
+133,Austrian white blend,2006,,88,,Austria
+134,Austrian white blend,2009,37.75,90,4.0,Austria
+135,Austrian white blend,2011,23.875,89,2.0,Austria
+136,Austrian white blend,2012,27.375,89,3.0,Austria
+137,Austrian white blend,2013,39.8461538462,90,4.0,Austria
+138,Austrian white blend,2014,32.5555555556,90,4.0,Austria
+139,Austrian white blend,2015,23.8333333333,91,2.0,Austria
+140,Austrian white blend,2016,21.6666666667,90,2.0,Austria
+141,Auxerrois,2009,22.0,89,2.0,US
+142,Auxerrois,2010,22.0,90,2.0,US
+143,Auxerrois,2011,21.0,88,2.0,France
+144,Auxerrois,2013,19.6666666667,88,2.0,US
+145,Auxerrois,2014,23.0,88,2.0,France
+146,Auxerrois,2015,26.75,89,3.0,US
+147,Auxerrois,2016,22.0,90,2.0,US
+148,Avesso,2011,16.0,88,1.0,Portugal
+149,Avesso,2012,15.0,89,0.0,Portugal
+150,Avesso,2013,21.0,87,2.0,Portugal
+151,Avesso,2015,12.0,88,0.0,Portugal
+152,Avesso,2016,13.0,88,0.0,Portugal
+153,Azal,2010,13.0,87,0.0,Portugal
+154,Azal,2013,13.0,85,0.0,Portugal
+155,Azal,2015,15.0,86,0.0,Portugal
+156,Babosa Negro,2015,45.0,92,5.0,Spain
+157,Bacchus,2015,,91,,Germany
+158,Baco Noir,2000,35.0,87,4.0,US
+159,Baco Noir,2006,36.0,89,4.0,US
+160,Baco Noir,2008,26.0,85,3.0,US
+161,Baco Noir,2010,22.0,86,2.0,US
+162,Baco Noir,2012,28.0,83,3.0,US
+163,Baga,-1,12.0,86,0.0,Portugal
+164,Baga,2004,14.0,88,0.0,Portugal
+165,Baga,2005,35.0,88,4.0,Portugal
+166,Baga,2007,70.0,93,5.0,Portugal
+167,Baga,2009,67.0,90,5.0,Portugal
+168,Baga,2011,32.75,90,4.0,Portugal
+169,Baga,2012,31.3333333333,90,4.0,Portugal
+170,Baga,2013,41.0,90,5.0,Portugal
+171,Baga,2015,20.0,91,2.0,Portugal
+172,Baga-Touriga Nacional,2010,40.0,91,4.0,Portugal
+173,Barbera,1870,,86,,Italy
+174,Barbera,1998,10.0,84,0.0,Italy
+175,Barbera,2001,19.0,84,1.0,Italy
+176,Barbera,2003,28.6,87,3.0,Italy
+177,Barbera,2004,29.818181818200003,86,3.0,Italy
+178,Barbera,2005,24.2962962963,86,3.0,Italy
+179,Barbera,2006,26.7179487179,87,3.0,Italy
+180,Barbera,2007,25.0634920635,87,3.0,Italy
+181,Barbera,2007,25.0634920635,87,3.0,US
+182,Barbera,2008,22.775510204099998,86,2.0,Italy
+183,Barbera,2008,22.775510204099998,86,2.0,US
+184,Barbera,2009,24.8214285714,87,3.0,US
+185,Barbera,2009,24.8214285714,87,3.0,Italy
+186,Barbera,2010,28.15,86,3.0,Italy
+187,Barbera,2010,28.15,86,3.0,US
+188,Barbera,2011,27.568627450999998,87,3.0,Italy
+189,Barbera,2011,27.568627450999998,87,3.0,US
+190,Barbera,2012,28.185185185199998,88,3.0,US
+191,Barbera,2012,28.185185185199998,88,3.0,Italy
+192,Barbera,2013,27.887755102,88,3.0,Italy
+193,Barbera,2013,27.887755102,88,3.0,US
+194,Barbera,2014,26.8064516129,88,3.0,US
+195,Barbera,2014,26.8064516129,88,3.0,Italy
+196,Barbera,2015,22.630434782600002,88,2.0,Italy
+197,Barbera,2015,22.630434782600002,88,2.0,US
+198,Barbera,2016,17.0,87,1.0,Italy
+199,Barbera-Nebbiolo,2010,30.0,87,3.0,US
+200,Bastardo,-1,9.0,85,0.0,Ukraine
+201,Bastardo,2014,32.0,86,4.0,Portugal
+202,Biancale,2007,18.0,85,1.0,Italy
+203,Biancolella,2007,26.0,85,3.0,Italy
+204,Biancu Gentile,2016,,89,,France
+205,Bical,2006,15.0,86,0.0,Portugal
+206,Bical,2007,9.0,87,0.0,Portugal
+207,Bical,2008,9.0,85,0.0,Portugal
+208,Bical,2010,15.0,84,0.0,Portugal
+209,Bical,2012,18.5,85,1.0,Portugal
+210,Bical,2014,12.0,86,0.0,Portugal
+211,Bical,2016,8.0,88,0.0,Portugal
+212,Black Muscat,-1,45.0,87,5.0,US
+213,Black Muscat,1998,25.0,92,3.0,US
+214,Black Muscat,2008,24.0,86,3.0,US
+215,Black Muscat,2009,10.0,88,0.0,US
+216,Black Muscat,2010,21.0,92,2.0,US
+217,Black Muscat,2014,22.0,91,2.0,US
+218,Blanc du Bois,2011,40.0,85,4.0,US
+219,Blanc du Bois,2012,23.0,87,2.0,US
+220,Blanc du Bois,2013,26.0,84,3.0,US
+221,Blanc du Bois,2014,21.0,84,2.0,US
+222,Blatina,2011,12.0,88,0.0,Bosnia and Herzegovina
+223,Blauburger,2008,17.0,87,1.0,Hungary
+224,Blauburgunder,2015,19.0,93,1.0,Austria
+225,Blauer Portugieser,2011,15.0,86,0.0,Hungary
+226,Blauer Portugieser,2012,16.0,87,1.0,Serbia
+227,Bobal,-1,46.0,87,5.0,Spain
+228,Bobal,2004,20.0,85,2.0,Spain
+229,Bobal,2009,13.0,86,0.0,Spain
+230,Bobal,2010,13.0,80,0.0,Spain
+231,Bobal,2012,18.75,87,1.0,Spain
+232,Bobal,2013,15.5,84,1.0,Spain
+233,Bobal,2015,13.0,85,0.0,Spain
+234,Bobal-Cabernet Sauvignon,2015,9.0,84,0.0,Spain
+235,Bombino Bianco,2009,,86,,Italy
+236,Bombino Bianco,2011,30.0,88,3.0,Italy
+237,Bombino Nero,2007,11.0,87,0.0,Italy
+238,Bonarda,2005,12.0,83,0.0,Argentina
+239,Bonarda,2006,13.75,85,0.0,Argentina
+240,Bonarda,2007,13.1111111111,85,0.0,Argentina
+241,Bonarda,2008,15.4,85,1.0,Argentina
+242,Bonarda,2009,14.916666666700001,86,0.0,Argentina
+243,Bonarda,2010,17.3076923077,86,1.0,Argentina
+244,Bonarda,2012,18.8235294118,86,1.0,Argentina
+245,Bonarda,2013,20.111111111099998,85,2.0,Argentina
+246,Bonarda,2015,15.8,86,1.0,Argentina
+247,Bonarda,2016,14.0,88,0.0,Argentina
+248,Bordeaux-style Red Blend,-1,33.5,86,4.0,US
+249,Bordeaux-style Red Blend,-1,33.5,86,4.0,Brazil
+250,Bordeaux-style Red Blend,1840,75.0,91,5.0,US
+251,Bordeaux-style Red Blend,1856,36.0,87,4.0,US
+252,Bordeaux-style Red Blend,1994,21.0,85,2.0,Chile
+253,Bordeaux-style Red Blend,1995,15.0,86,0.0,France
+254,Bordeaux-style Red Blend,1996,35.0,86,4.0,France
+255,Bordeaux-style Red Blend,1997,58.36,89,5.0,US
+256,Bordeaux-style Red Blend,1999,37.1111111111,87,4.0,France
+257,Bordeaux-style Red Blend,1999,37.1111111111,87,4.0,South Africa
+258,Bordeaux-style Red Blend,2000,63.292682926800005,90,5.0,France
+259,Bordeaux-style Red Blend,2000,63.292682926800005,90,5.0,US
+260,Bordeaux-style Red Blend,2002,24.3333333333,87,3.0,US
+261,Bordeaux-style Red Blend,2003,50.891891891899995,87,5.0,France
+262,Bordeaux-style Red Blend,2003,50.891891891899995,87,5.0,US
+263,Bordeaux-style Red Blend,2003,50.891891891899995,87,5.0,South Africa
+264,Bordeaux-style Red Blend,2004,52.393939393900006,88,5.0,US
+265,Bordeaux-style Red Blend,2004,52.393939393900006,88,5.0,France
+266,Bordeaux-style Red Blend,2004,52.393939393900006,88,5.0,South Africa
+267,Bordeaux-style Red Blend,2005,58.0636942675,89,5.0,France
+268,Bordeaux-style Red Blend,2005,58.0636942675,89,5.0,US
+269,Bordeaux-style Red Blend,2006,55.127906976700004,89,5.0,US
+270,Bordeaux-style Red Blend,2006,55.127906976700004,89,5.0,Chile
+271,Bordeaux-style Red Blend,2006,55.127906976700004,89,5.0,France
+272,Bordeaux-style Red Blend,2006,55.127906976700004,89,5.0,Australia
+273,Bordeaux-style Red Blend,2007,67.735042735,89,5.0,South Africa
+274,Bordeaux-style Red Blend,2007,67.735042735,89,5.0,France
+275,Bordeaux-style Red Blend,2007,67.735042735,89,5.0,New Zealand
+276,Bordeaux-style Red Blend,2007,67.735042735,89,5.0,US
+277,Bordeaux-style Red Blend,2007,67.735042735,89,5.0,Argentina
+278,Bordeaux-style Red Blend,2008,54.3711790393,89,5.0,France
+279,Bordeaux-style Red Blend,2008,54.3711790393,89,5.0,US
+280,Bordeaux-style Red Blend,2008,54.3711790393,89,5.0,Hungary
+281,Bordeaux-style Red Blend,2009,68.4328703704,89,5.0,France
+282,Bordeaux-style Red Blend,2009,68.4328703704,89,5.0,US
+283,Bordeaux-style Red Blend,2009,68.4328703704,89,5.0,Argentina
+284,Bordeaux-style Red Blend,2010,47.012944983800004,89,5.0,US
+285,Bordeaux-style Red Blend,2010,47.012944983800004,89,5.0,France
+286,Bordeaux-style Red Blend,2010,47.012944983800004,89,5.0,South Africa
+287,Bordeaux-style Red Blend,2010,47.012944983800004,89,5.0,Chile
+288,Bordeaux-style Red Blend,2010,47.012944983800004,89,5.0,Australia
+289,Bordeaux-style Red Blend,2011,42.459541984699996,88,5.0,US
+290,Bordeaux-style Red Blend,2011,42.459541984699996,88,5.0,France
+291,Bordeaux-style Red Blend,2011,42.459541984699996,88,5.0,Chile
+292,Bordeaux-style Red Blend,2012,40.4296675192,89,5.0,US
+293,Bordeaux-style Red Blend,2012,40.4296675192,89,5.0,France
+294,Bordeaux-style Red Blend,2012,40.4296675192,89,5.0,Hungary
+295,Bordeaux-style Red Blend,2012,40.4296675192,89,5.0,Israel
+296,Bordeaux-style Red Blend,2013,53.5499153976,88,5.0,US
+297,Bordeaux-style Red Blend,2013,53.5499153976,88,5.0,France
+298,Bordeaux-style Red Blend,2013,53.5499153976,88,5.0,Argentina
+299,Bordeaux-style Red Blend,2014,42.3380614657,89,5.0,France
+300,Bordeaux-style Red Blend,2014,42.3380614657,89,5.0,US
+301,Bordeaux-style Red Blend,2015,20.5740740741,87,2.0,France
+302,Bordeaux-style Red Blend,2015,20.5740740741,87,2.0,US
+303,Bordeaux-style Red Blend,2016,18.7826086957,86,1.0,France
+304,Bordeaux-style White Blend,2000,15.0,84,0.0,France
+305,Bordeaux-style White Blend,2001,9.0,85,0.0,France
+306,Bordeaux-style White Blend,2004,,88,,France
+307,Bordeaux-style White Blend,2005,93.2666666667,90,5.0,France
+308,Bordeaux-style White Blend,2006,21.5625,89,2.0,France
+309,Bordeaux-style White Blend,2007,67.5135135135,90,5.0,France
+310,Bordeaux-style White Blend,2008,27.3846153846,89,3.0,France
+311,Bordeaux-style White Blend,2009,78.6363636364,91,5.0,France
+312,Bordeaux-style White Blend,2010,31.2407407407,89,4.0,France
+313,Bordeaux-style White Blend,2011,27.3103448276,89,3.0,France
+314,Bordeaux-style White Blend,2012,22.325,87,2.0,France
+315,Bordeaux-style White Blend,2012,22.325,87,2.0,US
+316,Bordeaux-style White Blend,2013,52.423529411800004,87,5.0,France
+317,Bordeaux-style White Blend,2013,52.423529411800004,87,5.0,US
+318,Bordeaux-style White Blend,2014,38.7058823529,88,4.0,France
+319,Bordeaux-style White Blend,2014,38.7058823529,88,4.0,US
+320,Bordeaux-style White Blend,2015,17.6176470588,86,1.0,France
+321,Bordeaux-style White Blend,2016,15.6052631579,86,1.0,France
+322,Bovale,2008,30.0,88,3.0,Italy
+323,Bovale,2009,30.0,89,3.0,Italy
+324,Bovale,2011,30.0,91,3.0,Italy
+325,Brachetto,2007,22.0,82,2.0,Italy
+326,Brachetto,2008,17.0,86,1.0,Italy
+327,Brachetto,2009,27.0,85,3.0,Italy
+328,Brachetto,2010,18.0,85,1.0,Italy
+329,Brachetto,2011,18.8,84,1.0,Italy
+330,Braucol,2013,40.0,90,4.0,France
+331,Braucol,2014,29.0,92,3.0,France
+332,Braucol,2016,12.0,87,0.0,France
+333,Bual,1969,230.0,98,5.0,Portugal
+334,Bual,1987,194.0,95,5.0,Portugal
+335,Bual,1995,,93,,Portugal
+336,Bual,2002,50.0,95,5.0,Portugal
+337,Bual,2003,50.0,92,5.0,Portugal
+338,Bual,2005,42.0,92,5.0,Portugal
+339,Bual,2008,34.0,94,4.0,Portugal
+340,Cabernet,2006,,87,,Italy
+341,Cabernet,2007,13.0,84,0.0,Italy
+342,Cabernet,2013,12.0,87,0.0,South Africa
+343,Cabernet Blend,1998,49.3333333333,87,5.0,Italy
+344,Cabernet Blend,1999,56.0,92,5.0,US
+345,Cabernet Blend,2002,9.0,85,0.0,Chile
+346,Cabernet Blend,2003,97.0,88,5.0,Spain
+347,Cabernet Blend,2007,27.625,87,3.0,Chile
+348,Cabernet Blend,2008,63.428571428599994,87,5.0,Chile
+349,Cabernet Blend,2009,38.6,88,4.0,Chile
+350,Cabernet Blend,2013,75.0,90,5.0,US
+351,Cabernet Blend,2014,24.3333333333,89,3.0,Morocco
+352,Cabernet Franc,-1,21.1428571429,86,2.0,France
+353,Cabernet Franc,-1,21.1428571429,86,2.0,US
+354,Cabernet Franc,1997,23.0,84,2.0,US
+355,Cabernet Franc,1999,23.5714285714,84,2.0,US
+356,Cabernet Franc,2001,25.0,87,3.0,Chile
+357,Cabernet Franc,2004,44.96,88,5.0,US
+358,Cabernet Franc,2005,36.8181818182,87,4.0,US
+359,Cabernet Franc,2006,34.0212765957,87,4.0,US
+360,Cabernet Franc,2007,31.9295774648,86,4.0,US
+361,Cabernet Franc,2007,31.9295774648,86,4.0,Argentina
+362,Cabernet Franc,2007,31.9295774648,86,4.0,Israel
+363,Cabernet Franc,2008,38.6833333333,88,4.0,US
+364,Cabernet Franc,2008,38.6833333333,88,4.0,Argentina
+365,Cabernet Franc,2009,34.5111111111,87,4.0,US
+366,Cabernet Franc,2009,34.5111111111,87,4.0,France
+367,Cabernet Franc,2010,35.4540540541,87,4.0,US
+368,Cabernet Franc,2010,35.4540540541,87,4.0,Chile
+369,Cabernet Franc,2010,35.4540540541,87,4.0,France
+370,Cabernet Franc,2011,39.3543307087,88,4.0,US
+371,Cabernet Franc,2011,39.3543307087,88,4.0,France
+372,Cabernet Franc,2011,39.3543307087,88,4.0,Chile
+373,Cabernet Franc,2012,36.0217391304,88,4.0,US
+374,Cabernet Franc,2012,36.0217391304,88,4.0,Canada
+375,Cabernet Franc,2012,36.0217391304,88,4.0,France
+376,Cabernet Franc,2012,36.0217391304,88,4.0,Chile
+377,Cabernet Franc,2012,36.0217391304,88,4.0,Argentina
+378,Cabernet Franc,2013,35.5258215962,88,4.0,US
+379,Cabernet Franc,2013,35.5258215962,88,4.0,France
+380,Cabernet Franc,2013,35.5258215962,88,4.0,South Africa
+381,Cabernet Franc,2013,35.5258215962,88,4.0,Argentina
+382,Cabernet Franc,2013,35.5258215962,88,4.0,Italy
+383,Cabernet Franc,2013,35.5258215962,88,4.0,Canada
+384,Cabernet Franc,2014,33.4404761905,88,4.0,Argentina
+385,Cabernet Franc,2014,33.4404761905,88,4.0,US
+386,Cabernet Franc,2014,33.4404761905,88,4.0,France
+387,Cabernet Franc,2014,33.4404761905,88,4.0,Chile
+388,Cabernet Franc,2015,24.090909090900002,88,3.0,France
+389,Cabernet Franc,2015,24.090909090900002,88,3.0,Argentina
+390,Cabernet Franc,2015,24.090909090900002,88,3.0,US
+391,Cabernet Franc,2015,24.090909090900002,88,3.0,Uruguay
+392,Cabernet Franc,2016,21.0,88,2.0,US
+393,Cabernet Franc-Lemberger,2013,20.0,88,2.0,US
+394,Cabernet Franc-Lemberger,2015,20.0,86,2.0,US
+395,Cabernet Franc-Malbec,2012,38.0,91,4.0,Argentina
+396,Cabernet Franc-Malbec,2013,79.0,91,5.0,Argentina
+397,Cabernet Franc-Merlot,2011,42.5,89,5.0,US
+398,Cabernet Franc-Merlot,2015,23.0,89,2.0,US
+399,Cabernet Merlot,-1,14.5,84,0.0,US
+400,Cabernet Merlot,1848,40.0,89,4.0,Israel
+401,Cabernet Merlot,2002,57.0,89,5.0,Israel
+402,Cabernet Merlot,2002,57.0,89,5.0,Canada
+403,Cabernet Merlot,2003,29.0,86,3.0,Australia
+404,Cabernet Merlot,2004,30.5,88,4.0,Australia
+405,Cabernet Merlot,2005,14.5,84,0.0,Australia
+406,Cabernet Merlot,2008,12.333333333299999,86,0.0,US
+407,Cabernet Merlot,2011,25.0,90,3.0,New Zealand
+408,Cabernet Merlot,2013,8.0,82,0.0,US
+409,Cabernet Merlot,2015,8.0,85,0.0,US
+410,Cabernet Moravia,-1,18.0,85,1.0,Czech Republic
+411,Cabernet Moravia,2009,18.0,88,1.0,Czech Republic
+412,Cabernet Pfeffer,2010,25.0,84,3.0,US
+413,Cabernet Pfeffer,2012,35.0,91,4.0,US
+414,Cabernet Sauvignon,-1,17.434782608699994,84,1.0,France
+415,Cabernet Sauvignon,-1,17.434782608699994,84,1.0,US
+416,Cabernet Sauvignon,1840,75.0,92,5.0,US
+417,Cabernet Sauvignon,1848,25.0,91,3.0,Israel
+418,Cabernet Sauvignon,1870,30.0,85,3.0,South Africa
+419,Cabernet Sauvignon,1985,170.0,86,5.0,US
+420,Cabernet Sauvignon,1986,170.0,86,5.0,US
+421,Cabernet Sauvignon,1987,170.0,89,5.0,US
+422,Cabernet Sauvignon,1989,14.0,86,0.0,US
+423,Cabernet Sauvignon,1990,40.0,88,4.0,US
+424,Cabernet Sauvignon,1991,160.0,88,5.0,US
+425,Cabernet Sauvignon,1994,82.5,88,5.0,US
+426,Cabernet Sauvignon,1997,48.909836065600004,89,5.0,US
+427,Cabernet Sauvignon,1997,48.909836065600004,89,5.0,Italy
+428,Cabernet Sauvignon,1998,28.9423076923,86,3.0,Chile
+429,Cabernet Sauvignon,1998,28.9423076923,86,3.0,US
+430,Cabernet Sauvignon,1999,34.125,87,4.0,US
+431,Cabernet Sauvignon,1999,34.125,87,4.0,Chile
+432,Cabernet Sauvignon,2000,24.205128205100003,86,3.0,US
+433,Cabernet Sauvignon,2000,24.205128205100003,86,3.0,Chile
+434,Cabernet Sauvignon,2001,28.9117647059,87,3.0,Chile
+435,Cabernet Sauvignon,2001,28.9117647059,87,3.0,US
+436,Cabernet Sauvignon,2002,27.3333333333,87,3.0,Chile
+437,Cabernet Sauvignon,2002,27.3333333333,87,3.0,Australia
+438,Cabernet Sauvignon,2002,27.3333333333,87,3.0,US
+439,Cabernet Sauvignon,2002,27.3333333333,87,3.0,South Africa
+440,Cabernet Sauvignon,2003,45.8333333333,87,5.0,US
+441,Cabernet Sauvignon,2003,45.8333333333,87,5.0,Australia
+442,Cabernet Sauvignon,2003,45.8333333333,87,5.0,Spain
+443,Cabernet Sauvignon,2004,53.1178861789,88,5.0,Australia
+444,Cabernet Sauvignon,2004,53.1178861789,88,5.0,Italy
+445,Cabernet Sauvignon,2004,53.1178861789,88,5.0,US
+446,Cabernet Sauvignon,2004,53.1178861789,88,5.0,Spain
+447,Cabernet Sauvignon,2004,53.1178861789,88,5.0,France
+448,Cabernet Sauvignon,2004,53.1178861789,88,5.0,Argentina
+449,Cabernet Sauvignon,2005,45.1921487603,88,5.0,US
+450,Cabernet Sauvignon,2005,45.1921487603,88,5.0,Australia
+451,Cabernet Sauvignon,2005,45.1921487603,88,5.0,Chile
+452,Cabernet Sauvignon,2005,45.1921487603,88,5.0,Italy
+453,Cabernet Sauvignon,2005,45.1921487603,88,5.0,South Africa
+454,Cabernet Sauvignon,2005,45.1921487603,88,5.0,Greece
+455,Cabernet Sauvignon,2006,42.3564547206,88,5.0,US
+456,Cabernet Sauvignon,2006,42.3564547206,88,5.0,Chile
+457,Cabernet Sauvignon,2006,42.3564547206,88,5.0,Australia
+458,Cabernet Sauvignon,2006,42.3564547206,88,5.0,Spain
+459,Cabernet Sauvignon,2006,42.3564547206,88,5.0,Argentina
+460,Cabernet Sauvignon,2006,42.3564547206,88,5.0,Israel
+461,Cabernet Sauvignon,2007,46.80459770109999,88,5.0,Argentina
+462,Cabernet Sauvignon,2007,46.80459770109999,88,5.0,US
+463,Cabernet Sauvignon,2007,46.80459770109999,88,5.0,Chile
+464,Cabernet Sauvignon,2007,46.80459770109999,88,5.0,South Africa
+465,Cabernet Sauvignon,2007,46.80459770109999,88,5.0,Greece
+466,Cabernet Sauvignon,2007,46.80459770109999,88,5.0,Australia
+467,Cabernet Sauvignon,2008,50.3803863299,88,5.0,US
+468,Cabernet Sauvignon,2008,50.3803863299,88,5.0,Chile
+469,Cabernet Sauvignon,2008,50.3803863299,88,5.0,Italy
+470,Cabernet Sauvignon,2008,50.3803863299,88,5.0,Argentina
+471,Cabernet Sauvignon,2008,50.3803863299,88,5.0,Spain
+472,Cabernet Sauvignon,2008,50.3803863299,88,5.0,Turkey
+473,Cabernet Sauvignon,2008,50.3803863299,88,5.0,Australia
+474,Cabernet Sauvignon,2009,50.640837696300004,88,5.0,US
+475,Cabernet Sauvignon,2009,50.640837696300004,88,5.0,Argentina
+476,Cabernet Sauvignon,2009,50.640837696300004,88,5.0,Chile
+477,Cabernet Sauvignon,2009,50.640837696300004,88,5.0,Australia
+478,Cabernet Sauvignon,2009,50.640837696300004,88,5.0,Israel
+479,Cabernet Sauvignon,2009,50.640837696300004,88,5.0,South Africa
+480,Cabernet Sauvignon,2009,50.640837696300004,88,5.0,Italy
+481,Cabernet Sauvignon,2009,50.640837696300004,88,5.0,France
+482,Cabernet Sauvignon,2009,50.640837696300004,88,5.0,Romania
+483,Cabernet Sauvignon,2009,50.640837696300004,88,5.0,Spain
+484,Cabernet Sauvignon,2010,49.8194444444,88,5.0,US
+485,Cabernet Sauvignon,2010,49.8194444444,88,5.0,Argentina
+486,Cabernet Sauvignon,2010,49.8194444444,88,5.0,Chile
+487,Cabernet Sauvignon,2010,49.8194444444,88,5.0,Israel
+488,Cabernet Sauvignon,2010,49.8194444444,88,5.0,Austria
+489,Cabernet Sauvignon,2010,49.8194444444,88,5.0,Italy
+490,Cabernet Sauvignon,2011,44.026151930299996,87,5.0,US
+491,Cabernet Sauvignon,2011,44.026151930299996,87,5.0,Chile
+492,Cabernet Sauvignon,2011,44.026151930299996,87,5.0,Moldova
+493,Cabernet Sauvignon,2011,44.026151930299996,87,5.0,Argentina
+494,Cabernet Sauvignon,2011,44.026151930299996,87,5.0,Romania
+495,Cabernet Sauvignon,2011,44.026151930299996,87,5.0,Italy
+496,Cabernet Sauvignon,2011,44.026151930299996,87,5.0,South Africa
+497,Cabernet Sauvignon,2012,54.4252088079,89,5.0,US
+498,Cabernet Sauvignon,2012,54.4252088079,89,5.0,Chile
+499,Cabernet Sauvignon,2012,54.4252088079,89,5.0,Argentina
+500,Cabernet Sauvignon,2012,54.4252088079,89,5.0,Israel
+501,Cabernet Sauvignon,2012,54.4252088079,89,5.0,Italy
+502,Cabernet Sauvignon,2012,54.4252088079,89,5.0,Australia
+503,Cabernet Sauvignon,2013,54.0917207792,89,5.0,US
+504,Cabernet Sauvignon,2013,54.0917207792,89,5.0,Israel
+505,Cabernet Sauvignon,2013,54.0917207792,89,5.0,Chile
+506,Cabernet Sauvignon,2013,54.0917207792,89,5.0,Bulgaria
+507,Cabernet Sauvignon,2013,54.0917207792,89,5.0,Argentina
+508,Cabernet Sauvignon,2013,54.0917207792,89,5.0,Australia
+509,Cabernet Sauvignon,2014,42.325316455700005,88,5.0,US
+510,Cabernet Sauvignon,2014,42.325316455700005,88,5.0,Argentina
+511,Cabernet Sauvignon,2014,42.325316455700005,88,5.0,Chile
+512,Cabernet Sauvignon,2014,42.325316455700005,88,5.0,Israel
+513,Cabernet Sauvignon,2014,42.325316455700005,88,5.0,Portugal
+514,Cabernet Sauvignon,2014,42.325316455700005,88,5.0,France
+515,Cabernet Sauvignon,2014,42.325316455700005,88,5.0,South Africa
+516,Cabernet Sauvignon,2015,17.554973822,86,1.0,France
+517,Cabernet Sauvignon,2015,17.554973822,86,1.0,US
+518,Cabernet Sauvignon,2015,17.554973822,86,1.0,Chile
+519,Cabernet Sauvignon,2015,17.554973822,86,1.0,Bulgaria
+520,Cabernet Sauvignon,2015,17.554973822,86,1.0,Italy
+521,Cabernet Sauvignon,2015,17.554973822,86,1.0,South Africa
+522,Cabernet Sauvignon,2015,17.554973822,86,1.0,Argentina
+523,Cabernet Sauvignon,2016,13.1363636364,86,0.0,France
+524,Cabernet Sauvignon,2016,13.1363636364,86,0.0,Argentina
+525,Cabernet Sauvignon,2016,13.1363636364,86,0.0,Chile
+526,Cabernet Sauvignon-Barbera,1998,45.0,84,5.0,US
+527,Cabernet Sauvignon-Malbec,2006,8.0,82,0.0,Argentina
+528,Cabernet Sauvignon-Malbec,2007,10.0,81,0.0,Argentina
+529,Cabernet Sauvignon-Malbec,2013,125.0,94,5.0,Argentina
+530,Cabernet Sauvignon-Merlot,-1,20.0,86,2.0,US
+531,Cabernet Sauvignon-Merlot,1848,25.0,89,3.0,Israel
+532,Cabernet Sauvignon-Merlot,1997,47.5,87,5.0,Chile
+533,Cabernet Sauvignon-Merlot,1999,15.0,85,0.0,Chile
+534,Cabernet Sauvignon-Merlot,2002,12.666666666700001,84,0.0,South Africa
+535,Cabernet Sauvignon-Merlot,2008,35.0,89,4.0,Chile
+536,Cabernet Sauvignon-Merlot,2008,35.0,89,4.0,Australia
+537,Cabernet Sauvignon-Merlot,2010,36.2727272727,87,4.0,US
+538,Cabernet Sauvignon-Merlot,2010,36.2727272727,87,4.0,Israel
+539,Cabernet Sauvignon-Merlot,2011,30.0,86,3.0,Mexico
+540,Cabernet Sauvignon-Merlot,2011,30.0,86,3.0,US
+541,Cabernet Sauvignon-Merlot,2013,37.0,88,4.0,Chile
+542,Cabernet Sauvignon-Merlot,2014,20.5,87,2.0,Spain
+543,Cabernet Sauvignon-Merlot,2014,20.5,87,2.0,Turkey
+544,Cabernet Sauvignon-Shiraz,1999,12.0,86,0.0,Australia
+545,Cabernet Sauvignon-Shiraz,2000,9.0,83,0.0,US
+546,Cabernet Sauvignon-Shiraz,2003,40.0,81,4.0,Australia
+547,Cabernet Sauvignon-Shiraz,2004,125.0,92,5.0,Australia
+548,Cabernet Sauvignon-Shiraz,2005,9.0,88,0.0,Argentina
+549,Cabernet Sauvignon-Shiraz,2006,21.75,86,2.0,Israel
+550,Cabernet Sauvignon-Shiraz,2006,21.75,86,2.0,Italy
+551,Cabernet Sauvignon-Shiraz,2007,36.0,91,4.0,Australia
+552,Cabernet Sauvignon-Shiraz,2012,16.0,90,1.0,Israel
+553,Cabernet Sauvignon-Shiraz,2013,33.6666666667,91,4.0,South Africa
+554,Cabernet Sauvignon-Shiraz,2014,,90,,South Africa
+555,Cabernet Sauvignon-Shiraz,2015,23.0,90,2.0,Australia
+556,Cabernet Sauvignon-Syrah,-1,25.0,90,3.0,US
+557,Cabernet Sauvignon-Syrah,1999,14.0,88,0.0,France
+558,Cabernet Sauvignon-Syrah,2001,14.0,85,0.0,US
+559,Cabernet Sauvignon-Syrah,2005,33.25,88,4.0,US
+560,Cabernet Sauvignon-Syrah,2008,46.3076923077,89,5.0,Chile
+561,Cabernet Sauvignon-Syrah,2010,23.8888888889,88,2.0,US
+562,Cabernet Sauvignon-Syrah,2010,23.8888888889,88,2.0,Chile
+563,Cabernet Sauvignon-Syrah,2010,23.8888888889,88,2.0,France
+564,Cabernet Sauvignon-Syrah,2011,26.5,88,3.0,US
+565,Cabernet Sauvignon-Syrah,2012,32.1,87,4.0,US
+566,Cabernet Sauvignon-Syrah,2014,40.6,89,5.0,US
+567,Cabernet Sauvignon-Syrah,2015,14.0,88,0.0,US
+568,Cabernet-Malbec,2014,11.0,86,0.0,Argentina
+569,Cabernet-Syrah,2005,20.0,87,2.0,US
+570,Cabernet-Syrah,2007,30.0,93,3.0,France
+571,Cabernet-Syrah,2008,27.0,92,3.0,US
+572,Cabernet-Syrah,2009,40.0,88,4.0,France
+573,Cabernet-Syrah,2010,22.6,88,2.0,Argentina
+574,Cabernet-Syrah,2011,22.0,88,2.0,US
+575,Cabernet-Syrah,2014,28.0,89,3.0,US
+576,Canaiolo,2009,17.0,87,1.0,Italy
+577,Canaiolo,2012,52.5,89,5.0,Italy
+578,Cannonau,2001,22.0,88,2.0,Italy
+579,Cannonau,2006,15.0,87,0.0,Italy
+580,Cannonau,2008,25.5,86,3.0,Italy
+581,Cannonau,2009,26.6666666667,87,3.0,Italy
+582,Cannonau,2012,21.6,87,2.0,Italy
+583,Cannonau,2013,18.1666666667,89,1.0,Italy
+584,Cannonau,2014,24.0,89,3.0,Italy
+585,Caprettone,2012,19.0,92,1.0,Italy
+586,Carcajolu,2015,21.0,88,2.0,France
+587,Carignan,2007,19.3333333333,87,1.0,Chile
+588,Carignan,2008,21.8,87,2.0,Chile
+589,Carignan,2010,28.3333333333,88,3.0,Chile
+590,Carignan,2011,32.2857142857,87,4.0,Chile
+591,Carignan,2012,103.0,88,5.0,Chile
+592,Carignan,2013,38.0,88,4.0,Chile
+593,Carignan,2013,38.0,88,4.0,France
+594,Carignan,2014,64.0714285714,90,5.0,Chile
+595,Carignan,2015,19.5,90,1.0,Chile
+596,Carignan-Grenache,2009,20.0,85,2.0,Spain
+597,Carignan-Grenache,2012,17.0,90,1.0,France
+598,Carignan-Grenache,2013,33.5,89,4.0,Spain
+599,Carignan-Grenache,2014,30.0,89,3.0,US
+600,Carignan-Syrah,2012,80.0,92,5.0,France
+601,Carignan-Syrah,2014,17.0,89,1.0,France
+602,Carignane,1999,20.0,86,2.0,US
+603,Carignane,2005,20.0,85,2.0,US
+604,Carignane,2008,22.0,87,2.0,US
+605,Carignane,2009,32.0,88,4.0,US
+606,Carignane,2010,19.0,85,1.0,US
+607,Carignane,2011,28.3333333333,88,3.0,US
+608,Carignane,2013,28.875,90,3.0,US
+609,Carignane,2015,28.0,90,3.0,US
+610,Carignano,2000,22.0,89,2.0,Italy
+611,Carignano,2003,85.0,91,5.0,Italy
+612,Carignano,2007,47.6666666667,90,5.0,Italy
+613,Carignano,2010,15.0,92,0.0,Italy
+614,Carricante,1994,195.0,92,5.0,Italy
+615,Carricante,2006,75.0,93,5.0,Italy
+616,Carricante,2008,48.0,90,5.0,Italy
+617,Carricante,2009,45.0,91,5.0,Italy
+618,Carricante,2011,30.6666666667,90,4.0,Italy
+619,Carricante,2012,42.5,90,5.0,Italy
+620,Carricante,2013,28.6,89,3.0,Italy
+621,Carricante,2014,34.0,88,4.0,Italy
+622,Carricante,2015,29.1428571429,90,3.0,Italy
+623,Casavecchia,2006,26.0,85,3.0,Italy
+624,Casavecchia,2007,58.0,90,5.0,Italy
+625,Casavecchia,2011,45.0,85,5.0,Italy
+626,Catalanesca,2012,19.0,89,1.0,Italy
+627,Catarratto,-1,12.0,87,0.0,Italy
+628,Catarratto,2007,12.0,84,0.0,Italy
+629,Catarratto,2008,18.0,87,1.0,Italy
+630,Catarratto,2009,17.0,87,1.0,Italy
+631,Catarratto,2010,17.6,86,1.0,Italy
+632,Catarratto,2011,16.0,86,1.0,Italy
+633,Catarratto,2012,74.0,87,5.0,Italy
+634,Catarratto,2013,16.25,86,1.0,Italy
+635,Catarratto,2015,23.1428571429,87,2.0,Italy
+636,Cayuga,2011,19.0,84,1.0,US
+637,Cayuga,2013,13.0,85,0.0,US
+638,Centesimino,2015,36.0,92,4.0,Italy
+639,Cerceal,2009,50.0,89,5.0,Portugal
+640,Cerceal,2011,54.0,89,5.0,Portugal
+641,Cerceal,2015,30.0,91,3.0,Portugal
+642,Cercial,2014,50.0,88,5.0,Portugal
+643,Cesanese,2012,20.0,90,2.0,Italy
+644,Cesanese d'Affile,2009,30.3333333333,89,4.0,Italy
+645,Cesanese d'Affile,2010,17.0,87,1.0,Italy
+646,Cesanese d'Affile,2011,18.0,86,1.0,Italy
+647,Chambourcin,-1,11.0,86,0.0,US
+648,Chambourcin,2005,25.0,83,3.0,US
+649,Chambourcin,2008,14.0,80,0.0,US
+650,Chambourcin,2009,10.0,85,0.0,US
+651,Chambourcin,2014,16.0,82,1.0,US
+652,Champagne Blend,-1,55.697318007700005,88,5.0,France
+653,Champagne Blend,-1,55.697318007700005,88,5.0,US
+654,Champagne Blend,-1,55.697318007700005,88,5.0,Italy
+655,Champagne Blend,-1,55.697318007700005,88,5.0,Spain
+656,Champagne Blend,-1,55.697318007700005,88,5.0,South Africa
+657,Champagne Blend,-1,55.697318007700005,88,5.0,Brazil
+658,Champagne Blend,1988,131.6666666667,89,5.0,France
+659,Champagne Blend,1989,66.6666666667,86,5.0,US
+660,Champagne Blend,1990,170.25,90,5.0,France
+661,Champagne Blend,1992,55.25,91,5.0,US
+662,Champagne Blend,1992,55.25,91,5.0,France
+663,Champagne Blend,1994,62.25,88,5.0,US
+664,Champagne Blend,1995,58.5217391304,90,5.0,US
+665,Champagne Blend,1995,58.5217391304,90,5.0,France
+666,Champagne Blend,1996,62.1538461538,89,5.0,US
+667,Champagne Blend,1998,206.4285714286,92,5.0,France
+668,Champagne Blend,1999,116.9230769231,91,5.0,France
+669,Champagne Blend,2000,103.380952381,91,5.0,France
+670,Champagne Blend,2001,74.5,90,5.0,France
+671,Champagne Blend,2002,125.42857142860001,92,5.0,France
+672,Champagne Blend,2004,110.1612903226,92,5.0,France
+673,Champagne Blend,2005,104.43243243239999,91,5.0,US
+674,Champagne Blend,2005,104.43243243239999,91,5.0,France
+675,Champagne Blend,2006,118.6875,92,5.0,France
+676,Champagne Blend,2007,111.2857142857,92,5.0,France
+677,Champagne Blend,2007,111.2857142857,92,5.0,US
+678,Champagne Blend,2007,111.2857142857,92,5.0,Australia
+679,Champagne Blend,2008,102.04081632649999,92,5.0,France
+680,Champagne Blend,2009,104.3125,91,5.0,France
+681,Champagne Blend,2010,57.6666666667,90,5.0,France
+682,Champagne Blend,2011,57.4444444444,91,5.0,France
+683,Champagne Blend,2012,59.0,92,5.0,France
+684,Champagne Blend,2013,32.0,92,4.0,US
+685,Champagne Blend,2015,23.6666666667,86,2.0,Brazil
+686,Chancellor,2006,20.0,81,2.0,US
+687,Chancellor,2007,12.0,80,0.0,US
+688,Charbono,2007,33.6666666667,87,4.0,US
+689,Charbono,2011,32.0,89,4.0,US
+690,Charbono,2012,39.2,90,4.0,US
+691,Charbono,2014,34.5,90,4.0,US
+692,Charbono,2015,29.6666666667,88,3.0,US
+693,Chardonel,2010,11.0,83,0.0,US
+694,Chardonnay,-1,49.729411764700004,89,5.0,France
+695,Chardonnay,-1,49.729411764700004,89,5.0,Italy
+696,Chardonnay,-1,49.729411764700004,89,5.0,US
+697,Chardonnay,1848,25.0,88,3.0,Israel
+698,Chardonnay,1852,16.8333333333,87,1.0,US
+699,Chardonnay,1985,216.0,96,5.0,France
+700,Chardonnay,1988,200.0,93,5.0,France
+701,Chardonnay,1994,13.0,82,0.0,US
+702,Chardonnay,1995,,91,,France
+703,Chardonnay,1997,33.5,89,4.0,US
+704,Chardonnay,1998,29.6730769231,87,3.0,US
+705,Chardonnay,1998,29.6730769231,87,3.0,Australia
+706,Chardonnay,1999,24.2346938776,86,3.0,US
+707,Chardonnay,1999,24.2346938776,86,3.0,Australia
+708,Chardonnay,1999,24.2346938776,86,3.0,Chile
+709,Chardonnay,1999,24.2346938776,86,3.0,New Zealand
+710,Chardonnay,2000,28.6666666667,87,3.0,Italy
+711,Chardonnay,2000,28.6666666667,87,3.0,US
+712,Chardonnay,2000,28.6666666667,87,3.0,Australia
+713,Chardonnay,2000,28.6666666667,87,3.0,New Zealand
+714,Chardonnay,2000,28.6666666667,87,3.0,Argentina
+715,Chardonnay,2000,28.6666666667,87,3.0,Chile
+716,Chardonnay,2000,28.6666666667,87,3.0,France
+717,Chardonnay,2001,18.7627118644,86,1.0,Australia
+718,Chardonnay,2001,18.7627118644,86,1.0,US
+719,Chardonnay,2001,18.7627118644,86,1.0,Chile
+720,Chardonnay,2002,57.7173913043,87,5.0,Chile
+721,Chardonnay,2002,57.7173913043,87,5.0,Australia
+722,Chardonnay,2004,66.6274509804,89,5.0,US
+723,Chardonnay,2005,38.2288557214,88,4.0,Italy
+724,Chardonnay,2005,38.2288557214,88,4.0,US
+725,Chardonnay,2005,38.2288557214,88,4.0,Spain
+726,Chardonnay,2005,38.2288557214,88,4.0,France
+727,Chardonnay,2005,38.2288557214,88,4.0,Australia
+728,Chardonnay,2005,38.2288557214,88,4.0,Chile
+729,Chardonnay,2006,36.236294896,87,4.0,France
+730,Chardonnay,2006,36.236294896,87,4.0,US
+731,Chardonnay,2006,36.236294896,87,4.0,Moldova
+732,Chardonnay,2006,36.236294896,87,4.0,Australia
+733,Chardonnay,2006,36.236294896,87,4.0,Italy
+734,Chardonnay,2006,36.236294896,87,4.0,Chile
+735,Chardonnay,2006,36.236294896,87,4.0,New Zealand
+736,Chardonnay,2006,36.236294896,87,4.0,South Africa
+737,Chardonnay,2006,36.236294896,87,4.0,Spain
+738,Chardonnay,2007,31.1043841336,87,4.0,Italy
+739,Chardonnay,2007,31.1043841336,87,4.0,US
+740,Chardonnay,2007,31.1043841336,87,4.0,France
+741,Chardonnay,2007,31.1043841336,87,4.0,South Africa
+742,Chardonnay,2007,31.1043841336,87,4.0,Australia
+743,Chardonnay,2007,31.1043841336,87,4.0,Chile
+744,Chardonnay,2007,31.1043841336,87,4.0,Spain
+745,Chardonnay,2007,31.1043841336,87,4.0,Argentina
+746,Chardonnay,2008,33.2288,87,4.0,Chile
+747,Chardonnay,2008,33.2288,87,4.0,US
+748,Chardonnay,2008,33.2288,87,4.0,France
+749,Chardonnay,2008,33.2288,87,4.0,New Zealand
+750,Chardonnay,2008,33.2288,87,4.0,Austria
+751,Chardonnay,2008,33.2288,87,4.0,Italy
+752,Chardonnay,2008,33.2288,87,4.0,Macedonia
+753,Chardonnay,2008,33.2288,87,4.0,Australia
+754,Chardonnay,2008,33.2288,87,4.0,Argentina
+755,Chardonnay,2009,34.068627451,87,4.0,US
+756,Chardonnay,2009,34.068627451,87,4.0,Romania
+757,Chardonnay,2009,34.068627451,87,4.0,Israel
+758,Chardonnay,2009,34.068627451,87,4.0,France
+759,Chardonnay,2009,34.068627451,87,4.0,Australia
+760,Chardonnay,2009,34.068627451,87,4.0,Chile
+761,Chardonnay,2009,34.068627451,87,4.0,New Zealand
+762,Chardonnay,2009,34.068627451,87,4.0,South Africa
+763,Chardonnay,2009,34.068627451,87,4.0,Argentina
+764,Chardonnay,2009,34.068627451,87,4.0,Spain
+765,Chardonnay,2009,34.068627451,87,4.0,Italy
+766,Chardonnay,2010,33.4941176471,87,4.0,US
+767,Chardonnay,2010,33.4941176471,87,4.0,France
+768,Chardonnay,2010,33.4941176471,87,4.0,South Africa
+769,Chardonnay,2010,33.4941176471,87,4.0,Argentina
+770,Chardonnay,2010,33.4941176471,87,4.0,Chile
+771,Chardonnay,2010,33.4941176471,87,4.0,Italy
+772,Chardonnay,2010,33.4941176471,87,4.0,Israel
+773,Chardonnay,2010,33.4941176471,87,4.0,Greece
+774,Chardonnay,2011,32.7827027027,87,4.0,US
+775,Chardonnay,2011,32.7827027027,87,4.0,Australia
+776,Chardonnay,2011,32.7827027027,87,4.0,France
+777,Chardonnay,2011,32.7827027027,87,4.0,Chile
+778,Chardonnay,2011,32.7827027027,87,4.0,Argentina
+779,Chardonnay,2011,32.7827027027,87,4.0,Italy
+780,Chardonnay,2011,32.7827027027,87,4.0,Israel
+781,Chardonnay,2011,32.7827027027,87,4.0,Spain
+782,Chardonnay,2011,32.7827027027,87,4.0,Bulgaria
+783,Chardonnay,2011,32.7827027027,87,4.0,South Africa
+784,Chardonnay,2012,33.0666666667,88,4.0,US
+785,Chardonnay,2012,33.0666666667,88,4.0,Spain
+786,Chardonnay,2012,33.0666666667,88,4.0,France
+787,Chardonnay,2012,33.0666666667,88,4.0,Canada
+788,Chardonnay,2012,33.0666666667,88,4.0,Chile
+789,Chardonnay,2012,33.0666666667,88,4.0,Mexico
+790,Chardonnay,2012,33.0666666667,88,4.0,Italy
+791,Chardonnay,2012,33.0666666667,88,4.0,Argentina
+792,Chardonnay,2012,33.0666666667,88,4.0,Israel
+793,Chardonnay,2013,36.240268456399996,88,4.0,US
+794,Chardonnay,2013,36.240268456399996,88,4.0,Argentina
+795,Chardonnay,2013,36.240268456399996,88,4.0,France
+796,Chardonnay,2013,36.240268456399996,88,4.0,Chile
+797,Chardonnay,2013,36.240268456399996,88,4.0,Italy
+798,Chardonnay,2013,36.240268456399996,88,4.0,Bulgaria
+799,Chardonnay,2013,36.240268456399996,88,4.0,Brazil
+800,Chardonnay,2013,36.240268456399996,88,4.0,Israel
+801,Chardonnay,2013,36.240268456399996,88,4.0,Portugal
+802,Chardonnay,2013,36.240268456399996,88,4.0,Canada
+803,Chardonnay,2013,36.240268456399996,88,4.0,Australia
+804,Chardonnay,2014,38.0946643718,89,4.0,US
+805,Chardonnay,2014,38.0946643718,89,4.0,Austria
+806,Chardonnay,2014,38.0946643718,89,4.0,Israel
+807,Chardonnay,2014,38.0946643718,89,4.0,Italy
+808,Chardonnay,2014,38.0946643718,89,4.0,France
+809,Chardonnay,2014,38.0946643718,89,4.0,Chile
+810,Chardonnay,2014,38.0946643718,89,4.0,Bulgaria
+811,Chardonnay,2014,38.0946643718,89,4.0,South Africa
+812,Chardonnay,2014,38.0946643718,89,4.0,Australia
+813,Chardonnay,2014,38.0946643718,89,4.0,New Zealand
+814,Chardonnay,2014,38.0946643718,89,4.0,Canada
+815,Chardonnay,2015,32.0178571429,88,4.0,US
+816,Chardonnay,2015,32.0178571429,88,4.0,France
+817,Chardonnay,2015,32.0178571429,88,4.0,Australia
+818,Chardonnay,2015,32.0178571429,88,4.0,South Africa
+819,Chardonnay,2015,32.0178571429,88,4.0,Argentina
+820,Chardonnay,2015,32.0178571429,88,4.0,Chile
+821,Chardonnay,2015,32.0178571429,88,4.0,Greece
+822,Chardonnay,2015,32.0178571429,88,4.0,Spain
+823,Chardonnay,2015,32.0178571429,88,4.0,Italy
+824,Chardonnay,2015,32.0178571429,88,4.0,Morocco
+825,Chardonnay,2016,18.489626555999997,87,1.0,France
+826,Chardonnay,2016,18.489626555999997,87,1.0,US
+827,Chardonnay,2016,18.489626555999997,87,1.0,Australia
+828,Chardonnay,2016,18.489626555999997,87,1.0,Chile
+829,Chardonnay,2016,18.489626555999997,87,1.0,Spain
+830,Chardonnay,2016,18.489626555999997,87,1.0,Argentina
+831,Chardonnay,2016,18.489626555999997,87,1.0,South Africa
+832,Chardonnay,2017,13.333333333299999,85,0.0,Argentina
+833,Chardonnay Weissburgunder,2005,58.0,94,5.0,Austria
+834,Chardonnay Weissburgunder,2008,25.0,90,3.0,Germany
+835,Chardonnay-Pinot Blanc,2010,36.0,90,4.0,Austria
+836,Chardonnay-Pinot Blanc,2013,26.0,88,3.0,US
+837,Chardonnay-Pinot Gris,2014,17.0,85,1.0,France
+838,Chardonnay-Riesling,2015,24.0,87,3.0,US
+839,Chardonnay-Sauvignon,2007,15.0,87,0.0,France
+840,Chardonnay-Sauvignon,2009,14.0,84,0.0,Argentina
+841,Chardonnay-Sauvignon,2010,13.5,85,0.0,Argentina
+842,Chardonnay-Sauvignon Blanc,2014,16.0,88,1.0,France
+843,Chardonnay-Sauvignon Blanc,2015,12.0,87,0.0,Spain
+844,Chardonnay-Sauvignon Blanc,2016,12.0,88,0.0,Israel
+845,Chardonnay-Semillon,2010,16.0,86,1.0,US
+846,Chardonnay-Viognier,2006,20.0,86,2.0,US
+847,Chardonnay-Viognier,2008,15.25,86,1.0,France
+848,Chardonnay-Viognier,2010,16.2,85,1.0,Argentina
+849,Chardonnay-Viognier,2012,27.5,86,3.0,US
+850,Chardonnay-Viognier,2016,12.666666666700001,86,0.0,France
+851,Chasselas,2010,,89,,France
+852,Chasselas,2013,20.0,90,2.0,Canada
+853,Chasselas,2015,22.0,89,2.0,France
+854,Chelois,2012,20.0,83,2.0,US
+855,Chelois,2014,25.0,87,3.0,US
+856,Chenin Blanc,-1,19.6666666667,87,2.0,France
+857,Chenin Blanc,1982,64.0,95,5.0,France
+858,Chenin Blanc,1995,103.0,89,5.0,France
+859,Chenin Blanc,2001,6.0,86,0.0,US
+860,Chenin Blanc,2002,20.0,89,2.0,South Africa
+861,Chenin Blanc,2003,,93,,France
+862,Chenin Blanc,2004,37.0,90,4.0,France
+863,Chenin Blanc,2005,37.8333333333,89,4.0,France
+864,Chenin Blanc,2006,20.8181818182,88,2.0,South Africa
+865,Chenin Blanc,2006,20.8181818182,88,2.0,France
+866,Chenin Blanc,2006,20.8181818182,88,2.0,US
+867,Chenin Blanc,2007,14.6363636364,87,0.0,South Africa
+868,Chenin Blanc,2007,14.6363636364,87,0.0,US
+869,Chenin Blanc,2007,14.6363636364,87,0.0,France
+870,Chenin Blanc,2008,23.9523809524,89,3.0,France
+871,Chenin Blanc,2009,31.5609756098,89,4.0,France
+872,Chenin Blanc,2009,31.5609756098,89,4.0,South Africa
+873,Chenin Blanc,2010,23.1176470588,89,2.0,South Africa
+874,Chenin Blanc,2010,23.1176470588,89,2.0,France
+875,Chenin Blanc,2011,23.493150684899998,88,2.0,US
+876,Chenin Blanc,2011,23.493150684899998,88,2.0,France
+877,Chenin Blanc,2011,23.493150684899998,88,2.0,South Africa
+878,Chenin Blanc,2012,22.0,88,2.0,South Africa
+879,Chenin Blanc,2012,22.0,88,2.0,France
+880,Chenin Blanc,2012,22.0,88,2.0,US
+881,Chenin Blanc,2013,22.4423076923,88,2.0,South Africa
+882,Chenin Blanc,2013,22.4423076923,88,2.0,France
+883,Chenin Blanc,2014,24.6162790698,88,3.0,South Africa
+884,Chenin Blanc,2014,24.6162790698,88,3.0,US
+885,Chenin Blanc,2014,24.6162790698,88,3.0,France
+886,Chenin Blanc,2015,20.7878787879,88,2.0,South Africa
+887,Chenin Blanc,2015,20.7878787879,88,2.0,France
+888,Chenin Blanc,2015,20.7878787879,88,2.0,US
+889,Chenin Blanc,2016,19.4242424242,88,1.0,US
+890,Chenin Blanc,2016,19.4242424242,88,1.0,South Africa
+891,Chenin Blanc-Chardonnay,-1,18.5454545455,88,1.0,France
+892,Chenin Blanc-Chardonnay,2004,22.0,88,2.0,France
+893,Chenin Blanc-Chardonnay,2007,12.0,88,0.0,France
+894,Chenin Blanc-Chardonnay,2008,12.0,89,0.0,France
+895,Chenin Blanc-Chardonnay,2011,9.0,85,0.0,Argentina
+896,Chenin Blanc-Chardonnay,2013,,84,,France
+897,Chenin Blanc-Chardonnay,2014,12.5,87,0.0,France
+898,Chenin Blanc-Chardonnay,2015,12.0,87,0.0,Argentina
+899,Chenin Blanc-Viognier,2009,12.0,89,0.0,US
+900,Chenin Blanc-Viognier,2012,14.0,86,0.0,US
+901,Chenin Blanc-Viognier,2014,16.0,90,1.0,US
+902,Chenin Blanc-Viognier,2016,16.0,88,1.0,US
+903,Chinuri,2010,18.0,87,1.0,Georgia
+904,Chinuri,2014,30.0,87,3.0,
+905,Chinuri,2015,28.0,84,3.0,Georgia
+906,Ciliegiolo,2008,28.0,86,3.0,Italy
+907,Ciliegiolo,2010,32.0,88,4.0,Italy
+908,Ciliegiolo,2012,32.0,89,4.0,Italy
+909,Cinsault,2005,27.0,87,3.0,US
+910,Cinsault,2006,22.0,88,2.0,US
+911,Cinsault,2007,10.0,86,0.0,France
+912,Cinsault,2008,10.0,85,0.0,France
+913,Cinsault,2012,30.2222222222,89,4.0,US
+914,Cinsault,2014,28.1111111111,88,3.0,US
+915,Cinsault,2015,33.5,90,4.0,US
+916,Clairette,2008,12.0,88,0.0,France
+917,Clairette,2015,,90,,South Africa
+918,Clairette,2016,30.0,89,3.0,US
+919,Claret,2008,58.3333333333,89,5.0,US
+920,Claret,2009,130.0,92,5.0,US
+921,Claret,2013,46.1428571429,88,5.0,US
+922,Claret,2014,29.0,90,3.0,US
+923,Cococciola,2011,20.0,86,2.0,Italy
+924,Coda di Volpe,-1,20.0,84,2.0,Italy
+925,Coda di Volpe,2005,14.0,85,0.0,Italy
+926,Coda di Volpe,2006,,85,,Italy
+927,Coda di Volpe,2008,15.0,82,0.0,Italy
+928,Coda di Volpe,2009,15.0,85,0.0,Italy
+929,Coda di Volpe,2010,28.0,84,3.0,Italy
+930,Coda di Volpe,2012,22.4,87,2.0,Italy
+931,Coda di Volpe,2014,22.0,85,2.0,Italy
+932,Colombard,2008,10.5,85,0.0,France
+933,Colombard,2009,18.0,87,1.0,US
+934,Colombard,2010,22.6666666667,86,2.0,France
+935,Colombard,2011,13.5,87,0.0,France
+936,Colombard,2014,12.25,86,0.0,France
+937,Colombard,2016,20.0,90,2.0,US
+938,Colombard-Sauvignon Blanc,2007,9.0,84,0.0,France
+939,Colombard-Sauvignon Blanc,2009,11.0,86,0.0,France
+940,Colombard-Sauvignon Blanc,2010,,84,,France
+941,Colombard-Sauvignon Blanc,2011,13.0,84,0.0,France
+942,Colombard-Sauvignon Blanc,2013,10.6666666667,86,0.0,France
+943,Colombard-Sauvignon Blanc,2015,10.5,85,0.0,France
+944,Colombard-Sauvignon Blanc,2016,10.6666666667,85,0.0,France
+945,Colombard-Ugni Blanc,2012,13.0,86,0.0,France
+946,Colombard-Ugni Blanc,2014,10.3333333333,85,0.0,France
+947,Colombard-Ugni Blanc,2015,9.0,85,0.0,France
+948,Colombard-Ugni Blanc,2016,9.6666666667,84,0.0,France
+949,Colorino,2013,40.0,86,4.0,Italy
+950,Cortese,1999,16.0,86,1.0,Italy
+951,Cortese,2004,46.0,85,5.0,Italy
+952,Cortese,2005,14.0,86,0.0,Italy
+953,Cortese,2006,23.5,84,2.0,Italy
+954,Cortese,2007,23.3333333333,86,2.0,Italy
+955,Cortese,2008,16.0,85,1.0,Italy
+956,Cortese,2009,23.5,86,2.0,Italy
+957,Cortese,2010,23.4,86,2.0,Italy
+958,Cortese,2011,18.0,87,1.0,Italy
+959,Cortese,2014,19.625,85,2.0,Italy
+960,Cortese,2015,18.888888888900002,87,1.0,Italy
+961,Corvina,1995,25.0,87,3.0,Italy
+962,Corvina,2004,90.0,93,5.0,Italy
+963,Corvina,2006,35.25,87,4.0,Italy
+964,Corvina,2007,15.0,87,0.0,Italy
+965,Corvina,2010,10.0,86,0.0,Italy
+966,Counoise,2005,29.0,88,3.0,US
+967,Counoise,2006,28.0,87,3.0,US
+968,Counoise,2007,26.0,87,3.0,US
+969,Counoise,2010,32.0,87,4.0,US
+970,Counoise,2012,36.0,90,4.0,US
+971,Counoise,2013,35.0,90,4.0,US
+972,Counoise,2015,27.0,91,3.0,US
+973,Dafni,2010,20.0,85,2.0,Greece
+974,Debit,-1,130.0,89,5.0,US
+975,Debit,2010,35.0,89,4.0,Croatia
+976,Diamond,2016,10.0,86,0.0,US
+977,Dolcetto,2000,18.0,88,1.0,US
+978,Dolcetto,2006,19.111111111099998,84,1.0,Italy
+979,Dolcetto,2008,23.3636363636,86,2.0,Italy
+980,Dolcetto,2008,23.3636363636,86,2.0,US
+981,Dolcetto,2009,20.1666666667,87,2.0,Italy
+982,Dolcetto,2010,22.6363636364,87,2.0,Italy
+983,Dolcetto,2011,21.1,88,2.0,Italy
+984,Dolcetto,2011,21.1,88,2.0,US
+985,Dolcetto,2013,23.3571428571,88,2.0,Italy
+986,Dolcetto,2013,23.3571428571,88,2.0,US
+987,Dolcetto,2014,41.7142857143,89,5.0,Italy
+988,Dolcetto,2015,20.4166666667,87,2.0,Italy
+989,Dolcetto,2016,18.0,87,1.0,Italy
+990,Dornfelder,-1,47.0,87,5.0,US
+991,Dornfelder,2010,13.0,87,0.0,Germany
+992,Dornfelder,2011,27.0,86,3.0,Germany
+993,Dornfelder,2013,15.666666666700001,87,1.0,Germany
+994,Dornfelder,2014,11.6,86,0.0,Germany
+995,Dornfelder,2015,18.0,87,1.0,Germany
+996,Dornfelder,2016,12.0,86,0.0,Germany
+997,Duras,-1,,90,,France
+998,Duras,2007,40.0,91,4.0,France
+999,Duras,2014,18.0,89,1.0,France
+1000,Duras,2015,18.0,90,1.0,France
+1001,Duras,2016,16.0,86,1.0,France
+1002,Durella,-1,28.3333333333,89,3.0,Italy
+1003,Durella,2009,40.0,92,4.0,Italy
+1004,Durella,2011,21.0,90,2.0,Italy
+1005,Durif,1993,30.0,84,3.0,Australia
+1006,Durif,2004,35.0,88,4.0,Australia
+1007,Edelzwicker,2012,16.0,86,1.0,US
+1008,Edelzwicker,2014,16.0,89,1.0,US
+1009,Edelzwicker,2015,23.5,90,2.0,France
+1010,Edelzwicker,2015,23.5,90,2.0,US
+1011,Elbling,2013,16.0,86,1.0,Germany
+1012,Emir,2013,15.0,88,0.0,Turkey
+1013,Emir,2014,15.0,87,0.0,Turkey
+1014,Emir,2015,19.0,85,1.0,Turkey
+1015,Encruzado,2009,15.0,90,0.0,Portugal
+1016,Encruzado,2010,,86,,Portugal
+1017,Encruzado,2011,16.0,91,1.0,Portugal
+1018,Encruzado,2012,35.0,90,4.0,Portugal
+1019,Encruzado,2013,25.3333333333,91,3.0,Portugal
+1020,Encruzado,2015,18.428571428599998,88,1.0,Portugal
+1021,Encruzado,2016,16.0,88,1.0,Portugal
+1022,Erbaluce,2009,35.0,88,4.0,Italy
+1023,Erbaluce,2015,16.0,88,1.0,Italy
+1024,Espadeiro,2011,,84,,Portugal
+1025,Falanghina,-1,31.4,88,4.0,Italy
+1026,Falanghina,2005,18.0,86,1.0,Italy
+1027,Falanghina,2006,24.75,87,3.0,Italy
+1028,Falanghina,2007,18.7777777778,85,1.0,Italy
+1029,Falanghina,2008,25.0,88,3.0,Italy
+1030,Falanghina,2009,21.2222222222,86,2.0,Italy
+1031,Falanghina,2010,15.0,87,0.0,Italy
+1032,Falanghina,2011,19.1428571429,87,1.0,Italy
+1033,Falanghina,2012,23.1666666667,88,2.0,Italy
+1034,Falanghina,2013,22.6666666667,87,2.0,Italy
+1035,Falanghina,2015,18.888888888900002,88,1.0,Italy
+1036,Falanghina,2015,18.888888888900002,88,1.0,US
+1037,Falanghina,2016,17.0,88,1.0,Italy
+1038,Favorita,2014,40.0,90,4.0,Italy
+1039,Fer Servadou,2015,16.5,87,1.0,France
+1040,Feteasca,2013,17.5,87,1.0,Romania
+1041,Feteasca Neagra,2009,11.0,86,0.0,Romania
+1042,Feteasca Neagra,2010,17.6666666667,88,1.0,Romania
+1043,Feteasca Neagra,2011,11.0,87,0.0,Romania
+1044,Feteasca Neagra,2012,20.0,88,2.0,Romania
+1045,Feteasca Neagra,2013,12.0,88,0.0,Moldova
+1046,Fiano,-1,20.0,82,2.0,Italy
+1047,Fiano,1860,30.8571428571,88,4.0,Italy
+1048,Fiano,2003,56.0,89,5.0,Italy
+1049,Fiano,2005,26.0,88,3.0,Italy
+1050,Fiano,2007,26.9230769231,86,3.0,Italy
+1051,Fiano,2008,32.5,88,4.0,Italy
+1052,Fiano,2009,23.6,87,2.0,Italy
+1053,Fiano,2010,24.714285714299997,86,3.0,Italy
+1054,Fiano,2011,27.5384615385,87,3.0,Italy
+1055,Fiano,2012,26.655172413800006,88,3.0,Italy
+1056,Fiano,2012,26.655172413800006,88,3.0,US
+1057,Fiano,2013,27.9230769231,89,3.0,Italy
+1058,Fiano,2013,27.9230769231,89,3.0,US
+1059,Fiano,2014,42.1428571429,89,5.0,Italy
+1060,Fiano,2015,23.1666666667,88,2.0,Italy
+1061,Fiano,2015,23.1666666667,88,2.0,US
+1062,Fiano,2016,21.6666666667,87,2.0,Italy
+1063,Folle Blanche,2015,16.0,85,1.0,France
+1064,Francisa,2011,160.0,91,5.0,Italy
+1065,Franconia,2007,16.0,86,1.0,Italy
+1066,Frankovka,2012,24.0,88,3.0,Czech Republic
+1067,Frappato,-1,16.3333333333,86,1.0,Italy
+1068,Frappato,2006,20.0,85,2.0,Italy
+1069,Frappato,2007,23.0,86,2.0,Italy
+1070,Frappato,2008,22.0,85,2.0,Italy
+1071,Frappato,2011,18.0,87,1.0,Italy
+1072,Frappato,2012,25.0,88,3.0,Italy
+1073,Frappato,2013,24.8888888889,87,3.0,Italy
+1074,Frappato,2015,21.0,90,2.0,Italy
+1075,Frappato,2016,24.0,90,3.0,Italy
+1076,Freisa,2010,20.0,86,2.0,Italy
+1077,Freisa,2011,22.0,87,2.0,Italy
+1078,Friulano,2007,21.3,86,2.0,Italy
+1079,Friulano,2008,57.6666666667,88,5.0,Italy
+1080,Friulano,2009,22.6666666667,87,2.0,Italy
+1081,Friulano,2010,23.2,87,2.0,Italy
+1082,Friulano,2011,24.3333333333,88,3.0,Italy
+1083,Friulano,2012,24.375,89,3.0,Italy
+1084,Friulano,2013,22.4583333333,88,2.0,Italy
+1085,Friulano,2014,22.0769230769,87,2.0,Italy
+1086,Friulano,2015,23.529411764699997,89,2.0,Italy
+1087,Furmint,2003,764.0,94,5.0,Hungary
+1088,Furmint,2005,320.0,96,5.0,Hungary
+1089,Furmint,2007,46.0,92,5.0,Hungary
+1090,Furmint,2009,20.0,83,2.0,Slovenia
+1091,Furmint,2010,20.0,88,2.0,Hungary
+1092,Furmint,2011,26.3333333333,90,3.0,Hungary
+1093,Furmint,2012,32.0,90,4.0,Hungary
+1094,Furmint,2013,23.4,89,2.0,Hungary
+1095,Furmint,2014,21.3333333333,90,2.0,Hungary
+1096,Furmint,2015,24.25,89,3.0,Hungary
+1097,Furmint,2015,24.25,89,3.0,
+1098,Furmint,2016,15.0,90,0.0,Austria
+1099,G-S-M,2005,32.5,88,4.0,Australia
+1100,G-S-M,2006,31.6666666667,86,4.0,Australia
+1101,G-S-M,2007,27.8,87,3.0,US
+1102,G-S-M,2008,41.0,88,5.0,US
+1103,G-S-M,2010,37.0,87,4.0,US
+1104,G-S-M,2011,32.64,89,4.0,US
+1105,G-S-M,2012,37.1290322581,90,4.0,US
+1106,G-S-M,2012,37.1290322581,90,4.0,Australia
+1107,G-S-M,2013,34.5161290323,89,4.0,Australia
+1108,G-S-M,2013,34.5161290323,89,4.0,US
+1109,G-S-M,2014,36.9565217391,88,4.0,US
+1110,G-S-M,2015,34.2857142857,88,4.0,US
+1111,G-S-M,2016,13.0,87,0.0,France
+1112,Gaglioppo,1845,37.3333333333,86,4.0,Italy
+1113,Gaglioppo,2006,18.0,87,1.0,Italy
+1114,Gaglioppo,2007,14.0,86,0.0,Italy
+1115,Gaglioppo,2009,,87,,Italy
+1116,Gaglioppo,2011,20.0,91,2.0,Italy
+1117,Gaglioppo,2012,25.0,82,3.0,Italy
+1118,Gaglioppo,2013,14.0,86,0.0,Italy
+1119,Gaglioppo,2014,19.0,87,1.0,Italy
+1120,Gamay,-1,22.75,86,2.0,France
+1121,Gamay,2000,,82,,US
+1122,Gamay,2005,24.0,89,3.0,France
+1123,Gamay,2006,23.2222222222,89,2.0,France
+1124,Gamay,2008,14.7142857143,86,0.0,France
+1125,Gamay,2009,19.4571428571,88,1.0,France
+1126,Gamay,2010,19.4912280702,88,1.0,France
+1127,Gamay,2011,17.8720930233,87,1.0,France
+1128,Gamay,2012,21.5757575758,87,2.0,France
+1129,Gamay,2012,21.5757575758,87,2.0,US
+1130,Gamay,2013,20.606741573,87,2.0,France
+1131,Gamay,2014,20.961325966900002,88,2.0,France
+1132,Gamay,2015,21.891385767800003,88,2.0,France
+1133,Gamay,2016,18.5454545455,87,1.0,France
+1134,Gamay Noir,2007,25.0,88,3.0,US
+1135,Gamay Noir,2010,24.0,85,3.0,US
+1136,Gamay Noir,2012,24.75,88,3.0,Canada
+1137,Gamay Noir,2015,20.3333333333,88,2.0,US
+1138,Gamay Noir,2016,18.0,88,1.0,US
+1139,Gamza,2015,11.0,89,0.0,Bulgaria
+1140,Garganega,-1,25.0,87,3.0,Italy
+1141,Garganega,1999,18.0,90,1.0,Italy
+1142,Garganega,2001,11.0,88,0.0,Italy
+1143,Garganega,2002,11.0,86,0.0,Italy
+1144,Garganega,2004,55.0,92,5.0,Italy
+1145,Garganega,2006,15.0,87,0.0,Italy
+1146,Garganega,2007,26.0714285714,88,3.0,Italy
+1147,Garganega,2009,33.0,88,4.0,Italy
+1148,Garganega,2010,17.444444444400002,87,1.0,Italy
+1149,Garganega,2011,19.95,86,2.0,Italy
+1150,Garganega,2012,20.92,87,2.0,Italy
+1151,Garganega,2013,19.8095238095,88,2.0,Italy
+1152,Garganega,2014,20.636363636400002,87,2.0,Italy
+1153,Garganega,2015,17.7368421053,87,1.0,Italy
+1154,Garganega,2016,13.7692307692,86,0.0,Italy
+1155,Garnacha,1898,12.0,81,0.0,Spain
+1156,Garnacha,2004,18.0,87,1.0,Spain
+1157,Garnacha,2005,24.5,85,3.0,Spain
+1158,Garnacha,2006,37.875,85,4.0,Spain
+1159,Garnacha,2007,19.0666666667,86,1.0,Spain
+1160,Garnacha,2008,22.1666666667,85,2.0,Spain
+1161,Garnacha,2009,22.964285714299997,86,2.0,Spain
+1162,Garnacha,2010,21.5111111111,85,2.0,Spain
+1163,Garnacha,2011,23.8636363636,86,2.0,Spain
+1164,Garnacha,2012,21.3023255814,86,2.0,Spain
+1165,Garnacha,2013,34.1388888889,85,4.0,Spain
+1166,Garnacha,2014,27.15625,86,3.0,Spain
+1167,Garnacha,2015,13.53125,86,0.0,Spain
+1168,Garnacha,2016,10.0,86,0.0,Spain
+1169,Garnacha Blanca,2007,40.0,88,4.0,Spain
+1170,Garnacha Blanca,2009,15.0,88,0.0,Spain
+1171,Garnacha Blanca,2010,15.0,84,0.0,Spain
+1172,Garnacha Blanca,2011,25.1428571429,86,3.0,Spain
+1173,Garnacha Blanca,2014,17.5,87,1.0,Spain
+1174,Garnacha Blend,2006,28.0,89,3.0,Spain
+1175,Garnacha Blend,2014,10.0,86,0.0,Spain
+1176,Garnacha Tintorera,2011,13.0,88,0.0,Spain
+1177,Garnacha Tintorera,2013,10.5,85,0.0,Spain
+1178,Garnacha Tintorera,2014,15.0,84,0.0,Spain
+1179,Garnacha-Cabernet,2015,13.0,85,0.0,Spain
+1180,Garnacha-Monastrell,2010,11.666666666700001,87,0.0,Spain
+1181,Garnacha-Syrah,2008,17.0,86,1.0,Spain
+1182,Garnacha-Syrah,2010,8.0,83,0.0,Spain
+1183,Garnacha-Syrah,2011,13.5,85,0.0,Spain
+1184,Garnacha-Syrah,2013,12.5,82,0.0,Spain
+1185,Garnacha-Syrah,2015,11.0,84,0.0,Spain
+1186,Garnacha-Tempranillo,2011,11.0,87,0.0,Spain
+1187,Garnacha-Tempranillo,2012,10.0,87,0.0,Spain
+1188,Garnacha-Tempranillo,2014,8.0,85,0.0,Spain
+1189,Gelber Muskateller,2006,99.0,92,5.0,Austria
+1190,Gelber Muskateller,2011,31.5,88,4.0,Austria
+1191,Gelber Muskateller,2012,18.5,87,1.0,Austria
+1192,Gelber Muskateller,2013,19.0,90,1.0,Austria
+1193,Gelber Muskateller,2014,22.1428571429,88,2.0,Austria
+1194,Gelber Traminer,2009,35.0,95,4.0,Austria
+1195,Glera,-1,18.2068965517,86,1.0,Italy
+1196,Glera,1821,14.5,85,0.0,Italy
+1197,Glera,1868,,89,,Italy
+1198,Glera,2009,29.4285714286,87,3.0,Italy
+1199,Glera,2010,18.740740740699998,86,1.0,Italy
+1200,Glera,2011,19.0,86,1.0,Italy
+1201,Glera,2012,20.805555555599998,87,2.0,Italy
+1202,Glera,2014,25.3793103448,88,3.0,Italy
+1203,Glera,2015,29.5714285714,89,3.0,Italy
+1204,Glera,2016,22.434782608699997,88,2.0,Italy
+1205,Godello,2006,27.0,87,3.0,Spain
+1206,Godello,2008,28.2,87,3.0,Spain
+1207,Godello,2009,16.1666666667,86,1.0,Spain
+1208,Godello,2010,20.25,87,2.0,Spain
+1209,Godello,2011,28.9166666667,86,3.0,Spain
+1210,Godello,2012,18.3333333333,86,1.0,Spain
+1211,Godello,2013,21.2666666667,85,2.0,Spain
+1212,Godello,2014,19.888888888900002,87,2.0,Spain
+1213,Godello,2015,21.0666666667,88,2.0,Spain
+1214,Gouveio,2007,26.0,89,3.0,Portugal
+1215,Gouveio,2008,19.0,88,1.0,Portugal
+1216,Graciano,2006,115.0,88,5.0,Spain
+1217,Graciano,2007,20.0,82,2.0,Spain
+1218,Graciano,2008,54.0,88,5.0,Spain
+1219,Graciano,2009,50.285714285699996,89,5.0,Spain
+1220,Graciano,2011,38.3,88,4.0,Spain
+1221,Graciano,2015,15.0,84,0.0,Spain
+1222,Gragnano,2007,17.0,84,1.0,Italy
+1223,Gragnano,2009,16.0,81,1.0,Italy
+1224,Grauburgunder,2011,,90,,Austria
+1225,Grauburgunder,2012,20.0,90,2.0,Germany
+1226,Grauburgunder,2014,20.0,87,2.0,Germany
+1227,Grauburgunder,2015,24.0,89,3.0,
+1228,Grauburgunder,2016,23.5,91,2.0,Germany
+1229,Grauburgunder,2016,23.5,91,2.0,
+1230,Grecanico,2007,13.5,86,0.0,Italy
+1231,Grecanico,2010,19.0,86,1.0,Italy
+1232,Grecanico,2014,25.0,89,3.0,Italy
+1233,Grechetto,2004,20.0,90,2.0,Italy
+1234,Grechetto,2005,20.0,86,2.0,Italy
+1235,Grechetto,2008,,86,,Italy
+1236,Grechetto,2009,16.0,85,1.0,Italy
+1237,Grechetto,2010,,86,,Italy
+1238,Grechetto,2011,20.0,88,2.0,Italy
+1239,Grechetto,2012,17.0,88,1.0,Italy
+1240,Grechetto,2014,18.0,88,1.0,Italy
+1241,Grechetto,2015,12.5,86,0.0,Italy
+1242,Greco,2005,20.3333333333,88,2.0,Italy
+1243,Greco,2006,25.125,86,3.0,Italy
+1244,Greco,2007,26.9333333333,87,3.0,Italy
+1245,Greco,2008,13.0,84,0.0,Italy
+1246,Greco,2009,27.5,88,3.0,Italy
+1247,Greco,2010,20.0,87,2.0,Italy
+1248,Greco,2011,29.181818181799997,88,3.0,Italy
+1249,Greco,2012,23.315789473699997,88,2.0,Italy
+1250,Greco,2013,33.8,90,4.0,Italy
+1251,Greco,2014,35.1428571429,89,4.0,Italy
+1252,Greco,2015,23.4583333333,88,2.0,Italy
+1253,Greco Bianco,2007,21.0,85,2.0,Italy
+1254,Greco Bianco,2009,,87,,Italy
+1255,Greco Bianco,2013,12.0,87,0.0,Italy
+1256,Greco Bianco,2016,,86,,Italy
+1257,Grenache,-1,18.6,86,1.0,France
+1258,Grenache,1999,18.0,89,1.0,US
+1259,Grenache,2000,16.1666666667,86,1.0,US
+1260,Grenache,2000,16.1666666667,86,1.0,Australia
+1261,Grenache,2001,26.0,89,3.0,France
+1262,Grenache,2002,19.0,87,1.0,Australia
+1263,Grenache,2003,,90,,France
+1264,Grenache,2005,43.2631578947,87,5.0,US
+1265,Grenache,2006,31.5625,86,4.0,US
+1266,Grenache,2007,30.5666666667,87,4.0,Australia
+1267,Grenache,2007,30.5666666667,87,4.0,US
+1268,Grenache,2008,39.1935483871,88,4.0,Spain
+1269,Grenache,2008,39.1935483871,88,4.0,US
+1270,Grenache,2009,34.7954545455,87,4.0,Spain
+1271,Grenache,2009,34.7954545455,87,4.0,France
+1272,Grenache,2009,34.7954545455,87,4.0,US
+1273,Grenache,2009,34.7954545455,87,4.0,Australia
+1274,Grenache,2010,35.4523809524,87,4.0,US
+1275,Grenache,2011,35.4137931034,89,4.0,US
+1276,Grenache,2011,35.4137931034,89,4.0,Australia
+1277,Grenache,2012,37.8953488372,89,4.0,US
+1278,Grenache,2013,38.1785714286,89,4.0,US
+1279,Grenache,2013,38.1785714286,89,4.0,Spain
+1280,Grenache,2013,38.1785714286,89,4.0,Australia
+1281,Grenache,2014,37.164948453600005,89,4.0,US
+1282,Grenache,2015,34.9666666667,90,4.0,US
+1283,Grenache,2015,34.9666666667,90,4.0,Australia
+1284,Grenache,2016,23.25,89,2.0,US
+1285,Grenache Blanc,1996,36.0,93,4.0,France
+1286,Grenache Blanc,1999,35.0,90,4.0,France
+1287,Grenache Blanc,2006,27.0,85,3.0,US
+1288,Grenache Blanc,2008,24.3333333333,90,3.0,US
+1289,Grenache Blanc,2009,19.8333333333,87,2.0,US
+1290,Grenache Blanc,2010,23.625,88,2.0,US
+1291,Grenache Blanc,2011,23.25,88,2.0,US
+1292,Grenache Blanc,2012,23.9285714286,87,3.0,US
+1293,Grenache Blanc,2013,25.3888888889,88,3.0,US
+1294,Grenache Blanc,2013,25.3888888889,88,3.0,Spain
+1295,Grenache Blanc,2014,26.043478260900002,89,3.0,US
+1296,Grenache Blanc,2015,25.9230769231,89,3.0,US
+1297,Grenache Blanc,2016,25.526315789499996,89,3.0,US
+1298,Grenache Blend,2008,15.0,83,0.0,Spain
+1299,Grenache Blend,2009,12.0,85,0.0,Spain
+1300,Grenache Blend,2012,23.0,88,2.0,US
+1301,Grenache Blend,2013,9.6666666667,85,0.0,Spain
+1302,Grenache Gris,2014,22.0,87,2.0,France
+1303,Grenache Noir,2013,36.0,91,4.0,US
+1304,Grenache-Carignan,2011,23.1666666667,89,2.0,Spain
+1305,Grenache-Carignan,2014,23.0,86,2.0,Spain
+1306,Grenache-Carignan,2015,30.0,91,3.0,US
+1307,Grenache-Shiraz,2005,20.0,87,2.0,Australia
+1308,Grenache-Shiraz,2007,12.0,85,0.0,Australia
+1309,Grenache-Shiraz,2012,35.0,90,4.0,Australia
+1310,Grenache-Syrah,2005,24.0,91,3.0,Spain
+1311,Grenache-Syrah,2007,32.0,85,4.0,US
+1312,Grenache-Syrah,2007,32.0,85,4.0,France
+1313,Grenache-Syrah,2008,20.0,86,2.0,Spain
+1314,Grenache-Syrah,2009,29.4,88,3.0,France
+1315,Grenache-Syrah,2009,29.4,88,3.0,US
+1316,Grenache-Syrah,2012,29.5384615385,90,3.0,US
+1317,Grenache-Syrah,2013,29.8333333333,89,3.0,US
+1318,Grenache-Syrah,2013,29.8333333333,89,3.0,France
+1319,Grenache-Syrah,2016,12.0,87,0.0,France
+1320,Grignolino,2008,17.0,85,1.0,Italy
+1321,Grignolino,2009,,87,,Italy
+1322,Grillo,-1,22.0,88,2.0,Italy
+1323,Grillo,2000,18.0,86,1.0,Italy
+1324,Grillo,2001,25.0,89,3.0,Italy
+1325,Grillo,2002,25.0,89,3.0,Italy
+1326,Grillo,2006,30.0,93,3.0,Italy
+1327,Grillo,2007,16.0,86,1.0,Italy
+1328,Grillo,2008,16.5,86,1.0,Italy
+1329,Grillo,2009,13.666666666700001,85,0.0,Italy
+1330,Grillo,2010,17.5833333333,85,1.0,Italy
+1331,Grillo,2011,19.1875,86,1.0,Italy
+1332,Grillo,2013,17.363636363599998,86,1.0,Italy
+1333,Grillo,2015,18.1818181818,87,1.0,Italy
+1334,Grillo,2016,15.25,86,1.0,Italy
+1335,Grolleau,2009,10.0,82,0.0,France
+1336,Grolleau,2014,54.0,90,5.0,France
+1337,Groppello,2008,23.0,87,2.0,Italy
+1338,Gros and Petit Manseng,2005,30.0,90,3.0,France
+1339,Gros and Petit Manseng,2009,26.0,92,3.0,France
+1340,Gros and Petit Manseng,2011,22.6,89,2.0,France
+1341,Gros and Petit Manseng,2013,27.0,90,3.0,France
+1342,Gros and Petit Manseng,2014,18.1666666667,89,1.0,France
+1343,Gros and Petit Manseng,2015,19.5,89,1.0,France
+1344,Gros and Petit Manseng,2016,18.0,88,1.0,France
+1345,Gros Manseng,2006,18.0,90,1.0,France
+1346,Gros Manseng,2007,25.0,89,3.0,Austria
+1347,Gros Manseng,2009,26.0,92,3.0,France
+1348,Gros Manseng,2011,13.0,86,0.0,France
+1349,Gros Manseng,2012,15.0,87,0.0,France
+1350,Gros Manseng,2015,18.428571428599998,87,1.0,France
+1351,Gros Plant,2016,16.0,86,1.0,France
+1352,Hondarrabi Zuri,2007,12.0,84,0.0,Spain
+1353,Hondarrabi Zuri,2014,22.8,88,2.0,Spain
+1354,Incrocio Manzoni,2011,25.0,88,3.0,Italy
+1355,Incrocio Manzoni,2012,24.0,87,3.0,Italy
+1356,Incrocio Manzoni,2013,30.0,89,3.0,Italy
+1357,Insolia,2007,16.0,86,1.0,Italy
+1358,Insolia,2008,17.0,85,1.0,Italy
+1359,Insolia,2009,,84,,Italy
+1360,Insolia,2010,17.2,86,1.0,Italy
+1361,Insolia,2011,15.4,87,1.0,Italy
+1362,Insolia,2013,18.5,87,1.0,Italy
+1363,Inzolia,2007,19.5,86,1.0,Italy
+1364,Inzolia,2008,15.0,86,0.0,Italy
+1365,Inzolia,2009,14.0,85,0.0,Italy
+1366,Inzolia,2010,15.75,86,1.0,Italy
+1367,Inzolia,2012,8.0,84,0.0,Italy
+1368,Inzolia,2013,14.0,85,0.0,Italy
+1369,Inzolia,2016,13.0,87,0.0,Italy
+1370,Irsai Oliver,2011,13.0,87,0.0,Hungary
+1371,Jacquez,2009,40.0,82,4.0,US
+1372,Jacquez,2010,23.0,86,2.0,US
+1373,Jacquez,2011,40.0,87,4.0,US
+1374,Jaen,2007,32.0,92,4.0,Portugal
+1375,Jaen,2009,32.0,93,4.0,Portugal
+1376,Jaen,2010,32.0,93,4.0,Portugal
+1377,Jaen,2012,35.0,87,4.0,Portugal
+1378,Jaen,2013,27.5,87,3.0,Portugal
+1379,Jampal,2014,25.0,88,3.0,Portugal
+1380,Johannisberg Riesling,2001,8.0,87,0.0,US
+1381,Johannisberg Riesling,2002,10.3333333333,84,0.0,US
+1382,Johannisberg Riesling,2011,,85,,US
+1383,Kadarka,2013,28.0,89,3.0,Hungary
+1384,Kadarka,2015,20.0,87,2.0,Hungary
+1385,Kalecik Karasi,2009,40.0,90,4.0,Turkey
+1386,Kalecik Karasi,2011,27.6666666667,89,3.0,Turkey
+1387,Kalecik Karasi,2012,21.0,89,2.0,Turkey
+1388,Kalecik Karasi,2014,28.3333333333,90,3.0,Turkey
+1389,Kalecik Karasi,2015,19.0,86,1.0,Turkey
+1390,Kangoun,2015,14.0,87,0.0,Armenia
+1391,Karalahna,2012,15.0,87,0.0,Turkey
+1392,Karasakiz,2012,15.0,89,0.0,Turkey
+1393,Kekfrankos,2003,28.0,83,3.0,Hungary
+1394,Kekfrankos,2005,20.0,81,2.0,Hungary
+1395,Kekfrankos,2009,17.0,87,1.0,Hungary
+1396,Kekfrankos,2012,17.0,87,1.0,Hungary
+1397,Kekfrankos,2013,21.0,88,2.0,Hungary
+1398,Kerner,2009,44.0,88,5.0,Italy
+1399,Kerner,2010,26.0,87,3.0,Italy
+1400,Kerner,2011,20.0,88,2.0,Italy
+1401,Kerner,2012,22.8571428571,88,2.0,Italy
+1402,Kerner,2014,21.111111111099998,88,2.0,Italy
+1403,Kinali Yapincak,2012,15.0,84,0.0,Turkey
+1404,Kisi,2014,19.2,88,1.0,Georgia
+1405,Kisi,2015,25.0,83,3.0,Georgia
+1406,Kotsifali,2014,13.0,92,0.0,Greece
+1407,Kuntra,2012,15.0,86,0.0,Turkey
+1408,Lagrein,2000,20.0,89,2.0,US
+1409,Lagrein,2006,40.0,89,4.0,Italy
+1410,Lagrein,2008,35.5,89,4.0,Italy
+1411,Lagrein,2009,25.2,87,3.0,Italy
+1412,Lagrein,2011,41.0,88,5.0,Italy
+1413,Lagrein,2012,32.4615384615,88,4.0,Italy
+1414,Lagrein,2013,27.869565217399998,88,3.0,Italy
+1415,Lagrein,2014,43.3333333333,90,5.0,Italy
+1416,Lagrein,2015,22.0,89,2.0,Italy
+1417,Lambrusco,-1,13.842105263199999,84,0.0,Italy
+1418,Lambrusco,2006,17.0,85,1.0,Italy
+1419,Lambrusco,2007,20.0,85,2.0,Italy
+1420,Lambrusco,2008,18.0,84,1.0,Italy
+1421,Lambrusco,2012,16.1666666667,83,1.0,Italy
+1422,Lambrusco,2014,19.0,89,1.0,Italy
+1423,Lambrusco di Sorbara,2013,20.8,89,2.0,Italy
+1424,Lambrusco di Sorbara,2015,,90,,Italy
+1425,Lambrusco Grasparossa,-1,16.7142857143,88,1.0,Italy
+1426,Lambrusco Grasparossa,2012,25.0,87,3.0,Italy
+1427,Lambrusco Grasparossa,2013,17.8333333333,86,1.0,Italy
+1428,Lambrusco Grasparossa,2016,18.0,88,1.0,Italy
+1429,Lambrusco Salamino,-1,14.0,86,0.0,Italy
+1430,Lambrusco Salamino,2016,23.0,90,2.0,Italy
+1431,Lemberger,-1,15.0,88,0.0,US
+1432,Lemberger,2000,7.0,87,0.0,US
+1433,Lemberger,2007,25.0,86,3.0,US
+1434,Lemberger,2009,51.0,87,5.0,Germany
+1435,Lemberger,2010,18.8571428571,86,1.0,US
+1436,Lemberger,2012,21.0,88,2.0,Germany
+1437,Lemberger,2012,21.0,88,2.0,US
+1438,Lemberger,2013,22.0,88,2.0,US
+1439,Lemberger,2015,19.0,86,1.0,US
+1440,Loin de l'Oeil,2007,30.0,91,3.0,France
+1441,Loin de l'Oeil,2008,,92,,France
+1442,Loin de l'Oeil,2009,35.0,92,4.0,France
+1443,Loin de l'Oeil,2010,,92,,France
+1444,Loin de l'Oeil,2011,,93,,France
+1445,Loin de l'Oeil,2013,30.0,92,3.0,France
+1446,Loin de l'Oeil,2016,16.0,88,1.0,France
+1447,Loureiro,2001,7.0,84,0.0,Portugal
+1448,Loureiro,2006,16.0,89,1.0,Portugal
+1449,Loureiro,2008,23.0,86,2.0,Portugal
+1450,Loureiro,2011,12.0,87,0.0,Portugal
+1451,Loureiro,2013,12.8,86,0.0,Portugal
+1452,Loureiro,2015,11.6,87,0.0,Portugal
+1453,Loureiro,2016,11.0,87,0.0,Portugal
+1454,Loureiro-Arinto,2016,10.0,86,0.0,Portugal
+1455,Macabeo,2007,53.0,90,5.0,Spain
+1456,Macabeo,2008,37.0,93,4.0,Spain
+1457,Macabeo,2009,11.0,82,0.0,Spain
+1458,Macabeo,2010,9.0,85,0.0,Spain
+1459,Macabeo,2014,10.6,84,0.0,Spain
+1460,Macabeo,2015,17.0,86,1.0,Spain
+1461,Macabeo,2016,9.0,86,0.0,Spain
+1462,Macabeo-Chardonnay,-1,14.0,83,0.0,Spain
+1463,Macabeo-Chardonnay,1898,12.0,85,0.0,Spain
+1464,Macabeo-Chardonnay,2009,12.0,85,0.0,Spain
+1465,Macabeo-Chardonnay,2015,9.0,87,0.0,Spain
+1466,Macabeo-Moscatel,2009,8.0,85,0.0,Spain
+1467,Madeira Blend,-1,45.5,88,5.0,US
+1468,Madeleine Angevine,2012,17.0,86,1.0,US
+1469,Madeleine Angevine,2014,18.0,85,1.0,US
+1470,Magliocco,2005,35.0,90,4.0,Italy
+1471,Magliocco,2011,25.0,90,3.0,Italy
+1472,Magliocco,2015,,88,,Italy
+1473,Malagousia,2009,23.0,88,2.0,Greece
+1474,Malagousia,2012,16.0,85,1.0,Greece
+1475,Malagousia,2013,23.0,92,2.0,Greece
+1476,Malagousia,2014,24.0,88,3.0,Greece
+1477,Malagousia,2015,19.25,89,1.0,Greece
+1478,Malagousia,2016,18.0,87,1.0,Greece
+1479,Malagouzia,2008,22.0,89,2.0,Greece
+1480,Malagouzia,2010,20.0,86,2.0,Greece
+1481,Malagouzia,2013,19.0,89,1.0,Greece
+1482,Malagouzia-Chardonnay,2016,8.0,86,0.0,Greece
+1483,Malbec,-1,20.0,86,2.0,France
+1484,Malbec,1997,60.0,93,5.0,France
+1485,Malbec,1999,15.0,85,0.0,US
+1486,Malbec,2001,14.666666666700001,84,0.0,Chile
+1487,Malbec,2001,14.666666666700001,84,0.0,Argentina
+1488,Malbec,2002,35.0,87,4.0,France
+1489,Malbec,2002,35.0,87,4.0,Argentina
+1490,Malbec,2004,44.6842105263,87,5.0,US
+1491,Malbec,2004,44.6842105263,87,5.0,Argentina
+1492,Malbec,2004,44.6842105263,87,5.0,Chile
+1493,Malbec,2004,44.6842105263,87,5.0,France
+1494,Malbec,2005,23.1929824561,86,2.0,Argentina
+1495,Malbec,2005,23.1929824561,86,2.0,France
+1496,Malbec,2006,28.224137930999998,87,3.0,Argentina
+1497,Malbec,2006,28.224137930999998,87,3.0,Chile
+1498,Malbec,2006,28.224137930999998,87,3.0,US
+1499,Malbec,2007,29.5471698113,87,3.0,US
+1500,Malbec,2007,29.5471698113,87,3.0,Argentina
+1501,Malbec,2007,29.5471698113,87,3.0,France
+1502,Malbec,2007,29.5471698113,87,3.0,Chile
+1503,Malbec,2008,32.838150289,87,4.0,Argentina
+1504,Malbec,2008,32.838150289,87,4.0,US
+1505,Malbec,2009,30.8312757202,88,4.0,Chile
+1506,Malbec,2009,30.8312757202,88,4.0,Argentina
+1507,Malbec,2009,30.8312757202,88,4.0,US
+1508,Malbec,2009,30.8312757202,88,4.0,France
+1509,Malbec,2010,30.19,87,4.0,Argentina
+1510,Malbec,2010,30.19,87,4.0,Chile
+1511,Malbec,2010,30.19,87,4.0,France
+1512,Malbec,2010,30.19,87,4.0,US
+1513,Malbec,2011,28.734375,87,3.0,Argentina
+1514,Malbec,2011,28.734375,87,3.0,US
+1515,Malbec,2011,28.734375,87,3.0,France
+1516,Malbec,2011,28.734375,87,3.0,Chile
+1517,Malbec,2012,34.3721518987,88,4.0,Argentina
+1518,Malbec,2012,34.3721518987,88,4.0,US
+1519,Malbec,2012,34.3721518987,88,4.0,France
+1520,Malbec,2012,34.3721518987,88,4.0,Chile
+1521,Malbec,2013,33.8192771084,88,4.0,Argentina
+1522,Malbec,2013,33.8192771084,88,4.0,US
+1523,Malbec,2013,33.8192771084,88,4.0,Chile
+1524,Malbec,2014,26.5857605178,88,3.0,Chile
+1525,Malbec,2014,26.5857605178,88,3.0,US
+1526,Malbec,2014,26.5857605178,88,3.0,Argentina
+1527,Malbec,2014,26.5857605178,88,3.0,France
+1528,Malbec,2015,17.9821428571,86,1.0,Chile
+1529,Malbec,2015,17.9821428571,86,1.0,Argentina
+1530,Malbec,2015,17.9821428571,86,1.0,US
+1531,Malbec,2015,17.9821428571,86,1.0,France
+1532,Malbec,2016,15.0,86,0.0,US
+1533,Malbec,2016,15.0,86,0.0,Argentina
+1534,Malbec,2016,15.0,86,0.0,France
+1535,Malbec,2016,15.0,86,0.0,Chile
+1536,Malbec Blend,2012,,88,,France
+1537,Malbec Blend,2013,95.0,89,5.0,Argentina
+1538,Malbec Blend,2014,38.0,92,4.0,Argentina
+1539,Malbec-Bonarda,-1,8.0,82,0.0,Argentina
+1540,Malbec-Bonarda,2009,5.0,84,0.0,Argentina
+1541,Malbec-Bonarda,2011,33.0,90,4.0,Argentina
+1542,Malbec-Bonarda,2014,20.0,86,2.0,Argentina
+1543,Malbec-Bonarda,2015,23.0,90,2.0,Argentina
+1544,Malbec-Cabernet,2011,165.0,93,5.0,Argentina
+1545,Malbec-Cabernet Franc,2008,50.0,92,5.0,Argentina
+1546,Malbec-Cabernet Franc,2013,33.0,90,4.0,Argentina
+1547,Malbec-Cabernet Franc,2014,13.0,87,0.0,Argentina
+1548,Malbec-Cabernet Sauvignon,2005,38.25,86,4.0,Argentina
+1549,Malbec-Cabernet Sauvignon,2007,18.5,86,1.0,Argentina
+1550,Malbec-Cabernet Sauvignon,2011,40.8333333333,89,5.0,Argentina
+1551,Malbec-Cabernet Sauvignon,2012,38.6,90,4.0,Argentina
+1552,Malbec-Cabernet Sauvignon,2015,15.0,84,0.0,Argentina
+1553,Malbec-Merlot,2004,35.0,90,4.0,Argentina
+1554,Malbec-Merlot,2005,22.0,84,2.0,Argentina
+1555,Malbec-Merlot,2006,,88,,France
+1556,Malbec-Merlot,2007,14.0,91,0.0,France
+1557,Malbec-Merlot,2009,21.25,89,2.0,France
+1558,Malbec-Merlot,2011,15.6153846154,87,1.0,France
+1559,Malbec-Merlot,2012,20.25,88,2.0,France
+1560,Malbec-Merlot,2012,20.25,88,2.0,Argentina
+1561,Malbec-Merlot,2013,20.9,87,2.0,France
+1562,Malbec-Merlot,2013,20.9,87,2.0,US
+1563,Malbec-Merlot,2014,21.3684210526,88,2.0,France
+1564,Malbec-Merlot,2015,18.2,88,1.0,France
+1565,Malbec-Petit Verdot,-1,30.0,91,3.0,Argentina
+1566,Malbec-Petit Verdot,2013,49.0,91,5.0,Argentina
+1567,Malbec-Syrah,2009,11.25,85,0.0,Argentina
+1568,Malbec-Syrah,2010,10.25,85,0.0,Argentina
+1569,Malbec-Syrah,2011,18.0,88,1.0,Argentina
+1570,Malbec-Syrah,2012,,87,,US
+1571,Malbec-Syrah,2014,19.6666666667,86,2.0,Argentina
+1572,Malbec-Tannat,2007,80.0,87,5.0,Argentina
+1573,Malbec-Tannat,2009,24.0,93,3.0,France
+1574,Malbec-Tannat,2010,15.0,84,0.0,Argentina
+1575,Malbec-Tannat,2011,27.0,93,3.0,France
+1576,Malbec-Tannat,2012,24.0,92,3.0,France
+1577,Malbec-Tannat,2013,55.0,92,5.0,France
+1578,Malbec-Tannat,2015,25.0,92,3.0,France
+1579,Malbec-Tempranillo,2005,8.0,87,0.0,Argentina
+1580,Malbec-Tempranillo,2009,14.0,86,0.0,Argentina
+1581,Malvar,2009,12.0,81,0.0,Spain
+1582,Malvar,2015,35.0,88,4.0,Italy
+1583,Malvasia,-1,34.0,84,4.0,Italy
+1584,Malvasia,2003,50.0,93,5.0,Italy
+1585,Malvasia,2005,35.0,89,4.0,Italy
+1586,Malvasia,2011,20.428571428599998,85,2.0,US
+1587,Malvasia,2011,20.428571428599998,85,2.0,Italy
+1588,Malvasia,2012,24.8,88,3.0,Croatia
+1589,Malvasia,2013,25.6666666667,88,3.0,Portugal
+1590,Malvasia,2014,27.1666666667,86,3.0,Italy
+1591,Malvasia,2015,24.6666666667,88,3.0,Italy
+1592,Malvasia Bianca,1999,28.0,89,3.0,Italy
+1593,Malvasia Bianca,2001,30.0,89,3.0,Italy
+1594,Malvasia Bianca,2006,20.0,86,2.0,Italy
+1595,Malvasia Bianca,2013,26.0,92,3.0,US
+1596,Malvasia Bianca,2015,28.0,90,3.0,US
+1597,Malvasia Fina,2005,20.0,89,2.0,Portugal
+1598,Malvasia Fina,2009,27.0,87,3.0,Portugal
+1599,Malvasia Istriana,1998,15.0,84,0.0,Italy
+1600,Malvasia Istriana,2004,,87,,Italy
+1601,Malvasia Istriana,2006,22.0,85,2.0,Italy
+1602,Malvasia Istriana,2008,20.0,87,2.0,Croatia
+1603,Malvasia Istriana,2010,23.0,87,2.0,Slovenia
+1604,Malvasia Istriana,2010,23.0,87,2.0,Croatia
+1605,Malvasia Istriana,2012,17.0,90,1.0,Croatia
+1606,Malvasia Nera,2013,35.0,87,4.0,Italy
+1607,Malvasia Nera,2014,78.0,89,5.0,Italy
+1608,Malvasia-Viura,2011,31.0,89,4.0,Spain
+1609,Malvasia-Viura,2013,12.0,84,0.0,Spain
+1610,Malvasia-Viura,2014,10.0,82,0.0,Spain
+1611,Mandilaria,-1,25.0,87,3.0,Greece
+1612,Mandilaria,2013,25.0,90,3.0,Greece
+1613,Mansois,2010,19.0,87,1.0,France
+1614,Mansois,2012,,87,,France
+1615,Mansois,2014,16.0,87,1.0,France
+1616,Mansois,2015,16.0,88,1.0,France
+1617,Mantonico,2006,30.0,87,3.0,Italy
+1618,Mantonico,2008,30.0,91,3.0,Italy
+1619,Mantonico,2013,25.0,88,3.0,Italy
+1620,Mantonico,2015,,85,,Italy
+1621,Manzoni,2006,37.0,87,4.0,Italy
+1622,Manzoni,2008,17.0,87,1.0,Italy
+1623,Manzoni,2009,15.0,86,0.0,Italy
+1624,Manzoni,2011,29.0,88,3.0,Italy
+1625,Marawi,2014,35.0,87,4.0,Israel
+1626,Marawi,2015,35.0,88,4.0,Israel
+1627,Maria Gomes,2013,11.0,88,0.0,Portugal
+1628,Maria Gomes-Bical,2016,25.0,86,3.0,Portugal
+1629,Marquette,2012,19.0,83,1.0,US
+1630,Marquette,2013,17.0,86,1.0,US
+1631,Marsanne,1998,12.0,87,0.0,US
+1632,Marsanne,2000,15.0,81,0.0,France
+1633,Marsanne,2007,39.75,87,4.0,Australia
+1634,Marsanne,2008,35.5,88,4.0,France
+1635,Marsanne,2009,37.7142857143,88,4.0,France
+1636,Marsanne,2009,37.7142857143,88,4.0,US
+1637,Marsanne,2010,26.6,87,3.0,US
+1638,Marsanne,2011,41.6666666667,88,5.0,US
+1639,Marsanne,2013,27.4285714286,89,3.0,US
+1640,Marsanne,2015,30.0,89,3.0,US
+1641,Marsanne,2015,30.0,89,3.0,France
+1642,Marsanne,2016,20.0,87,2.0,US
+1643,Marsanne-Roussanne,2008,20.0,86,2.0,France
+1644,Marsanne-Roussanne,2009,28.5,87,3.0,US
+1645,Marsanne-Roussanne,2013,28.25,89,3.0,US
+1646,Marsanne-Roussanne,2014,39.6666666667,89,4.0,Australia
+1647,Marsanne-Roussanne,2014,39.6666666667,89,4.0,US
+1648,Marsanne-Roussanne,2015,25.0,87,3.0,Australia
+1649,Marsanne-Viognier,2010,20.0,84,2.0,US
+1650,Marsanne-Viognier,2014,35.0,89,4.0,US
+1651,Marselan,2013,56.0,89,5.0,Israel
+1652,Marselan,2014,34.0,89,4.0,Israel
+1653,Marselan,2016,12.0,87,0.0,France
+1654,Marzemino,2005,13.0,86,0.0,Italy
+1655,Marzemino,2008,14.0,85,0.0,Italy
+1656,Marzemino,2012,130.0,88,5.0,Italy
+1657,Mataro,2000,15.0,85,0.0,US
+1658,Mataro,2004,25.0,87,3.0,US
+1659,Mataro,2005,28.0,90,3.0,US
+1660,Mataro,2007,135.0,88,5.0,Australia
+1661,Mataro,2012,75.0,91,5.0,Australia
+1662,Mataro,2013,47.6666666667,90,5.0,Spain
+1663,Mataro,2015,28.0,90,3.0,Australia
+1664,Mataro,2016,32.0,92,4.0,Australia
+1665,Maturana,2005,45.0,88,5.0,Spain
+1666,Maturana,2009,90.0,87,5.0,Spain
+1667,Maturana,2010,62.5,87,5.0,Spain
+1668,Mauzac,2013,19.0,87,1.0,France
+1669,Mavrodaphne,-1,12.5,86,0.0,Greece
+1670,Mavrodaphne,2004,30.0,88,3.0,Greece
+1671,Mavrokalavryta,2008,15.0,86,0.0,Greece
+1672,Mavrotragano,2008,50.0,90,5.0,Greece
+1673,Mavroudi,2003,12.0,87,0.0,Greece
+1674,Mavrud,2006,9.0,85,0.0,Bulgaria
+1675,Mavrud,2007,16.0,84,1.0,Bulgaria
+1676,Mavrud,2012,15.5,90,1.0,Bulgaria
+1677,Mavrud,2013,14.5,89,0.0,Bulgaria
+1678,Mavrud,2015,14.0,88,0.0,Bulgaria
+1679,Mazuelo,2007,95.0,88,5.0,Spain
+1680,Mazuelo,2010,105.0,91,5.0,Spain
+1681,Melnik,2013,22.3333333333,88,2.0,
+1682,Melon,1995,32.0,93,4.0,France
+1683,Melon,1997,30.0,92,3.0,France
+1684,Melon,1999,30.0,88,3.0,France
+1685,Melon,2001,35.0,93,4.0,France
+1686,Melon,2002,21.0,91,2.0,France
+1687,Melon,2003,20.0,90,2.0,France
+1688,Melon,2005,40.6666666667,90,5.0,France
+1689,Melon,2006,20.0,89,2.0,France
+1690,Melon,2007,16.25,87,1.0,France
+1691,Melon,2010,22.0,89,2.0,France
+1692,Melon,2011,16.0,88,1.0,France
+1693,Melon,2012,17.5,89,1.0,France
+1694,Melon,2013,16.4565217391,88,1.0,France
+1695,Melon,2014,15.52,88,1.0,France
+1696,Melon,2015,14.153846153800002,87,0.0,France
+1697,Melon,2016,14.585365853699999,87,0.0,France
+1698,Meritage,-1,45.0,87,5.0,US
+1699,Meritage,1997,55.0,91,5.0,US
+1700,Meritage,1998,50.0,88,5.0,US
+1701,Meritage,2000,22.0,87,2.0,US
+1702,Meritage,2001,18.0,86,1.0,US
+1703,Meritage,2005,39.2631578947,86,4.0,US
+1704,Meritage,2006,36.0714285714,85,4.0,US
+1705,Meritage,2007,39.64,87,4.0,US
+1706,Meritage,2008,37.222222222199996,86,4.0,US
+1707,Meritage,2009,30.9545454545,86,4.0,US
+1708,Meritage,2010,34.411764705900005,87,4.0,US
+1709,Meritage,2011,32.96,87,4.0,Canada
+1710,Meritage,2011,32.96,87,4.0,US
+1711,Meritage,2012,38.2444444444,88,4.0,US
+1712,Meritage,2013,32.1219512195,88,4.0,US
+1713,Meritage,2013,32.1219512195,88,4.0,Canada
+1714,Meritage,2014,37.4545454545,88,4.0,US
+1715,Meritage,2015,26.5,87,3.0,US
+1716,Merlot,-1,13.2941176471,84,0.0,US
+1717,Merlot,-1,13.2941176471,84,0.0,Ukraine
+1718,Merlot,-1,13.2941176471,84,0.0,France
+1719,Merlot,1852,27.0,87,3.0,US
+1720,Merlot,1996,16.0,87,1.0,US
+1721,Merlot,1997,24.529411764699997,87,3.0,South Africa
+1722,Merlot,1997,24.529411764699997,87,3.0,US
+1723,Merlot,1998,21.512195121999998,85,2.0,US
+1724,Merlot,1998,21.512195121999998,85,2.0,South Africa
+1725,Merlot,1999,22.883333333299998,87,2.0,US
+1726,Merlot,1999,22.883333333299998,87,2.0,South Africa
+1727,Merlot,1999,22.883333333299998,87,2.0,Chile
+1728,Merlot,2000,21.6875,86,2.0,South Africa
+1729,Merlot,2000,21.6875,86,2.0,US
+1730,Merlot,2000,21.6875,86,2.0,Australia
+1731,Merlot,2001,12.9523809524,84,0.0,Chile
+1732,Merlot,2001,12.9523809524,84,0.0,South Africa
+1733,Merlot,2002,26.3076923077,85,3.0,Chile
+1734,Merlot,2003,51.5384615385,88,5.0,US
+1735,Merlot,2004,36.1630434783,87,4.0,US
+1736,Merlot,2004,36.1630434783,87,4.0,Israel
+1737,Merlot,2005,36.8869047619,86,4.0,US
+1738,Merlot,2005,36.8869047619,86,4.0,South Africa
+1739,Merlot,2006,29.184079601999997,86,3.0,Argentina
+1740,Merlot,2006,29.184079601999997,86,3.0,US
+1741,Merlot,2006,29.184079601999997,86,3.0,France
+1742,Merlot,2006,29.184079601999997,86,3.0,Israel
+1743,Merlot,2006,29.184079601999997,86,3.0,Chile
+1744,Merlot,2007,28.6192307692,87,3.0,US
+1745,Merlot,2007,28.6192307692,87,3.0,Israel
+1746,Merlot,2007,28.6192307692,87,3.0,Chile
+1747,Merlot,2007,28.6192307692,87,3.0,France
+1748,Merlot,2008,26.582524271799997,86,3.0,Italy
+1749,Merlot,2008,26.582524271799997,86,3.0,Argentina
+1750,Merlot,2008,26.582524271799997,86,3.0,US
+1751,Merlot,2008,26.582524271799997,86,3.0,South Africa
+1752,Merlot,2008,26.582524271799997,86,3.0,Israel
+1753,Merlot,2008,26.582524271799997,86,3.0,Chile
+1754,Merlot,2009,27.388,87,3.0,US
+1755,Merlot,2009,27.388,87,3.0,Bulgaria
+1756,Merlot,2009,27.388,87,3.0,France
+1757,Merlot,2009,27.388,87,3.0,Argentina
+1758,Merlot,2009,27.388,87,3.0,Israel
+1759,Merlot,2009,27.388,87,3.0,South Africa
+1760,Merlot,2009,27.388,87,3.0,Italy
+1761,Merlot,2009,27.388,87,3.0,Romania
+1762,Merlot,2009,27.388,87,3.0,Chile
+1763,Merlot,2009,27.388,87,3.0,Spain
+1764,Merlot,2010,29.9801136364,87,3.0,US
+1765,Merlot,2010,29.9801136364,87,3.0,Italy
+1766,Merlot,2010,29.9801136364,87,3.0,Chile
+1767,Merlot,2010,29.9801136364,87,3.0,Israel
+1768,Merlot,2010,29.9801136364,87,3.0,France
+1769,Merlot,2010,29.9801136364,87,3.0,New Zealand
+1770,Merlot,2011,30.9233576642,86,4.0,Chile
+1771,Merlot,2011,30.9233576642,86,4.0,US
+1772,Merlot,2011,30.9233576642,86,4.0,Israel
+1773,Merlot,2011,30.9233576642,86,4.0,Argentina
+1774,Merlot,2011,30.9233576642,86,4.0,New Zealand
+1775,Merlot,2011,30.9233576642,86,4.0,Canada
+1776,Merlot,2011,30.9233576642,86,4.0,Italy
+1777,Merlot,2012,33.5382436261,87,4.0,US
+1778,Merlot,2012,33.5382436261,87,4.0,Italy
+1779,Merlot,2012,33.5382436261,87,4.0,France
+1780,Merlot,2012,33.5382436261,87,4.0,Israel
+1781,Merlot,2012,33.5382436261,87,4.0,Argentina
+1782,Merlot,2012,33.5382436261,87,4.0,Canada
+1783,Merlot,2013,32.3608562691,88,4.0,US
+1784,Merlot,2013,32.3608562691,88,4.0,Italy
+1785,Merlot,2013,32.3608562691,88,4.0,Chile
+1786,Merlot,2013,32.3608562691,88,4.0,Portugal
+1787,Merlot,2014,27.858267716500002,87,3.0,US
+1788,Merlot,2014,27.858267716500002,87,3.0,France
+1789,Merlot,2014,27.858267716500002,87,3.0,Chile
+1790,Merlot,2014,27.858267716500002,87,3.0,Romania
+1791,Merlot,2015,16.9759036145,86,1.0,Romania
+1792,Merlot,2015,16.9759036145,86,1.0,US
+1793,Merlot,2015,16.9759036145,86,1.0,France
+1794,Merlot,2015,16.9759036145,86,1.0,Portugal
+1795,Merlot,2015,16.9759036145,86,1.0,Moldova
+1796,Merlot,2015,16.9759036145,86,1.0,Bulgaria
+1797,Merlot,2015,16.9759036145,86,1.0,Chile
+1798,Merlot,2016,11.0,84,0.0,France
+1799,Merlot,2016,11.0,84,0.0,Chile
+1800,Merlot-Argaman,2010,12.0,85,0.0,Israel
+1801,Merlot-Cabernet,2006,8.0,86,0.0,US
+1802,Merlot-Cabernet,2007,15.0,86,0.0,Chile
+1803,Merlot-Cabernet,2010,13.0,87,0.0,US
+1804,Merlot-Cabernet,2014,20.0,89,2.0,US
+1805,Merlot-Cabernet Franc,2007,60.0,90,5.0,Slovenia
+1806,Merlot-Cabernet Franc,2009,40.75,90,5.0,US
+1807,Merlot-Cabernet Franc,2011,45.0,89,5.0,US
+1808,Merlot-Cabernet Franc,2013,40.0,89,4.0,US
+1809,Merlot-Cabernet Franc,2014,28.8,88,3.0,US
+1810,Merlot-Cabernet Sauvignon,1998,14.0,87,0.0,US
+1811,Merlot-Cabernet Sauvignon,2001,10.0,84,0.0,South Africa
+1812,Merlot-Cabernet Sauvignon,2004,16.0,86,1.0,Spain
+1813,Merlot-Cabernet Sauvignon,2005,17.0,87,1.0,South Africa
+1814,Merlot-Cabernet Sauvignon,2006,8.0,86,0.0,South Africa
+1815,Merlot-Cabernet Sauvignon,2008,62.0,89,5.0,US
+1816,Merlot-Cabernet Sauvignon,2011,50.6666666667,86,5.0,US
+1817,Merlot-Cabernet Sauvignon,2011,50.6666666667,86,5.0,Brazil
+1818,Merlot-Cabernet Sauvignon,2013,40.3333333333,85,5.0,US
+1819,Merlot-Cabernet Sauvignon,2013,40.3333333333,85,5.0,Spain
+1820,Merlot-Grenache,2009,10.0,89,0.0,France
+1821,Merlot-Malbec,2010,12.0,87,0.0,France
+1822,Merlot-Malbec,2011,20.0,86,2.0,New Zealand
+1823,Merlot-Malbec,2012,20.0,87,2.0,New Zealand
+1824,Merlot-Malbec,2015,15.0,86,0.0,France
+1825,Merlot-Petite Verdot,2009,20.0,83,2.0,US
+1826,Merlot-Shiraz,2009,18.0,86,1.0,South Africa
+1827,Merlot-Syrah,2012,24.0,88,3.0,Portugal
+1828,Merlot-Syrah,2013,18.0,89,1.0,Bulgaria
+1829,Merlot-Tannat,2009,25.0,93,3.0,France
+1830,Merlot-Tannat,2011,20.0,89,2.0,France
+1831,Merlot-Tannat,2015,10.0,86,0.0,France
+1832,Merseguera-Sauvignon Blanc,2015,9.0,85,0.0,Spain
+1833,Meseguera,2013,35.0,91,4.0,Spain
+1834,Misket,2014,19.0,85,1.0,Turkey
+1835,Mission,2013,14.0,85,0.0,US
+1836,Mission,2014,16.0,90,1.0,US
+1837,Mission,2015,18.0,88,1.0,US
+1838,Mission,2016,18.0,89,1.0,US
+1839,Molinara,-1,25.0,87,3.0,Italy
+1840,Monastrell,1995,12.0,83,0.0,Spain
+1841,Monastrell,1999,88.0,97,5.0,Spain
+1842,Monastrell,2000,9.0,85,0.0,Spain
+1843,Monastrell,2003,65.0,91,5.0,Spain
+1844,Monastrell,2008,15.5454545455,86,1.0,Spain
+1845,Monastrell,2009,14.0,86,0.0,Spain
+1846,Monastrell,2010,20.888888888900002,87,2.0,Spain
+1847,Monastrell,2010,20.888888888900002,87,2.0,US
+1848,Monastrell,2011,22.0588235294,87,2.0,Spain
+1849,Monastrell,2012,24.25,88,3.0,Spain
+1850,Monastrell,2013,15.75,86,1.0,Spain
+1851,Monastrell,2014,16.1666666667,86,1.0,Spain
+1852,Monastrell,2015,23.8571428571,87,2.0,Spain
+1853,Monastrell-Petit Verdot,2012,23.0,89,2.0,Spain
+1854,Monastrell-Petit Verdot,2016,16.0,87,1.0,Spain
+1855,Monastrell-Syrah,2009,13.0,84,0.0,Spain
+1856,Monastrell-Syrah,2012,13.0,86,0.0,Spain
+1857,Mondeuse,2007,48.0,90,5.0,Italy
+1858,Mondeuse,2010,48.0,89,5.0,Italy
+1859,Mondeuse,2011,25.0,86,3.0,France
+1860,Mondeuse,2013,,87,,France
+1861,Mondeuse,2014,23.5,86,2.0,France
+1862,Mondeuse,2015,20.0,87,2.0,France
+1863,Monica,2010,14.0,85,0.0,Italy
+1864,Monica,2011,16.0,88,1.0,Italy
+1865,Monica,2014,20.0,88,2.0,Italy
+1866,Montepulciano,-1,20.0,84,2.0,Italy
+1867,Montepulciano,2000,73.0,90,5.0,Italy
+1868,Montepulciano,2001,84.5,90,5.0,Italy
+1869,Montepulciano,2003,46.2,87,5.0,Italy
+1870,Montepulciano,2004,34.875,87,4.0,Italy
+1871,Montepulciano,2005,27.5833333333,87,3.0,Italy
+1872,Montepulciano,2006,24.9333333333,87,3.0,Italy
+1873,Montepulciano,2007,27.1538461538,88,3.0,Italy
+1874,Montepulciano,2008,26.368421052600002,86,3.0,Italy
+1875,Montepulciano,2009,26.0,86,3.0,Italy
+1876,Montepulciano,2010,25.1578947368,86,3.0,Italy
+1877,Montepulciano,2011,17.3181818182,86,1.0,US
+1878,Montepulciano,2011,17.3181818182,86,1.0,Italy
+1879,Montepulciano,2012,25.6428571429,87,3.0,Italy
+1880,Montepulciano,2013,23.2727272727,87,2.0,Italy
+1881,Montepulciano,2014,23.75,85,2.0,Italy
+1882,Montepulciano,2015,14.3125,85,0.0,Italy
+1883,Morava,2011,26.0,87,3.0,Serbia
+1884,Morillon,2011,63.0,93,5.0,Austria
+1885,Morillon,2013,25.5,89,3.0,Austria
+1886,Morillon,2014,23.5,88,2.0,Austria
+1887,Morillon,2015,23.5,90,2.0,
+1888,Morillon,2015,23.5,90,2.0,Austria
+1889,Morio Muskat,1999,18.0,84,1.0,US
+1890,Morio Muskat,2010,16.0,90,1.0,US
+1891,Moscadello,2003,30.0,88,3.0,Italy
+1892,Moscadello,2004,35.0,86,4.0,Italy
+1893,Moscadello,2006,,88,,Italy
+1894,Moscadello,2007,,93,,Italy
+1895,Moscatel,1980,137.0,93,5.0,Portugal
+1896,Moscatel,1999,137.0,90,5.0,Portugal
+1897,Moscatel,2001,21.0,92,2.0,Portugal
+1898,Moscatel,2007,41.5,90,5.0,Spain
+1899,Moscatel,2009,26.6666666667,86,3.0,Spain
+1900,Moscatel,2011,28.2,87,3.0,Portugal
+1901,Moscatel,2011,28.2,87,3.0,Spain
+1902,Moscatel,2012,27.75,88,3.0,Spain
+1903,Moscatel,2013,35.0,93,4.0,Spain
+1904,Moscatel Roxo,2002,25.0,91,3.0,Portugal
+1905,Moscatel Roxo,2006,25.0,92,3.0,Portugal
+1906,Moscatel Roxo,2009,,94,,Portugal
+1907,Moscatel Roxo,2011,,86,,Portugal
+1908,Moscatel Roxo,2013,19.0,86,1.0,Portugal
+1909,Moscatel Roxo,2015,19.0,88,1.0,Portugal
+1910,Moscato,-1,11.767857142899999,84,0.0,Italy
+1911,Moscato,-1,11.767857142899999,84,0.0,US
+1912,Moscato,-1,11.767857142899999,84,0.0,Spain
+1913,Moscato,-1,11.767857142899999,84,0.0,South Africa
+1914,Moscato,1870,13.0,87,0.0,Italy
+1915,Moscato,1999,11.0,90,0.0,US
+1916,Moscato,2001,15.0,89,0.0,US
+1917,Moscato,2003,,92,,Italy
+1918,Moscato,2005,56.1666666667,88,5.0,Italy
+1919,Moscato,2006,33.8,89,4.0,Italy
+1920,Moscato,2007,22.7777777778,87,2.0,Italy
+1921,Moscato,2009,22.0666666667,87,2.0,Italy
+1922,Moscato,2010,17.9333333333,86,1.0,US
+1923,Moscato,2010,17.9333333333,86,1.0,Italy
+1924,Moscato,2011,15.746268656700002,85,1.0,Italy
+1925,Moscato,2011,15.746268656700002,85,1.0,Argentina
+1926,Moscato,2011,15.746268656700002,85,1.0,US
+1927,Moscato,2011,15.746268656700002,85,1.0,Australia
+1928,Moscato,2012,13.3125,85,0.0,US
+1929,Moscato,2012,13.3125,85,0.0,Italy
+1930,Moscato,2012,13.3125,85,0.0,Argentina
+1931,Moscato,2013,15.88,87,1.0,Italy
+1932,Moscato,2013,15.88,87,1.0,Slovenia
+1933,Moscato,2013,15.88,87,1.0,US
+1934,Moscato,2013,15.88,87,1.0,Spain
+1935,Moscato,2015,16.1904761905,87,1.0,Italy
+1936,Moscato,2015,16.1904761905,87,1.0,US
+1937,Moscato,2016,11.0,85,0.0,US
+1938,Moscato,2016,11.0,85,0.0,Romania
+1939,Moscato,2016,11.0,85,0.0,Brazil
+1940,Moscato,2017,15.0,84,0.0,Brazil
+1941,Moscato di Noto,2007,40.0,92,4.0,Italy
+1942,Moscato Giallo,2008,,93,,Italy
+1943,Moscato Giallo,2009,27.0,86,3.0,Italy
+1944,Moscato Giallo,2012,17.5,85,1.0,Italy
+1945,Moscato Giallo,2014,25.0,88,3.0,Italy
+1946,Moscato Rosa,2012,30.0,90,3.0,Italy
+1947,Moscato Rosa,2015,37.0,90,4.0,Italy
+1948,Moschofilero,-1,15.0,86,0.0,Greece
+1949,Moschofilero,2007,14.5,87,0.0,Greece
+1950,Moschofilero,2008,13.0,85,0.0,Greece
+1951,Moschofilero,2010,14.666666666700001,86,0.0,Greece
+1952,Moschofilero,2011,15.0,89,0.0,Greece
+1953,Moschofilero,2013,16.6666666667,90,1.0,Greece
+1954,Moschofilero,2014,18.0,92,1.0,Greece
+1955,Moschofilero,2015,15.1,88,1.0,Greece
+1956,Moschofilero,2016,17.0,92,1.0,Greece
+1957,Moschofilero-Chardonnay,2015,13.0,85,0.0,Greece
+1958,Mtsvane,2010,25.0,90,3.0,Georgia
+1959,Mtsvane,2013,30.0,87,3.0,
+1960,Mtsvane,2014,13.0,87,0.0,Georgia
+1961,Mtsvane,2015,15.0,86,0.0,Georgia
+1962,Muscadel,2008,30.0,88,3.0,France
+1963,Muscadelle,-1,160.3333333333,94,5.0,Australia
+1964,Muscadelle,2009,65.0,90,5.0,France
+1965,Muscadelle,2013,27.0,91,3.0,France
+1966,Muscadelle,2014,29.0,90,3.0,France
+1967,Muscadelle,2015,29.0,90,3.0,France
+1968,Muscadine,2013,20.0,85,2.0,US
+1969,Muscadine,2014,25.0,86,3.0,US
+1970,Muscat,-1,64.85,90,5.0,Greece
+1971,Muscat,-1,64.85,90,5.0,Australia
+1972,Muscat,-1,64.85,90,5.0,Spain
+1973,Muscat,1998,7.0,87,0.0,Portugal
+1974,Muscat,1999,9.5,87,0.0,US
+1975,Muscat,2002,14.0,85,0.0,US
+1976,Muscat,2003,30.0,87,3.0,Greece
+1977,Muscat,2004,21.0,87,2.0,France
+1978,Muscat,2010,15.0,88,0.0,France
+1979,Muscat,2010,15.0,88,0.0,US
+1980,Muscat,2011,23.5714285714,86,2.0,France
+1981,Muscat,2014,26.7333333333,88,3.0,France
+1982,Muscat,2014,26.7333333333,88,3.0,US
+1983,Muscat,2015,23.214285714299997,88,2.0,Hungary
+1984,Muscat,2015,23.214285714299997,88,2.0,France
+1985,Muscat Blanc,2006,18.0,90,1.0,Hungary
+1986,Muscat Blanc,2007,24.5,92,3.0,US
+1987,Muscat Blanc,2008,19.0,89,1.0,US
+1988,Muscat Blanc,2009,20.0,88,2.0,US
+1989,Muscat Blanc,2010,18.0,88,1.0,US
+1990,Muscat Blanc,2012,20.0,87,2.0,US
+1991,Muscat Canelli,1999,12.0,88,0.0,US
+1992,Muscat Canelli,2000,32.0,93,4.0,US
+1993,Muscat Canelli,2001,12.0,89,0.0,US
+1994,Muscat Canelli,2006,15.0,85,0.0,US
+1995,Muscat Canelli,2009,20.3333333333,87,2.0,US
+1996,Muscat Canelli,2010,14.0,87,0.0,US
+1997,Muscat Canelli,2012,19.625,86,2.0,US
+1998,Muscat Canelli,2015,19.3333333333,87,1.0,US
+1999,Muscat Canelli,2016,27.0,88,3.0,US
+2000,Muscat d'Alexandrie,2003,16.0,88,1.0,France
+2001,Muscat d'Alexandrie,2010,15.0,84,0.0,Chile
+2002,Muscat d'Alexandrie,2014,25.0,87,3.0,US
+2003,Muscat Hamburg,2012,32.0,88,4.0,US
+2004,Muscat Hamburg,2013,12.0,88,0.0,US
+2005,Muscat of Alexandria,2014,26.0,91,3.0,Spain
+2006,Muscatel,2011,17.6666666667,87,1.0,Mexico
+2007,Muskat,2013,,90,,Austria
+2008,Muskat Ottonel,2006,12.0,84,0.0,Austria
+2009,Muskat Ottonel,2007,7.0,84,0.0,Austria
+2010,Muskat Ottonel,2008,,93,,Austria
+2011,Muskat Ottonel,2009,9.0,80,0.0,Bulgaria
+2012,Muskat Ottonel,2010,13.0,89,0.0,Austria
+2013,Muskat Ottonel,2012,17.5,85,1.0,US
+2014,Muskat Ottonel,2012,17.5,85,1.0,Austria
+2015,Muskat Ottonel,2014,20.0,89,2.0,US
+2016,Muskat Ottonel,2015,22.0,85,2.0,US
+2017,Muskat Ottonel,2016,17.3333333333,87,1.0,Bulgaria
+2018,Muskateller,2000,23.0,86,2.0,Austria
+2019,Muskateller,2013,26.0,87,3.0,Germany
+2020,Muskateller,2014,25.0,85,3.0,Germany
+2021,Narince,2011,30.0,89,3.0,Turkey
+2022,Narince,2012,25.0,89,3.0,Turkey
+2023,Narince,2013,15.0,87,0.0,Turkey
+2024,Narince,2015,18.0,87,1.0,Turkey
+2025,Nascetta,2009,29.0,88,3.0,Italy
+2026,Nascetta,2011,33.0,87,4.0,Italy
+2027,Nascetta,2015,,87,,Italy
+2028,Nasco,2010,55.0,90,5.0,Italy
+2029,Nasco,2014,20.0,91,2.0,Italy
+2030,Nebbiolo,1995,50.0,92,5.0,Italy
+2031,Nebbiolo,1996,29.0,88,3.0,Mexico
+2032,Nebbiolo,1998,100.0,90,5.0,Italy
+2033,Nebbiolo,2000,66.7142857143,90,5.0,Italy
+2034,Nebbiolo,2002,73.0,86,5.0,Italy
+2035,Nebbiolo,2003,59.6538461538,88,5.0,Italy
+2036,Nebbiolo,2004,65.8441558442,90,5.0,Italy
+2037,Nebbiolo,2005,75.8863636364,90,5.0,Italy
+2038,Nebbiolo,2006,70.5135135135,91,5.0,Italy
+2039,Nebbiolo,2007,70.62941176470001,91,5.0,Italy
+2040,Nebbiolo,2008,67.9914529915,89,5.0,Italy
+2041,Nebbiolo,2009,69.37387387390001,90,5.0,Italy
+2042,Nebbiolo,2010,67.6556016598,90,5.0,Italy
+2043,Nebbiolo,2010,67.6556016598,90,5.0,US
+2044,Nebbiolo,2011,66.6060606061,90,5.0,Italy
+2045,Nebbiolo,2012,58.8255033557,89,5.0,Italy
+2046,Nebbiolo,2012,58.8255033557,89,5.0,US
+2047,Nebbiolo,2013,66.9238095238,90,5.0,Italy
+2048,Nebbiolo,2014,50.929292929300004,89,5.0,Italy
+2049,Nebbiolo,2014,50.929292929300004,89,5.0,US
+2050,Nebbiolo,2015,21.0,89,2.0,Italy
+2051,Negrette,2001,20.0,83,2.0,US
+2052,Negrette,2011,21.5,89,2.0,France
+2053,Negrette,2014,19.5,87,1.0,France
+2054,Negrette,2015,13.0,86,0.0,France
+2055,Negrette,2016,15.0,86,0.0,France
+2056,Negroamaro,-1,10.0,86,0.0,Italy
+2057,Negroamaro,2001,15.0,87,0.0,Italy
+2058,Negroamaro,2003,11.5,85,0.0,Italy
+2059,Negroamaro,2004,11.0,86,0.0,Italy
+2060,Negroamaro,2005,23.6666666667,87,2.0,Italy
+2061,Negroamaro,2006,14.333333333299999,86,0.0,Italy
+2062,Negroamaro,2007,13.25,86,0.0,Italy
+2063,Negroamaro,2008,15.5,87,1.0,Italy
+2064,Negroamaro,2009,15.0,86,0.0,Italy
+2065,Negroamaro,2010,32.9,87,4.0,Italy
+2066,Negroamaro,2011,15.222222222200001,86,1.0,Italy
+2067,Negroamaro,2012,19.133333333299998,87,1.0,Italy
+2068,Negroamaro,2013,19.0,87,1.0,Italy
+2069,Nerello Cappuccio,2006,36.0,90,4.0,Italy
+2070,Nerello Cappuccio,2010,50.0,92,5.0,Italy
+2071,Nerello Cappuccio,2013,35.0,88,4.0,Italy
+2072,Nerello Cappuccio,2014,25.0,88,3.0,Italy
+2073,Nerello Mascalese,-1,52.5,90,5.0,Italy
+2074,Nerello Mascalese,1999,30.0,84,3.0,Italy
+2075,Nerello Mascalese,2004,19.0,89,1.0,Italy
+2076,Nerello Mascalese,2006,47.5,90,5.0,Italy
+2077,Nerello Mascalese,2007,47.888888888900006,89,5.0,Italy
+2078,Nerello Mascalese,2008,34.3333333333,90,4.0,Italy
+2079,Nerello Mascalese,2009,39.4545454545,89,4.0,Italy
+2080,Nerello Mascalese,2010,38.3333333333,89,4.0,Italy
+2081,Nerello Mascalese,2011,42.7142857143,89,5.0,Italy
+2082,Nerello Mascalese,2012,53.318181818199996,90,5.0,Italy
+2083,Nerello Mascalese,2013,38.3333333333,89,4.0,Italy
+2084,Nerello Mascalese,2015,21.375,88,2.0,Italy
+2085,Nero d'Avola,1875,13.666666666700001,86,0.0,Italy
+2086,Nero d'Avola,2000,31.0,88,4.0,Italy
+2087,Nero d'Avola,2002,,87,,Italy
+2088,Nero d'Avola,2003,38.0,87,4.0,Italy
+2089,Nero d'Avola,2004,46.1666666667,90,5.0,Italy
+2090,Nero d'Avola,2005,32.3,87,4.0,Italy
+2091,Nero d'Avola,2006,27.529411764699997,87,3.0,Italy
+2092,Nero d'Avola,2007,27.3125,87,3.0,Italy
+2093,Nero d'Avola,2008,33.25,87,4.0,Italy
+2094,Nero d'Avola,2009,21.1612903226,87,2.0,Italy
+2095,Nero d'Avola,2010,21.85,87,2.0,Italy
+2096,Nero d'Avola,2011,21.125,86,2.0,Italy
+2097,Nero d'Avola,2012,22.414634146300006,87,2.0,Italy
+2098,Nero d'Avola,2013,21.4423076923,87,2.0,Italy
+2099,Nero d'Avola,2014,21.0697674419,87,2.0,US
+2100,Nero d'Avola,2014,21.0697674419,87,2.0,Italy
+2101,Nero d'Avola,2015,15.9375,87,1.0,Italy
+2102,Nero d'Avola,2016,14.25,87,0.0,Italy
+2103,Nero di Troia,2004,75.0,89,5.0,Italy
+2104,Nero di Troia,2005,60.0,92,5.0,Italy
+2105,Nero di Troia,2006,18.6666666667,86,1.0,Italy
+2106,Nero di Troia,2009,32.6666666667,86,4.0,Italy
+2107,Nero di Troia,2011,32.3333333333,89,4.0,Italy
+2108,Nero di Troia,2012,14.333333333299999,86,0.0,Italy
+2109,Neuburger,2012,,92,,Austria
+2110,Neuburger,2014,21.0,92,2.0,Austria
+2111,Neuburger,2015,21.0,90,2.0,Austria
+2112,Neuburger,2016,23.6666666667,89,2.0,Austria
+2113,Nielluciu,2008,24.0,88,3.0,France
+2114,Nielluciu,2012,24.0,89,3.0,Austria
+2115,Nielluciu,2015,22.0,90,2.0,France
+2116,Norton,-1,18.0,83,1.0,US
+2117,Norton,2006,35.0,86,4.0,US
+2118,Norton,2007,21.0,83,2.0,US
+2119,Norton,2008,28.75,84,3.0,US
+2120,Norton,2010,25.0,82,3.0,US
+2121,Norton,2012,18.0,84,1.0,US
+2122,Norton,2015,39.0,86,4.0,US
+2123,Nosiola,1997,47.0,94,5.0,Italy
+2124,Nosiola,2002,35.0,89,4.0,Italy
+2125,Nosiola,2012,20.0,86,2.0,Italy
+2126,Nosiola,2014,17.0,85,1.0,Italy
+2127,Nosiola,2015,14.0,87,0.0,Italy
+2128,Nuragus,2012,16.0,89,1.0,Italy
+2129,Nuragus,2014,16.0,88,1.0,Italy
+2130,Ojaleshi,2012,18.0,88,1.0,
+2131,Okuzgozu,2008,20.0,88,2.0,Turkey
+2132,Okuzgozu,2009,20.0,88,2.0,Turkey
+2133,Okuzgozu,2010,33.0,92,4.0,Turkey
+2134,Okuzgozu,2011,35.0,92,4.0,Turkey
+2135,Okuzgozu,2012,21.5,89,2.0,Turkey
+2136,Okuzgozu,2013,23.0,90,2.0,Turkey
+2137,Okuzgozu,2014,17.0,87,1.0,Turkey
+2138,Ondenc,2014,15.0,90,0.0,France
+2139,Orange Muscat,2007,17.0,92,1.0,US
+2140,Orange Muscat,2010,21.0,93,2.0,US
+2141,Orange Muscat,2011,17.5,85,1.0,US
+2142,Orange Muscat,2012,17.0,87,1.0,US
+2143,Orange Muscat,2014,16.0,87,1.0,US
+2144,Orange Muscat,2015,14.0,90,0.0,US
+2145,Orange Muscat,2016,18.0,88,1.0,US
+2146,Orangetraube,2015,22.0,90,2.0,Austria
+2147,Other,-1,27.0,89,3.0,Georgia
+2148,Otskhanuri Sapere,2014,30.0,90,3.0,
+2149,Pallagrello,2006,32.0,87,4.0,Italy
+2150,Pallagrello,2008,16.0,86,1.0,Italy
+2151,Pallagrello,2011,31.0,88,4.0,Italy
+2152,Pallagrello Bianco,2012,31.6,87,4.0,Italy
+2153,Pallagrello Nero,2011,41.0,87,5.0,Italy
+2154,Palomino,-1,37.6111111111,89,4.0,Spain
+2155,Pansa Blanca,2007,12.0,87,0.0,Spain
+2156,Pansa Blanca,2010,12.0,87,0.0,Spain
+2157,Pansa Blanca,2012,15.0,86,0.0,Spain
+2158,Pansa Blanca,2015,18.625,85,1.0,Spain
+2159,Papaskarasi,2014,20.0,88,2.0,Turkey
+2160,Papaskarasi,2015,24.0,84,3.0,Turkey
+2161,Paralleda,2000,11.0,83,0.0,Spain
+2162,Parraleta,2004,14.0,86,0.0,Spain
+2163,Passerina,-1,22.0,85,2.0,Italy
+2164,Passerina,2000,35.0,88,4.0,Italy
+2165,Passerina,2006,25.0,91,3.0,Italy
+2166,Passerina,2007,19.0,85,1.0,Italy
+2167,Passerina,2008,12.0,85,0.0,Italy
+2168,Passerina,2010,15.0,86,0.0,Italy
+2169,Passerina,2011,15.333333333299999,86,1.0,Italy
+2170,Passerina,2012,14.8,85,0.0,Italy
+2171,Pecorino,-1,26.0,85,3.0,Italy
+2172,Pecorino,2005,55.0,88,5.0,Italy
+2173,Pecorino,2006,20.0,86,2.0,Italy
+2174,Pecorino,2007,,87,,Italy
+2175,Pecorino,2009,17.8,87,1.0,Italy
+2176,Pecorino,2010,20.5,87,2.0,Italy
+2177,Pecorino,2011,21.7777777778,86,2.0,Italy
+2178,Pecorino,2012,17.5238095238,87,1.0,Italy
+2179,Pecorino,2014,19.0,88,1.0,Italy
+2180,Perricone,2005,,83,,Italy
+2181,Perricone,2006,19.0,87,1.0,Italy
+2182,Perricone,2012,30.0,87,3.0,Italy
+2183,Perricone,2013,18.0,88,1.0,Italy
+2184,Petit Courbu,2006,19.0,88,1.0,France
+2185,Petit Manseng,2006,128.0,94,5.0,France
+2186,Petit Manseng,2008,35.0,90,4.0,France
+2187,Petit Manseng,2008,35.0,90,4.0,US
+2188,Petit Manseng,2009,22.75,90,2.0,France
+2189,Petit Manseng,2013,27.125,87,3.0,US
+2190,Petit Manseng,2014,27.875,88,3.0,US
+2191,Petit Manseng,2015,32.75,89,4.0,Italy
+2192,Petit Manseng,2015,32.75,89,4.0,US
+2193,Petit Meslier,2005,,89,,France
+2194,Petit Verdot,-1,22.0,85,2.0,US
+2195,Petit Verdot,1997,17.0,86,1.0,US
+2196,Petit Verdot,1999,30.0,88,3.0,Spain
+2197,Petit Verdot,2003,45.0,87,5.0,Spain
+2198,Petit Verdot,2005,37.0,87,4.0,US
+2199,Petit Verdot,2006,32.75,86,4.0,US
+2200,Petit Verdot,2007,30.7,86,4.0,US
+2201,Petit Verdot,2008,41.8461538462,88,5.0,US
+2202,Petit Verdot,2008,41.8461538462,88,5.0,Australia
+2203,Petit Verdot,2009,43.9393939394,88,5.0,US
+2204,Petit Verdot,2010,40.6923076923,87,5.0,US
+2205,Petit Verdot,2011,37.0833333333,87,4.0,US
+2206,Petit Verdot,2012,39.5660377358,88,4.0,US
+2207,Petit Verdot,2012,39.5660377358,88,4.0,Italy
+2208,Petit Verdot,2012,39.5660377358,88,4.0,Chile
+2209,Petit Verdot,2013,38.86,88,4.0,US
+2210,Petit Verdot,2013,38.86,88,4.0,Portugal
+2211,Petit Verdot,2014,36.4705882353,89,4.0,US
+2212,Petit Verdot,2014,36.4705882353,89,4.0,Chile
+2213,Petit Verdot,2015,28.1428571429,87,3.0,US
+2214,Petite Sirah,-1,26.0,89,3.0,US
+2215,Petite Sirah,1998,24.0,88,3.0,US
+2216,Petite Sirah,2002,24.0,87,3.0,US
+2217,Petite Sirah,2004,27.7272727273,88,3.0,US
+2218,Petite Sirah,2005,31.185185185199998,86,4.0,US
+2219,Petite Sirah,2006,28.25,86,3.0,US
+2220,Petite Sirah,2006,28.25,86,3.0,Australia
+2221,Petite Sirah,2007,28.3064516129,86,3.0,US
+2222,Petite Sirah,2007,28.3064516129,86,3.0,Israel
+2223,Petite Sirah,2008,28.714285714299997,86,3.0,US
+2224,Petite Sirah,2009,31.3376623377,86,4.0,US
+2225,Petite Sirah,2010,35.25,88,4.0,US
+2226,Petite Sirah,2011,30.014492753600006,87,4.0,US
+2227,Petite Sirah,2012,33.0784313725,88,4.0,US
+2228,Petite Sirah,2013,33.4109589041,89,4.0,US
+2229,Petite Sirah,2014,32.5423728814,90,4.0,US
+2230,Petite Sirah,2016,24.0,87,3.0,US
+2231,Petite Verdot,2005,40.0,85,4.0,Spain
+2232,Petite Verdot,2007,47.285714285699996,87,5.0,US
+2233,Petite Verdot,2008,76.6,92,5.0,US
+2234,Petite Verdot,2011,40.0,90,4.0,Portugal
+2235,Petite Verdot,2012,39.3333333333,88,4.0,Spain
+2236,Petite Verdot,2012,39.3333333333,88,4.0,US
+2237,Petite Verdot,2013,32.0,89,4.0,US
+2238,Petite Verdot,2015,31.0,88,4.0,US
+2239,Picapoll,2008,21.0,82,2.0,Spain
+2240,Picolit,2003,,88,,Italy
+2241,Picolit,2005,55.5,91,5.0,Italy
+2242,Picolit,2006,90.0,92,5.0,Italy
+2243,Picolit,2009,72.5,89,5.0,Italy
+2244,Picolit,2011,45.0,93,5.0,Italy
+2245,Picpoul,2010,20.0,85,2.0,France
+2246,Picpoul,2011,10.6666666667,87,0.0,France
+2247,Picpoul,2016,25.2,89,3.0,US
+2248,Piedirosso,-1,20.0,81,2.0,Italy
+2249,Piedirosso,2006,,85,,Italy
+2250,Piedirosso,2007,,85,,Italy
+2251,Piedirosso,2008,15.666666666700001,85,1.0,Italy
+2252,Piedirosso,2009,12.0,86,0.0,Italy
+2253,Piedirosso,2012,22.0,87,2.0,Italy
+2254,Piedirosso,2013,32.5,88,4.0,Italy
+2255,Piedirosso,2015,22.5,87,2.0,Italy
+2256,Pigato,2011,23.0,84,2.0,Italy
+2257,Pignoletto,2010,18.0,85,1.0,Italy
+2258,Pignoletto,2013,,87,,Italy
+2259,Pignolo,1999,70.0,92,5.0,Italy
+2260,Pinot Auxerrois,2008,22.0,89,2.0,US
+2261,Pinot Auxerrois,2012,,88,,France
+2262,Pinot Auxerrois,2014,29.8,87,3.0,France
+2263,Pinot Bianco,2000,21.0,88,2.0,Italy
+2264,Pinot Bianco,2002,19.5,87,1.0,Italy
+2265,Pinot Bianco,2006,34.2857142857,88,4.0,Italy
+2266,Pinot Bianco,2007,24.6666666667,87,3.0,Italy
+2267,Pinot Bianco,2010,19.888888888900002,87,2.0,Italy
+2268,Pinot Bianco,2011,24.0588235294,88,3.0,Italy
+2269,Pinot Bianco,2012,22.3333333333,88,2.0,Italy
+2270,Pinot Bianco,2013,40.375,89,5.0,Italy
+2271,Pinot Bianco,2014,24.0769230769,88,3.0,Italy
+2272,Pinot Bianco,2015,23.875,90,2.0,Italy
+2273,Pinot Blanc,1999,15.8,86,1.0,US
+2274,Pinot Blanc,2000,14.666666666700001,87,0.0,US
+2275,Pinot Blanc,2007,19.6,87,1.0,France
+2276,Pinot Blanc,2007,19.6,87,1.0,US
+2277,Pinot Blanc,2008,26.125,88,3.0,France
+2278,Pinot Blanc,2009,17.0833333333,86,1.0,France
+2279,Pinot Blanc,2010,19.92,87,2.0,France
+2280,Pinot Blanc,2010,19.92,87,2.0,Austria
+2281,Pinot Blanc,2010,19.92,87,2.0,US
+2282,Pinot Blanc,2011,21.4791666667,87,2.0,France
+2283,Pinot Blanc,2011,21.4791666667,87,2.0,US
+2284,Pinot Blanc,2012,20.8333333333,87,2.0,US
+2285,Pinot Blanc,2012,20.8333333333,87,2.0,France
+2286,Pinot Blanc,2012,20.8333333333,87,2.0,Austria
+2287,Pinot Blanc,2013,21.7272727273,87,2.0,US
+2288,Pinot Blanc,2013,21.7272727273,87,2.0,France
+2289,Pinot Blanc,2014,19.8591549296,88,2.0,US
+2290,Pinot Blanc,2014,19.8591549296,88,2.0,Germany
+2291,Pinot Blanc,2014,19.8591549296,88,2.0,France
+2292,Pinot Blanc,2014,19.8591549296,88,2.0,Austria
+2293,Pinot Blanc,2015,20.0540540541,88,2.0,US
+2294,Pinot Blanc,2015,20.0540540541,88,2.0,France
+2295,Pinot Blanc,2015,20.0540540541,88,2.0,Germany
+2296,Pinot Blanc,2016,22.125,89,2.0,Austria
+2297,Pinot Blanc,2016,22.125,89,2.0,France
+2298,Pinot Blanc,2016,22.125,89,2.0,US
+2299,Pinot Blanc-Chardonnay,-1,25.0,87,3.0,France
+2300,Pinot Blanc-Chardonnay,2009,21.0,86,2.0,US
+2301,Pinot Blanc-Chardonnay,2010,23.0,90,2.0,Austria
+2302,Pinot Blanc-Pinot Noir,2016,16.0,85,1.0,US
+2303,Pinot Blanc-Viognier,2015,19.0,87,1.0,US
+2304,Pinot Grigio,-1,13.0769230769,84,0.0,US
+2305,Pinot Grigio,2000,12.333333333299999,84,0.0,US
+2306,Pinot Grigio,2001,14.228571428599999,85,0.0,US
+2307,Pinot Grigio,2001,14.228571428599999,85,0.0,Italy
+2308,Pinot Grigio,2002,13.2142857143,85,0.0,Italy
+2309,Pinot Grigio,2005,20.5,87,2.0,Italy
+2310,Pinot Grigio,2006,17.2419354839,86,1.0,Italy
+2311,Pinot Grigio,2006,17.2419354839,86,1.0,US
+2312,Pinot Grigio,2007,17.4520547945,85,1.0,Italy
+2313,Pinot Grigio,2007,17.4520547945,85,1.0,US
+2314,Pinot Grigio,2007,17.4520547945,85,1.0,Argentina
+2315,Pinot Grigio,2008,15.6,85,1.0,US
+2316,Pinot Grigio,2008,15.6,85,1.0,Italy
+2317,Pinot Grigio,2009,16.888888888900002,86,1.0,Italy
+2318,Pinot Grigio,2009,16.888888888900002,86,1.0,Australia
+2319,Pinot Grigio,2009,16.888888888900002,86,1.0,US
+2320,Pinot Grigio,2009,16.888888888900002,86,1.0,Romania
+2321,Pinot Grigio,2010,16.0754716981,86,1.0,Italy
+2322,Pinot Grigio,2010,16.0754716981,86,1.0,US
+2323,Pinot Grigio,2010,16.0754716981,86,1.0,Argentina
+2324,Pinot Grigio,2011,15.174311926600001,85,1.0,Italy
+2325,Pinot Grigio,2011,15.174311926600001,85,1.0,US
+2326,Pinot Grigio,2012,16.965116279100002,86,1.0,US
+2327,Pinot Grigio,2012,16.965116279100002,86,1.0,Italy
+2328,Pinot Grigio,2013,16.317647058800002,86,1.0,Italy
+2329,Pinot Grigio,2013,16.317647058800002,86,1.0,US
+2330,Pinot Grigio,2014,17.5214723926,86,1.0,Romania
+2331,Pinot Grigio,2014,17.5214723926,86,1.0,Italy
+2332,Pinot Grigio,2014,17.5214723926,86,1.0,US
+2333,Pinot Grigio,2014,17.5214723926,86,1.0,Slovenia
+2334,Pinot Grigio,2015,18.2888888889,87,1.0,Italy
+2335,Pinot Grigio,2015,18.2888888889,87,1.0,US
+2336,Pinot Grigio,2015,18.2888888889,87,1.0,Australia
+2337,Pinot Grigio,2016,15.1875,86,1.0,US
+2338,Pinot Grigio,2016,15.1875,86,1.0,Argentina
+2339,Pinot Grigio,2016,15.1875,86,1.0,Australia
+2340,Pinot Gris,-1,23.0,88,2.0,France
+2341,Pinot Gris,-1,23.0,88,2.0,US
+2342,Pinot Gris,1852,17.5,86,1.0,US
+2343,Pinot Gris,1996,25.0,86,3.0,US
+2344,Pinot Gris,1998,9.0,84,0.0,US
+2345,Pinot Gris,1999,12.5,85,0.0,US
+2346,Pinot Gris,2000,16.8461538462,86,1.0,US
+2347,Pinot Gris,2001,16.2222222222,86,1.0,US
+2348,Pinot Gris,2002,18.0,87,1.0,US
+2349,Pinot Gris,2004,22.25,87,2.0,France
+2350,Pinot Gris,2005,36.4166666667,87,4.0,US
+2351,Pinot Gris,2005,36.4166666667,87,4.0,France
+2352,Pinot Gris,2006,18.4565217391,87,1.0,US
+2353,Pinot Gris,2007,28.3606557377,87,3.0,US
+2354,Pinot Gris,2007,28.3606557377,87,3.0,New Zealand
+2355,Pinot Gris,2007,28.3606557377,87,3.0,France
+2356,Pinot Gris,2008,21.2,87,2.0,US
+2357,Pinot Gris,2009,22.46875,88,2.0,France
+2358,Pinot Gris,2009,22.46875,88,2.0,US
+2359,Pinot Gris,2009,22.46875,88,2.0,Australia
+2360,Pinot Gris,2009,22.46875,88,2.0,New Zealand
+2361,Pinot Gris,2010,22.2413793103,88,2.0,France
+2362,Pinot Gris,2010,22.2413793103,88,2.0,US
+2363,Pinot Gris,2010,22.2413793103,88,2.0,New Zealand
+2364,Pinot Gris,2010,22.2413793103,88,2.0,Australia
+2365,Pinot Gris,2011,20.4,88,2.0,France
+2366,Pinot Gris,2011,20.4,88,2.0,US
+2367,Pinot Gris,2011,20.4,88,2.0,New Zealand
+2368,Pinot Gris,2012,25.021126760599998,88,3.0,France
+2369,Pinot Gris,2012,25.021126760599998,88,3.0,US
+2370,Pinot Gris,2013,24.8454545455,88,3.0,US
+2371,Pinot Gris,2013,24.8454545455,88,3.0,New Zealand
+2372,Pinot Gris,2013,24.8454545455,88,3.0,France
+2373,Pinot Gris,2013,24.8454545455,88,3.0,Germany
+2374,Pinot Gris,2013,24.8454545455,88,3.0,Slovenia
+2375,Pinot Gris,2014,22.738461538499998,88,2.0,US
+2376,Pinot Gris,2014,22.738461538499998,88,2.0,France
+2377,Pinot Gris,2014,22.738461538499998,88,2.0,New Zealand
+2378,Pinot Gris,2014,22.738461538499998,88,2.0,Australia
+2379,Pinot Gris,2015,23.909090909099998,89,2.0,US
+2380,Pinot Gris,2015,23.909090909099998,89,2.0,France
+2381,Pinot Gris,2016,19.0963855422,88,1.0,US
+2382,Pinot Gris,2016,19.0963855422,88,1.0,France
+2383,Pinot Gris,2016,19.0963855422,88,1.0,New Zealand
+2384,Pinot Meunier,-1,69.2,89,5.0,France
+2385,Pinot Meunier,2000,29.0,89,3.0,US
+2386,Pinot Meunier,2003,,93,,France
+2387,Pinot Meunier,2005,35.0,84,4.0,US
+2388,Pinot Meunier,2006,60.0,87,5.0,US
+2389,Pinot Meunier,2007,27.0,84,3.0,US
+2390,Pinot Meunier,2011,27.0,87,3.0,US
+2391,Pinot Meunier,2014,38.0,88,4.0,US
+2392,Pinot Meunier,2015,30.0,87,3.0,US
+2393,Pinot Nero,-1,33.0,88,4.0,Italy
+2394,Pinot Nero,2002,45.0,90,5.0,Italy
+2395,Pinot Nero,2005,,93,,Italy
+2396,Pinot Nero,2006,62.25,89,5.0,Italy
+2397,Pinot Nero,2007,47.6,89,5.0,Italy
+2398,Pinot Nero,2008,31.818181818200003,88,4.0,Italy
+2399,Pinot Nero,2009,31.5,87,4.0,Italy
+2400,Pinot Nero,2010,36.6153846154,88,4.0,Italy
+2401,Pinot Nero,2011,42.9583333333,88,5.0,Italy
+2402,Pinot Nero,2012,32.6666666667,88,4.0,Italy
+2403,Pinot Nero,2013,28.2962962963,89,3.0,Italy
+2404,Pinot Nero,2015,22.6666666667,89,2.0,Italy
+2405,Pinot Noir,-1,33.3823529412,87,4.0,Spain
+2406,Pinot Noir,-1,33.3823529412,87,4.0,France
+2407,Pinot Noir,-1,33.3823529412,87,4.0,US
+2408,Pinot Noir,-1,33.3823529412,87,4.0,Brazil
+2409,Pinot Noir,1852,24.0,87,3.0,US
+2410,Pinot Noir,1998,29.7669902913,88,3.0,US
+2411,Pinot Noir,1999,35.4814814815,88,4.0,US
+2412,Pinot Noir,1999,35.4814814815,88,4.0,New Zealand
+2413,Pinot Noir,2000,42.258620689699995,87,5.0,US
+2414,Pinot Noir,2000,42.258620689699995,87,5.0,Chile
+2415,Pinot Noir,2000,42.258620689699995,87,5.0,New Zealand
+2416,Pinot Noir,2001,27.393442623000002,86,3.0,US
+2417,Pinot Noir,2002,64.0,88,5.0,US
+2418,Pinot Noir,2004,55.91176470590001,87,5.0,US
+2419,Pinot Noir,2004,55.91176470590001,87,5.0,Austria
+2420,Pinot Noir,2005,59.295620438,89,5.0,US
+2421,Pinot Noir,2005,59.295620438,89,5.0,France
+2422,Pinot Noir,2005,59.295620438,89,5.0,Austria
+2423,Pinot Noir,2006,48.7169459963,88,5.0,US
+2424,Pinot Noir,2006,48.7169459963,88,5.0,Australia
+2425,Pinot Noir,2006,48.7169459963,88,5.0,New Zealand
+2426,Pinot Noir,2006,48.7169459963,88,5.0,France
+2427,Pinot Noir,2006,48.7169459963,88,5.0,Austria
+2428,Pinot Noir,2006,48.7169459963,88,5.0,Portugal
+2429,Pinot Noir,2007,43.24849699399999,89,5.0,US
+2430,Pinot Noir,2007,43.24849699399999,89,5.0,Austria
+2431,Pinot Noir,2007,43.24849699399999,89,5.0,New Zealand
+2432,Pinot Noir,2007,43.24849699399999,89,5.0,France
+2433,Pinot Noir,2007,43.24849699399999,89,5.0,Australia
+2434,Pinot Noir,2008,47.5142405063,88,5.0,Chile
+2435,Pinot Noir,2008,47.5142405063,88,5.0,US
+2436,Pinot Noir,2008,47.5142405063,88,5.0,France
+2437,Pinot Noir,2008,47.5142405063,88,5.0,New Zealand
+2438,Pinot Noir,2008,47.5142405063,88,5.0,Australia
+2439,Pinot Noir,2008,47.5142405063,88,5.0,Argentina
+2440,Pinot Noir,2008,47.5142405063,88,5.0,South Africa
+2441,Pinot Noir,2009,47.467320261400005,88,5.0,US
+2442,Pinot Noir,2009,47.467320261400005,88,5.0,Germany
+2443,Pinot Noir,2009,47.467320261400005,88,5.0,Canada
+2444,Pinot Noir,2009,47.467320261400005,88,5.0,France
+2445,Pinot Noir,2009,47.467320261400005,88,5.0,Argentina
+2446,Pinot Noir,2009,47.467320261400005,88,5.0,Chile
+2447,Pinot Noir,2009,47.467320261400005,88,5.0,New Zealand
+2448,Pinot Noir,2010,47.09443954100001,88,5.0,Chile
+2449,Pinot Noir,2010,47.09443954100001,88,5.0,US
+2450,Pinot Noir,2010,47.09443954100001,88,5.0,France
+2451,Pinot Noir,2010,47.09443954100001,88,5.0,New Zealand
+2452,Pinot Noir,2010,47.09443954100001,88,5.0,Spain
+2453,Pinot Noir,2010,47.09443954100001,88,5.0,Germany
+2454,Pinot Noir,2010,47.09443954100001,88,5.0,Australia
+2455,Pinot Noir,2011,48.627041742299994,88,5.0,US
+2456,Pinot Noir,2011,48.627041742299994,88,5.0,France
+2457,Pinot Noir,2011,48.627041742299994,88,5.0,New Zealand
+2458,Pinot Noir,2011,48.627041742299994,88,5.0,Chile
+2459,Pinot Noir,2011,48.627041742299994,88,5.0,Spain
+2460,Pinot Noir,2011,48.627041742299994,88,5.0,Slovenia
+2461,Pinot Noir,2011,48.627041742299994,88,5.0,Portugal
+2462,Pinot Noir,2011,48.627041742299994,88,5.0,Bulgaria
+2463,Pinot Noir,2011,48.627041742299994,88,5.0,Australia
+2464,Pinot Noir,2011,48.627041742299994,88,5.0,Austria
+2465,Pinot Noir,2012,47.8388473853,89,5.0,US
+2466,Pinot Noir,2012,47.8388473853,89,5.0,France
+2467,Pinot Noir,2012,47.8388473853,89,5.0,South Africa
+2468,Pinot Noir,2012,47.8388473853,89,5.0,New Zealand
+2469,Pinot Noir,2012,47.8388473853,89,5.0,Switzerland
+2470,Pinot Noir,2012,47.8388473853,89,5.0,Chile
+2471,Pinot Noir,2012,47.8388473853,89,5.0,Germany
+2472,Pinot Noir,2012,47.8388473853,89,5.0,Austria
+2473,Pinot Noir,2012,47.8388473853,89,5.0,Australia
+2474,Pinot Noir,2012,47.8388473853,89,5.0,Canada
+2475,Pinot Noir,2013,47.111770524200004,90,5.0,US
+2476,Pinot Noir,2013,47.111770524200004,90,5.0,France
+2477,Pinot Noir,2013,47.111770524200004,90,5.0,New Zealand
+2478,Pinot Noir,2013,47.111770524200004,90,5.0,Australia
+2479,Pinot Noir,2013,47.111770524200004,90,5.0,Chile
+2480,Pinot Noir,2013,47.111770524200004,90,5.0,Portugal
+2481,Pinot Noir,2013,47.111770524200004,90,5.0,England
+2482,Pinot Noir,2013,47.111770524200004,90,5.0,Austria
+2483,Pinot Noir,2013,47.111770524200004,90,5.0,Canada
+2484,Pinot Noir,2013,47.111770524200004,90,5.0,Germany
+2485,Pinot Noir,2013,47.111770524200004,90,5.0,Bulgaria
+2486,Pinot Noir,2014,52.4646194927,90,5.0,France
+2487,Pinot Noir,2014,52.4646194927,90,5.0,US
+2488,Pinot Noir,2014,52.4646194927,90,5.0,Austria
+2489,Pinot Noir,2014,52.4646194927,90,5.0,New Zealand
+2490,Pinot Noir,2014,52.4646194927,90,5.0,Canada
+2491,Pinot Noir,2014,52.4646194927,90,5.0,Australia
+2492,Pinot Noir,2014,52.4646194927,90,5.0,Bulgaria
+2493,Pinot Noir,2014,52.4646194927,90,5.0,Germany
+2494,Pinot Noir,2014,52.4646194927,90,5.0,Chile
+2495,Pinot Noir,2015,42.6570545829,89,5.0,US
+2496,Pinot Noir,2015,42.6570545829,89,5.0,South Africa
+2497,Pinot Noir,2015,42.6570545829,89,5.0,New Zealand
+2498,Pinot Noir,2015,42.6570545829,89,5.0,France
+2499,Pinot Noir,2015,42.6570545829,89,5.0,Chile
+2500,Pinot Noir,2015,42.6570545829,89,5.0,Australia
+2501,Pinot Noir,2015,42.6570545829,89,5.0,Argentina
+2502,Pinot Noir,2015,42.6570545829,89,5.0,Germany
+2503,Pinot Noir,2016,20.8396226415,87,2.0,US
+2504,Pinot Noir,2016,20.8396226415,87,2.0,France
+2505,Pinot Noir,2016,20.8396226415,87,2.0,Chile
+2506,Pinot Noir-Gamay,-1,22.0,85,2.0,France
+2507,Pinot Noir-Gamay,2014,15.4285714286,85,1.0,France
+2508,Pinot Noir-Gamay,2016,,84,,France
+2509,Pinot Noir-Syrah,2012,12.0,83,0.0,Chile
+2510,Pinot-Chardonnay,-1,23.0,90,2.0,US
+2511,Pinot-Chardonnay,2011,40.0,89,4.0,US
+2512,Pinot-Chardonnay,2015,28.0,90,3.0,US
+2513,Pinotage,1996,16.0,83,1.0,South Africa
+2514,Pinotage,1999,10.0,86,0.0,South Africa
+2515,Pinotage,2000,20.0,82,2.0,US
+2516,Pinotage,2005,20.1,86,2.0,South Africa
+2517,Pinotage,2006,20.111111111099998,87,2.0,South Africa
+2518,Pinotage,2007,23.7272727273,88,2.0,South Africa
+2519,Pinotage,2007,23.7272727273,88,2.0,US
+2520,Pinotage,2009,19.6153846154,86,1.0,South Africa
+2521,Pinotage,2010,20.5294117647,87,2.0,South Africa
+2522,Pinotage,2011,17.9333333333,86,1.0,South Africa
+2523,Pinotage,2012,22.105263157899998,87,2.0,South Africa
+2524,Pinotage,2013,70.6363636364,88,5.0,US
+2525,Pinotage,2013,70.6363636364,88,5.0,South Africa
+2526,Pinotage,2014,16.5,87,1.0,US
+2527,Pinotage,2015,,92,,South Africa
+2528,Pinotage-Merlot,2009,10.0,84,0.0,South Africa
+2529,Piquepoul Blanc,2015,13.0,88,0.0,US
+2530,Plavac Mali,2006,50.6666666667,90,5.0,Croatia
+2531,Plavac Mali,2007,45.0,89,5.0,Croatia
+2532,Plavac Mali,2010,23.5,87,2.0,Croatia
+2533,Plyto,2010,20.0,87,2.0,Greece
+2534,Plyto,2014,19.0,87,1.0,Greece
+2535,Port,-1,44.3692307692,88,5.0,Portugal
+2536,Port,-1,44.3692307692,88,5.0,Australia
+2537,Port,-1,44.3692307692,88,5.0,US
+2538,Port,1935,980.0,94,5.0,Portugal
+2539,Port,1941,770.0,93,5.0,Portugal
+2540,Port,1952,457.0,95,5.0,Portugal
+2541,Port,1957,375.0,95,5.0,Portugal
+2542,Port,1961,320.0,95,5.0,Portugal
+2543,Port,1965,240.0,94,5.0,Portugal
+2544,Port,1966,220.0,95,5.0,Portugal
+2545,Port,1967,300.0,94,5.0,Portugal
+2546,Port,1968,300.0,95,5.0,Portugal
+2547,Port,1974,175.0,93,5.0,Portugal
+2548,Port,1978,100.0,94,5.0,Portugal
+2549,Port,1983,45.0,92,5.0,Portugal
+2550,Port,1984,87.0,94,5.0,Portugal
+2551,Port,1986,80.0,94,5.0,Portugal
+2552,Port,1989,47.0,93,5.0,Portugal
+2553,Port,1992,65.0,92,5.0,Portugal
+2554,Port,1994,20.0,90,2.0,US
+2555,Port,1995,22.0,83,2.0,US
+2556,Port,1996,52.0,91,5.0,Portugal
+2557,Port,1998,41.75,90,5.0,Portugal
+2558,Port,1999,35.0,91,4.0,Portugal
+2559,Port,2000,44.1666666667,90,5.0,Portugal
+2560,Port,2002,30.0,85,3.0,Portugal
+2561,Port,2003,42.6923076923,89,5.0,Portugal
+2562,Port,2004,36.0,89,4.0,Portugal
+2563,Port,2005,50.2352941176,89,5.0,Portugal
+2564,Port,2006,46.0,88,5.0,US
+2565,Port,2008,56.5909090909,89,5.0,Portugal
+2566,Port,2009,48.0,90,5.0,Portugal
+2567,Port,2010,45.9615384615,89,5.0,Portugal
+2568,Port,2010,45.9615384615,89,5.0,US
+2569,Port,2011,97.21875,92,5.0,Portugal
+2570,Port,2012,44.473684210500004,90,5.0,Portugal
+2571,Port,2013,59.0,90,5.0,Portugal
+2572,Port,2013,59.0,90,5.0,US
+2573,Port,2015,65.4230769231,91,5.0,Portugal
+2574,Portuguese Red,1996,14.0,86,0.0,Portugal
+2575,Portuguese Red,2000,49.0,87,5.0,Portugal
+2576,Portuguese Red,2003,21.8571428571,88,2.0,Portugal
+2577,Portuguese Red,2004,34.628571428600004,89,4.0,Portugal
+2578,Portuguese Red,2005,24.843137254899997,88,3.0,Portugal
+2579,Portuguese Red,2006,24.0277777778,88,3.0,Portugal
+2580,Portuguese Red,2007,35.11842105260001,89,4.0,Portugal
+2581,Portuguese Red,2008,30.395348837199997,89,4.0,Portugal
+2582,Portuguese Red,2009,27.156462585,89,3.0,Portugal
+2583,Portuguese Red,2010,24.335135135100003,88,3.0,Portugal
+2584,Portuguese Red,2011,29.3712121212,89,3.0,Portugal
+2585,Portuguese Red,2012,27.8541666667,89,3.0,Portugal
+2586,Portuguese Red,2013,24.9848942598,88,3.0,Portugal
+2587,Portuguese Red,2014,20.930555555599998,88,2.0,Portugal
+2588,Portuguese Red,2015,15.2695652174,87,1.0,Portugal
+2589,Portuguese Red,2016,13.1836734694,86,0.0,Portugal
+2590,Portuguese Sparkling,-1,13.217391304300001,85,0.0,Portugal
+2591,Portuguese Sparkling,1999,18.0,85,1.0,Portugal
+2592,Portuguese Sparkling,2002,15.0,84,0.0,Portugal
+2593,Portuguese Sparkling,2005,,85,,Portugal
+2594,Portuguese Sparkling,2007,22.0,90,2.0,Portugal
+2595,Portuguese Sparkling,2008,20.0,85,2.0,Portugal
+2596,Portuguese Sparkling,2009,22.2,87,2.0,Portugal
+2597,Portuguese Sparkling,2011,26.25,87,3.0,Portugal
+2598,Portuguese Sparkling,2012,20.75,87,2.0,Portugal
+2599,Portuguese Sparkling,2013,16.4,86,1.0,Portugal
+2600,Portuguese Sparkling,2015,16.0,85,1.0,Portugal
+2601,Portuguese White,-1,16.2857142857,85,1.0,Portugal
+2602,Portuguese White,2006,12.5263157895,86,0.0,Portugal
+2603,Portuguese White,2007,14.4666666667,86,0.0,Portugal
+2604,Portuguese White,2008,14.9259259259,86,0.0,Portugal
+2605,Portuguese White,2009,22.146341463400002,88,2.0,Portugal
+2606,Portuguese White,2010,15.461538461500002,86,1.0,Portugal
+2607,Portuguese White,2011,13.0638297872,86,0.0,Portugal
+2608,Portuguese White,2012,15.672897196300001,87,1.0,Portugal
+2609,Portuguese White,2013,16.6575342466,87,1.0,Portugal
+2610,Portuguese White,2014,15.5454545455,86,1.0,Portugal
+2611,Portuguese White,2015,14.5096153846,86,0.0,Portugal
+2612,Portuguese White,2016,13.960264900699999,86,0.0,Portugal
+2613,Portuguiser,2014,15.0,86,0.0,Serbia
+2614,Posip,2008,24.0,88,3.0,Croatia
+2615,Posip,2009,24.0,87,3.0,Croatia
+2616,Posip,2010,28.0,89,3.0,Croatia
+2617,Posip,2011,25.0,86,3.0,Croatia
+2618,Posip,2012,23.5,88,2.0,Croatia
+2619,Posip,2015,25.0,88,3.0,Croatia
+2620,Poulsard,2011,25.0,85,3.0,France
+2621,Poulsard,2012,28.0,88,3.0,France
+2622,Poulsard,2016,25.0,89,3.0,France
+2623,Premsal,2012,15.0,83,0.0,Spain
+2624,Prieto Picudo,2004,32.0,86,4.0,Spain
+2625,Prieto Picudo,2006,24.0,85,3.0,Spain
+2626,Prieto Picudo,2007,54.3333333333,86,5.0,Spain
+2627,Prieto Picudo,2009,37.0,83,4.0,Spain
+2628,Primitivo,1998,5.0,83,0.0,Italy
+2629,Primitivo,2003,30.0,86,3.0,Italy
+2630,Primitivo,2005,17.4545454545,84,1.0,Italy
+2631,Primitivo,2006,22.5333333333,85,2.0,Italy
+2632,Primitivo,2006,22.5333333333,85,2.0,US
+2633,Primitivo,2007,21.1818181818,87,2.0,Italy
+2634,Primitivo,2009,24.526315789499996,86,3.0,Italy
+2635,Primitivo,2010,24.0476190476,86,3.0,US
+2636,Primitivo,2011,24.1666666667,87,3.0,Italy
+2637,Primitivo,2012,26.7441860465,87,3.0,US
+2638,Primitivo,2012,26.7441860465,87,3.0,Italy
+2639,Primitivo,2013,26.3333333333,88,3.0,US
+2640,Primitivo,2015,31.0,90,4.0,US
+2641,Primitivo,2016,23.0,86,2.0,US
+2642,Prosecco,-1,18.5089820359,86,1.0,Italy
+2643,Prosecco,2005,37.0,87,4.0,Italy
+2644,Prosecco,2006,24.714285714299997,88,3.0,Italy
+2645,Prosecco,2007,21.785714285700003,86,2.0,Italy
+2646,Prosecco,2008,23.3636363636,86,2.0,Italy
+2647,Prosecco,2009,28.0,82,3.0,US
+2648,Provence red blend,2010,30.4,92,4.0,France
+2649,Provence red blend,2011,25.0,90,3.0,France
+2650,Provence red blend,2013,30.7037037037,89,4.0,France
+2651,Provence red blend,2015,26.375,90,3.0,France
+2652,Provence white blend,2013,19.0,87,1.0,France
+2653,Provence white blend,2014,24.3,88,3.0,France
+2654,Provence white blend,2015,27.7,88,3.0,France
+2655,Provence white blend,2016,22.3333333333,87,2.0,France
+2656,Prugnolo Gentile,1995,210.0,100,5.0,Italy
+2657,Prugnolo Gentile,1997,237.0,99,5.0,Italy
+2658,Prugnolo Gentile,2001,75.0,92,5.0,Italy
+2659,Prugnolo Gentile,2003,54.0,87,5.0,Italy
+2660,Prugnolo Gentile,2004,40.0,88,4.0,Italy
+2661,Prugnolo Gentile,2005,36.4444444444,87,4.0,Italy
+2662,Prugnolo Gentile,2006,36.1666666667,89,4.0,Italy
+2663,Prugnolo Gentile,2007,20.0,87,2.0,Italy
+2664,Prugnolo Gentile,2008,25.75,87,3.0,Italy
+2665,Prugnolo Gentile,2009,22.0,87,2.0,Italy
+2666,Prugnolo Gentile,2011,13.0,85,0.0,Italy
+2667,Prunelard,2015,23.0,91,2.0,France
+2668,Pugnitello,2007,49.0,87,5.0,Italy
+2669,Pugnitello,2008,49.0,89,5.0,Italy
+2670,Pugnitello,2010,49.0,87,5.0,Italy
+2671,Rabigato,2011,50.0,89,5.0,Portugal
+2672,Rabigato,2014,18.0,89,1.0,Portugal
+2673,Raboso,2003,25.0,89,3.0,Italy
+2674,Raboso,2004,35.0,88,4.0,Italy
+2675,Raboso,2006,24.0,87,3.0,Italy
+2676,Raboso,2007,16.0,87,1.0,Italy
+2677,Raboso,2009,14.0,87,0.0,Italy
+2678,Raboso,2012,80.0,87,5.0,Italy
+2679,Ramisco,1934,495.0,93,5.0,Portugal
+2680,Rara Neagra,2014,19.0,89,1.0,Moldova
+2681,Rara Neagra,2015,16.0,90,1.0,Moldova
+2682,Rebula,2011,25.0,89,3.0,Slovenia
+2683,Rebula,2013,18.0,88,1.0,Slovenia
+2684,Rebula,2014,25.0,87,3.0,Slovenia
+2685,Red Blend,-1,20.7168949772,85,2.0,France
+2686,Red Blend,-1,20.7168949772,85,2.0,US
+2687,Red Blend,-1,20.7168949772,85,2.0,Spain
+2688,Red Blend,-1,20.7168949772,85,2.0,Italy
+2689,Red Blend,-1,20.7168949772,85,2.0,South Africa
+2690,Red Blend,1868,38.6666666667,89,4.0,Italy
+2691,Red Blend,1877,22.0,88,2.0,Italy
+2692,Red Blend,1898,39.2857142857,89,4.0,Italy
+2693,Red Blend,1945,350.0,95,5.0,France
+2694,Red Blend,1994,25.0,88,3.0,Spain
+2695,Red Blend,1996,26.0,87,3.0,Spain
+2696,Red Blend,1998,29.6363636364,85,3.0,US
+2697,Red Blend,1998,29.6363636364,85,3.0,Chile
+2698,Red Blend,1999,47.6551724138,87,5.0,Portugal
+2699,Red Blend,1999,47.6551724138,87,5.0,US
+2700,Red Blend,1999,47.6551724138,87,5.0,Italy
+2701,Red Blend,2000,40.9411764706,88,5.0,Italy
+2702,Red Blend,2000,40.9411764706,88,5.0,Portugal
+2703,Red Blend,2001,47.2380952381,89,5.0,Italy
+2704,Red Blend,2001,47.2380952381,89,5.0,Spain
+2705,Red Blend,2002,29.1578947368,86,3.0,US
+2706,Red Blend,2002,29.1578947368,86,3.0,Spain
+2707,Red Blend,2003,48.4193548387,88,5.0,Italy
+2708,Red Blend,2003,48.4193548387,88,5.0,Spain
+2709,Red Blend,2003,48.4193548387,88,5.0,Chile
+2710,Red Blend,2004,46.9822222222,89,5.0,Spain
+2711,Red Blend,2004,46.9822222222,89,5.0,Italy
+2712,Red Blend,2004,46.9822222222,89,5.0,US
+2713,Red Blend,2004,46.9822222222,89,5.0,Austria
+2714,Red Blend,2005,39.606557377,88,4.0,US
+2715,Red Blend,2005,39.606557377,88,4.0,Italy
+2716,Red Blend,2005,39.606557377,88,4.0,Spain
+2717,Red Blend,2005,39.606557377,88,4.0,Israel
+2718,Red Blend,2005,39.606557377,88,4.0,Argentina
+2719,Red Blend,2005,39.606557377,88,4.0,Australia
+2720,Red Blend,2005,39.606557377,88,4.0,Chile
+2721,Red Blend,2005,39.606557377,88,4.0,France
+2722,Red Blend,2005,39.606557377,88,4.0,Greece
+2723,Red Blend,2006,37.4524421594,88,4.0,Chile
+2724,Red Blend,2006,37.4524421594,88,4.0,France
+2725,Red Blend,2006,37.4524421594,88,4.0,Italy
+2726,Red Blend,2006,37.4524421594,88,4.0,Greece
+2727,Red Blend,2006,37.4524421594,88,4.0,US
+2728,Red Blend,2006,37.4524421594,88,4.0,Spain
+2729,Red Blend,2006,37.4524421594,88,4.0,Israel
+2730,Red Blend,2006,37.4524421594,88,4.0,Argentina
+2731,Red Blend,2007,42.4091778203,88,5.0,Greece
+2732,Red Blend,2007,42.4091778203,88,5.0,Italy
+2733,Red Blend,2007,42.4091778203,88,5.0,Chile
+2734,Red Blend,2007,42.4091778203,88,5.0,US
+2735,Red Blend,2007,42.4091778203,88,5.0,Spain
+2736,Red Blend,2007,42.4091778203,88,5.0,South Africa
+2737,Red Blend,2007,42.4091778203,88,5.0,Argentina
+2738,Red Blend,2007,42.4091778203,88,5.0,Mexico
+2739,Red Blend,2008,41.330948121599995,88,5.0,Italy
+2740,Red Blend,2008,41.330948121599995,88,5.0,US
+2741,Red Blend,2008,41.330948121599995,88,5.0,Chile
+2742,Red Blend,2008,41.330948121599995,88,5.0,Mexico
+2743,Red Blend,2008,41.330948121599995,88,5.0,Spain
+2744,Red Blend,2008,41.330948121599995,88,5.0,Australia
+2745,Red Blend,2008,41.330948121599995,88,5.0,France
+2746,Red Blend,2008,41.330948121599995,88,5.0,Argentina
+2747,Red Blend,2008,41.330948121599995,88,5.0,South Africa
+2748,Red Blend,2008,41.330948121599995,88,5.0,Austria
+2749,Red Blend,2008,41.330948121599995,88,5.0,Greece
+2750,Red Blend,2009,37.7846153846,88,4.0,US
+2751,Red Blend,2009,37.7846153846,88,4.0,Spain
+2752,Red Blend,2009,37.7846153846,88,4.0,Italy
+2753,Red Blend,2009,37.7846153846,88,4.0,South Africa
+2754,Red Blend,2009,37.7846153846,88,4.0,Greece
+2755,Red Blend,2009,37.7846153846,88,4.0,Chile
+2756,Red Blend,2009,37.7846153846,88,4.0,Israel
+2757,Red Blend,2009,37.7846153846,88,4.0,Austria
+2758,Red Blend,2009,37.7846153846,88,4.0,Uruguay
+2759,Red Blend,2009,37.7846153846,88,4.0,Mexico
+2760,Red Blend,2010,37.1761761762,88,4.0,US
+2761,Red Blend,2010,37.1761761762,88,4.0,Italy
+2762,Red Blend,2010,37.1761761762,88,4.0,France
+2763,Red Blend,2010,37.1761761762,88,4.0,Spain
+2764,Red Blend,2010,37.1761761762,88,4.0,Chile
+2765,Red Blend,2010,37.1761761762,88,4.0,South Africa
+2766,Red Blend,2010,37.1761761762,88,4.0,Argentina
+2767,Red Blend,2010,37.1761761762,88,4.0,Lebanon
+2768,Red Blend,2010,37.1761761762,88,4.0,Greece
+2769,Red Blend,2011,38.1879194631,88,4.0,Italy
+2770,Red Blend,2011,38.1879194631,88,4.0,France
+2771,Red Blend,2011,38.1879194631,88,4.0,US
+2772,Red Blend,2011,38.1879194631,88,4.0,Israel
+2773,Red Blend,2011,38.1879194631,88,4.0,Spain
+2774,Red Blend,2011,38.1879194631,88,4.0,Uruguay
+2775,Red Blend,2011,38.1879194631,88,4.0,Hungary
+2776,Red Blend,2011,38.1879194631,88,4.0,Argentina
+2777,Red Blend,2011,38.1879194631,88,4.0,
+2778,Red Blend,2011,38.1879194631,88,4.0,Slovenia
+2779,Red Blend,2011,38.1879194631,88,4.0,Austria
+2780,Red Blend,2011,38.1879194631,88,4.0,Chile
+2781,Red Blend,2011,38.1879194631,88,4.0,Mexico
+2782,Red Blend,2012,34.640599001700004,88,4.0,US
+2783,Red Blend,2012,34.640599001700004,88,4.0,Chile
+2784,Red Blend,2012,34.640599001700004,88,4.0,France
+2785,Red Blend,2012,34.640599001700004,88,4.0,Italy
+2786,Red Blend,2012,34.640599001700004,88,4.0,Austria
+2787,Red Blend,2012,34.640599001700004,88,4.0,Argentina
+2788,Red Blend,2012,34.640599001700004,88,4.0,Spain
+2789,Red Blend,2012,34.640599001700004,88,4.0,
+2790,Red Blend,2012,34.640599001700004,88,4.0,Germany
+2791,Red Blend,2012,34.640599001700004,88,4.0,Israel
+2792,Red Blend,2012,34.640599001700004,88,4.0,Hungary
+2793,Red Blend,2013,32.5687061184,88,4.0,US
+2794,Red Blend,2013,32.5687061184,88,4.0,Italy
+2795,Red Blend,2013,32.5687061184,88,4.0,Canada
+2796,Red Blend,2013,32.5687061184,88,4.0,France
+2797,Red Blend,2013,32.5687061184,88,4.0,Argentina
+2798,Red Blend,2013,32.5687061184,88,4.0,Spain
+2799,Red Blend,2013,32.5687061184,88,4.0,Georgia
+2800,Red Blend,2013,32.5687061184,88,4.0,
+2801,Red Blend,2013,32.5687061184,88,4.0,Hungary
+2802,Red Blend,2013,32.5687061184,88,4.0,Chile
+2803,Red Blend,2013,32.5687061184,88,4.0,Austria
+2804,Red Blend,2013,32.5687061184,88,4.0,Moldova
+2805,Red Blend,2013,32.5687061184,88,4.0,Bulgaria
+2806,Red Blend,2014,27.9086538462,88,3.0,US
+2807,Red Blend,2014,27.9086538462,88,3.0,Italy
+2808,Red Blend,2014,27.9086538462,88,3.0,South Africa
+2809,Red Blend,2014,27.9086538462,88,3.0,Spain
+2810,Red Blend,2014,27.9086538462,88,3.0,France
+2811,Red Blend,2014,27.9086538462,88,3.0,Austria
+2812,Red Blend,2014,27.9086538462,88,3.0,Bulgaria
+2813,Red Blend,2014,27.9086538462,88,3.0,Argentina
+2814,Red Blend,2014,27.9086538462,88,3.0,Germany
+2815,Red Blend,2014,27.9086538462,88,3.0,Chile
+2816,Red Blend,2014,27.9086538462,88,3.0,Israel
+2817,Red Blend,2014,27.9086538462,88,3.0,Australia
+2818,Red Blend,2015,22.109489051100002,87,2.0,US
+2819,Red Blend,2015,22.109489051100002,87,2.0,Italy
+2820,Red Blend,2015,22.109489051100002,87,2.0,Chile
+2821,Red Blend,2015,22.109489051100002,87,2.0,France
+2822,Red Blend,2015,22.109489051100002,87,2.0,Uruguay
+2823,Red Blend,2015,22.109489051100002,87,2.0,Portugal
+2824,Red Blend,2015,22.109489051100002,87,2.0,Georgia
+2825,Red Blend,2015,22.109489051100002,87,2.0,Australia
+2826,Red Blend,2016,17.113207547200002,87,1.0,South Africa
+2827,Red Blend,2016,17.113207547200002,87,1.0,Italy
+2828,Red Blend,2016,17.113207547200002,87,1.0,France
+2829,Refosco,2005,,86,,Italy
+2830,Refosco,2010,,88,,Italy
+2831,Refosco,2012,28.0,89,3.0,US
+2832,Refosco,2014,50.0,87,5.0,Italy
+2833,Ribolla Gialla,-1,25.1428571429,86,3.0,Italy
+2834,Ribolla Gialla,2002,18.0,86,1.0,Italy
+2835,Ribolla Gialla,2003,120.0,93,5.0,Italy
+2836,Ribolla Gialla,2004,,94,,Italy
+2837,Ribolla Gialla,2006,22.2,87,2.0,Italy
+2838,Ribolla Gialla,2007,56.0,88,5.0,Italy
+2839,Ribolla Gialla,2010,21.0,86,2.0,Italy
+2840,Ribolla Gialla,2011,29.2,88,3.0,Italy
+2841,Ribolla Gialla,2012,23.8571428571,88,2.0,Slovenia
+2842,Ribolla Gialla,2012,23.8571428571,88,2.0,Italy
+2843,Ribolla Gialla,2013,22.5714285714,88,2.0,Italy
+2844,Ribolla Gialla,2014,20.8,87,2.0,Italy
+2845,Ribolla Gialla,2015,17.8571428571,87,1.0,Italy
+2846,Ribolla Gialla,2016,21.0,86,2.0,Italy
+2847,Rieslaner,2006,47.0,90,5.0,Germany
+2848,Rieslaner,2014,,91,,Germany
+2849,Rieslaner,2015,35.0,88,4.0,Germany
+2850,Riesling,-1,18.9583333333,87,1.0,France
+2851,Riesling,-1,18.9583333333,87,1.0,Slovenia
+2852,Riesling,1852,18.428571428599998,87,1.0,US
+2853,Riesling,1976,101.0,88,5.0,Germany
+2854,Riesling,1988,95.0,88,5.0,Austria
+2855,Riesling,1989,68.0,93,5.0,Germany
+2856,Riesling,1992,75.0,92,5.0,Austria
+2857,Riesling,1994,26.0,90,3.0,Germany
+2858,Riesling,1995,27.0,90,3.0,Germany
+2859,Riesling,1997,13.0,90,0.0,US
+2860,Riesling,1998,20.1428571429,87,2.0,Canada
+2861,Riesling,2000,37.5,85,4.0,France
+2862,Riesling,2000,37.5,85,4.0,Chile
+2863,Riesling,2000,37.5,85,4.0,Romania
+2864,Riesling,2001,23.9772727273,87,3.0,Australia
+2865,Riesling,2001,23.9772727273,87,3.0,US
+2866,Riesling,2001,23.9772727273,87,3.0,New Zealand
+2867,Riesling,2001,23.9772727273,87,3.0,France
+2868,Riesling,2002,17.306122449,87,1.0,US
+2869,Riesling,2002,17.306122449,87,1.0,Australia
+2870,Riesling,2002,17.306122449,87,1.0,New Zealand
+2871,Riesling,2003,40.5,89,5.0,Germany
+2872,Riesling,2003,40.5,89,5.0,Austria
+2873,Riesling,2004,41.7272727273,89,5.0,France
+2874,Riesling,2005,32.1219512195,88,4.0,US
+2875,Riesling,2005,32.1219512195,88,4.0,Germany
+2876,Riesling,2005,32.1219512195,88,4.0,New Zealand
+2877,Riesling,2006,42.5634517766,89,5.0,Germany
+2878,Riesling,2006,42.5634517766,89,5.0,Australia
+2879,Riesling,2006,42.5634517766,89,5.0,US
+2880,Riesling,2006,42.5634517766,89,5.0,Austria
+2881,Riesling,2006,42.5634517766,89,5.0,France
+2882,Riesling,2007,31.567251461999998,88,4.0,Germany
+2883,Riesling,2007,31.567251461999998,88,4.0,US
+2884,Riesling,2007,31.567251461999998,88,4.0,Australia
+2885,Riesling,2007,31.567251461999998,88,4.0,France
+2886,Riesling,2007,31.567251461999998,88,4.0,New Zealand
+2887,Riesling,2007,31.567251461999998,88,4.0,Austria
+2888,Riesling,2008,28.143617021300006,88,3.0,Germany
+2889,Riesling,2008,28.143617021300006,88,3.0,Australia
+2890,Riesling,2008,28.143617021300006,88,3.0,US
+2891,Riesling,2008,28.143617021300006,88,3.0,Austria
+2892,Riesling,2008,28.143617021300006,88,3.0,Canada
+2893,Riesling,2008,28.143617021300006,88,3.0,France
+2894,Riesling,2009,43.209459459499996,88,5.0,Germany
+2895,Riesling,2009,43.209459459499996,88,5.0,US
+2896,Riesling,2009,43.209459459499996,88,5.0,Austria
+2897,Riesling,2009,43.209459459499996,88,5.0,France
+2898,Riesling,2009,43.209459459499996,88,5.0,South Africa
+2899,Riesling,2010,35.5062893082,89,4.0,France
+2900,Riesling,2010,35.5062893082,89,4.0,Germany
+2901,Riesling,2010,35.5062893082,89,4.0,US
+2902,Riesling,2010,35.5062893082,89,4.0,New Zealand
+2903,Riesling,2011,33.1802884615,89,4.0,US
+2904,Riesling,2011,33.1802884615,89,4.0,Germany
+2905,Riesling,2011,33.1802884615,89,4.0,France
+2906,Riesling,2011,33.1802884615,89,4.0,Canada
+2907,Riesling,2011,33.1802884615,89,4.0,Italy
+2908,Riesling,2011,33.1802884615,89,4.0,Austria
+2909,Riesling,2012,32.5570570571,89,4.0,Germany
+2910,Riesling,2012,32.5570570571,89,4.0,US
+2911,Riesling,2012,32.5570570571,89,4.0,Australia
+2912,Riesling,2012,32.5570570571,89,4.0,Austria
+2913,Riesling,2012,32.5570570571,89,4.0,France
+2914,Riesling,2012,32.5570570571,89,4.0,Italy
+2915,Riesling,2012,32.5570570571,89,4.0,Canada
+2916,Riesling,2013,30.9675516224,89,4.0,Germany
+2917,Riesling,2013,30.9675516224,89,4.0,US
+2918,Riesling,2013,30.9675516224,89,4.0,France
+2919,Riesling,2013,30.9675516224,89,4.0,Australia
+2920,Riesling,2013,30.9675516224,89,4.0,Austria
+2921,Riesling,2013,30.9675516224,89,4.0,Slovenia
+2922,Riesling,2013,30.9675516224,89,4.0,Chile
+2923,Riesling,2014,29.8933782267,89,3.0,US
+2924,Riesling,2014,29.8933782267,89,3.0,France
+2925,Riesling,2014,29.8933782267,89,3.0,Germany
+2926,Riesling,2014,29.8933782267,89,3.0,Austria
+2927,Riesling,2014,29.8933782267,89,3.0,Australia
+2928,Riesling,2014,29.8933782267,89,3.0,Chile
+2929,Riesling,2014,29.8933782267,89,3.0,New Zealand
+2930,Riesling,2015,30.8472972973,90,4.0,Germany
+2931,Riesling,2015,30.8472972973,90,4.0,US
+2932,Riesling,2015,30.8472972973,90,4.0,Austria
+2933,Riesling,2015,30.8472972973,90,4.0,Australia
+2934,Riesling,2015,30.8472972973,90,4.0,France
+2935,Riesling,2015,30.8472972973,90,4.0,New Zealand
+2936,Riesling,2015,30.8472972973,90,4.0,Portugal
+2937,Riesling,2016,21.5794871795,89,2.0,Austria
+2938,Riesling,2016,21.5794871795,89,2.0,Germany
+2939,Riesling,2016,21.5794871795,89,2.0,France
+2940,Riesling,2016,21.5794871795,89,2.0,US
+2941,Riesling,2016,21.5794871795,89,2.0,Australia
+2942,Riesling-Chardonnay,2015,40.0,94,4.0,US
+2943,Rivaner,2011,15.0,87,0.0,Czech Republic
+2944,Rivaner,2012,16.0,88,1.0,Germany
+2945,Rivaner,2014,18.0,85,1.0,Germany
+2946,Rkatsiteli,2009,21.0,87,2.0,Georgia
+2947,Rkatsiteli,2012,32.0,83,4.0,US
+2948,Rkatsiteli,2014,15.666666666700001,88,1.0,Macedonia
+2949,Rkatsiteli,2014,15.666666666700001,88,1.0,Georgia
+2950,Robola,2008,18.0,90,1.0,Greece
+2951,Robola,2015,22.0,89,2.0,Greece
+2952,Roditis,2005,27.0,86,3.0,Greece
+2953,Roditis,2006,14.0,86,0.0,Greece
+2954,Roditis,2008,12.0,87,0.0,Greece
+2955,Roditis-Moschofilero,2015,11.0,88,0.0,Greece
+2956,Rolle,2013,25.0,87,3.0,France
+2957,Rolle,2014,19.0,90,1.0,France
+2958,Rolle,2015,20.0,88,2.0,France
+2959,Romorantin,2010,30.0,91,3.0,France
+2960,Romorantin,2013,20.0,91,2.0,France
+2961,Romorantin,2014,20.0,90,2.0,France
+2962,Rosado,2010,,84,,Spain
+2963,Rosado,2012,12.166666666700001,83,0.0,Spain
+2964,Rosado,2013,13.2857142857,84,0.0,Spain
+2965,Rosado,2014,13.8636363636,85,0.0,Spain
+2966,Rosado,2015,12.8,85,0.0,Argentina
+2967,Rosado,2015,12.8,85,0.0,Spain
+2968,Rosado,2016,13.333333333299999,84,0.0,Spain
+2969,Rosato,1898,18.0,87,1.0,Italy
+2970,Rosato,2010,25.0,88,3.0,Italy
+2971,Rosato,2011,19.1578947368,85,1.0,Italy
+2972,Rosato,2012,14.666666666700001,86,0.0,Italy
+2973,Rosato,2013,22.6666666667,89,2.0,Italy
+2974,Rosato,2014,16.8571428571,87,1.0,US
+2975,Rosato,2015,20.0,87,2.0,Italy
+2976,Rosato,2016,15.8,86,1.0,Italy
+2977,Roscetto,2008,,88,,Italy
+2978,Rosenmuskateller,-1,150.0,92,5.0,Austria
+2979,Roter Traminer,2006,26.0,90,3.0,Austria
+2980,Roter Traminer,2011,,91,,Austria
+2981,Roter Traminer,2012,31.0,89,4.0,Austria
+2982,Roter Traminer,2014,34.0,89,4.0,Austria
+2983,Roter Veltliner,2006,26.0,87,3.0,Austria
+2984,Roter Veltliner,2012,,92,,Austria
+2985,Roter Veltliner,2013,49.6666666667,90,5.0,Austria
+2986,Roter Veltliner,2014,36.5,89,4.0,Austria
+2987,Roter Veltliner,2015,24.0,91,3.0,Austria
+2988,Roter Veltliner,2016,25.0,90,3.0,Austria
+2989,Rotgipfler,2009,,90,,Austria
+2990,Rotgipfler,2012,23.3333333333,89,2.0,Austria
+2991,Rotgipfler,2013,22.5,88,2.0,Austria
+2992,Rotgipfler,2014,24.75,90,3.0,Austria
+2993,Rotgipfler,2016,19.0,91,1.0,Austria
+2994,Roussanne,2000,28.5,90,3.0,US
+2995,Roussanne,2001,75.0,93,5.0,Australia
+2996,Roussanne,2003,20.0,87,2.0,US
+2997,Roussanne,2004,22.0,86,2.0,US
+2998,Roussanne,2005,60.0,90,5.0,Australia
+2999,Roussanne,2006,23.0,87,2.0,US
+3000,Roussanne,2009,24.133333333299998,87,3.0,US
+3001,Roussanne,2011,30.181818181799997,89,4.0,US
+3002,Roussanne,2012,27.72,88,3.0,US
+3003,Roussanne,2013,28.6538461538,88,3.0,US
+3004,Roussanne,2013,28.6538461538,88,3.0,France
+3005,Roussanne,2014,32.0,89,4.0,US
+3006,Roussanne,2014,32.0,89,4.0,France
+3007,Roussanne,2015,25.3529411765,88,3.0,US
+3008,Roussanne-Grenache Blanc,2011,16.0,91,1.0,US
+3009,Roussanne-Marsanne,2010,22.0,82,2.0,US
+3010,Roussanne-Marsanne,2013,26.0,90,3.0,US
+3011,Roussanne-Marsanne,2014,50.0,88,5.0,Israel
+3012,Roussanne-Marsanne,2015,40.0,91,4.0,France
+3013,Roussanne-Marsanne,2016,,91,,South Africa
+3014,Roussanne-Viognier,2009,45.0,87,5.0,US
+3015,Roussanne-Viognier,2012,32.0,91,4.0,US
+3016,Roviello,2012,28.0,93,3.0,Italy
+3017,Roviello,2014,,92,,Italy
+3018,Rufete,2014,28.5,85,3.0,Spain
+3019,Sacy,2014,,86,,France
+3020,Sacy,2015,19.0,87,1.0,France
+3021,Sagrantino,2001,60.0,90,5.0,Italy
+3022,Sagrantino,2003,53.25,88,5.0,Italy
+3023,Sagrantino,2004,42.0,87,5.0,Italy
+3024,Sagrantino,2005,45.0,91,5.0,Italy
+3025,Sagrantino,2006,67.9,89,5.0,Italy
+3026,Sagrantino,2007,60.888888888900006,91,5.0,Italy
+3027,Sagrantino,2008,48.6,90,5.0,Italy
+3028,Sagrantino,2009,49.72,90,5.0,Italy
+3029,Sagrantino,2010,51.111111111099994,90,5.0,Italy
+3030,Sagrantino,2011,36.6666666667,86,4.0,Italy
+3031,Sagrantino,2013,56.25,89,5.0,Italy
+3032,Sagrantino,2015,40.0,87,4.0,US
+3033,Sangiovese,-1,10.0,86,0.0,Italy
+3034,Sangiovese,1850,28.0,91,3.0,US
+3035,Sangiovese,1929,20.0,85,2.0,Italy
+3036,Sangiovese,1996,22.5,83,2.0,Italy
+3037,Sangiovese,1997,50.0740740741,89,5.0,Italy
+3038,Sangiovese,1999,32.8604651163,88,4.0,Italy
+3039,Sangiovese,2000,16.0454545455,85,1.0,US
+3040,Sangiovese,2000,16.0454545455,85,1.0,Italy
+3041,Sangiovese,2003,45.285714285699996,87,5.0,Australia
+3042,Sangiovese,2004,40.2926829268,89,5.0,Italy
+3043,Sangiovese,2004,40.2926829268,89,5.0,US
+3044,Sangiovese,2005,32.9866666667,87,4.0,Italy
+3045,Sangiovese,2005,32.9866666667,87,4.0,US
+3046,Sangiovese,2006,36.2307692308,87,4.0,Italy
+3047,Sangiovese,2006,36.2307692308,87,4.0,US
+3048,Sangiovese,2007,44.7685185185,88,5.0,Italy
+3049,Sangiovese,2007,44.7685185185,88,5.0,US
+3050,Sangiovese,2008,40.171641791,87,5.0,US
+3051,Sangiovese,2008,40.171641791,87,5.0,Italy
+3052,Sangiovese,2009,47.69406392689999,87,5.0,US
+3053,Sangiovese,2009,47.69406392689999,87,5.0,Italy
+3054,Sangiovese,2009,47.69406392689999,87,5.0,Australia
+3055,Sangiovese,2010,63.9166666667,89,5.0,Italy
+3056,Sangiovese,2010,63.9166666667,89,5.0,US
+3057,Sangiovese,2011,55.785326087,89,5.0,Italy
+3058,Sangiovese,2011,55.785326087,89,5.0,US
+3059,Sangiovese,2012,45.65734265729999,89,5.0,Italy
+3060,Sangiovese,2012,45.65734265729999,89,5.0,US
+3061,Sangiovese,2013,30.447674418600002,88,4.0,US
+3062,Sangiovese,2013,30.447674418600002,88,4.0,Italy
+3063,Sangiovese,2014,26.5827338129,87,3.0,Italy
+3064,Sangiovese,2014,26.5827338129,87,3.0,US
+3065,Sangiovese,2015,19.261538461500002,87,1.0,Italy
+3066,Sangiovese,2015,19.261538461500002,87,1.0,US
+3067,Sangiovese,2016,17.7857142857,86,1.0,US
+3068,Sangiovese Cabernet,2010,32.0,85,4.0,US
+3069,Sangiovese Cabernet,2012,55.0,87,5.0,US
+3070,Sangiovese Cabernet,2013,52.0,91,5.0,US
+3071,Sangiovese Grosso,1998,50.0,88,5.0,Italy
+3072,Sangiovese Grosso,2003,43.2,87,5.0,Italy
+3073,Sangiovese Grosso,2004,70.6458333333,90,5.0,Italy
+3074,Sangiovese Grosso,2005,67.5365853659,90,5.0,Italy
+3075,Sangiovese Grosso,2006,78.4920634921,92,5.0,Italy
+3076,Sangiovese Grosso,2007,72.67647058819999,91,5.0,Italy
+3077,Sangiovese Grosso,2008,57.8456375839,89,5.0,Italy
+3078,Sangiovese Grosso,2009,26.2,87,3.0,Italy
+3079,Sangiovese Grosso,2010,23.6129032258,88,2.0,Italy
+3080,Sangiovese Grosso,2012,45.0,87,5.0,US
+3081,Sangiovese-Syrah,2007,36.0,90,4.0,US
+3082,Sangiovese-Syrah,2008,34.0,84,4.0,US
+3083,Saperavi,2007,40.0,84,4.0,Georgia
+3084,Saperavi,2008,28.0,87,3.0,Georgia
+3085,Saperavi,2009,15.5,88,1.0,Georgia
+3086,Saperavi,2010,20.0,86,2.0,US
+3087,Saperavi,2011,13.0,82,0.0,Moldova
+3088,Saperavi,2014,17.0,88,1.0,Georgia
+3089,Saperavi-Merlot,2007,17.0,84,1.0,Georgia
+3090,Saperavi-Merlot,2013,18.0,90,1.0,Georgia
+3091,Sauvignon,-1,15.0,85,0.0,New Zealand
+3092,Sauvignon,2003,65.0,91,5.0,Italy
+3093,Sauvignon,2005,11.0,86,0.0,Italy
+3094,Sauvignon,2006,28.133333333299998,87,3.0,Italy
+3095,Sauvignon,2007,21.535714285700003,86,2.0,Italy
+3096,Sauvignon,2008,22.75,85,2.0,Italy
+3097,Sauvignon,2009,28.294117647100002,87,3.0,Italy
+3098,Sauvignon,2010,26.5,87,3.0,Italy
+3099,Sauvignon,2011,27.1071428571,88,3.0,Italy
+3100,Sauvignon,2012,28.8,89,3.0,Italy
+3101,Sauvignon,2013,25.6875,89,3.0,Italy
+3102,Sauvignon,2014,25.095890411,88,3.0,Italy
+3103,Sauvignon,2015,31.5,89,4.0,Italy
+3104,Sauvignon,2015,31.5,89,4.0,Romania
+3105,Sauvignon,2016,18.5,88,1.0,Italy
+3106,Sauvignon Blanc,-1,14.7333333333,85,0.0,US
+3107,Sauvignon Blanc,-1,14.7333333333,85,0.0,Australia
+3108,Sauvignon Blanc,1852,17.0,87,1.0,US
+3109,Sauvignon Blanc,1992,95.0,90,5.0,Italy
+3110,Sauvignon Blanc,1998,18.0,89,1.0,US
+3111,Sauvignon Blanc,1999,18.0526315789,86,1.0,US
+3112,Sauvignon Blanc,2000,18.1690140845,86,1.0,France
+3113,Sauvignon Blanc,2000,18.1690140845,86,1.0,US
+3114,Sauvignon Blanc,2000,18.1690140845,86,1.0,Chile
+3115,Sauvignon Blanc,2001,17.24,86,1.0,US
+3116,Sauvignon Blanc,2001,17.24,86,1.0,Australia
+3117,Sauvignon Blanc,2001,17.24,86,1.0,New Zealand
+3118,Sauvignon Blanc,2001,17.24,86,1.0,Italy
+3119,Sauvignon Blanc,2002,13.75,86,0.0,Chile
+3120,Sauvignon Blanc,2002,13.75,86,0.0,Italy
+3121,Sauvignon Blanc,2005,24.1428571429,88,3.0,France
+3122,Sauvignon Blanc,2006,18.9130434783,87,1.0,US
+3123,Sauvignon Blanc,2006,18.9130434783,87,1.0,New Zealand
+3124,Sauvignon Blanc,2006,18.9130434783,87,1.0,France
+3125,Sauvignon Blanc,2006,18.9130434783,87,1.0,Austria
+3126,Sauvignon Blanc,2006,18.9130434783,87,1.0,Chile
+3127,Sauvignon Blanc,2006,18.9130434783,87,1.0,Australia
+3128,Sauvignon Blanc,2007,18.0353982301,86,1.0,Chile
+3129,Sauvignon Blanc,2007,18.0353982301,86,1.0,New Zealand
+3130,Sauvignon Blanc,2007,18.0353982301,86,1.0,France
+3131,Sauvignon Blanc,2007,18.0353982301,86,1.0,US
+3132,Sauvignon Blanc,2007,18.0353982301,86,1.0,South Africa
+3133,Sauvignon Blanc,2007,18.0353982301,86,1.0,Italy
+3134,Sauvignon Blanc,2007,18.0353982301,86,1.0,Australia
+3135,Sauvignon Blanc,2008,17.4181818182,87,1.0,US
+3136,Sauvignon Blanc,2008,17.4181818182,87,1.0,France
+3137,Sauvignon Blanc,2008,17.4181818182,87,1.0,New Zealand
+3138,Sauvignon Blanc,2008,17.4181818182,87,1.0,Chile
+3139,Sauvignon Blanc,2008,17.4181818182,87,1.0,South Africa
+3140,Sauvignon Blanc,2008,17.4181818182,87,1.0,Austria
+3141,Sauvignon Blanc,2008,17.4181818182,87,1.0,Australia
+3142,Sauvignon Blanc,2008,17.4181818182,87,1.0,Italy
+3143,Sauvignon Blanc,2009,18.3444816054,86,1.0,US
+3144,Sauvignon Blanc,2009,18.3444816054,86,1.0,Chile
+3145,Sauvignon Blanc,2009,18.3444816054,86,1.0,South Africa
+3146,Sauvignon Blanc,2009,18.3444816054,86,1.0,Portugal
+3147,Sauvignon Blanc,2009,18.3444816054,86,1.0,New Zealand
+3148,Sauvignon Blanc,2009,18.3444816054,86,1.0,Italy
+3149,Sauvignon Blanc,2009,18.3444816054,86,1.0,France
+3150,Sauvignon Blanc,2009,18.3444816054,86,1.0,Slovenia
+3151,Sauvignon Blanc,2009,18.3444816054,86,1.0,Israel
+3152,Sauvignon Blanc,2010,19.0365853659,87,1.0,Chile
+3153,Sauvignon Blanc,2010,19.0365853659,87,1.0,New Zealand
+3154,Sauvignon Blanc,2010,19.0365853659,87,1.0,Romania
+3155,Sauvignon Blanc,2010,19.0365853659,87,1.0,US
+3156,Sauvignon Blanc,2010,19.0365853659,87,1.0,South Africa
+3157,Sauvignon Blanc,2010,19.0365853659,87,1.0,France
+3158,Sauvignon Blanc,2010,19.0365853659,87,1.0,Austria
+3159,Sauvignon Blanc,2010,19.0365853659,87,1.0,Australia
+3160,Sauvignon Blanc,2011,19.4588235294,86,1.0,US
+3161,Sauvignon Blanc,2011,19.4588235294,86,1.0,Chile
+3162,Sauvignon Blanc,2011,19.4588235294,86,1.0,South Africa
+3163,Sauvignon Blanc,2011,19.4588235294,86,1.0,Argentina
+3164,Sauvignon Blanc,2011,19.4588235294,86,1.0,Israel
+3165,Sauvignon Blanc,2011,19.4588235294,86,1.0,Mexico
+3166,Sauvignon Blanc,2011,19.4588235294,86,1.0,France
+3167,Sauvignon Blanc,2011,19.4588235294,86,1.0,Italy
+3168,Sauvignon Blanc,2011,19.4588235294,86,1.0,New Zealand
+3169,Sauvignon Blanc,2011,19.4588235294,86,1.0,Austria
+3170,Sauvignon Blanc,2012,20.7200854701,86,2.0,France
+3171,Sauvignon Blanc,2012,20.7200854701,86,2.0,US
+3172,Sauvignon Blanc,2012,20.7200854701,86,2.0,Chile
+3173,Sauvignon Blanc,2012,20.7200854701,86,2.0,Argentina
+3174,Sauvignon Blanc,2012,20.7200854701,86,2.0,Bulgaria
+3175,Sauvignon Blanc,2012,20.7200854701,86,2.0,New Zealand
+3176,Sauvignon Blanc,2012,20.7200854701,86,2.0,Italy
+3177,Sauvignon Blanc,2012,20.7200854701,86,2.0,Slovenia
+3178,Sauvignon Blanc,2013,20.7917383821,87,2.0,France
+3179,Sauvignon Blanc,2013,20.7917383821,87,2.0,US
+3180,Sauvignon Blanc,2013,20.7917383821,87,2.0,Czech Republic
+3181,Sauvignon Blanc,2013,20.7917383821,87,2.0,Chile
+3182,Sauvignon Blanc,2013,20.7917383821,87,2.0,New Zealand
+3183,Sauvignon Blanc,2013,20.7917383821,87,2.0,Austria
+3184,Sauvignon Blanc,2013,20.7917383821,87,2.0,Slovenia
+3185,Sauvignon Blanc,2013,20.7917383821,87,2.0,Bulgaria
+3186,Sauvignon Blanc,2014,23.086574655,87,2.0,Australia
+3187,Sauvignon Blanc,2014,23.086574655,87,2.0,New Zealand
+3188,Sauvignon Blanc,2014,23.086574655,87,2.0,Portugal
+3189,Sauvignon Blanc,2014,23.086574655,87,2.0,South Africa
+3190,Sauvignon Blanc,2014,23.086574655,87,2.0,US
+3191,Sauvignon Blanc,2014,23.086574655,87,2.0,France
+3192,Sauvignon Blanc,2014,23.086574655,87,2.0,Chile
+3193,Sauvignon Blanc,2014,23.086574655,87,2.0,Canada
+3194,Sauvignon Blanc,2014,23.086574655,87,2.0,Austria
+3195,Sauvignon Blanc,2014,23.086574655,87,2.0,Romania
+3196,Sauvignon Blanc,2014,23.086574655,87,2.0,Italy
+3197,Sauvignon Blanc,2015,21.420204978,88,2.0,US
+3198,Sauvignon Blanc,2015,21.420204978,88,2.0,Australia
+3199,Sauvignon Blanc,2015,21.420204978,88,2.0,France
+3200,Sauvignon Blanc,2015,21.420204978,88,2.0,South Africa
+3201,Sauvignon Blanc,2015,21.420204978,88,2.0,Chile
+3202,Sauvignon Blanc,2015,21.420204978,88,2.0,New Zealand
+3203,Sauvignon Blanc,2015,21.420204978,88,2.0,Portugal
+3204,Sauvignon Blanc,2016,19.0158371041,87,1.0,France
+3205,Sauvignon Blanc,2016,19.0158371041,87,1.0,US
+3206,Sauvignon Blanc,2016,19.0158371041,87,1.0,Chile
+3207,Sauvignon Blanc,2016,19.0158371041,87,1.0,New Zealand
+3208,Sauvignon Blanc,2016,19.0158371041,87,1.0,Argentina
+3209,Sauvignon Blanc,2016,19.0158371041,87,1.0,
+3210,Sauvignon Blanc,2016,19.0158371041,87,1.0,Australia
+3211,Sauvignon Blanc,2016,19.0158371041,87,1.0,South Africa
+3212,Sauvignon Blanc,2016,19.0158371041,87,1.0,Portugal
+3213,Sauvignon Blanc,2016,19.0158371041,87,1.0,Austria
+3214,Sauvignon Blanc-Assyrtiko,2015,20.0,92,2.0,Greece
+3215,Sauvignon Blanc-Chardonnay,2005,35.0,90,4.0,Austria
+3216,Sauvignon Blanc-Chardonnay,2013,10.0,85,0.0,Spain
+3217,Sauvignon Blanc-Chardonnay,2014,15.0,84,0.0,Spain
+3218,Sauvignon Blanc-Chardonnay,2015,18.0,88,1.0,France
+3219,Sauvignon Blanc-Semillon,2004,45.0,90,5.0,US
+3220,Sauvignon Blanc-Semillon,2005,20.0,86,2.0,Australia
+3221,Sauvignon Blanc-Semillon,2007,29.5,87,3.0,Australia
+3222,Sauvignon Blanc-Semillon,2009,23.0,88,2.0,US
+3223,Sauvignon Blanc-Semillon,2014,31.285714285700003,88,4.0,US
+3224,Sauvignon Blanc-Semillon,2015,27.3076923077,88,3.0,US
+3225,Sauvignon Blanc-Semillon,2015,27.3076923077,88,3.0,Australia
+3226,Sauvignon Blanc-Verdejo,2011,10.0,86,0.0,Spain
+3227,Sauvignon Blanc-Verdejo,2016,12.0,85,0.0,Spain
+3228,Sauvignon Gris,2008,40.0,94,4.0,US
+3229,Sauvignon Gris,2010,14.0,81,0.0,Chile
+3230,Sauvignon Gris,2011,22.0,83,2.0,Chile
+3231,Sauvignon Gris,2013,15.0,84,0.0,Chile
+3232,Sauvignon Gris,2014,29.6666666667,88,3.0,Chile
+3233,Sauvignon Gris,2015,16.5,86,1.0,Chile
+3234,Sauvignon Gris,2016,17.0,84,1.0,Chile
+3235,Sauvignonasse,2011,25.0,90,3.0,Slovenia
+3236,Savagnin,2010,27.6666666667,88,3.0,France
+3237,Savagnin,2011,34.5,88,4.0,France
+3238,Savagnin,2013,45.0,92,5.0,France
+3239,Savagnin,2015,40.0,92,4.0,France
+3240,Savatiano,-1,11.333333333299999,86,0.0,Greece
+3241,Savatiano,2010,10.0,86,0.0,Greece
+3242,Savatiano,2013,25.0,90,3.0,Greece
+3243,Scheurebe,2005,86.0,92,5.0,Austria
+3244,Scheurebe,2007,23.0,89,2.0,Germany
+3245,Scheurebe,2014,24.75,88,3.0,Germany
+3246,Scheurebe,2014,24.75,88,3.0,Austria
+3247,Schiava,2013,19.0434782609,88,1.0,Italy
+3248,Schwartzriesling,2012,25.0,90,3.0,Germany
+3249,Sciaccerellu,2013,70.0,90,5.0,France
+3250,Sciaccerellu,2014,21.0,88,2.0,France
+3251,Sciaccerellu,2015,,88,,France
+3252,Semillon-Chardonnay,1999,15.0,84,0.0,US
+3253,Semillon-Chardonnay,2000,7.5,85,0.0,Australia
+3254,Semillon-Chardonnay,2007,17.0,89,1.0,US
+3255,Semillon-Sauvignon Blanc,2000,16.0,89,1.0,US
+3256,Semillon-Sauvignon Blanc,2001,18.3333333333,84,1.0,US
+3257,Semillon-Sauvignon Blanc,2007,32.8888888889,87,4.0,Australia
+3258,Semillon-Sauvignon Blanc,2009,23.5,87,2.0,US
+3259,Semillon-Sauvignon Blanc,2010,28.0,90,3.0,US
+3260,Semillon-Sauvignon Blanc,2011,30.8,88,4.0,US
+3261,Semillon-Sauvignon Blanc,2011,30.8,88,4.0,Australia
+3262,Semillon-Sauvignon Blanc,2016,22.0,90,2.0,US
+3263,Sercial,2002,50.0,94,5.0,Portugal
+3264,Seyval Blanc,-1,23.0,84,2.0,US
+3265,Seyval Blanc,2007,16.0,84,1.0,US
+3266,Seyval Blanc,2008,9.0,84,0.0,US
+3267,Seyval Blanc,2010,15.0,83,0.0,US
+3268,Seyval Blanc,2011,23.0,81,2.0,US
+3269,Seyval Blanc,2012,17.6666666667,83,1.0,US
+3270,Seyval Blanc,2013,17.0,84,1.0,US
+3271,Seyval Blanc,2014,12.0,86,0.0,US
+3272,Seyval Blanc,2016,45.0,85,5.0,US
+3273,Sherry,-1,33.5,89,4.0,Spain
+3274,Sherry,1827,14.0,94,0.0,Spain
+3275,Sherry,1847,26.0,92,3.0,Spain
+3276,Sherry,1986,155.0,92,5.0,Spain
+3277,Shiraz,-1,17.5,85,1.0,Australia
+3278,Shiraz,1998,32.9285714286,88,4.0,Australia
+3279,Shiraz,1999,21.5833333333,85,2.0,Australia
+3280,Shiraz,2000,25.8823529412,86,3.0,South Africa
+3281,Shiraz,2001,21.0,87,2.0,Australia
+3282,Shiraz,2002,30.285714285700003,87,4.0,South Africa
+3283,Shiraz,2003,32.8461538462,88,4.0,South Africa
+3284,Shiraz,2004,47.4444444444,88,5.0,Australia
+3285,Shiraz,2004,47.4444444444,88,5.0,South Africa
+3286,Shiraz,2005,28.4625,88,3.0,Australia
+3287,Shiraz,2005,28.4625,88,3.0,Italy
+3288,Shiraz,2005,28.4625,88,3.0,South Africa
+3289,Shiraz,2006,39.9529411765,88,4.0,Australia
+3290,Shiraz,2006,39.9529411765,88,4.0,Chile
+3291,Shiraz,2007,31.1728395062,88,4.0,Australia
+3292,Shiraz,2008,44.027027026999995,88,5.0,Australia
+3293,Shiraz,2008,44.027027026999995,88,5.0,South Africa
+3294,Shiraz,2008,44.027027026999995,88,5.0,US
+3295,Shiraz,2009,47.5245901639,88,5.0,Australia
+3296,Shiraz,2009,47.5245901639,88,5.0,US
+3297,Shiraz,2010,79.858974359,90,5.0,Australia
+3298,Shiraz,2010,79.858974359,90,5.0,Israel
+3299,Shiraz,2011,49.869565217399995,89,5.0,South Africa
+3300,Shiraz,2011,49.869565217399995,89,5.0,Australia
+3301,Shiraz,2012,46.75,91,5.0,Australia
+3302,Shiraz,2012,46.75,91,5.0,Portugal
+3303,Shiraz,2012,46.75,91,5.0,Israel
+3304,Shiraz,2012,46.75,91,5.0,India
+3305,Shiraz,2013,37.395604395599996,90,4.0,Australia
+3306,Shiraz,2013,37.395604395599996,90,4.0,Israel
+3307,Shiraz,2014,38.3617021277,90,4.0,South Africa
+3308,Shiraz,2014,38.3617021277,90,4.0,Australia
+3309,Shiraz,2015,19.1538461538,88,1.0,Australia
+3310,Shiraz-Cabernet,2013,19.0,86,1.0,Australia
+3311,Shiraz-Cabernet,2014,75.0,87,5.0,Australia
+3312,Shiraz-Cabernet Sauvignon,1999,16.0,87,1.0,Australia
+3313,Shiraz-Cabernet Sauvignon,2001,14.0,88,0.0,Australia
+3314,Shiraz-Cabernet Sauvignon,2005,11.5,86,0.0,Australia
+3315,Shiraz-Cabernet Sauvignon,2008,20.571428571400002,86,2.0,Australia
+3316,Shiraz-Cabernet Sauvignon,2008,20.571428571400002,86,2.0,South Africa
+3317,Shiraz-Cabernet Sauvignon,2010,80.0,95,5.0,Australia
+3318,Shiraz-Cabernet Sauvignon,2012,40.0,93,4.0,Australia
+3319,Shiraz-Cabernet Sauvignon,2013,17.75,88,1.0,Australia
+3320,Shiraz-Grenache,2002,19.0,87,1.0,Australia
+3321,Shiraz-Grenache,2005,19.0,85,1.0,Australia
+3322,Shiraz-Grenache,2006,18.0,90,1.0,Australia
+3323,Shiraz-Grenache,2008,19.5,88,1.0,Australia
+3324,Shiraz-Grenache,2010,42.5,91,5.0,Australia
+3325,Shiraz-Grenache,2014,65.0,91,5.0,Australia
+3326,Shiraz-Malbec,2005,15.0,88,0.0,Australia
+3327,Shiraz-Roussanne,2009,29.0,90,3.0,Australia
+3328,Shiraz-Tempranillo,2008,10.0,84,0.0,Spain
+3329,Shiraz-Tempranillo,2014,7.0,80,0.0,Spain
+3330,Shiraz-Viognier,2004,23.0,89,2.0,Australia
+3331,Shiraz-Viognier,2005,20.444444444400002,87,2.0,Australia
+3332,Shiraz-Viognier,2006,23.0,87,2.0,Australia
+3333,Shiraz-Viognier,2007,74.3333333333,92,5.0,Australia
+3334,Shiraz-Viognier,2008,34.2857142857,89,4.0,Australia
+3335,Shiraz-Viognier,2009,47.6666666667,89,5.0,Australia
+3336,Shiraz-Viognier,2013,125.0,92,5.0,Australia
+3337,Shiraz-Viognier,2015,20.0,89,2.0,Australia
+3338,Sideritis,2009,23.0,85,2.0,Greece
+3339,Siegerrebe,2006,15.0,84,0.0,US
+3340,Silvaner,2008,14.0,86,0.0,US
+3341,Silvaner,2009,24.0,85,3.0,Germany
+3342,Silvaner,2010,40.5,87,5.0,Italy
+3343,Silvaner,2011,15.5,88,1.0,Germany
+3344,Silvaner,2012,53.125,89,5.0,Germany
+3345,Silvaner,2013,24.8333333333,88,3.0,Germany
+3346,Silvaner-Traminer,2009,25.0,86,3.0,Germany
+3347,Siria,2011,15.0,87,0.0,Portugal
+3348,Siria,2012,15.0,88,0.0,Portugal
+3349,Siria,2014,16.25,87,1.0,Portugal
+3350,Sirica,2013,23.0,93,2.0,Italy
+3351,Sirica,2015,23.0,92,2.0,Italy
+3352,Souzao,2010,24.0,87,3.0,US
+3353,Souzao,2011,36.0,86,4.0,US
+3354,Sparkling Blend,-1,21.4013781223,87,2.0,Spain
+3355,Sparkling Blend,-1,21.4013781223,87,2.0,US
+3356,Sparkling Blend,-1,21.4013781223,87,2.0,France
+3357,Sparkling Blend,-1,21.4013781223,87,2.0,Argentina
+3358,Sparkling Blend,-1,21.4013781223,87,2.0,Austria
+3359,Sparkling Blend,-1,21.4013781223,87,2.0,Italy
+3360,Sparkling Blend,-1,21.4013781223,87,2.0,New Zealand
+3361,Sparkling Blend,-1,21.4013781223,87,2.0,Chile
+3362,Sparkling Blend,-1,21.4013781223,87,2.0,South Africa
+3363,Sparkling Blend,-1,21.4013781223,87,2.0,Brazil
+3364,Sparkling Blend,-1,21.4013781223,87,2.0,Germany
+3365,Sparkling Blend,-1,21.4013781223,87,2.0,Australia
+3366,Sparkling Blend,1872,22.0,85,2.0,Spain
+3367,Sparkling Blend,1904,40.0,91,4.0,France
+3368,Sparkling Blend,1919,13.0,88,0.0,Spain
+3369,Sparkling Blend,1995,,93,,Italy
+3370,Sparkling Blend,2000,75.6666666667,93,5.0,US
+3371,Sparkling Blend,2001,57.75,92,5.0,Spain
+3372,Sparkling Blend,2002,50.4,90,5.0,US
+3373,Sparkling Blend,2002,50.4,90,5.0,Italy
+3374,Sparkling Blend,2003,68.3333333333,90,5.0,US
+3375,Sparkling Blend,2003,68.3333333333,90,5.0,Italy
+3376,Sparkling Blend,2004,63.04,90,5.0,Italy
+3377,Sparkling Blend,2005,51.4634146341,89,5.0,Italy
+3378,Sparkling Blend,2005,51.4634146341,89,5.0,US
+3379,Sparkling Blend,2006,48.88095238100001,89,5.0,US
+3380,Sparkling Blend,2006,48.88095238100001,89,5.0,Spain
+3381,Sparkling Blend,2006,48.88095238100001,89,5.0,Italy
+3382,Sparkling Blend,2007,42.5333333333,89,5.0,Spain
+3383,Sparkling Blend,2008,39.772151898699995,88,4.0,Spain
+3384,Sparkling Blend,2008,39.772151898699995,88,4.0,Italy
+3385,Sparkling Blend,2008,39.772151898699995,88,4.0,Australia
+3386,Sparkling Blend,2008,39.772151898699995,88,4.0,US
+3387,Sparkling Blend,2009,37.8105263158,88,4.0,Spain
+3388,Sparkling Blend,2009,37.8105263158,88,4.0,New Zealand
+3389,Sparkling Blend,2009,37.8105263158,88,4.0,Italy
+3390,Sparkling Blend,2009,37.8105263158,88,4.0,Portugal
+3391,Sparkling Blend,2010,39.4086021505,89,4.0,US
+3392,Sparkling Blend,2010,39.4086021505,89,4.0,Austria
+3393,Sparkling Blend,2010,39.4086021505,89,4.0,Italy
+3394,Sparkling Blend,2010,39.4086021505,89,4.0,Spain
+3395,Sparkling Blend,2011,37.1121495327,89,4.0,Spain
+3396,Sparkling Blend,2011,37.1121495327,89,4.0,Italy
+3397,Sparkling Blend,2011,37.1121495327,89,4.0,US
+3398,Sparkling Blend,2011,37.1121495327,89,4.0,Austria
+3399,Sparkling Blend,2012,37.2195121951,89,4.0,Spain
+3400,Sparkling Blend,2012,37.2195121951,89,4.0,France
+3401,Sparkling Blend,2012,37.2195121951,89,4.0,Italy
+3402,Sparkling Blend,2012,37.2195121951,89,4.0,England
+3403,Sparkling Blend,2013,34.4693877551,89,4.0,US
+3404,Sparkling Blend,2013,34.4693877551,89,4.0,Spain
+3405,Sparkling Blend,2013,34.4693877551,89,4.0,England
+3406,Sparkling Blend,2013,34.4693877551,89,4.0,Brazil
+3407,Sparkling Blend,2013,34.4693877551,89,4.0,Austria
+3408,Sparkling Blend,2013,34.4693877551,89,4.0,France
+3409,Sparkling Blend,2014,32.679245283,89,4.0,Spain
+3410,Sparkling Blend,2014,32.679245283,89,4.0,US
+3411,Sparkling Blend,2015,25.88,88,3.0,US
+3412,Sparkling Blend,2015,25.88,88,3.0,Austria
+3413,Sparkling Blend,2015,25.88,88,3.0,Germany
+3414,Sparkling Blend,2016,26.8888888889,88,3.0,Germany
+3415,Sparkling Blend,2016,26.8888888889,88,3.0,Australia
+3416,St. Laurent,-1,,88,,Austria
+3417,St. Laurent,2005,40.6666666667,89,5.0,Austria
+3418,St. Laurent,2008,33.0,86,4.0,Austria
+3419,St. Laurent,2009,23.4,87,2.0,Austria
+3420,St. Laurent,2010,22.0,90,2.0,Austria
+3421,St. Laurent,2011,38.4615384615,89,4.0,Austria
+3422,St. Laurent,2012,48.5,91,5.0,Austria
+3423,St. Laurent,2014,24.5,90,3.0,Austria
+3424,St. Laurent,2015,19.8571428571,90,2.0,Austria
+3425,St. Laurent,2016,14.0,91,0.0,Austria
+3426,St. Vincent,2010,24.0,85,3.0,US
+3427,Susumaniello,2004,50.0,92,5.0,Italy
+3428,Susumaniello,2007,,93,,Italy
+3429,Susumaniello,2011,18.0,88,1.0,Italy
+3430,Susumaniello,2013,18.0,87,1.0,Italy
+3431,Sylvaner,2009,25.0,87,3.0,France
+3432,Sylvaner,2010,24.4,87,3.0,France
+3433,Sylvaner,2011,23.0,85,2.0,France
+3434,Sylvaner,2012,22.5714285714,87,2.0,Italy
+3435,Sylvaner,2012,22.5714285714,87,2.0,France
+3436,Sylvaner,2013,24.0,89,3.0,France
+3437,Sylvaner,2013,24.0,89,3.0,Italy
+3438,Sylvaner,2014,20.133333333299998,87,2.0,France
+3439,Sylvaner,2015,22.4615384615,90,2.0,France
+3440,Sylvaner,2015,22.4615384615,90,2.0,Italy
+3441,Symphony,2006,9.0,82,0.0,US
+3442,Symphony,2007,8.0,85,0.0,US
+3443,Symphony,2011,38.0,84,4.0,US
+3444,Symphony,2013,12.0,88,0.0,US
+3445,Syrah,-1,28.8,86,3.0,US
+3446,Syrah,1998,25.5,88,3.0,US
+3447,Syrah,1999,23.6666666667,88,2.0,US
+3448,Syrah,1999,23.6666666667,88,2.0,France
+3449,Syrah,2000,23.2,87,2.0,US
+3450,Syrah,2004,37.0117647059,88,4.0,New Zealand
+3451,Syrah,2004,37.0117647059,88,4.0,US
+3452,Syrah,2004,37.0117647059,88,4.0,Israel
+3453,Syrah,2005,37.502415458899996,88,4.0,US
+3454,Syrah,2005,37.502415458899996,88,4.0,France
+3455,Syrah,2005,37.502415458899996,88,4.0,Argentina
+3456,Syrah,2005,37.502415458899996,88,4.0,Portugal
+3457,Syrah,2006,33.5283018868,87,4.0,US
+3458,Syrah,2006,33.5283018868,87,4.0,Chile
+3459,Syrah,2006,33.5283018868,87,4.0,France
+3460,Syrah,2006,33.5283018868,87,4.0,Argentina
+3461,Syrah,2007,36.1086956522,88,4.0,Italy
+3462,Syrah,2007,36.1086956522,88,4.0,US
+3463,Syrah,2007,36.1086956522,88,4.0,Chile
+3464,Syrah,2007,36.1086956522,88,4.0,South Africa
+3465,Syrah,2007,36.1086956522,88,4.0,New Zealand
+3466,Syrah,2007,36.1086956522,88,4.0,France
+3467,Syrah,2008,35.5866261398,88,4.0,US
+3468,Syrah,2008,35.5866261398,88,4.0,Italy
+3469,Syrah,2008,35.5866261398,88,4.0,Portugal
+3470,Syrah,2008,35.5866261398,88,4.0,France
+3471,Syrah,2008,35.5866261398,88,4.0,Chile
+3472,Syrah,2008,35.5866261398,88,4.0,Argentina
+3473,Syrah,2009,36.1654846336,89,4.0,US
+3474,Syrah,2009,36.1654846336,89,4.0,Canada
+3475,Syrah,2009,36.1654846336,89,4.0,Chile
+3476,Syrah,2009,36.1654846336,89,4.0,France
+3477,Syrah,2009,36.1654846336,89,4.0,Turkey
+3478,Syrah,2010,38.6943127962,88,4.0,US
+3479,Syrah,2010,38.6943127962,88,4.0,Italy
+3480,Syrah,2010,38.6943127962,88,4.0,Chile
+3481,Syrah,2010,38.6943127962,88,4.0,France
+3482,Syrah,2010,38.6943127962,88,4.0,Israel
+3483,Syrah,2011,41.1480519481,89,5.0,US
+3484,Syrah,2011,41.1480519481,89,5.0,Chile
+3485,Syrah,2011,41.1480519481,89,5.0,Morocco
+3486,Syrah,2011,41.1480519481,89,5.0,Portugal
+3487,Syrah,2011,41.1480519481,89,5.0,France
+3488,Syrah,2011,41.1480519481,89,5.0,Italy
+3489,Syrah,2011,41.1480519481,89,5.0,Hungary
+3490,Syrah,2011,41.1480519481,89,5.0,Bulgaria
+3491,Syrah,2011,41.1480519481,89,5.0,Spain
+3492,Syrah,2012,41.2142857143,89,5.0,France
+3493,Syrah,2012,41.2142857143,89,5.0,US
+3494,Syrah,2012,41.2142857143,89,5.0,Austria
+3495,Syrah,2012,41.2142857143,89,5.0,Portugal
+3496,Syrah,2012,41.2142857143,89,5.0,Italy
+3497,Syrah,2012,41.2142857143,89,5.0,Spain
+3498,Syrah,2012,41.2142857143,89,5.0,Chile
+3499,Syrah,2012,41.2142857143,89,5.0,Israel
+3500,Syrah,2013,44.8073555166,90,5.0,US
+3501,Syrah,2013,44.8073555166,90,5.0,Italy
+3502,Syrah,2013,44.8073555166,90,5.0,Morocco
+3503,Syrah,2013,44.8073555166,90,5.0,Canada
+3504,Syrah,2013,44.8073555166,90,5.0,Spain
+3505,Syrah,2013,44.8073555166,90,5.0,Chile
+3506,Syrah,2013,44.8073555166,90,5.0,Bulgaria
+3507,Syrah,2013,44.8073555166,90,5.0,Portugal
+3508,Syrah,2013,44.8073555166,90,5.0,South Africa
+3509,Syrah,2013,44.8073555166,90,5.0,France
+3510,Syrah,2014,42.97297297300001,90,5.0,US
+3511,Syrah,2014,42.97297297300001,90,5.0,France
+3512,Syrah,2014,42.97297297300001,90,5.0,Spain
+3513,Syrah,2014,42.97297297300001,90,5.0,Chile
+3514,Syrah,2014,42.97297297300001,90,5.0,Israel
+3515,Syrah,2015,34.1882352941,90,4.0,US
+3516,Syrah,2015,34.1882352941,90,4.0,Chile
+3517,Syrah,2016,22.2307692308,89,2.0,US
+3518,Syrah-Bonarda,2010,13.0,87,0.0,Argentina
+3519,Syrah-Cabernet,1998,24.0,85,3.0,US
+3520,Syrah-Cabernet,1999,18.0,88,1.0,Chile
+3521,Syrah-Cabernet,2001,18.0,89,1.0,Chile
+3522,Syrah-Cabernet,2003,24.0,86,3.0,France
+3523,Syrah-Cabernet,2006,19.5,88,1.0,Chile
+3524,Syrah-Cabernet,2008,45.0,88,5.0,US
+3525,Syrah-Cabernet,2009,14.0,86,0.0,Chile
+3526,Syrah-Cabernet,2010,10.0,82,0.0,South Africa
+3527,Syrah-Cabernet,2012,46.0,89,5.0,US
+3528,Syrah-Cabernet,2013,55.0,92,5.0,US
+3529,Syrah-Cabernet Franc,2008,69.0,88,5.0,US
+3530,Syrah-Cabernet Franc,2009,69.0,92,5.0,US
+3531,Syrah-Cabernet Franc,2012,60.0,91,5.0,Chile
+3532,Syrah-Cabernet Sauvignon,2009,45.6,90,5.0,US
+3533,Syrah-Cabernet Sauvignon,2009,45.6,90,5.0,Chile
+3534,Syrah-Cabernet Sauvignon,2013,43.4,88,5.0,US
+3535,Syrah-Cabernet Sauvignon,2015,65.0,90,5.0,US
+3536,Syrah-Carignan,2011,19.0,90,1.0,France
+3537,Syrah-Carignan,2013,19.0,89,1.0,France
+3538,Syrah-Grenache,2007,20.5,86,2.0,France
+3539,Syrah-Grenache,2008,24.6,88,3.0,US
+3540,Syrah-Grenache,2010,23.1666666667,87,2.0,France
+3541,Syrah-Grenache-Viognier,2012,45.0,90,5.0,US
+3542,Syrah-Malbec,2005,14.0,89,0.0,Argentina
+3543,Syrah-Merlot,2007,30.0,90,3.0,Turkey
+3544,Syrah-Merlot,2013,33.0,88,4.0,US
+3545,Syrah-Merlot,2014,20.0,86,2.0,France
+3546,Syrah-Petit Verdot,2010,35.0,90,4.0,Spain
+3547,Syrah-Petit Verdot,2013,49.0,94,5.0,US
+3548,Syrah-Petite Sirah,2010,29.0,91,3.0,US
+3549,Syrah-Petite Sirah,2012,45.2,89,5.0,US
+3550,Syrah-Tempranillo,2007,45.0,90,5.0,US
+3551,Syrah-Tempranillo,2008,45.0,88,5.0,US
+3552,Syrah-Tempranillo,2009,45.0,91,5.0,US
+3553,Syrah-Tempranillo,2011,45.0,92,5.0,US
+3554,Syrah-Tempranillo,2012,15.0,87,0.0,Spain
+3555,Syrah-Viognier,2005,36.0,90,4.0,US
+3556,Syrah-Viognier,2006,55.0,84,5.0,US
+3557,Syrah-Viognier,2008,20.0,89,2.0,South Africa
+3558,Syrah-Viognier,2009,39.0,92,4.0,US
+3559,Syrah-Viognier,2010,54.714285714300004,90,5.0,Israel
+3560,Syrah-Viognier,2011,75.0,94,5.0,Argentina
+3561,Syrah-Viognier,2013,85.0,84,5.0,US
+3562,Syrah-Viognier,2016,14.0,86,0.0,France
+3563,Tamianka,2015,20.0,89,2.0,Bulgaria
+3564,Tamjanika,2013,18.0,88,1.0,Serbia
+3565,Tannat,1996,115.0,88,5.0,France
+3566,Tannat,1999,115.0,96,5.0,France
+3567,Tannat,2002,35.0,89,4.0,France
+3568,Tannat,2007,26.3846153846,89,3.0,France
+3569,Tannat,2010,41.0,88,5.0,US
+3570,Tannat,2010,41.0,88,5.0,Uruguay
+3571,Tannat,2011,43.1428571429,87,5.0,US
+3572,Tannat,2011,43.1428571429,87,5.0,Uruguay
+3573,Tannat,2012,31.4210526316,89,4.0,US
+3574,Tannat,2012,31.4210526316,89,4.0,Uruguay
+3575,Tannat,2013,29.5185185185,88,3.0,Uruguay
+3576,Tannat,2013,29.5185185185,88,3.0,US
+3577,Tannat,2014,25.7333333333,88,3.0,US
+3578,Tannat,2015,27.64,87,3.0,Uruguay
+3579,Tannat-Cabernet,2005,13.0,91,0.0,France
+3580,Tannat-Cabernet,2010,19.3333333333,91,1.0,France
+3581,Tannat-Cabernet,2011,30.0,93,3.0,France
+3582,Tannat-Cabernet,2012,18.375,90,1.0,France
+3583,Tannat-Cabernet,2013,19.8,90,2.0,France
+3584,Tannat-Cabernet,2014,15.0,91,0.0,France
+3585,Tannat-Cabernet,2015,65.0,93,5.0,France
+3586,Tannat-Cabernet Franc,-1,22.0,91,2.0,Uruguay
+3587,Tannat-Cabernet Franc,2006,14.0,92,0.0,France
+3588,Tannat-Cabernet Franc,2007,35.0,94,4.0,France
+3589,Tannat-Cabernet Franc,2008,25.0,90,3.0,France
+3590,Tannat-Cabernet Franc,2010,27.3333333333,92,3.0,France
+3591,Tannat-Cabernet Franc,2011,21.2,90,2.0,France
+3592,Tannat-Cabernet Franc,2013,16.0,89,1.0,Uruguay
+3593,Tannat-Cabernet Franc,2014,14.0,90,0.0,France
+3594,Tannat-Cabernet Franc,2015,14.0,90,0.0,France
+3595,Tannat-Merlot,2005,,94,,France
+3596,Tannat-Merlot,2006,25.0,93,3.0,France
+3597,Tannat-Merlot,2009,23.0,85,2.0,France
+3598,Tannat-Merlot,2010,23.0,87,2.0,Uruguay
+3599,Tannat-Merlot,2011,29.0,88,3.0,Uruguay
+3600,Tannat-Merlot,2012,14.5,86,0.0,Uruguay
+3601,Tannat-Merlot,2013,12.0,86,0.0,Uruguay
+3602,Tannat-Merlot,2013,12.0,86,0.0,France
+3603,Tannat-Merlot,2014,10.0,87,0.0,France
+3604,Tannat-Merlot,2015,13.0,85,0.0,Uruguay
+3605,Tannat-Syrah,2012,10.0,86,0.0,France
+3606,Tannat-Syrah,2015,10.0,88,0.0,France
+3607,Tannat-Syrah,2016,10.0,86,0.0,France
+3608,Tempranillo,-1,10.75,84,0.0,Spain
+3609,Tempranillo,1898,12.0,88,0.0,Spain
+3610,Tempranillo,1994,29.0,87,3.0,Spain
+3611,Tempranillo,1998,20.3,86,2.0,Spain
+3612,Tempranillo,1999,22.8888888889,87,2.0,Spain
+3613,Tempranillo,2001,50.1,88,5.0,Spain
+3614,Tempranillo,2003,28.0,86,3.0,Spain
+3615,Tempranillo,2004,30.5396825397,87,4.0,Spain
+3616,Tempranillo,2005,39.223404255300004,87,4.0,US
+3617,Tempranillo,2005,39.223404255300004,87,4.0,Spain
+3618,Tempranillo,2006,26.8333333333,87,3.0,US
+3619,Tempranillo,2006,26.8333333333,87,3.0,Spain
+3620,Tempranillo,2006,26.8333333333,87,3.0,Argentina
+3621,Tempranillo,2007,27.0619469027,86,3.0,US
+3622,Tempranillo,2007,27.0619469027,86,3.0,Spain
+3623,Tempranillo,2008,27.775,86,3.0,Spain
+3624,Tempranillo,2008,27.775,86,3.0,US
+3625,Tempranillo,2009,31.7931034483,87,4.0,Spain
+3626,Tempranillo,2009,31.7931034483,87,4.0,US
+3627,Tempranillo,2010,29.5056179775,87,3.0,Spain
+3628,Tempranillo,2010,29.5056179775,87,3.0,US
+3629,Tempranillo,2011,37.5757575758,88,4.0,Spain
+3630,Tempranillo,2011,37.5757575758,88,4.0,US
+3631,Tempranillo,2012,36.7285714286,88,4.0,Spain
+3632,Tempranillo,2012,36.7285714286,88,4.0,US
+3633,Tempranillo,2012,36.7285714286,88,4.0,Italy
+3634,Tempranillo,2013,29.143712574899997,87,3.0,Spain
+3635,Tempranillo,2013,29.143712574899997,87,3.0,US
+3636,Tempranillo,2014,25.373015873000003,87,3.0,US
+3637,Tempranillo,2014,25.373015873000003,87,3.0,Spain
+3638,Tempranillo,2015,14.6530612245,85,0.0,Spain
+3639,Tempranillo,2016,14.666666666700001,84,0.0,Spain
+3640,Tempranillo Blanco,2009,40.0,84,4.0,Spain
+3641,Tempranillo Blanco,2010,40.0,83,4.0,Spain
+3642,Tempranillo Blanco,2012,24.0,85,3.0,Spain
+3643,Tempranillo Blanco,2013,26.0,84,3.0,Spain
+3644,Tempranillo Blend,-1,29.0,85,3.0,US
+3645,Tempranillo Blend,1978,225.0,83,5.0,Spain
+3646,Tempranillo Blend,1994,12.0,84,0.0,Spain
+3647,Tempranillo Blend,1995,60.0,92,5.0,Spain
+3648,Tempranillo Blend,1999,16.3333333333,85,1.0,Spain
+3649,Tempranillo Blend,2000,33.5,87,4.0,Spain
+3650,Tempranillo Blend,2001,39.0,88,4.0,Spain
+3651,Tempranillo Blend,2002,35.6,87,4.0,Spain
+3652,Tempranillo Blend,2003,69.6,88,5.0,Spain
+3653,Tempranillo Blend,2004,42.6181818182,88,5.0,Spain
+3654,Tempranillo Blend,2005,42.6785714286,88,5.0,Spain
+3655,Tempranillo Blend,2006,27.7090909091,88,3.0,Spain
+3656,Tempranillo Blend,2007,30.0212765957,87,4.0,Spain
+3657,Tempranillo Blend,2008,36.52,87,4.0,Spain
+3658,Tempranillo Blend,2009,39.72,89,4.0,Spain
+3659,Tempranillo Blend,2010,41.9726027397,89,5.0,Spain
+3660,Tempranillo Blend,2011,40.1458333333,89,5.0,Spain
+3661,Tempranillo Blend,2012,21.622222222199998,88,2.0,Spain
+3662,Tempranillo Blend,2013,17.48,86,1.0,Spain
+3663,Tempranillo Blend,2014,17.565217391300006,85,1.0,Spain
+3664,Tempranillo-Garnacha,2006,12.0,85,0.0,Spain
+3665,Tempranillo-Garnacha,2007,10.0,86,0.0,Spain
+3666,Tempranillo-Garnacha,2012,17.0,87,1.0,US
+3667,Tempranillo-Garnacha,2012,17.0,87,1.0,Spain
+3668,Tempranillo-Garnacha,2013,17.3333333333,87,1.0,US
+3669,Tempranillo-Garnacha,2013,17.3333333333,87,1.0,Spain
+3670,Tempranillo-Garnacha,2014,11.0,86,0.0,Spain
+3671,Tempranillo-Malbec,2006,,91,,Argentina
+3672,Tempranillo-Merlot,-1,6.0,84,0.0,Spain
+3673,Tempranillo-Merlot,2003,17.0,80,1.0,Spain
+3674,Tempranillo-Merlot,2006,20.0,85,2.0,Spain
+3675,Tempranillo-Merlot,2008,40.0,92,4.0,Spain
+3676,Tempranillo-Merlot,2011,15.0,87,0.0,Spain
+3677,Tempranillo-Shiraz,2014,12.0,87,0.0,Spain
+3678,Tempranillo-Syrah,2012,23.0,91,2.0,US
+3679,Tempranillo-Syrah,2016,12.0,82,0.0,Spain
+3680,Tempranillo-Tannat,2011,20.0,88,2.0,Uruguay
+3681,Teran,2009,20.0,88,2.0,Slovenia
+3682,Teran,2013,33.0,91,4.0,Croatia
+3683,Teroldego,2004,25.0,87,3.0,Italy
+3684,Teroldego,2007,30.0,90,3.0,Italy
+3685,Teroldego,2015,18.0,90,1.0,US
+3686,Teroldego Rotaliano,2011,15.0,86,0.0,Italy
+3687,Terrantez,1980,236.0,95,5.0,Portugal
+3688,Thrapsathiri,2015,25.0,88,3.0,Greece
+3689,Timorasso,2010,38.0,90,4.0,Italy
+3690,Timorasso,2011,60.0,91,5.0,Italy
+3691,Timorasso,2013,36.6666666667,90,4.0,Italy
+3692,Tinta Amarela,2013,30.0,90,3.0,US
+3693,Tinta Barroca,2010,20.0,87,2.0,Portugal
+3694,Tinta Barroca,2013,20.0,87,2.0,Portugal
+3695,Tinta Barroca,2015,13.0,86,0.0,Portugal
+3696,Tinta Cao,2012,14.0,90,0.0,Portugal
+3697,Tinta de Toro,1999,7.0,81,0.0,Spain
+3698,Tinta de Toro,2004,46.9,91,5.0,Spain
+3699,Tinta de Toro,2005,24.2727272727,88,3.0,Spain
+3700,Tinta de Toro,2006,32.0,87,4.0,Spain
+3701,Tinta de Toro,2007,63.1,88,5.0,Spain
+3702,Tinta de Toro,2009,56.6,90,5.0,Spain
+3703,Tinta de Toro,2010,34.5,90,4.0,Spain
+3704,Tinta de Toro,2011,54.55,90,5.0,Spain
+3705,Tinta de Toro,2013,37.4285714286,87,4.0,Spain
+3706,Tinta de Toro,2014,29.6,90,3.0,Spain
+3707,Tinta de Toro,2015,18.0,86,1.0,Spain
+3708,Tinta del Pais,2010,45.0,94,5.0,Spain
+3709,Tinta del Pais,2014,50.0,96,5.0,Spain
+3710,Tinta del Toro,2010,35.0,91,4.0,Spain
+3711,Tinta del Toro,2013,24.0,88,3.0,Spain
+3712,Tinta del Toro,2015,11.0,80,0.0,Spain
+3713,Tinta Fina,2005,36.0,90,4.0,Spain
+3714,Tinta Fina,2008,27.0,86,3.0,Spain
+3715,Tinta Fina,2009,40.0,90,4.0,Spain
+3716,Tinta Fina,2011,33.0,89,4.0,Spain
+3717,Tinta Fina,2012,25.0,89,3.0,Spain
+3718,Tinta Francisca,2011,60.0,89,5.0,Portugal
+3719,Tinta Francisca,2012,30.0,91,3.0,Portugal
+3720,Tinta Francisca,2013,60.0,91,5.0,Portugal
+3721,Tinta Madeira,2013,45.0,89,5.0,US
+3722,Tinta Negra Mole,1995,112.0,92,5.0,Portugal
+3723,Tinta Roriz,2004,19.0,88,1.0,Portugal
+3724,Tinta Roriz,2006,17.0,90,1.0,Portugal
+3725,Tinta Roriz,2008,10.0,84,0.0,Portugal
+3726,Tinta Roriz,2010,32.0,90,4.0,Portugal
+3727,Tinta Roriz,2013,75.0,94,5.0,Portugal
+3728,Tinta Roriz,2015,15.0,87,0.0,Portugal
+3729,Tintilia,2006,25.0,87,3.0,Italy
+3730,Tinto del Pais,1999,18.0,83,1.0,Spain
+3731,Tinto del Pais,2000,13.0,84,0.0,Spain
+3732,Tinto del Pais,2002,29.0,80,3.0,Spain
+3733,Tinto del Pais,2003,25.0,90,3.0,Spain
+3734,Tinto del Pais,2009,14.0,86,0.0,Spain
+3735,Tinto del Pais,2010,22.0,88,2.0,Spain
+3736,Tinto del Pais,2012,15.0,84,0.0,Spain
+3737,Tinto Fino,2005,30.6,88,4.0,Spain
+3738,Tinto Fino,2008,92.0,90,5.0,Spain
+3739,Tinto Fino,2009,80.9333333333,89,5.0,Spain
+3740,Tinto Fino,2010,97.8421052632,92,5.0,Spain
+3741,Tinto Fino,2011,58.4666666667,91,5.0,Spain
+3742,Tinto Fino,2013,42.0,86,5.0,Spain
+3743,Tinto Velasco,2015,9.0,85,0.0,Spain
+3744,Tocai,1999,,91,,Italy
+3745,Tocai,2002,20.6666666667,89,2.0,Italy
+3746,Tocai,2010,33.0,87,4.0,Italy
+3747,Tocai,2016,14.0,85,0.0,Argentina
+3748,Tocai Friulano,2004,30.5,86,4.0,Italy
+3749,Tocai Friulano,2006,26.3333333333,86,3.0,Italy
+3750,Tocai Friulano,2008,16.0,85,1.0,US
+3751,Tocai Friulano,2010,15.0,85,0.0,US
+3752,Tocai Friulano,2011,20.0,90,2.0,US
+3753,Tocai Friulano,2014,21.0,87,2.0,US
+3754,Tocai Friulano,2015,20.0,90,2.0,US
+3755,Tocai Friulano,2016,21.6666666667,87,2.0,US
+3756,Tokaji,1996,65.5,90,5.0,Hungary
+3757,Tokaji,1999,110.6666666667,92,5.0,Hungary
+3758,Tokaji,2000,62.6666666667,91,5.0,Hungary
+3759,Tokaji,2003,39.0,89,4.0,Hungary
+3760,Tokaji,2006,40.0,91,4.0,Hungary
+3761,Tokaji,2007,88.2,92,5.0,Hungary
+3762,Tokaji,2009,25.0,91,3.0,Hungary
+3763,Tokaji,2010,21.0,90,2.0,Hungary
+3764,Tokay Pinot Gris,1996,30.0,89,3.0,France
+3765,Torbato,2014,20.0,91,2.0,Italy
+3766,Torontel,2009,40.0,92,4.0,Chile
+3767,Touriga,2010,45.0,88,5.0,US
+3768,Touriga,2013,46.0,90,5.0,US
+3769,Touriga Franca,2004,14.5,88,0.0,Portugal
+3770,Touriga Franca,2009,45.0,91,5.0,Portugal
+3771,Touriga Franca,2012,15.0,87,0.0,Portugal
+3772,Touriga Franca,2013,40.0,88,4.0,Portugal
+3773,Touriga Franca,2014,20.0,90,2.0,Portugal
+3774,Touriga Nacional,-1,29.3333333333,87,3.0,Portugal
+3775,Touriga Nacional,1997,34.0,85,4.0,Portugal
+3776,Touriga Nacional,1999,13.0,88,0.0,Portugal
+3777,Touriga Nacional,2003,14.0,89,0.0,Portugal
+3778,Touriga Nacional,2005,27.0,90,3.0,Portugal
+3779,Touriga Nacional,2008,35.0833333333,87,4.0,Portugal
+3780,Touriga Nacional,2009,23.0,89,2.0,Portugal
+3781,Touriga Nacional,2010,24.5,88,3.0,Portugal
+3782,Touriga Nacional,2012,30.0,89,3.0,US
+3783,Touriga Nacional,2012,30.0,89,3.0,Portugal
+3784,Touriga Nacional,2013,30.1538461538,88,4.0,Portugal
+3785,Touriga Nacional,2014,35.0952380952,89,4.0,Portugal
+3786,Touriga Nacional,2015,24.4666666667,88,3.0,Portugal
+3787,Touriga Nacional,2015,24.4666666667,88,3.0,US
+3788,Touriga Nacional Blend,2005,,90,,Portugal
+3789,Touriga Nacional Blend,2007,144.0,90,5.0,Spain
+3790,Touriga Nacional Blend,2010,20.6666666667,89,2.0,Portugal
+3791,Touriga Nacional Blend,2011,15.0,90,0.0,Portugal
+3792,Touriga Nacional Blend,2012,13.0,88,0.0,Portugal
+3793,Touriga Nacional Blend,2013,15.0,89,0.0,Portugal
+3794,Touriga Nacional Blend,2014,30.0,91,3.0,Portugal
+3795,Trajadura,2001,7.0,86,0.0,Portugal
+3796,Traminer,2000,28.0,86,3.0,Austria
+3797,Traminer,2001,18.0,90,1.0,Italy
+3798,Traminer,2006,34.5,87,4.0,Austria
+3799,Traminer,2007,15.4,85,1.0,Italy
+3800,Traminer,2009,10.0,83,0.0,Bulgaria
+3801,Traminer,2011,28.0,87,3.0,Austria
+3802,Traminer,2013,24.5,89,3.0,Austria
+3803,Traminer,2013,24.5,89,3.0,Moldova
+3804,Traminer,2013,24.5,89,3.0,Italy
+3805,Traminer,2014,11.0,88,0.0,Moldova
+3806,Traminer,2015,10.0,88,0.0,Bulgaria
+3807,Traminer,2016,12.0,89,0.0,Bulgaria
+3808,Traminette,-1,15.0,81,0.0,US
+3809,Traminette,2010,16.0,86,1.0,US
+3810,Traminette,2014,15.0,89,0.0,US
+3811,Trebbiano,-1,50.0,91,5.0,Italy
+3812,Trebbiano,2003,,87,,Italy
+3813,Trebbiano,2004,50.0,93,5.0,Italy
+3814,Trebbiano,2008,37.5,89,4.0,Italy
+3815,Trebbiano,2011,16.3333333333,86,1.0,Italy
+3816,Trebbiano,2012,23.0,88,2.0,Italy
+3817,Trebbiano,2014,16.875,85,1.0,Italy
+3818,Trebbiano di Lugana,2007,35.0,88,4.0,Italy
+3819,Trebbiano di Lugana,2009,35.0,88,4.0,Italy
+3820,Trebbiano di Lugana,2010,18.0,87,1.0,Italy
+3821,Trebbiano Spoletino,2011,30.0,87,3.0,Italy
+3822,Trebbiano Spoletino,2012,21.0,88,2.0,Italy
+3823,Trebbiano Spoletino,2013,20.0,87,2.0,Italy
+3824,Trebbiano Spoletino,2015,20.0,88,2.0,Italy
+3825,Treixadura,2013,15.0,88,0.0,Spain
+3826,Treixadura,2014,18.0,87,1.0,Spain
+3827,Trepat,2008,25.0,90,3.0,Spain
+3828,Trepat,2010,23.0,86,2.0,Spain
+3829,Trepat,2012,22.0,89,2.0,Spain
+3830,Trincadeira,2004,14.0,87,0.0,Portugal
+3831,Trincadeira,2005,19.0,89,1.0,Portugal
+3832,Trincadeira,2007,20.0,88,2.0,Portugal
+3833,Trincadeira,2008,45.0,87,5.0,Portugal
+3834,Trincadeira,2009,17.5,86,1.0,Portugal
+3835,Trincadeira,2010,,87,,Portugal
+3836,Trincadeira,2012,20.0,87,2.0,Portugal
+3837,Trincadeira,2015,12.666666666700001,87,0.0,Portugal
+3838,Trincadeira,2016,16.0,87,1.0,Portugal
+3839,Trollinger,2013,22.0,93,2.0,Germany
+3840,Trollinger,2014,21.0,88,2.0,Germany
+3841,Trousseau,2011,31.75,86,4.0,France
+3842,Trousseau Gris,2005,19.0,84,1.0,US
+3843,Trousseau Gris,2014,26.0,93,3.0,US
+3844,Tsapournakos,2014,27.0,90,3.0,
+3845,Tsolikouri,2015,14.0,87,0.0,
+3846,Turbiana,2007,46.0,87,5.0,Italy
+3847,Turbiana,2010,33.2,86,4.0,Italy
+3848,Turbiana,2011,28.5714285714,89,3.0,Italy
+3849,Turbiana,2012,23.275862069000002,88,2.0,Italy
+3850,Turbiana,2013,24.133333333299998,88,3.0,Italy
+3851,Turbiana,2014,23.1666666667,88,2.0,Italy
+3852,Turbiana,2015,21.24,89,2.0,Italy
+3853,Turbiana,2016,21.681818181799997,89,2.0,Italy
+3854,Ugni Blanc,2014,27.0,90,3.0,US
+3855,Ugni Blanc,2015,27.0,90,3.0,US
+3856,Ugni Blanc,2016,27.0,92,3.0,US
+3857,Ugni Blanc-Colombard,2007,9.0,85,0.0,France
+3858,Ugni Blanc-Colombard,2008,11.0,85,0.0,France
+3859,Ugni Blanc-Colombard,2011,12.0,86,0.0,France
+3860,Ugni Blanc-Colombard,2012,12.0,85,0.0,France
+3861,Ugni Blanc-Colombard,2014,12.0,86,0.0,France
+3862,Ugni Blanc-Colombard,2015,10.5,86,0.0,France
+3863,Uva di Troia,2004,44.0,88,5.0,Italy
+3864,Uva di Troia,2005,27.0,88,3.0,Italy
+3865,Uva di Troia,2006,18.0,86,1.0,Italy
+3866,Uva di Troia,2007,30.0,88,3.0,Italy
+3867,Uva di Troia,2008,18.0,86,1.0,Italy
+3868,Uva di Troia,2009,22.0,87,2.0,Italy
+3869,Uva di Troia,2013,20.0,87,2.0,Italy
+3870,Uvalino,2011,29.0,88,3.0,Italy
+3871,Valvin Muscat,2013,13.0,87,0.0,US
+3872,Veltliner,2011,30.0,91,3.0,Italy
+3873,Veltliner,2013,20.0,88,2.0,Italy
+3874,Verdeca,2009,22.0,90,2.0,Italy
+3875,Verdeca,2011,15.5,85,1.0,Italy
+3876,Verdejo,-1,35.0,86,4.0,Spain
+3877,Verdejo,2000,11.0,84,0.0,Spain
+3878,Verdejo,2006,17.363636363599998,86,1.0,Spain
+3879,Verdejo,2007,15.5555555556,87,1.0,Spain
+3880,Verdejo,2008,17.5,85,1.0,Spain
+3881,Verdejo,2009,17.8333333333,87,1.0,Spain
+3882,Verdejo,2010,14.125,85,0.0,Spain
+3883,Verdejo,2011,16.0,85,1.0,Spain
+3884,Verdejo,2012,15.7857142857,85,1.0,Spain
+3885,Verdejo,2012,15.7857142857,85,1.0,US
+3886,Verdejo,2013,15.326086956500001,86,1.0,Spain
+3887,Verdejo,2014,15.693877551,85,1.0,Spain
+3888,Verdejo,2015,17.7209302326,87,1.0,Spain
+3889,Verdejo,2016,15.8846153846,86,1.0,Spain
+3890,Verdejo-Sauvignon Blanc,2010,10.0,84,0.0,Spain
+3891,Verdejo-Sauvignon Blanc,2011,10.0,86,0.0,Spain
+3892,Verdejo-Sauvignon Blanc,2012,10.0,83,0.0,Spain
+3893,Verdejo-Sauvignon Blanc,2016,9.0,85,0.0,Spain
+3894,Verdejo-Viura,2010,10.0,87,0.0,Spain
+3895,Verdejo-Viura,2011,11.666666666700001,86,0.0,Spain
+3896,Verdejo-Viura,2013,9.75,87,0.0,Spain
+3897,Verdejo-Viura,2015,9.3333333333,86,0.0,Spain
+3898,Verdejo-Viura,2016,16.0,85,1.0,Spain
+3899,Verdelho,1973,220.0,96,5.0,Portugal
+3900,Verdelho,2005,16.0,83,1.0,US
+3901,Verdelho,2007,15.0,86,0.0,US
+3902,Verdelho,2008,19.0,89,1.0,US
+3903,Verdelho,2010,17.3333333333,87,1.0,US
+3904,Verdelho,2011,16.25,87,1.0,US
+3905,Verdelho,2013,14.666666666700001,86,0.0,Portugal
+3906,Verdelho,2014,16.2,87,1.0,Portugal
+3907,Verdelho,2015,20.1818181818,87,2.0,Portugal
+3908,Verdelho,2016,14.166666666700001,87,0.0,Portugal
+3909,Verdelho,2016,14.166666666700001,87,0.0,US
+3910,Verdicchio,-1,35.0,88,4.0,Italy
+3911,Verdicchio,2001,30.0,90,3.0,Italy
+3912,Verdicchio,2003,22.0,89,2.0,Italy
+3913,Verdicchio,2004,27.8,88,3.0,Italy
+3914,Verdicchio,2005,29.6666666667,87,3.0,Italy
+3915,Verdicchio,2007,27.0,86,3.0,Italy
+3916,Verdicchio,2008,26.6666666667,87,3.0,Italy
+3917,Verdicchio,2010,24.4285714286,86,3.0,Italy
+3918,Verdicchio,2011,23.6470588235,87,2.0,Italy
+3919,Verdicchio,2012,19.0588235294,88,1.0,Italy
+3920,Verdicchio,2014,20.72,87,2.0,Italy
+3921,Verdicchio,2015,15.352941176500002,87,1.0,Italy
+3922,Verdil,2014,18.0,86,1.0,Spain
+3923,Verdosilla,2016,17.0,84,1.0,Spain
+3924,Verduzzo,2005,,94,,Italy
+3925,Verduzzo,2006,30.0,88,3.0,Italy
+3926,Verduzzo,2007,39.0,88,4.0,Italy
+3927,Verduzzo,2008,18.0,92,1.0,Italy
+3928,Verduzzo Friulano,2010,36.0,88,4.0,Italy
+3929,Vermentino,-1,20.0,92,2.0,US
+3930,Vermentino,1898,18.0,87,1.0,Italy
+3931,Vermentino,2001,18.0,91,1.0,Italy
+3932,Vermentino,2007,16.75,86,1.0,Italy
+3933,Vermentino,2008,23.0833333333,86,2.0,Italy
+3934,Vermentino,2008,23.0833333333,86,2.0,US
+3935,Vermentino,2009,18.7894736842,87,1.0,Italy
+3936,Vermentino,2010,20.6666666667,85,2.0,Italy
+3937,Vermentino,2011,23.75,87,2.0,Italy
+3938,Vermentino,2012,22.25,86,2.0,Italy
+3939,Vermentino,2012,22.25,86,2.0,US
+3940,Vermentino,2013,28.0,88,3.0,Italy
+3941,Vermentino,2013,28.0,88,3.0,US
+3942,Vermentino,2014,20.894736842100002,88,2.0,Italy
+3943,Vermentino,2014,20.894736842100002,88,2.0,France
+3944,Vermentino,2015,23.782608695700002,88,2.0,US
+3945,Vermentino,2015,23.782608695700002,88,2.0,France
+3946,Vermentino,2015,23.782608695700002,88,2.0,Italy
+3947,Vermentino,2016,23.4117647059,88,2.0,US
+3948,Vermentino,2016,23.4117647059,88,2.0,France
+3949,Vermentino,2016,23.4117647059,88,2.0,Australia
+3950,Vermentino Nero,2004,45.0,88,5.0,Italy
+3951,Vernaccia,2000,11.0,87,0.0,Italy
+3952,Vernaccia,2004,30.0,88,3.0,Italy
+3953,Vernaccia,2007,16.8461538462,86,1.0,Italy
+3954,Vernaccia,2008,25.0,88,3.0,Italy
+3955,Vernaccia,2009,14.666666666700001,85,0.0,Italy
+3956,Vernaccia,2010,14.333333333299999,85,0.0,Italy
+3957,Vernaccia,2011,23.1111111111,87,2.0,Italy
+3958,Vernaccia,2012,30.6,87,4.0,Italy
+3959,Vernaccia,2013,19.555555555599998,87,1.0,Italy
+3960,Vernaccia,2014,18.12,87,1.0,Italy
+3961,Vernaccia,2015,15.6896551724,87,1.0,Italy
+3962,Vernaccia,2016,14.666666666700001,87,0.0,Italy
+3963,Vespaiolo,2008,40.0,92,4.0,Italy
+3964,Vespolina,2013,25.0,88,3.0,Italy
+3965,Vespolina,2015,25.0,88,3.0,Italy
+3966,Vidadillo,2007,24.0,89,3.0,Spain
+3967,Vidal,2011,51.6666666667,89,5.0,Canada
+3968,Vidal,2012,45.0,91,5.0,Canada
+3969,Vidal,2015,14.0,85,0.0,US
+3970,Vidal,2016,28.0,85,3.0,US
+3971,Vidal Blanc,-1,11.0,86,0.0,US
+3972,Vidal Blanc,1852,46.0,90,5.0,US
+3973,Vidal Blanc,1997,80.0,89,5.0,Canada
+3974,Vidal Blanc,1999,25.0,87,3.0,Canada
+3975,Vidal Blanc,2005,20.0,91,2.0,Canada
+3976,Vidal Blanc,2006,44.0,89,5.0,Canada
+3977,Vidal Blanc,2007,46.111111111099994,87,5.0,US
+3978,Vidal Blanc,2008,55.0,89,5.0,Canada
+3979,Vidal Blanc,2011,31.1111111111,86,4.0,US
+3980,Vidal Blanc,2012,36.4,85,4.0,US
+3981,Vidal Blanc,2014,14.0,86,0.0,US
+3982,Vidal Blanc,2015,17.25,86,1.0,US
+3983,Vidal Blanc,2016,15.5,85,1.0,US
+3984,Vignoles,-1,10.0,85,0.0,US
+3985,Vignoles,1998,18.0,87,1.0,US
+3986,Vignoles,1999,15.0,86,0.0,US
+3987,Vignoles,2006,25.0,84,3.0,US
+3988,Vignoles,2007,17.0,86,1.0,US
+3989,Vignoles,2008,16.0,80,1.0,US
+3990,Vignoles,2009,14.0,87,0.0,US
+3991,Vignoles,2010,21.0,86,2.0,US
+3992,Vignoles,2013,20.0,88,2.0,US
+3993,Vilana,2007,16.0,84,1.0,Greece
+3994,Vilana,2010,13.0,88,0.0,Greece
+3995,Vilana,2015,13.0,89,0.0,Greece
+3996,Viognier,-1,15.0,81,0.0,US
+3997,Viognier,1850,24.0,91,3.0,US
+3998,Viognier,2000,18.0,85,1.0,US
+3999,Viognier,2002,25.0,80,3.0,US
+4000,Viognier,2005,26.6666666667,87,3.0,South Africa
+4001,Viognier,2006,19.9166666667,86,2.0,US
+4002,Viognier,2006,19.9166666667,86,2.0,Chile
+4003,Viognier,2006,19.9166666667,86,2.0,Australia
+4004,Viognier,2007,22.96,86,2.0,US
+4005,Viognier,2007,22.96,86,2.0,Greece
+4006,Viognier,2007,22.96,86,2.0,Israel
+4007,Viognier,2007,22.96,86,2.0,Australia
+4008,Viognier,2007,22.96,86,2.0,Canada
+4009,Viognier,2007,22.96,86,2.0,France
+4010,Viognier,2008,23.14,86,2.0,US
+4011,Viognier,2008,23.14,86,2.0,Australia
+4012,Viognier,2009,23.9428571429,87,3.0,US
+4013,Viognier,2009,23.9428571429,87,3.0,Greece
+4014,Viognier,2009,23.9428571429,87,3.0,Australia
+4015,Viognier,2010,28.956043956,87,3.0,US
+4016,Viognier,2010,28.956043956,87,3.0,Argentina
+4017,Viognier,2010,28.956043956,87,3.0,France
+4018,Viognier,2010,28.956043956,87,3.0,Italy
+4019,Viognier,2011,25.0408163265,87,3.0,US
+4020,Viognier,2011,25.0408163265,87,3.0,Italy
+4021,Viognier,2011,25.0408163265,87,3.0,Chile
+4022,Viognier,2012,27.7063492063,88,3.0,US
+4023,Viognier,2012,27.7063492063,88,3.0,Portugal
+4024,Viognier,2012,27.7063492063,88,3.0,Israel
+4025,Viognier,2013,27.353846153800006,88,3.0,US
+4026,Viognier,2014,28.1507936508,88,3.0,US
+4027,Viognier,2014,28.1507936508,88,3.0,Portugal
+4028,Viognier,2014,28.1507936508,88,3.0,South Africa
+4029,Viognier,2015,27.2063492063,88,3.0,US
+4030,Viognier,2015,27.2063492063,88,3.0,South Africa
+4031,Viognier,2015,27.2063492063,88,3.0,Portugal
+4032,Viognier,2015,27.2063492063,88,3.0,France
+4033,Viognier,2016,25.04,88,3.0,US
+4034,Viognier-Chardonnay,2009,16.0,83,1.0,Chile
+4035,Viognier-Chardonnay,2010,,89,,France
+4036,Viognier-Chardonnay,2012,,87,,France
+4037,Viognier-Chardonnay,2015,16.0,85,1.0,Chile
+4038,Viognier-Grenache Blanc,2009,35.0,87,4.0,South Africa
+4039,Viognier-Grenache Blanc,2014,27.0,91,3.0,US
+4040,Viognier-Grenache Blanc,2016,34.0,91,4.0,US
+4041,Viognier-Marsanne,2008,28.0,90,3.0,US
+4042,Viognier-Marsanne,2009,16.0,86,1.0,US
+4043,Viognier-Marsanne,2015,17.0,89,1.0,Australia
+4044,Viognier-Roussanne,2006,15.0,83,0.0,US
+4045,Viognier-Roussanne,2007,18.0,84,1.0,US
+4046,Viognier-Roussanne,2008,30.0,94,3.0,US
+4047,Viognier-Roussanne,2011,65.0,92,5.0,US
+4048,Viognier-Roussanne,2012,14.0,89,0.0,US
+4049,Viognier-Roussanne,2013,18.0,91,1.0,US
+4050,Viognier-Roussanne,2015,20.0,83,2.0,US
+4051,Viosinho,2013,35.0,91,4.0,Portugal
+4052,Viosinho,2015,16.0,87,1.0,Portugal
+4053,Vital,2012,,90,,Portugal
+4054,Vitovska,2006,85.0,90,5.0,Italy
+4055,Vitovska,2011,23.0,90,2.0,Slovenia
+4056,Viura,2000,13.0,86,0.0,Spain
+4057,Viura,2003,26.0,91,3.0,Spain
+4058,Viura,2006,10.0,82,0.0,Spain
+4059,Viura,2007,10.6,85,0.0,Spain
+4060,Viura,2009,14.75,86,0.0,Spain
+4061,Viura,2011,15.6363636364,83,1.0,Spain
+4062,Viura,2012,13.7368421053,84,0.0,Spain
+4063,Viura,2014,13.4375,84,0.0,Spain
+4064,Viura,2015,19.0588235294,86,1.0,Spain
+4065,Viura,2016,13.75,86,0.0,Spain
+4066,Viura-Chardonnay,-1,12.0,84,0.0,Spain
+4067,Viura-Chardonnay,2010,14.0,85,0.0,Spain
+4068,Viura-Chardonnay,2011,9.0,86,0.0,Spain
+4069,Viura-Chardonnay,2012,9.0,81,0.0,Spain
+4070,Viura-Chardonnay,2015,12.0,85,0.0,Spain
+4071,Viura-Verdejo,2007,11.0,86,0.0,Spain
+4072,Viura-Verdejo,2014,13.0,83,0.0,Spain
+4073,Vranac,2014,11.0,86,0.0,
+4074,Vranec,2007,14.5,84,0.0,Macedonia
+4075,Vranec,2011,20.0,89,2.0,Macedonia
+4076,Vranec,2013,15.0,89,0.0,Macedonia
+4077,Weissburgunder,2006,19.0,87,1.0,Austria
+4078,Weissburgunder,2008,37.0,90,4.0,Germany
+4079,Weissburgunder,2009,19.0,87,1.0,Austria
+4080,Weissburgunder,2012,29.875,89,3.0,Germany
+4081,Weissburgunder,2012,29.875,89,3.0,Austria
+4082,Weissburgunder,2013,26.6,88,3.0,Germany
+4083,Weissburgunder,2013,26.6,88,3.0,Austria
+4084,Weissburgunder,2014,26.1,89,3.0,Austria
+4085,Weissburgunder,2015,27.8,90,3.0,Germany
+4086,Weissburgunder,2015,27.8,90,3.0,Austria
+4087,Weissburgunder,2016,19.25,91,1.0,Austria
+4088,Welschriesling,-1,25.0,86,3.0,Austria
+4089,Welschriesling,2000,21.0,85,2.0,Austria
+4090,Welschriesling,2001,25.0,87,3.0,Austria
+4091,Welschriesling,2005,37.0,92,4.0,Austria
+4092,Welschriesling,2006,40.0,91,4.0,Austria
+4093,Welschriesling,2010,29.0,87,3.0,Austria
+4094,Welschriesling,2011,25.0,85,3.0,Czech Republic
+4095,Welschriesling,2014,15.0,82,0.0,Austria
+4096,Welschriesling,2015,13.0,88,0.0,Austria
+4097,Welschriesling,2016,15.0,88,0.0,Austria
+4098,White Blend,-1,17.6476190476,85,1.0,US
+4099,White Blend,-1,17.6476190476,85,1.0,Greece
+4100,White Blend,-1,17.6476190476,85,1.0,Italy
+4101,White Blend,1877,23.5,88,2.0,Italy
+4102,White Blend,1985,60.0,92,5.0,France
+4103,White Blend,1994,140.0,93,5.0,Italy
+4104,White Blend,1996,40.0,92,4.0,Italy
+4105,White Blend,1997,170.0,97,5.0,Italy
+4106,White Blend,1999,20.3571428571,87,2.0,US
+4107,White Blend,2000,21.4545454545,86,2.0,Italy
+4108,White Blend,2000,21.4545454545,86,2.0,US
+4109,White Blend,2001,24.181818181799997,88,3.0,Greece
+4110,White Blend,2001,24.181818181799997,88,3.0,Italy
+4111,White Blend,2002,21.294117647100002,87,2.0,Italy
+4112,White Blend,2005,36.2333333333,87,4.0,US
+4113,White Blend,2005,36.2333333333,87,4.0,Italy
+4114,White Blend,2005,36.2333333333,87,4.0,Lebanon
+4115,White Blend,2005,36.2333333333,87,4.0,France
+4116,White Blend,2005,36.2333333333,87,4.0,Greece
+4117,White Blend,2006,26.835294117600004,87,3.0,Greece
+4118,White Blend,2006,26.835294117600004,87,3.0,Italy
+4119,White Blend,2006,26.835294117600004,87,3.0,France
+4120,White Blend,2006,26.835294117600004,87,3.0,US
+4121,White Blend,2006,26.835294117600004,87,3.0,Chile
+4122,White Blend,2006,26.835294117600004,87,3.0,Australia
+4123,White Blend,2007,22.7387387387,86,2.0,US
+4124,White Blend,2007,22.7387387387,86,2.0,South Africa
+4125,White Blend,2007,22.7387387387,86,2.0,Austria
+4126,White Blend,2007,22.7387387387,86,2.0,Greece
+4127,White Blend,2007,22.7387387387,86,2.0,Spain
+4128,White Blend,2007,22.7387387387,86,2.0,France
+4129,White Blend,2007,22.7387387387,86,2.0,Chile
+4130,White Blend,2007,22.7387387387,86,2.0,Italy
+4131,White Blend,2008,25.108910891100006,87,3.0,Spain
+4132,White Blend,2008,25.108910891100006,87,3.0,Italy
+4133,White Blend,2008,25.108910891100006,87,3.0,Austria
+4134,White Blend,2008,25.108910891100006,87,3.0,Cyprus
+4135,White Blend,2008,25.108910891100006,87,3.0,US
+4136,White Blend,2008,25.108910891100006,87,3.0,France
+4137,White Blend,2008,25.108910891100006,87,3.0,Greece
+4138,White Blend,2008,25.108910891100006,87,3.0,South Africa
+4139,White Blend,2009,23.4246575342,87,2.0,Italy
+4140,White Blend,2009,23.4246575342,87,2.0,Spain
+4141,White Blend,2009,23.4246575342,87,2.0,Chile
+4142,White Blend,2009,23.4246575342,87,2.0,US
+4143,White Blend,2009,23.4246575342,87,2.0,France
+4144,White Blend,2010,21.8390804598,86,2.0,Spain
+4145,White Blend,2010,21.8390804598,86,2.0,Italy
+4146,White Blend,2010,21.8390804598,86,2.0,US
+4147,White Blend,2010,21.8390804598,86,2.0,France
+4148,White Blend,2010,21.8390804598,86,2.0,South Africa
+4149,White Blend,2010,21.8390804598,86,2.0,Israel
+4150,White Blend,2011,22.7543859649,86,2.0,Italy
+4151,White Blend,2011,22.7543859649,86,2.0,Spain
+4152,White Blend,2011,22.7543859649,86,2.0,US
+4153,White Blend,2011,22.7543859649,86,2.0,Greece
+4154,White Blend,2011,22.7543859649,86,2.0,France
+4155,White Blend,2011,22.7543859649,86,2.0,South Africa
+4156,White Blend,2012,24.4928229665,87,3.0,Italy
+4157,White Blend,2012,24.4928229665,87,3.0,US
+4158,White Blend,2012,24.4928229665,87,3.0,Argentina
+4159,White Blend,2012,24.4928229665,87,3.0,Greece
+4160,White Blend,2012,24.4928229665,87,3.0,France
+4161,White Blend,2012,24.4928229665,87,3.0,Spain
+4162,White Blend,2012,24.4928229665,87,3.0,Bulgaria
+4163,White Blend,2013,23.683397683400003,87,2.0,Italy
+4164,White Blend,2013,23.683397683400003,87,2.0,Greece
+4165,White Blend,2013,23.683397683400003,87,2.0,Argentina
+4166,White Blend,2013,23.683397683400003,87,2.0,France
+4167,White Blend,2013,23.683397683400003,87,2.0,US
+4168,White Blend,2013,23.683397683400003,87,2.0,Spain
+4169,White Blend,2013,23.683397683400003,87,2.0,Slovenia
+4170,White Blend,2013,23.683397683400003,87,2.0,Georgia
+4171,White Blend,2014,23.515037594000002,87,2.0,Argentina
+4172,White Blend,2014,23.515037594000002,87,2.0,France
+4173,White Blend,2014,23.515037594000002,87,2.0,Spain
+4174,White Blend,2014,23.515037594000002,87,2.0,US
+4175,White Blend,2014,23.515037594000002,87,2.0,Austria
+4176,White Blend,2014,23.515037594000002,87,2.0,Israel
+4177,White Blend,2014,23.515037594000002,87,2.0,Italy
+4178,White Blend,2014,23.515037594000002,87,2.0,Moldova
+4179,White Blend,2014,23.515037594000002,87,2.0,Greece
+4180,White Blend,2014,23.515037594000002,87,2.0,Georgia
+4181,White Blend,2014,23.515037594000002,87,2.0,Morocco
+4182,White Blend,2014,23.515037594000002,87,2.0,Canada
+4183,White Blend,2015,20.052,87,2.0,Italy
+4184,White Blend,2015,20.052,87,2.0,Canada
+4185,White Blend,2015,20.052,87,2.0,Spain
+4186,White Blend,2015,20.052,87,2.0,France
+4187,White Blend,2015,20.052,87,2.0,Germany
+4188,White Blend,2015,20.052,87,2.0,Australia
+4189,White Blend,2015,20.052,87,2.0,Argentina
+4190,White Blend,2015,20.052,87,2.0,US
+4191,White Blend,2015,20.052,87,2.0,Greece
+4192,White Blend,2015,20.052,87,2.0,Moldova
+4193,White Blend,2016,20.21,87,2.0,France
+4194,White Blend,2016,20.21,87,2.0,US
+4195,White Blend,2016,20.21,87,2.0,Spain
+4196,White Blend,2016,20.21,87,2.0,Morocco
+4197,White Blend,2016,20.21,87,2.0,Argentina
+4198,White Blend,2016,20.21,87,2.0,Uruguay
+4199,White Riesling,1997,25.0,94,3.0,US
+4200,White Riesling,1998,7.0,88,0.0,US
+4201,White Riesling,1999,8.0,88,0.0,US
+4202,White Riesling,2001,12.0,88,0.0,US
+4203,White Riesling,2010,10.0,86,0.0,US
+4204,White Riesling,2011,26.0,89,3.0,Israel
+4205,White Riesling,2012,9.0,88,0.0,US
+4206,Xarel-lo,2000,15.0,84,0.0,Spain
+4207,Xarel-lo,2007,13.0,82,0.0,Spain
+4208,Xarel-lo,2010,30.0,84,3.0,Spain
+4209,Xarel-lo,2012,13.0,83,0.0,Spain
+4210,Xarel-lo,2016,14.0,87,0.0,Spain
+4211,Xinisteri,2000,20.0,89,2.0,Cyprus
+4212,Xinomavro,2001,35.0,83,4.0,Greece
+4213,Xinomavro,2003,16.0,87,1.0,Greece
+4214,Xinomavro,2004,20.3333333333,85,2.0,Greece
+4215,Xinomavro,2005,21.0,84,2.0,Greece
+4216,Xinomavro,2007,26.6666666667,86,3.0,Greece
+4217,Xinomavro,2008,25.3333333333,87,3.0,Greece
+4218,Xinomavro,2009,13.0,87,0.0,Greece
+4219,Xinomavro,2010,22.75,86,2.0,Greece
+4220,Xinomavro,2011,22.0,87,2.0,Greece
+4221,Xinomavro,2013,16.0,89,1.0,Greece
+4222,Xynisteri,2010,16.0,85,1.0,Cyprus
+4223,Xynisteri,2014,21.0,89,2.0,Cyprus
+4224,Yapincak,2014,16.0,87,1.0,Turkey
+4225,Yapincak,2015,20.0,84,2.0,Turkey
+4226,Zelen,2011,,88,,Slovenia
+4227,Zibibbo,2004,47.0,88,5.0,Italy
+4228,Zibibbo,2008,40.0,95,4.0,Italy
+4229,Zibibbo,2011,22.0,87,2.0,Italy
+4230,Zibibbo,2012,45.0,93,5.0,Italy
+4231,Zibibbo,2013,44.0,89,5.0,Italy
+4232,Zibibbo,2014,39.0,93,4.0,Italy
+4233,Zibibbo,2015,19.6666666667,87,2.0,Italy
+4234,Zibibbo,2016,20.0,88,2.0,Italy
+4235,Zierfandler,2008,,91,,Austria
+4236,Zierfandler,2009,,93,,Austria
+4237,Zierfandler,2012,30.0,91,3.0,Austria
+4238,Zierfandler,2013,37.0,90,4.0,Austria
+4239,Zierfandler,2015,36.6666666667,89,4.0,Austria
+4240,Zierfandler,2016,19.0,92,1.0,Austria
+4241,Zierfandler-Rotgipfler,2015,25.0,89,3.0,Austria
+4242,Zierfandler-Rotgipfler,2016,25.0,92,3.0,Austria
+4243,Zinfandel,-1,13.2307692308,83,0.0,US
+4244,Zinfandel,1997,20.8285714286,86,2.0,US
+4245,Zinfandel,1998,20.978723404300002,87,2.0,US
+4246,Zinfandel,1999,21.24,86,2.0,US
+4247,Zinfandel,2000,23.9375,86,3.0,US
+4248,Zinfandel,2003,28.0,85,3.0,US
+4249,Zinfandel,2004,28.305555555599998,85,3.0,US
+4250,Zinfandel,2005,29.5923076923,86,3.0,US
+4251,Zinfandel,2006,28.165605095500002,86,3.0,US
+4252,Zinfandel,2007,29.1796407186,87,3.0,US
+4253,Zinfandel,2008,27.1032258065,86,3.0,US
+4254,Zinfandel,2009,28.230452674899997,86,3.0,US
+4255,Zinfandel,2010,29.845864661700002,86,3.0,US
+4256,Zinfandel,2011,29.730434782600003,87,3.0,US
+4257,Zinfandel,2012,30.807807807800003,88,4.0,US
+4258,Zinfandel,2013,31.9325,89,4.0,US
+4259,Zinfandel,2014,32.875,89,4.0,US
+4260,Zinfandel,2015,30.4949494949,89,4.0,US
+4261,Zlahtina,2006,13.0,84,0.0,Croatia
+4262,Zlahtina,2012,16.0,88,1.0,Croatia
+4263,Zweigelt,2006,16.7777777778,86,1.0,Austria
+4264,Zweigelt,2007,23.0,87,2.0,Austria
+4265,Zweigelt,2008,17.8,87,1.0,Austria
+4266,Zweigelt,2009,25.9230769231,87,3.0,Austria
+4267,Zweigelt,2011,23.6428571429,87,2.0,Austria
+4268,Zweigelt,2012,26.304347826100006,87,3.0,Austria
+4269,Zweigelt,2013,20.315789473699997,89,2.0,Austria
+4270,Zweigelt,2013,20.315789473699997,89,2.0,US
+4271,Zweigelt,2014,17.9375,89,1.0,Austria
+4272,Zweigelt,2015,17.9032258065,89,1.0,Austria
