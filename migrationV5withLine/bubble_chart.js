@@ -148,26 +148,27 @@ function bubbleChart() {
 		})
 		.on("click", function(d) {
 			//console.log(d[columnForTitle] + "<br/>"+ d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
-			clearBox2();
-
-			var nametoCSV=d[columnForTitle].replace(/\s/g, '');
-			console.log(nametoCSV.substring(0,2))
-			if (nametoCSV.substring(0,2) == 'US') {
-			//	console.log("US");
-				scatterChange("US.csv");	
-			}
-			else if (nametoCSV.substring(0,4) == 'NewZ') {
+			if(typeOfChart==0) {
+				clearBox2();
+				var nametoCSV=d[columnForTitle].replace(/\s/g, '');
+				console.log(nametoCSV.substring(0,2))
+				if (nametoCSV.substring(0,2) == 'US') {
 				//	console.log("US");
-					scatterChange("New .csv");	
-			}
-			else if (nametoCSV.substring(0,4) === 'Aust' || nametoCSV.substring(0,4) === 'Slov') {
-			//	console.log("Aust");
-				scatterChange(nametoCSV.substring(0,6).concat(".csv"));	
-			}
-			else {
-			//	console.log("no");
-			//	console.log(nametoCSV.substring(0,4).concat(".csv"));
-				scatterChange(nametoCSV.substring(0,4).concat(".csv"));
+					scatterChange("US.csv");	
+				}
+				else if (nametoCSV.substring(0,4) == 'NewZ') {
+					//	console.log("US");
+						scatterChange("New .csv");	
+				}
+				else if (nametoCSV.substring(0,4) === 'Aust' || nametoCSV.substring(0,4) === 'Slov') {
+				//	console.log("Aust");
+					scatterChange(nametoCSV.substring(0,6).concat(".csv"));	
+				}
+				else {
+				//	console.log("no");
+				//	console.log(nametoCSV.substring(0,4).concat(".csv"));
+					scatterChange(nametoCSV.substring(0,4).concat(".csv"));
+				}
 			}
 		})
 		.on("mouseout", function() {
@@ -205,22 +206,28 @@ function bubbleChart() {
 			})
 			.on("click", function(d) {
 				console.log(d[columnForTitle] + "<br/>"+ d[columnForColors] + "<br/>" + d[columnForRadius] + " "+ unitName);
-				clearBox2();
-			var nametoCSV=d[columnForTitle].replace(/\s/g, '');
-			console.log(nametoCSV.substring(0,2))
-			if (nametoCSV.substring(0,2) == 'US') {
-			//	console.log("US");
-				scatterChange("US.csv");	
-			}
-			else if (nametoCSV.substring(0,4) === 'Aust' || nametoCSV.substring(0,4) === 'Slov') {
-			//	console.log("Aust");
-				scatterChange(nametoCSV.substring(0,6).concat(".csv"));	
-			}
-			else {
-			//	console.log("no");
-			//	console.log(nametoCSV.substring(0,4).concat(".csv"));
-				scatterChange(nametoCSV.substring(0,4).concat(".csv"));
-			}
+				if(typeOfChart==0) {
+					clearBox2();
+					var nametoCSV=d[columnForTitle].replace(/\s/g, '');
+					console.log(nametoCSV.substring(0,2))
+					if (nametoCSV.substring(0,2) == 'US') {
+					//	console.log("US");
+						scatterChange("US.csv");	
+					}
+					else if (nametoCSV.substring(0,4) == 'NewZ') {
+						//	console.log("US");
+							scatterChange("New .csv");	
+					}
+					else if (nametoCSV.substring(0,4) === 'Aust' || nametoCSV.substring(0,4) === 'Slov') {
+					//	console.log("Aust");
+						scatterChange(nametoCSV.substring(0,6).concat(".csv"));	
+					}
+					else {
+					//	console.log("no");
+					//	console.log(nametoCSV.substring(0,4).concat(".csv"));
+						scatterChange(nametoCSV.substring(0,4).concat(".csv"));
+					}
+				}
 			})
 			.on("mouseout", function() {
 				return tooltip.style("visibility", "hidden");
