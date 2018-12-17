@@ -787,7 +787,10 @@
                       .attr("text-anchor", "middle")  
                       .style("font-size", "24px") 
                       .attr("fill", "white")
-                      .text("Top 5 tasters in the " + country);
+                      .text(function() {
+                          if (country === 'Worldwide') return "Top 5 tasters " + country;
+                          else return "Top 5 tasters in " + country;
+                          });
                                 
                                 
                 var transitext = d3.select('#bars_hor')
@@ -1046,7 +1049,7 @@
     }); // d3.json
 
 
-        hor_bar_func('France');
+        hor_bar_func('Worldwide');
 </script>
 
 <script lang='babel' type='text/babel'>
