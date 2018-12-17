@@ -987,6 +987,25 @@
             d3.select("#hor_bar_title").remove();        
             d3.select("#hor_bar_svg").remove();        
             hor_bar_func(d3.select(d3.event.target).datum().id);
+            clearBox2();
+			var nametoCSV=d.id.replace(/\s/g, '');
+			if (nametoCSV.substring(0,2) == 'US') {
+			//	console.log("US");
+				scatterChange("US.csv");	
+			}
+			else if (nametoCSV.substring(0,4) == 'NewZ') {
+					//	console.log("US");
+					scatterChange("New .csv");	
+			}
+			else if (nametoCSV.substring(0,4) === 'Aust' || nametoCSV.substring(0,4) === 'Slov') {
+				//	console.log("Aust");
+				scatterChange(nametoCSV.substring(0,6).concat(".csv"));	
+			}
+			else {
+			//	console.log("no");
+			//	console.log(nametoCSV.substring(0,4).concat(".csv"));
+				scatterChange(nametoCSV.substring(0,4).concat(".csv"));
+			}
         }
     }
 
