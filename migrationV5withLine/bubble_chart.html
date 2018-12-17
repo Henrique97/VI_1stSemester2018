@@ -240,6 +240,153 @@
         position:absolute;
         text-align: center;
     }
+    
+    #colorNet1 {
+        background: #E50012;
+        width: 10px;
+        height: 5px;
+        top:10%;
+        left:10%;
+        position:absolute;
+    }
+
+    #colorNet2 {
+        background: #DB5E00;
+        width: 10px;
+        height: 5px;
+        top:10%;
+        left:20%;
+        position:absolute;
+    }
+
+    #colorNet3 {
+        background: #D2C500;
+        width: 10px;
+        height: 5px;
+        top:10%;
+        left:30%;
+        position:absolute;
+    }
+
+    #colorNet4 {
+        background: #6DC800;
+        width: 10px;
+        height: 5px;
+        top:10%;
+        left:40%;
+        position:absolute;
+    }
+
+    #colorNetLeg {
+        font-size:10px;
+        font: Arial;
+        bottom:10%;
+        left:1%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #colorNet1Leg {
+        font-size:10px;
+        font: Arial;
+        bottom:10%;
+        left:8%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #colorNet2Leg {
+        font-size:10px;
+        font: Arial;
+        bottom:10%;
+        left:18%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #colorNet3Leg {
+        font-size:10px;
+        font: Arial;
+        bottom:10%;
+        left:28%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #colorNet4Leg {
+        font-size:10px;
+        font: Arial;
+        bottom:10%;
+        left:38%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #colorNetBub1 {
+        background: #66c2a5;
+        width: 5px;
+        height: 5px;
+        top:10%;
+        right:5%;
+        position:absolute;
+        border-radius: 5px;
+    }
+
+    #colorNetBub2 {
+        background: #fc8d62;
+        width: 5px;
+        height: 5px;
+        top:10%;
+        right:12%;
+        position:absolute;
+        border-radius: 5px;
+    }
+
+    #colorNetBub3 {
+        background: #8da0cb;
+        width: 5px;
+        height: 5px;
+        top:10%;
+        right:19%;
+        position:absolute;
+        border-radius: 5px;
+    }
+
+    #colorNetBub1Leg {
+        font-size:10px;
+        font: Arial;
+        bottom:5%;
+        right:2%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #colorNetBub2Leg {
+        font-size:10px;
+        font: Arial;
+        bottom:5%;
+        right:10%;
+        position:absolute;
+        text-align: center;
+    }
+
+    #colorNetBub3Leg {
+        font-size:10px;
+        font: Arial;
+        bottom:5%;
+        right:17%;
+        position:absolute;
+        text-align: center;
+    }
+    
+    #colorNetBubLeg {
+        font-size:10px;
+        font: Arial;
+        bottom:5%;
+        right:25%;
+        position:absolute;
+        text-align: center;
+    }
 
 </style>
 
@@ -308,6 +455,22 @@
         </div>
     </div>
     <div class="undone", id="undone3">
+            <div id="colorNetLeg">Score:</div>
+            <div id="colorNet1"></div>
+            <div id="colorNet1Leg">[80,84]</div>
+            <div id="colorNet2"></div>
+            <div id="colorNet2Leg">[84,88]</div>
+            <div id="colorNet3"></div>
+            <div id="colorNet3Leg">[88,82]</div>
+            <div id="colorNet4"></div>
+            <div id="colorNet4Leg">[89,96]</div>
+            <div id="colorNetBub1"></div>
+            <div id="colorNetBub1Leg">Country</div>
+            <div id="colorNetBub2"></div>
+            <div id="colorNetBub2Leg">Taster</div>
+            <div id="colorNetBub3"></div>
+            <div id="colorNetBub3Leg">Winery</div>
+            <div id="colorNetBubLeg">Bubble Meaning:</div>
     </div>
     <div class="undone", id="undone4">
     </div>
@@ -932,7 +1095,8 @@
         .attr("id", function(d) { return d.id; })
         .style("stroke-width", 2)
         .style("stroke", "#ffffcc")
-        .attr("fill", function(d) { return color(d.group); })
+        .attr("fill", function(d) { 
+            return color(d.group); })
 
     node.on("mouseover", focus).on("mouseout", unfocus).on("click", node_clicked);
     link.on("mouseover", showLinkValue).on("mouseout", hideLinkValue);

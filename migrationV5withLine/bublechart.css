@@ -65,7 +65,7 @@ span.btnChangeCountries:hover {
         -moz-transform: scale(0.55);
         color:white;
         bottom: 1%;
-        left: 32.5%;
+        left: 32.6%;
         position: absolute;
         border: solid 0.5px grey;
         
@@ -174,9 +174,11 @@ span.btnChangeCountries:hover {
 }
 
 #undone3{
-    width: 50px;
-    height: 50px;
-    visibility: hidden;
+    width: 41.3%;
+    height: 25px;
+    display: block;
+    left: 32.6%;
+    top: 50.5%;
 }
 
 #undone4{
