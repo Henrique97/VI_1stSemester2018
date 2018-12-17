@@ -176,7 +176,7 @@ function createChart(data, country, country2, fromYear, toYear) {
     g.append("path")
         .data([newoutput])
         .attr("class", "line")
-        .style("stroke","blue")
+        .style("stroke","rgba(46, 46, 253,0.507)")
         .attr("d", line);
 
     newoutput=[]
@@ -189,7 +189,7 @@ function createChart(data, country, country2, fromYear, toYear) {
     g.append("path")
         .data([newoutput])
         .attr("class", "line")
-        .style("stroke", "red")
+        .style("stroke", "rgba(255, 15, 15, 0.507)")
         .attr("d", line2);
     
     var focus = g.append("g")
