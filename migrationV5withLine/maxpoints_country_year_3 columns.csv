@@ -63,8 +63,8 @@ year,points,country
 2014,96,Austria
 2015,96,Austria
 2016,94,Austria  
-2007,85,Bosnia an
-2011,88,Bosnia an
+2007,85,Bosniaan
+2011,88,Bosniaan
 2002,83,Brazil
 2004,82,Brazil
 2005,85,Brazil
@@ -366,24 +366,24 @@ year,points,country
 2014,90,Morocco
 2015,88,Morocco
 2016,88,Morocco
-1998,92,New Zeala
-1999,90,New Zeala
-2000,91,New Zeala
-2001,91,New Zeala
-2002,92,New Zeala
-2004,91,New Zeala
-2005,91,New Zeala
-2006,92,New Zeala
-2007,92,New Zeala
-2008,93,New Zeala
-2009,92,New Zeala
-2010,93,New Zeala
-2011,93,New Zeala
-2012,93,New Zeala
-2013,95,New Zeala
-2014,95,New Zeala
-2015,93,New Zeala
-2016,91,New Zeala
+1998,92,NewZeala
+1999,90,NewZeala
+2000,91,NewZeala
+2001,91,NewZeala
+2002,92,NewZeala
+2004,91,NewZeala
+2005,91,NewZeala
+2006,92,NewZeala
+2007,92,NewZeala
+2008,93,NewZeala
+2009,92,NewZeala
+2010,93,NewZeala
+2011,93,NewZeala
+2012,93,NewZeala
+2013,95,NewZeala
+2014,95,NewZeala
+2015,93,NewZeala
+2016,91,NewZeala
 2008,86,Peru
 2009,81,Peru
 2010,85,Peru
@@ -471,29 +471,29 @@ year,points,country
 2013,90,Slovenia
 2014,89,Slovenia
 2015,90,Slovenia
-1870,85,South Afr
-1995,87,South Afr
-1996,87,South Afr
-1997,87,South Afr
-1998,94,South Afr
-1999,91,South Afr
-2000,92,South Afr
-2001,91,South Afr
-2002,90,South Afr
-2003,91,South Afr
-2004,94,South Afr
-2005,94,South Afr
-2006,92,South Afr
-2007,95,South Afr
-2008,93,South Afr
-2009,94,South Afr
-2010,94,South Afr
-2011,95,South Afr
-2012,94,South Afr
-2013,94,South Afr
-2014,95,South Afr
-2015,94,South Afr
-2016,94,South Afr
+1870,85,SouthAfr
+1995,87,SouthAfr
+1996,87,SouthAfr
+1997,87,SouthAfr
+1998,94,SouthAfr
+1999,91,SouthAfr
+2000,92,SouthAfr
+2001,91,SouthAfr
+2002,90,SouthAfr
+2003,91,SouthAfr
+2004,94,SouthAfr
+2005,94,SouthAfr
+2006,92,SouthAfr
+2007,95,SouthAfr
+2008,93,SouthAfr
+2009,94,SouthAfr
+2010,94,SouthAfr
+2011,95,SouthAfr
+2012,94,SouthAfr
+2013,94,SouthAfr
+2014,95,SouthAfr
+2015,94,SouthAfr
+2016,94,SouthAfr
 1827,94,Spain
 1847,92,Spain
 1872,87,Spain

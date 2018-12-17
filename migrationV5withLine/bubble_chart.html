@@ -212,7 +212,7 @@
         width: 20px;
         height: 10px;
         bottom:10%;
-        left:30%;
+        left:23%;
         position:absolute;
     }
 
@@ -221,22 +221,22 @@
         width: 20px;
         height: 10px;
         bottom:10%;
-        right:30%;
+        right:23%;
         position:absolute;
     }
 
     #legendLine1 {
         bottom:5%;
-        left:21%;
-        width: 90px;
+        left:0%;
+        width: 50%;
         position:absolute;
         text-align: center;
     }
 
     #legendLine2 {
         bottom:5%;
-        right:21%;
-        width:90px;
+        right:0%;
+        width:50%;
         position:absolute;
         text-align: center;
     }
@@ -1184,7 +1184,7 @@
           population.forEach(d => { matchById[d.id] = d.name;});
           dataMap.features.forEach(d => { d.population = populationById[d.id] });
           dataMap.features.forEach(d => { d.match = matchById[d.id];});
-        
+
           svg.append('g')
             .attr('class', 'countries')
             .selectAll('path')
