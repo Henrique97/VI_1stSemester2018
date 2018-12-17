@@ -2,9 +2,6 @@
 <meta charset="utf-8">
 <head>
 </head>
-
-
-
 <style type="text/css">
 
 	.axis path,
@@ -210,6 +207,40 @@
         border-radius: 5px;*/
     }
 
+    #colorLine1 {
+        background: blue;
+        width: 20px;
+        height: 10px;
+        bottom:10%;
+        left:30%;
+        position:absolute;
+    }
+
+    #colorLine2 {
+        background: red;
+        width: 20px;
+        height: 10px;
+        bottom:10%;
+        right:30%;
+        position:absolute;
+    }
+
+    #legendLine1 {
+        bottom:5%;
+        left:21%;
+        width: 90px;
+        position:absolute;
+        text-align: center;
+    }
+
+    #legendLine2 {
+        bottom:5%;
+        right:21%;
+        width:90px;
+        position:absolute;
+        text-align: center;
+    }
+
 </style>
 
 <link rel="stylesheet" href="bublechart.css">
@@ -267,7 +298,13 @@
         </div>
         <div id= "pngs2" class="imagesC">   
             <img src="USA.png" id="pngc2">
-            <h5 id="png2">US</h5>
+            <h5 id="png2">USA</h5>
+        </div>
+        <div>
+           <div id="colorLine1"></div>
+           <div id="legendLine1">Portugal</div>
+           <div id="colorLine2"></div>
+           <div id="legendLine2">USA</div>
         </div>
     </div>
     <div class="undone", id="undone3">
@@ -1076,9 +1113,9 @@
 </script>
 
 <script lang='babel' type='text/babel'>
+    var countryToSelect = 0;
     function drawMap()
     {
-        var countryToSelect = 0;
         const format = d3.format(',');
 
         // Set tooltips
@@ -1186,13 +1223,15 @@
                         document.getElementById("png1").innerHTML = d.properties.name;
                         document.getElementById("pngc1").src=""+d.id+".png";
                         changeSelectedCountry(d.match.replace(/\s/g, ''));
+                        document.getElementById("legendLine1").innerHTML= d.properties.name;
                     }
                 }
                 else {
                     if(d.match!=null) {
                         document.getElementById("pngc2").src=""+d.id+".png";
                         document.getElementById("png2").innerHTML = d.properties.name;
-                        changeSelectedCountry2(d.match.replace(/\s/g, ''));
+                        changeSelectedCountry2  (d.match.replace(/\s/g, ''));
+                        document.getElementById("legendLine2").innerHTML= d.properties.name;
                     }
                 }
               })
