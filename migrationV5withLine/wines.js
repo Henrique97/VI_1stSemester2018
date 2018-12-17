@@ -329,8 +329,8 @@ function gen_graph() {
 
     
     return tooltip.style("visibility", "visible")
-                  .style("left", (mouse[0] +128) + 500 + "px")		
-                  .style("top", (mouse[1]+5) + 300 +  "px");	
+                  .style("left", (mouse[0] +70.4) + 100 + "px")		
+                  .style("top", (mouse[1]+2.75) + 60 +  "px");	
   })
   .on("mouseout", function(d) {
     return tooltip.style("visibility", "hidden");});

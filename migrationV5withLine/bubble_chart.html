@@ -416,7 +416,7 @@
         gen_graph();
     });
 
-    var chart = bubbleChart().width(300).height(300).showTitleOnCircle(true);
+    var chart = bubbleChart().width(300).height(300).showTitleOnCircle(true).customColors(["Europe","Oceania","Africa","Asia","South America","North America"], ["rgb(141, 211, 199)","rgb(255, 255, 179)","rgb(190, 186, 218)","rgb(253, 180, 98)","rgb(128, 177, 211)","rgb(251, 128, 114)"]);
     var typeOfChart=0;
 
     d3.csv('score_by_country_lt_15.csv').then(function(data) {
