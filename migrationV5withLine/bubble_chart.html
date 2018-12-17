@@ -26,7 +26,6 @@
 	}
 	
 	#scatterplot {
-		background-color: rgb(19, 19, 24);
         position: absolute;
         right: 18px;
         top: 61%;
@@ -197,6 +196,12 @@
     
     h5 {
         margin: 0%;
+    }
+
+    h6 {
+        text-align: center;
+        margin: 0%;
+        margin-top: 0.5%;
     }
 
     #linechart {
@@ -514,7 +519,7 @@
     -->
 
     <div id="scatterplot">
-
+        <h6 id="scatterTitle">Top Wines from France</h6>
         <script type="text/javascript">
         
         // bring in the data, and do everything that is data-driven
@@ -534,7 +539,7 @@
             // set the stage
             var margin = {t:10, r:110, b:-20, l:40 },
                 w = 300 - margin.l - margin.r,
-                h = 270 - margin.t - margin.b,
+                h = 260 - margin.t - margin.b,
                 x = d3.scaleLinear().range([0, w+100]),
                 y = d3.scaleLinear().range([h - 60, 0]),
                 //colors that will reflect geographical regions
@@ -995,7 +1000,8 @@
                           if (country === 'Worldwide') return "Top 5 tasters " + country;
                           else return "Top 5 tasters in " + country;
                           });
-                                
+
+                document.getElementById("scatterTitle").innerHTML="Top wines from " + country;
                                 
                 var transitext = d3.select('#bars_hor')
                                     .selectAll('text')
@@ -1374,6 +1380,7 @@
                 clearBox3();
                 d3.select("#divMain").style("visibility", "hidden");
                 document.getElementById("the_bubblechart").style.visibility = "visible";
+                document.getElementById("undone3").style.visibility = "visible";
 	    	    document.getElementById("second_chart").style.visibility = "visible";
 	    	    document.getElementById("hor_bar_wrapper").style.visibility = "visible";
 	    	    document.getElementById("network_viz_wrapper").style.visibility = "visible";
@@ -1427,6 +1434,7 @@
 		document.getElementById("c1").style.visibility = "hidden";
         document.getElementById("undone2").style.visibility = "hidden";
         document.getElementById("linechart").style.visibility = "hidden";
+        document.getElementById("undone3").style.visibility = "hidden";
         d3.select("select").style("visibility", "hidden");
         drawMap();
         document.getElementById("divMain").style.visibility = "visible";
@@ -1442,6 +1450,7 @@
 		document.getElementById("c1").style.visibility = "hidden";
         document.getElementById("undone2").style.visibility = "hidden";
         document.getElementById("linechart").style.visibility = "hidden";
+        document.getElementById("undone3").style.visibility = "hidden";
         d3.select("select").style("visibility", "hidden");
         drawMap();
         document.getElementById("divMain").style.visibility = "visible";

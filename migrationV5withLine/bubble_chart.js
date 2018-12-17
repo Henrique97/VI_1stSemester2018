@@ -151,6 +151,7 @@ function bubbleChart() {
 			if(typeOfChart==0) {
 				clearBox2();
 				var nametoCSV=d[columnForTitle].replace(/\s/g, '');
+				document.getElementById("scatterTitle").innerHTML="Top wines from " + d[columnForTitle];
 				console.log(nametoCSV.substring(0,2))
 				if (nametoCSV.substring(0,2) == 'US') {
 				//	console.log("US");
@@ -209,6 +210,7 @@ function bubbleChart() {
 				if(typeOfChart==0) {
 					clearBox2();
 					var nametoCSV=d[columnForTitle].replace(/\s/g, '');
+					document.getElementById("scatterTitle").innerHTML="Top wines from " + d[columnForTitle];
 					console.log(nametoCSV.substring(0,2))
 					if (nametoCSV.substring(0,2) == 'US') {
 					//	console.log("US");
